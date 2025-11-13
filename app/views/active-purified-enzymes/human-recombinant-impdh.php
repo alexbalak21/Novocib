@@ -101,7 +101,7 @@ echo Banner::gen();
             <p>
                 <b>Catalytic activity</b>
                 <br />
-                Inosine Monophosphate Dehydrogenase (IMPDH) converts inosine 5µ-monophosphate (IMP) to
+                Inosine Monophosphate Dehydrogenase (IMPDH) converts inosine 5'-monophosphate (IMP) to
                 xanthosine 5µ-monophosphate (XMP) using NAD+ as a cofactor.
             </p>
             <p>
@@ -302,89 +302,94 @@ echo Banner::gen();
         </table>
     </div>
 
-    <h5 class="mt-4">Calculated Slopes (AU/min)</h5>
-    <ul class="list-group mb-3">
-        <li class="list-group-item">IMP 1 mM, no NAD: 0.0006</li>
-        <li class="list-group-item">IMP 1 mM, no NAD (duplicate): 0</li>
-        <li class="list-group-item">IMP 1 mM + 1 mM NAD: 0.0391</li>
-        <li class="list-group-item">IMP 1 mM + 1 mM NAD (duplicate): 0.0378</li>
-    </ul>
+    <div class="row mt-4">
+        <div class="col-lg-4">
+            <h5 class="mt-4">Calculated Slopes (AU/min)</h5>
+            <ul class="list-group mb-3">
+                <li class="list-group-item" style="color: #0000FF; font-weight: 600;">IMP 1 mM, no NAD: 0.0006</li>
+                <li class="list-group-item" style="color: #FFA500; font-weight: 600;">IMP 1 mM, no NAD (duplicate): 0</li>
+                <li class="list-group-item" style="color: #808080; font-weight: 600;">IMP 1 mM + 1 mM NAD: 0.0391</li>
+                <li class="list-group-item" style="color: #FFD700; font-weight: 600;">IMP 1 mM + 1 mM NAD (duplicate): 0.0378</li>
+            </ul>
 
-    <h5>Slope Mean (AU/min)</h5>
-    <ul class="list-group mb-3">
-        <li class="list-group-item">IMP 1 mM, no NAD: 0.0003</li>
-        <li class="list-group-item">IMP 1 mM + 1 mM NAD: 0.0385</li>
-    </ul>
+            <h5>Slope Mean (AU/min)</h5>
+            <ul class="list-group mb-3">
+                <li class="list-group-item">IMP 1 mM, no NAD: 0.0003</li>
+                <li class="list-group-item">IMP 1 mM + 1 mM NAD: 0.0385</li>
+            </ul>
 
-    <h5>Slope After Blank Subtraction</h5>
-    <p class="mb-3">AU/min: <strong>0.0382</strong></p>
+            <h5>Slope After Blank Subtraction</h5>
+            <p class="mb-3">AU/min: <strong>0.0382</strong></p>
 
-    <h5>Enzyme Activity Calculations</h5>
-    <ul class="list-group">
-        <li class="list-group-item">Activity in well (U/mL): 0.00796</li>
-        <li class="list-group-item">Dilution factor (20 µL per 1 mL): ×50</li>
-        <li class="list-group-item">Activity of enzyme solution (U/mL): <strong>0.398</strong></li>
-        <li class="list-group-item">Amount of enzyme per tube (Units): <strong>0.080</strong></li>
-    </ul>
+            <h5>Enzyme Activity Calculations</h5>
+            <ul class="list-group">
+                <li class="list-group-item">Activity in well (U/mL): 0.00796 <br><span class="text-muted">(divide AU/min by 4.8 which corresponds to absorbance of 1mM NADH in 200µL well of Corning® 3797 microplate)</span></li>
+                <li class="list-group-item">Dilution factor (20 µL per 1 mL): ×50</li>
+                <li class="list-group-item">Activity of enzyme solution (U/mL): <strong>0.398</strong></li>
+                <li class="list-group-item">Amount of enzyme per tube (Units): <strong>0.080</strong></li>
+            </ul>
+        </div>
+        <div class="col-lg-8">
+            <!-- Include Chart.js -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-    <!-- Include Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+            <div class="container my-5">
+                <h5 class="text-center text-secondary mb-4">Kinetics of NADH Formation</h5>
+                <canvas id="nadGraph" width="600" height="400"></canvas>
+            </div>
 
-    <div class="container my-5">
-        <h5 class="text-center text-secondary mb-4">Kinetics of NADH Formation</h5>
-        <canvas id="nadGraph" width="600" height="400"></canvas>
+            <script>
+                const ctx = document.getElementById('nadGraph').getContext('2d');
+                const nadGraph = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: [0, 1, 2, 3, 4, 5, 6, 7],
+                        datasets: [{
+                                label: 'IMP 1mM, no NAD',
+                                data: [0.118, 0.118, 0.119, 0.120, 0.121, 0.121, 0.121, 0.122],
+                                borderColor: 'blue',
+                                fill: false
+                            },
+                            {
+                                label: 'IMP 1mM, no NAD (duplicate)',
+                                data: [0.116, 0.116, 0.117, 0.116, 0.116, 0.116, 0.116, 0.116],
+                                borderColor: 'orange',
+                                fill: false
+                            },
+                            {
+                                label: 'IMP 1mM + 1mM NAD',
+                                data: [0.167, 0.205, 0.244, 0.280, 0.322, 0.362, 0.401, 0.440],
+                                borderColor: 'gray',
+                                fill: false
+                            },
+                            {
+                                label: 'IMP 1mM + 1mM NAD (duplicate)',
+                                data: [0.165, 0.203, 0.241, 0.276, 0.316, 0.354, 0.392, 0.430],
+                                borderColor: 'gold',
+                                fill: false
+                            }
+                        ]
+                    },
+                    options: {
+                        scales: {
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Time (min)'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Absorbance at 340 nm'
+                                }
+                            }
+                        }
+                    }
+                });
+            </script>
+        </div>
     </div>
-
-    <script>
-        const ctx = document.getElementById('nadGraph').getContext('2d');
-        const nadGraph = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: [0, 1, 2, 3, 4, 5, 6, 7],
-                datasets: [{
-                        label: 'IMP 1mM, no NAD',
-                        data: [0.118, 0.118, 0.119, 0.120, 0.121, 0.121, 0.121, 0.122],
-                        borderColor: 'blue',
-                        fill: false
-                    },
-                    {
-                        label: 'IMP 1mM, no NAD (duplicate)',
-                        data: [0.116, 0.116, 0.117, 0.116, 0.116, 0.116, 0.116, 0.116],
-                        borderColor: 'orange',
-                        fill: false
-                    },
-                    {
-                        label: 'IMP 1mM + 1mM NAD',
-                        data: [0.167, 0.205, 0.244, 0.280, 0.322, 0.362, 0.401, 0.440],
-                        borderColor: 'gray',
-                        fill: false
-                    },
-                    {
-                        label: 'IMP 1mM + 1mM NAD (duplicate)',
-                        data: [0.165, 0.203, 0.241, 0.276, 0.316, 0.354, 0.392, 0.430],
-                        borderColor: 'gold',
-                        fill: false
-                    }
-                ]
-            },
-            options: {
-                scales: {
-                    x: {
-                        title: {
-                            display: true,
-                            text: 'Time (min)'
-                        }
-                    },
-                    y: {
-                        title: {
-                            display: true,
-                            text: 'Absorbance at 340 nm'
-                        }
-                    }
-                }
-            }
-        });
-    </script>
 
 </section>
 
