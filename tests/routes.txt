@@ -1,0 +1,107 @@
+# Novocib Website Routes
+# Last Updated: 2025-07-16
+
+# ======================
+# MAIN PAGES
+# ======================
+/
+/home
+/index.php
+/index.html
+
+# ======================
+# ACTIVE PURIFIED ENZYMES
+# ======================
+/active-purified-enzymes
+/active-purified-enzymes/impdh-recombinant-enzyme
+/active-purified-enzymes/human-recombinant-hgprt
+/active-purified-enzymes/recombinant-adenosine-kinase
+/active-purified-enzymes/recombinant-deoxycytidine-kinase
+/active-purified-enzymes/cnII
+/active-purified-enzymes/human-ump-cmp-kinase
+/active-purified-enzymes/fmn-reductase
+
+# ======================
+# CONVENIENT ASSAY KITS
+# ======================
+/convenient-assay-kits
+/convenient-assay-kits/hprt-assay-kit
+/convenient-assay-kits/prpp-s-assay-kit
+/convenient-assay-kits/ampda-assay-kit
+/convenient-assay-kits/itp-ase-assay-kit
+/convenient-assay-kits/adk-phosphorylation-assay-kit
+/convenient-assay-kits/dck-phosphorylation-assay-kit
+/convenient-assay-kits/human-recombinant-impdh
+/convenient-assay-kits/bacterial-recombinant-impdh
+/convenient-assay-kits/human-recombinant-pnp
+/convenient-assay-kits/adk-assay-kit
+/convenient-assay-kits/phosphatase-assay-kit
+
+# ======================
+# FRESHNESS ASSAY KITS
+# ======================
+/freshness-assay-kits
+/freshness-assay-kits/freshness-principle
+/freshness-assay-kits/fish-freshness
+/freshness-assay-kits/freshness-assay-kit
+/freshness-assay-kits/how-it-works
+
+# ======================
+# ANALYTICAL SERVICES
+# ======================
+/analytical-services
+/analytical-services/yeast-extract-nucleotide-analysis
+/nucleotide-analysis-service
+/cellular-nucleotides-analysis
+/dietary-nucleotides
+/dietary-nucleotides-assay-kits/fish-freshness-assay-kit
+
+# ======================
+# PAGES
+# ======================
+/contact-us
+/inquiry
+/message-sent-successfully
+/bacterial-luciferase
+/news
+/search
+/error
+/404
+
+# ======================
+# FORM HANDLERS & ACTIONS
+# ======================
+/send
+
+# ======================
+# SECURE/INTERNAL ROUTES
+# ======================
+/secure/login
+/secure/login-c
+/secure/transfer
+/secure/store
+/secure/success
+/internal/share
+/internal/admin
+/secure-info
+
+# ======================
+# ASSET ROUTES
+# ======================
+/app/css/*
+/app/js/*
+/app/static/*
+/app/images/*
+
+# ======================
+# API ENDPOINTS
+# ======================
+# (Add any API endpoints if they exist in the application)
+
+# ======================
+# REDIRECTS
+# ======================
+# (Add any custom redirects from redirects.php here)
+
+# Note: All routes are available both with and without trailing slashes
+# For example: /about and /about/ will both work
