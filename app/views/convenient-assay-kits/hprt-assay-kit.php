@@ -314,7 +314,7 @@ echo Banner::gen();
 
 
     <div class="bg-light">
-        <div class="referances mt-5 pb-3 container">
+        <div class="references mt-5 pb-3 container">
             <h2 class="h4 pt-4 pb-3 text-center border-top border-bottom">Scientific Research & Publications</h2>
             <p class="text-center mb-4">The PRECICE® HPRT Assay Kit has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
             <ol>

@@ -68,7 +68,7 @@ $page_content = <<<CONTENT
 <p><strong>Purity:</strong> controlled by 12%AA SDS-PAGE.</p>
 </div>
 </div>
-<div class="referances my-5 row justify-content-center">
+<div class="references my-5 row justify-content-center">
 <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="novo-blue fa-solid fa-arrow-up-right-from-square"></i></h6>
 <div class="col-2">
 <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">

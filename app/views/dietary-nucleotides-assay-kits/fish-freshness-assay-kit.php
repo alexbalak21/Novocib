@@ -435,7 +435,7 @@
 
     <div class="bg-light">
         <section class="container mt-5">
-            <div class="referances mt-5 pt-2 row justify-content-center">
+            <div class="references mt-5 pt-2 row justify-content-center">
                 <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="novo-blue fa-solid fa-arrow-up-right-from-square"></i></h6>
                 <div class="col-2 d-lg-block d-none">
                     <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">

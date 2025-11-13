@@ -136,7 +136,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 </div>
 
 <div class="container">
-    <div class="referances mt-4">
+    <div class="references mt-4">
         <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Works citing <span class="text-secondary">NOVOCIB</span> Adenosine Kinase and PRECICE® ADK Assay kits:</h5>
         <ol>
             <li>

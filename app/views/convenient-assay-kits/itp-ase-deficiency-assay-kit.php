@@ -87,7 +87,7 @@ ob_start(); ?>
         </div>
     </div>
     <div class="bg-light">
-        <div class="referances my-5">
+        <div class="references my-5">
             <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing PRECICE® HPRT Assay kit from <span class="text-secondary">NOVOCIB</span>:</h5>
             <ul>
                 <li class="text-center pb-3">

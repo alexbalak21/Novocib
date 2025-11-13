@@ -139,13 +139,13 @@ echo Banner::gen();
         <div class="col-lg-6 text-center d-flex align-items-center">
             <div>
                 <img
-                class="img-fluid mb-3"
-                src="/app/img/IMPDH-reaction.png"
-                alt="Human IMPDH Type 2 enzymatic reaction: IMP + NAD+ → XMP + NADH + H+"
-                title="IMPDH Type 2 Catalytic Reaction"
-                loading="lazy" />
-            <h4 class="novo-blue">Human IMPDH Type 2</h4>
-            <h5>Ref. #E-Nov1</h5>
+                    class="img-fluid mb-3"
+                    src="/app/img/IMPDH-reaction.png"
+                    alt="Human IMPDH Type 2 enzymatic reaction: IMP + NAD+ → XMP + NADH + H+"
+                    title="IMPDH Type 2 Catalytic Reaction"
+                    loading="lazy" />
+                <h4 class="novo-blue">Human IMPDH Type 2</h4>
+                <h5>Ref. #E-Nov1</h5>
             </div>
         </div>
         <div class="d-flex justify-content-center mt-4" itemscope itemtype="https://schema.org/Product">
@@ -431,7 +431,7 @@ echo Banner::gen();
         </div>
 
         <h2 class="h4 text-primary mt-4">Therapeutic Applications of IMPDH2</h2>
-        
+
         <div class="card mb-4 border-0 shadow-sm">
             <div class="card-header bg-light">
                 <h3 class="h5 mb-0">IMPDH in Immunology and Autoimmune Diseases</h3>
@@ -552,9 +552,9 @@ echo Banner::gen();
 </section>
 
 <section class="bg-light">
-    <div class="referances row justify-content-center">
+    <div class="references row justify-content-center">
         <h5 class="text-center py-3 w-100">
-            Scentific References siting Novocib's IMPDH2 inhibitors
+            Scientific References citing Novocib's IMPDH2
             <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
         </h5>
         <div class="col-2 d-none d-md-block">
@@ -577,24 +577,25 @@ echo Banner::gen();
                 </li>
                 <li>
                     <a target="_blank" rel="noopener" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6009919/" title="Go to NIH">
-                       <em>Shah CP, Kharkar PS.</em><br>Newer human inosine 5'-monophosphate dehydrogenase 2 (hIMPDH2) inhibitors as potential anticancer agents. J Enzyme Inhib Med Chem. 2018 Dec;33(1):972-977. doi: 10.1080/14756366.2018.1474211. PMID: 29792360; PMCID: PMC6009919.
+                        <em>Shah CP, Kharkar PS.</em><br>Newer human inosine 5'-monophosphate dehydrogenase 2 (hIMPDH2) inhibitors as potential anticancer agents. J Enzyme Inhib Med Chem. 2018 Dec;33(1):972-977. doi: 10.1080/14756366.2018.1474211. PMID: 29792360; PMCID: PMC6009919.
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" rel="noopener" href="https://ashpublications.org/blood/article/144/Supplement%201/1602/532191/Inosine-Monophosphate-Dehydrogenase-2-IMPDH2-As" title="Go to Blood journal">
+                        <em>Johnvesly Basappa, Shengchun Wang, Cosimo Lobello, David Rushmore, Olga Melnikov, Neil Sen, Vinay Mallikarjuna, Priyanka Jain, Pin Lu, Y. Lynn Wang, Kathy Cai, Reza Nejati, Aaron Goldman, Mariusz Wasik</em><br>
+                        Inosine Monophosphate Dehydrogenase-2 (IMPDH2) As the Potential Novel Therapeutic Target in Mantle Cell Lymphoma (MCL): The Underlying Tyrosine Phosphorylation-Based Activation Mechanism and Translational Implications. Blood 2024; 144 (Supplement 1): 1602
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener" href="https://www.sciencedirect.com/science/article/abs/pii/S0223523418307888" title="Go to ScienceDirect">
-                       <em>Chetan P. Shah, Prashant S. Kharkar</em><br>Discovery of novel human inosine 5'-monophosphate dehydrogenase 2 (hIMPDH2) inhibitors as potential anticancer agents,
-                       European Journal of Medicinal Chemistry, Volume 158, 2018, Pages 286-301
+                        <em>Chetan P. Shah, Prashant S. Kharkar</em><br>Discovery of novel human inosine 5'-monophosphate dehydrogenase 2 (hIMPDH2) inhibitors as potential anticancer agents,
+                        European Journal of Medicinal Chemistry, Volume 158, 2018, Pages 286-301
                     </a>
                 </li>
                 <li>
                     <a target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/23346382/" title="Go to PubMed">
                         <em>Matyugina ES, Andreevskaya SN, Smirnova TG, Khandazhinskaya AL.</em><br>Carbocyclic analogues of inosine-5'-monophosphate: synthesis and biological activity. Acta Naturae. 2012 Oct;4(4):73-7. PMID: 23346382; PMCID: PMC3549521.
                     </a>
-                </li>
-                <li>
-                    <a target="_blank" rel="noopener" href="https://ashpublications.org/blood/article/144/Supplement%201/1602/532191/Inosine-Monophosphate-Dehydrogenase-2-IMPDH2-As" title="Go to Blood journal">
-                       <em>Johnvesly Basappa, Shengchun Wang, Cosimo Lobello, David Rushmore, Olga Melnikov, Neil Sen, Vinay Mallikarjuna, Priyanka Jain, Pin Lu, Y. Lynn Wang, Kathy Cai, Reza Nejati, Aaron Goldman, Mariusz Wasik</em><br>
-                        Inosine Monophosphate Dehydrogenase-2 (IMPDH2) As the Potential Novel Therapeutic Target in Mantle Cell Lymphoma (MCL): The Underlying Tyrosine Phosphorylation-Based Activation Mechanism and Translational Implications. Blood 2024; 144 (Supplement 1): 1602
                 </li>
             </ol>
         </div>

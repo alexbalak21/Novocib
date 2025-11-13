@@ -111,7 +111,7 @@ echo Banner::gen();
 </div>
 
 <div class="container">
-    <div class="referances my-5">
+    <div class="references my-5">
         <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing Dck Phosphorylation Assay Kit from <span class="text-secondary">NOVOCIB</span>:</h5>
         <ol>
             <li>

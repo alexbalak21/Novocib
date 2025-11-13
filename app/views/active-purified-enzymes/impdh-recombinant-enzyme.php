@@ -25,7 +25,7 @@ $content_title
 <div class="kit text-center"><a href="/convenient-assay-kits/human-recombinant-impdh"><h4>Human IMPDH II - Inosine Monophosphate Dehydrogenase, Type II</h4></a></div>
 <div class="kit text-center mb-5"><a href="/convenient-assay-kits/bacterial-recombinant-impdh"><h4>Bacterial IMPDH, Staphylococcus aureus</h4></a></div>
 <p class="text-end"><i class="fa-solid fa-download"></i> ... or download our brochure <a target="_blank" href="/app/documents/NovoCIB IMPDH Services.pdf">"NovoCIB's IMPDH Products & Services" <i class="fa-regular fa-file-pdf"></i></a></p>
-<div class="referances my-5 row justify-content-center">
+<div class="references my-5 row justify-content-center">
 <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="novo-blue fa-solid fa-arrow-up-right-from-square"></i></h6>
 <div class="col-2">
 <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">

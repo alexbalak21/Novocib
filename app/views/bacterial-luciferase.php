@@ -158,7 +158,7 @@ $page_content = <<<CONTENT
 </section>
 
 <div class="container">
-    <div class="referances my-4 row justify-content-center py-3">
+    <div class="references my-4 row justify-content-center py-3">
     <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="text-muted fa-solid fa-arrow-up-right-from-square"></i></h6>
     <div class="col-2">
     <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">

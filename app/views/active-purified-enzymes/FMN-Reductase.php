@@ -105,7 +105,7 @@ echo Banner::gen()
     </div>
 
     <div class="container">
-        <div class="referances my-4">
+        <div class="references my-4">
             <p class="pt-4 ps-3"><b>References (with links to PubMed)</b></p>
             <p class="ps-4">
                 <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/8530465/">F. Fieschi et al. (1995): The mechanism and substrate specificity of the NADPH:flavin oxidoreductase from Escherichia coli J. Biol. Chem. 270(51), 30392-400</a>

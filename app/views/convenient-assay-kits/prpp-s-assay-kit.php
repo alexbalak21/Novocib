@@ -140,7 +140,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
     </div>
 </section>
 <div class="bg-light">
-    <div class="referances mt-5 pb-2 container">
+    <div class="references mt-5 pb-2 container">
         <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Works citing <span class="text-secondary">NOVOCIB</span> PRPP-S Assay Kit:</h5>
         <ol>
             <li>
