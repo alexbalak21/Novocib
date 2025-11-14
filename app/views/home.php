@@ -4,6 +4,51 @@ $title = "NOVOCIB - Reliable solutions for nucleotides assessment";
 
 $root = $_SERVER['DOCUMENT_ROOT'];
 
+// Add structured data for search engines
+$structuredData = <<<JSON
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://www.novocib.com/#organization",
+    "name": "NOVOCIB",
+    "url": "https://www.novocib.com/",
+    "logo": "https://www.novocib.com/app/img/novocib-logo.png",
+    "description": "Novocib is a biotechnology company focused on nucleotides metabolism, developing innovative products and services for nucleotide analysis in cells, food, and feed ingredients.",
+    "sameAs": [
+        "https://www.linkedin.com/company/novocib/",
+        "https://twitter.com/novocib"
+    ],
+    "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+33-1-69-87-94-40",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "French"]
+    }],
+    "foundingDate": "2005"
+}
+</script>
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://www.novocib.com/#website",
+    "url": "https://www.novocib.com/",
+    "name": "NOVOCIB - Reliable solutions for nucleotides assessment",
+    "description": "Novocib develops innovative products and services for nucleotide analysis in cells, food, and feed ingredients, including assay kits and analytical services.",
+    "publisher": {
+        "@id": "https://www.novocib.com/#organization"
+    },
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.novocib.com/search?sq={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}
+</script>
+JSON;
+
 ob_start(); ?>
 <meta name="description" content="Novocib is a biotechnology company focused on nucleotides metabolism. Company has developed a range of innovative products and services for nucleotide analysis in cells, food, feed ingredients.">
 <meta name="main services of novocib" content="services provided by novocib are: Active purified enzymes kits, One-step analysis Kits, wide range of Analytical Services">
