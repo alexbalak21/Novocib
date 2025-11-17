@@ -11,9 +11,15 @@ check_customer();
 
 function check_customer()
 {
-    $email = $_POST['e_mail'];
-    $password = $_POST['password'];
-    $pid = $_POST['pid'];
+    $email = $_POST['e_mail'] ?? '';
+    $password = $_POST['password'] ?? '';
+    $pid = $_POST['pid'] ?? '';
+    
+    if (empty($email) || empty($password) || empty($pid)) {
+        header("Location: /");
+        exit;
+    }
+    
     require_once $_SERVER['DOCUMENT_ROOT'] . "/app/repository/CustomerRepository.php";
     $customerRepo = new CustomerRepository();
     $customer = $customerRepo->findByPrivateId($pid);

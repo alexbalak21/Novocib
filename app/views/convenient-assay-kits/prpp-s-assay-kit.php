@@ -55,7 +55,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             <div class="col-lg-10 col-12">
 
                 <!-- FETCHING PRODUCT FROM THE DATABASE -->
-                <?= Product::gen("", "convenient-assay-kits/prpp-s-assay-kit") ?>
+                <?= Product::gen("PRECICE® PRPP-S Assay Kit", "convenient-assay-kits/prpp-s-assay-kit") ?>
 
                 <p class="text-center">
                     <strong>

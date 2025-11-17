@@ -19,7 +19,7 @@ function logVisit()
     $excluded_extensions = ['png', 'jpg', 'svg'];
 
     // 🧩 Check conditions before logging
-    if ($uri !== '') {
+    if ($uri !== null && $uri !== '') {
         $ext = strtolower(pathinfo($uri, PATHINFO_EXTENSION));
 
         if (

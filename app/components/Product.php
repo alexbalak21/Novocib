@@ -3,8 +3,11 @@ class Product
 {
     static function gen(string $product_title, $url = "", $id = 0)
     {
-        $product = get_product_by_title($product_title);
-        if ($product_title === "" && $url !== "") $product = get_product_by_url($url);
+        if ($product_title !== null && $product_title !== "") {
+            $product = get_product_by_title($product_title);
+        } elseif ($url !== "") {
+            $product = get_product_by_url($url);
+        }
         if ($product === null && $id !== 0) $product = get_product_by_id((int) $id);
         ob_start(); ?>
         <div class="table-responsive">

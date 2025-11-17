@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="row">
         <div class="col-lg-6">
             <p>
-                <strong>PRECICE® ADK Assay Kit</strong> provides a convenient, high throughput compatible and non-radioactive assay for in vitro measurement of ADK activity and for Drug Discovery of novel ADK inhibitors. Novel tool for Drug Discovery, this kit allows HTS search of novel ADK inhibitors.
+                <b class="novo-blue">PRECICE® ADK Assay Kit</b> provides a convenient, high throughput compatible and non-radioactive assay for in vitro measurement of ADK activity and for Drug Discovery of novel ADK inhibitors. Novel tool for Drug Discovery, this kit allows HTS search of novel ADK inhibitors.
             </p>
             <h4 class="novo-blue">Principle:</h4>
             <p>
@@ -33,13 +33,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <?= Products::gen("Adk Assay Kit") ?>
 
                 <p class="text-center">
-                    <strong>
+                    <b>
                         Kit is provided in stable lyophilized form and
                         <span class="text-danger">shipped without dry ice</span>
-                    </strong>
+                    </b>
                 </p>
                 <p class="mt-4 mb-5 text-end">
-                    Download
+                    <i class="fa-solid fa-download"></i> Download
                     <a target="_blank" href="/app/documents/NovoCIB K0507-01-User Manual 121217 - one plate.pdf">
                         <strong>In vitro ADK asssay protocol </strong>
                         <i class="fa-regular fa-file-pdf"></i>
@@ -135,10 +135,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </a>
 </div>
 
-<div class="container">
+<div class="mx-4">
     <div class="references mt-4">
-        <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Works citing <span class="text-secondary">NOVOCIB</span> Adenosine Kinase and PRECICE® ADK Assay kits:</h5>
-        <ol>
+        <h5 class="ms-1 pt-4 pb-3 mb-4 text-center">Scientific Works citing <span class="novo-blue">NOVOCIB</span> Adenosine Kinase and PRECICE® ADK Assay kits <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i></h5>
+        <div class="row">
+            <div class="col-2 d-none d-md-block">
+                <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
+            </div>
+            <div class="col-lg-10">
+            <ol>
             <li>
                 <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/34204594/">M. Orlicka-Płocka, A. Fedoruk-Wyszomirska, D. Gurda-Wozna, P. Pawelczak , P. Krawczyk, M. Giel-Pietraszuk, G. Framski, T. Ostrowski, E. Wyszko Implications of Oxidative Stress in Glioblastoma Multiforme Following Treatment with Purine Derivatives. Antioxidants 2021, 10, 950.</a>
             </li>
@@ -163,5 +168,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <a href="https://pubmed.ncbi.nlm.nih.gov/21427729/">E. CESARMAN, U. NAYAR, J.D. WARREN, J. SADEK US20190225643A1 Novel nucleoside analogs and use thereof in therapeutic treatment. Patent application filed by Cornell University</a>
             </li>
         </ol>
+        </div>
+        </div>
     </div>
 </div>
