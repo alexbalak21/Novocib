@@ -5,6 +5,87 @@ $title = "Human Active Adenosine Kinase Enzyme";
 ob_start(); ?>
 <meta name="keywords" content="adenosine kinase, recombinant enzyme, human ADK, ATP phosphorylation, nucleoside analogs, drug discovery, epilepsy, inflammation, cancer, NOVOCIB, enzyme assay kit, Km Vmax data, ribavirin phosphorylation">
 <meta name="description" content="NOVOCIB's recombinant human adenosine kinase (ADK) is a purified enzyme used in drug discovery and nucleoside phosphorylation assays. Includes validated Km and Vmax data for ribavirin, tubercidine, inosine, and more. A key therapeutic target for epilepsy, inflammation, and cancer.">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://novocib.com/active-purified-enzymes/recombinant-adenosine-kinase" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Human Adenosine Kinase (ADK, EC 2.7.1.20)",
+  "description": "NOVOCIB's recombinant human adenosine kinase (ADK) is a purified enzyme used in drug discovery and nucleoside phosphorylation assays. Includes validated Km and Vmax data for ribavirin, tubercidine, inosine, and more. A key therapeutic target for epilepsy, inflammation, and cancer.",
+  "brand": {
+    "@type": "Brand",
+    "name": "NOVOCIB"
+  },
+  "url": "https://www.novocib.com/active-purified-enzymes/recombinant-adenosine-kinase",
+  "image": "https://www.novocib.com/app/img/ADK_Reaction.png",
+  "category": "Research Enzymes",
+  "sku": "ADK-50U",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.novocib.com/active-purified-enzymes/recombinant-adenosine-kinase",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock"
+  },
+  "mainEntity": [{
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What substrates does adenosine kinase phosphorylate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ADK phosphorylates adenosine and several nucleoside analogues including ribavirin, tubercidine, mizoribine, and tiazofurin."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is enzyme purity controlled?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Purity is verified by SDS-PAGE analysis and specific activity measurements to ensure consistent quality."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can assays be customized?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, client-specified alterations and custom nucleoside phosphorylation assays are available upon request."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What applications does ADK have in drug discovery?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ADK is a validated target for analgesic, anti-inflammatory, and neuroprotective drugs. It is also essential for the activation of therapeutic nucleosides such as ribavirin, mizoribine, and tiazofurin, making it highly relevant in antiviral, immunosuppressive, and anticancer drug development."
+        }
+      }
+    ]
+  }],
+  "citation": [
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Phosphorylation of ribavirin and viramidine by adenosine kinase and cytosolic 5'-nucleotidase II",
+      "author": "Wu JZ, Larson G, Walker H, Shim JH, Hong Z",
+      "datePublished": "2005",
+      "journalName": "Antimicrob Agents Chemother",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15917525/"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Adenosine kinase from human liver",
+      "author": "Yamada Y, Goto H, Ogasawara N",
+      "datePublished": "1981",
+      "journalName": "Biochim Biophys Acta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7272111/"
+    }
+  ]
+}
+</script>
 <?php $metas = ob_get_clean();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";

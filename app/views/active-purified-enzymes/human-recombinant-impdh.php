@@ -41,7 +41,7 @@ ob_start(); ?>
         "offers": {
             "@type": "Offer",
             "url": "https://www.novocib.com/convenient-assay-kits/human-recombinant-impdh",
-            "priceCurrency": "USD",
+            "priceCurrency": "EUR",
             "availability": "https://schema.org/InStock"
         },
         "mainEntity": [{
