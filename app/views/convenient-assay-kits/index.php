@@ -22,10 +22,6 @@ ob_start(); ?>
 <meta name="twitter:description" content="Comprehensive range of biochemical assay kits for nucleotide metabolism research. Designed for accuracy and ease of use in drug discovery.">
 <meta name="twitter:image" content="https://www.novocib.com/app/img/assay-kits-twitter.jpg">
 
-<?php $metas = ob_get_clean();
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
-?>
-
 <!-- Schema.org markup -->
 <script type="application/ld+json">
     {
@@ -49,6 +45,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     }
 </script>
 
+<?php $metas = ob_get_clean();
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
+?>
+
+
+
 <?= Banner::gen("/app/img/assay-kits.jpg", "Biochemical Assay Kits for Nucleotide Metabolism Research") ?>
 
 <!-- Breadcrumbs -->
@@ -71,7 +73,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <section class="row align-items-center mb-5">
             <div class="col-lg-8 mx-auto text-center">
-                <p class="mb-4"><strong class="text-novoblue">NOVOCIB</strong> develops and manufactures high-quality biochemical assay kits based on active nucleotide metabolism enzymes. Our portfolio represents a unique range of powerful tools for drug discovery and research in the field of nucleoside and nucleotide metabolism.</p>
+                <p class="mb-4"><strong class="novo-blue">NOVOCIB</strong> develops and manufactures high-quality biochemical assay kits based on active nucleotide metabolism enzymes. Our portfolio represents a unique range of powerful tools for drug discovery and research in the field of nucleoside and nucleotide metabolism.</p>
 
                 <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
                     <span class="badge bg-primary bg-opacity-10 text-primary p-2"><i class="fas fa-check-circle me-2"></i>Ready-to-use formats</span>
@@ -282,7 +284,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <div class="text-center mt-5 pt-4">
             <h3 class="h4 mb-4">Ready to enhance your research?</h3>
-            <a href="/contact" class="btn btn-primary btn-lg me-3">Request a Quote</a>
+            <a href="/contact" class="btn btn-primary btn-lg me-3">Request a Quote <i class="fa-solid fa-pen"></i></a>
             <!-- <a href="/technical-support" class="btn btn-outline-primary btn-lg">Technical Support</a> -->
         </div>
     </section>
