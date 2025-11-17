@@ -48,6 +48,42 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
   </div>
 </div>
 
+
+<!-- PRODUCTS SECTION -->
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-12 text-center">
+      
+      <!-- Product generator -->
+      <?= Products::gen("Human Adenosine Kinase") ?>
+
+      <!-- Availability -->
+      <h5 class="my-4 text-secondary"><i class="fa-solid fa-boxes-stacked"></i> Bulk quantity available</h5>
+
+      <!-- Kit info -->
+      <p>
+        <b>
+          <i class="fa-solid fa-boxes-packing"></i> 
+          Kit is provided in stable lyophilized form and 
+          <span class="text-danger">shipped without dry ice</span>
+        </b>
+      </p>
+
+      <!-- Contact -->
+      <p class="my-4">
+          You can ask us for a quotation 
+          <a href="/contact">
+            here <i class="fa-solid fa-envelopes-bulk"></i>
+          </a> 
+          or write at 
+          <a href="mailto:contact@novocib.com">contact@novocib.com</a>
+        
+      </p>
+    </div>
+  </div>
+</div>
+
+
 <!-- Km/Vmax Section -->
 <div class="container mt-5">
   <h2 class="text-center novo-blue">Km and Vmax Data for Nucleoside Analogues</h2>
