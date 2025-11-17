@@ -21,7 +21,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <i><strong>Synonyms: </strong>ADK, Adenosine 5'-phosphotransferase</i>
             </p>
             <p>
-                <strong class="novo-blue">NOVOCIB</strong>'s human adenosine kinase is
+                <b class="novo-blue">NOVOCIB</b>'s human adenosine kinase is
                 an active and purified, 345-aa short form(14,2) ADK protein (39kDa)
                 cloned by RT-PCR amplification of mRNA extracted from human hepatoma
                 cells and expressed in E.coli. The sequence of the cloned ADK (GenBank
@@ -90,7 +90,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="row pt-5">
             <div class="col-lg-6 row">
                 <div class="col-3">
-                    <img class="w-100" src="/app/img/AK_Gel.png" alt="AK Gel photo" />
+                    <img class="w-100" src="/app/img/AK_Gel.png" alt="SDS-PAGE gel showing purified human adenosine kinase" />
                 </div>
                 <div class="col-8">
                     <p>
