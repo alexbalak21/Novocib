@@ -214,7 +214,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
 </section>
 <section class="container">
-    <h2 class="mb-4">Bacterial Bioluminescence Enzymes for Assay Development</h2>
+    <h2 class="mb-4">Bacterial Enzymes for Assay Development</h2>
     <div class="table-responsive">
         <table class="purine w-100">
             <tr>
@@ -233,25 +233,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </tr>
         </table>
     </div>
-    <div class="row align-items-center mb-4">
-        <div class="col-md-8">
-            <p class="mb-3">Bacterial bioluminescence involves a light-emitting reaction where a long-chain aliphatic aldehyde is oxidized in the presence of molecular oxygen and reduced flavin mononucleotide (FMNH<sub>2</sub>). This reaction is catalyzed by bacterial luciferase.</p>
-            <p class="mb-0"><strong class="novo-blue">NOVOCIB</strong> offers a highly pure bacterial luciferase from <em>Photobacterium phosphoreum</em> and a recombinant FMN-Reductase. When coupled with bacterial luciferase <em>in vitro</em>, this system provides enhanced sensitivity and precise control over signal intensity and duration, making it ideal for various research applications.</p>
-        </div>
-        <div class="col-md-4 text-center">
-            <div class="p-3 bg-light rounded">
-                <h4 class="h5">Key Applications</h4>
-                <ul class="text-start">
-                    <li>High-sensitivity detection systems</li>
-                    <li>Bioluminescence assays</li>
-                    <li>Drug screening</li>
-                    <li>Enzyme activity studies</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <div class="card mb-5">
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <div class="card mb-5 mt-5">
         <div class="card-header bg-primary text-white">
             <h3 class="h5 mb-0">Frequently Asked Questions</h3>
         </div>
@@ -296,5 +281,4 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
         </div>
     </div>
-    <p class="mt-4 text-end d-none"> <strong>Know more about <span class="novo-blue">NOVOCIB'S</span> <a href=""> Bacterial Bioluminescence Enzymes</a></strong></p>
 </section>
