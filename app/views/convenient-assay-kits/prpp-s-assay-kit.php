@@ -41,6 +41,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             <h4 class="novo-blue">PRECICE® PRPP-S Assay Kit</h4>
             <h5>Ref. #K0709-04-2</h5>
         </div>
+
         <div class="mt-3 mb-4">
             <h4 class="novo-blue">Assay Principal</h4>
             <p>PRECICE® PRPP-S Assay Kit is designed for continuous monitoring of PRPP synthesis. The assay is based on coupling of two recombinant enzymes: Hypoxanthine-guanine phosphoribosyltransferase (HGPRT) and Inosine Monophosphate Dehydrogenase (IMPDH).</p>
