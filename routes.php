@@ -37,7 +37,8 @@ return [
     // Freshness Assay Kits
     '/freshness-assay-kits' => 'app/views/freshness-assay-kits/index.php',
     '/freshness-assay-kits/freshness-principle' => 'app/views/freshness-assay-kits/freshness-principle.php',
-    '/freshness-assay-kits/fish-freshness' => 'app/views/freshness-assay-kits/fish-freshness.php',
+    '/freshness-assay-kits/fish-imp-assay-kit' => 'app/views/freshness-assay-kits/fish-imp-assay-kit.php',
+    '/freshness-assay-kits/fishmeal-imp-assay-kit' => 'app/views/freshness-assay-kits/fishmeal-imp-assay-kit.php',
     '/freshness-assay-kits/freshness-assay-kit' => 'app/views/freshness-assay-kits/freshness-assay-kit.php',
     '/freshness-assay-kits/how-it-works' => 'app/views/freshness-assay-kits/how-it-works.php',
 

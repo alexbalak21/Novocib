@@ -1,18 +1,56 @@
 <?php
 global $title;
-$title = "Freshness Assay Kit - Seafood Freshness Quality Control - K value";
+$title = "Fishmeal IMP Assay Kit";
 
 // META TAGS 
 ob_start(); ?>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies. Get reliable, sensitive results with our optimized protocol.">
+<meta name="keywords" content="Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies, enzyme activity assay, biochemical assay kit, research reagents, life science tools, Novocib assays, metabolic pathway analysis">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "Fishmeal IMP Assay Kit",
+  "description": "Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies.",
+  "brand": {
+    "@type": "Brand",
+    "name": "Novocib"
+  },
+  "category": "Life Science Research Kits",
+  "url": "https://www.novocib.com/fish-imp-assay-kit",
+  "sku": "FISH-IMP-KIT",
+  "offers": {
+    "@type": "Offer",
+    "availability": "https://schema.org/InStock",
+    "priceCurrency": "EUR",
+    "price": "0.00",
+    "seller": {
+      "@type": "Organization",
+      "name": "Novocib",
+      "url": "https://www.novocib.com"
+    }
+  },
+  "applicationCategory": "Biochemical Research",
+  "keywords": "Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies",
+  "slogan": "Precise IMP measurement for fishmeal quality assessment",
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "Target Analyte",
+    "value": "Inosine 5'-monophosphate (IMP)"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "Research Scientists, Quality Control Specialists, Aquaculture Industry"
+  }
+}
+</script>
 <?php $metas = ob_get_clean();
 
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 
-<?= Banner::gen() ?>
+<?= Banner::gen("/app/img/fish-farm.jpg", "coastal aquaculture facility") ?>
 <main class="container mt-5">
     <h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE® Nucleotides Assay Kits</span></h2>
     <div class="row my-5">
