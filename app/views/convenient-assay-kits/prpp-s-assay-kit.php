@@ -37,11 +37,23 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             </p>
         </div>
         <div class="col-lg-6 text-center">
-            <img class="w-100" src="/app/img/PRPP-S-Assay-Kit.png" alt="" />
+            <img class="img-fluid" src="/app/img/PRPP-S-Assay-Kit.png" alt="PRPP-S Assay Kit reaction schema" title="PRECICE® PRPP-S Assay Kit composition" />
             <h4 class="novo-blue">PRECICE® PRPP-S Assay Kit</h4>
             <h5>Ref. #K0709-04-2</h5>
         </div>
-
+        <div>
+            <h4 class="novo-blue mt-4">Kit Description</h4>
+            <p>
+                PRECICE® PRPP-S Assay Kit is the first non-radioactive solution for precise measurement of PRPP-S activity
+                in cellular lysates. Designed for convenience, this enzymatic assay utilizes highly active HGPRT and
+                IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation. Ideal for research on purine
+                salvage pathways and genetic disorders, the kit offers a fast, reliable, and user-friendly protocol in a
+                96-well plate format. Enhance your studies with this innovative tool for accurate PRPP quantification.
+            </p>
+            <div class="col-lg-4 mx-auto mt-3 mb-4 text-center col-md-9">
+                <img class="img-fluid border" src="/app/img/prpp-s-assay-kit.jpg" alt="PRPP-S Assay Kit contents" />
+            </div>
+        </div>
         <div class="mt-3 mb-4">
             <h4 class="novo-blue">Assay Principal</h4>
             <p>PRECICE® PRPP-S Assay Kit is designed for continuous monitoring of PRPP synthesis. The assay is based on coupling of two recombinant enzymes: Hypoxanthine-guanine phosphoribosyltransferase (HGPRT) and Inosine Monophosphate Dehydrogenase (IMPDH).</p>
