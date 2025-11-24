@@ -95,29 +95,23 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <p>Accurate quantification of IMP in fishmeal is therefore essential for evaluating feed quality and nutritional value. High-performance liquid chromatography (HPLC) remains the reference method, as it enables precise and quantitative measurement of IMP concentrations with high accuracy and precision.</p>
     <div class="row">
         <figure class="col-lg-6">
-            <img src="/app/img/nucleotides1.png" alt="Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB showing high level of IMP (320mg/100g)">
-            <figcaption>Figure 1: Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB showing high level of IMP (320mg/100g)</figcaption>
+            <a target="_blank" href="/app/img/nucleotides1.png"><img src="/app/img/nucleotides1.png" class="img-fluid" alt="Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB showing high level of IMP (320mg/100g)"></a>
+            <figcaption><b>Figure 1</b>: Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB showing high level of IMP (320mg/100g)</figcaption>
+        </figure>
+        <figure class="col-lg-6">
+            <a target="_blank" href="/app/img/nucleotides2.png"><img src="/app/img/nucleotides2.png" class="img-fluid" alt="Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB showing high level of IMP (320mg/100g)"></a>
+            <figcaption><b>Figure 2</b>: Full spectra of nucleotides, nucleosides and bases present in anchovy fishmeal sample 1 analyzed by ion-paired reverse phase HPLC by NOVOCIB with low level of IMP (23mg/100g).</figcaption>
         </figure>
     </div>
 
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_1.jpg" alt="freshness graph">
-        </div>
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_2.jpg" alt="freshness graph">
-        </div>
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_3.jpg" alt="freshness graph">
-        </div>
+    <div class="text-center mt-4 mb-5">
+        <p class="lead">To know more about NOVOCIB's analytical service:</p>
+        <a class="btn btn-primary btn-lg" href="/analytical-services">Analytical Services <i class="fas fa-flask"></i></a>
     </div>
-    <div class="row mt-5">
-        <div class="col-lg-6 text-center my-3">
-            <img src="/app/img/freshness_kit _pectrophotometer.jpg" alt="" class="col-lg-8">
-        </div>
-        <div class="col-lg-6 text-center">
-            <img src="/app/img/Freshness_Assay_Kit_for_Plate_Reader.jpg" alt="" class="col-lg-8">
-        </div>
+
+    <p>As a faster alternative, NOVOCIB has developed novel PRECICE® IMP Assay Kit, a cost-efficient enzymatic approach. In this assay, IMP is enzymatically converted to xanthosine monophosphate (XMP) with concomitant reduction of NAD to NADH. The NADH formed is then quantified spectrophotometrically at 340 nm, with absorbance developing only in the presence of the specific enzyme. This innovation enables rapid and reliable measurement of IMP directly in fishmeal, supporting both quality control and nutritional evaluation in aquaculture feed production.</p>
+    <div class="mb-5 col-lg-5 mx-auto">
+        <img src="/app/img/imp-assay-kit.jpg" alt="photo of the kit" class="img-fluid my-4 border">
     </div>
     <div class=" d-flex justify-content-center mt-4">
         <div class="col-lg-10 col-12">
@@ -151,11 +145,27 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </tr>
                 </tbody>
             </table>
-            <p class="text-muted text-center"><em>Pricing updated on October 01st, 2016</em><br></p>
+            <p class="text-muted text-center"><em>Pricing updated on October 01st, 2025</em><br></p>
             <p class="text-center"><strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span> </strong></p>
             <p class="my-4 text-center">
                 <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>
             </p>
+        </div>
+    </div>
+    <div class="text-end mt-3 mb-5">
+        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
+        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="w-100" src="/app/img/freshness_graph_1.jpg" alt="freshness graph">
+        </div>
+        <div class="col-lg-4">
+            <img class="w-100" src="/app/img/freshness_graph_2.jpg" alt="freshness graph">
+        </div>
+        <div class="col-lg-4">
+            <img class="w-100" src="/app/img/freshness_graph_3.jpg" alt="freshness graph">
         </div>
     </div>
     <section class="mt-5">
@@ -174,8 +184,5 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <li>Frozen, fresh, stored under modified atmosphere, smoked, sterilized and canned products</li>
             </ul>
     </section>
-    <div class="text-end mt-3 mb-5">
-        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
-        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
-    </div>
+
 </main>
