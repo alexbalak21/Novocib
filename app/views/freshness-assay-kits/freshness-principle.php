@@ -9,11 +9,11 @@ $novoblue = "#4167b1";
 
 
 addContent(Banner::gen());
-$content_title = UnderlinedTitle::get("PRECICE® Nucleotides Assay Kits", "novoblue", "center");
+
 
 $page_content = <<<CONTENT
 <main class="container mt-5">
-$content_title
+<h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE® Nucleotides Assay Kits</span></h2>
 <div class="row">
 <div class="col-lg-4">
 <img class="w-100" src="/app/img/freshness_graph_1.jpg" alt="freshness graph">
@@ -91,7 +91,6 @@ $content_title
 <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
 <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
 </div>
-
 </main>
 CONTENT;
 

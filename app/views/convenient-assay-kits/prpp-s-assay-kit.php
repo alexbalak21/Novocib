@@ -116,7 +116,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
         <div class="col-lg-6">
             <article>
                 <p>
-                    <strong>Phosphoribosylpyrophosphate synthetase (PRS; EC 2.7.6.1)</strong> is an essential enzyme in the purine salvage pathway, encoded by the <em>PRPS1</em> gene. Mutations in this gene can lead to
+                    <strong>Phosphoribosylpyrophosphate synthetase (P; EC 2.7.6.1)</strong> is an essential enzyme in the purine salvage pathway, encoded by the <em>PRPS1</em> gene. Mutations in this gene can lead to
                     <strong>PRS superactivity</strong>, an X‑linked condition associated with excessive purine production.
                 </p>
                 <p>
@@ -154,7 +154,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
         <h4 class="novo-blue">Assay Principle</h4>
         <p>The assay continuously monitors PRPP synthesis through coupled enzymatic reactions:</p>
         <ol>
-            <li>PRS catalyzes PRPP formation from ATP and ribose‑5‑phosphate.</li>
+            <li>PRPP‑S catalyzes PRPP formation from ATP and ribose-5-phosphate.</li>
             <li>HGPRT converts PRPP and hypoxanthine (Hx) into IMP.</li>
             <li>IMPDH oxidizes IMP to XMP in the presence of NAD, producing NADH₂, measured spectrophotometrically at 340 nm.</li>
         </ol>
@@ -183,7 +183,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
         </div>
         <div class="col-lg-9">
             <p>
-                Specific activity of PRS in human erythrocyte lysates measured with the kit is consistent with published data.
+                Specific activity of PRPP‑S in human erythrocyte lysates measured with the kit is consistent with published data.
             </p>
         </div>
         <div class="col-lg-6 text-center">
@@ -243,7 +243,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             </div>
             <div class="col-lg-9">
                 <p>
-                    PRS activity is quantified by monitoring NADH₂ formation at 340 nm after sequential HGPRT and IMPDH reactions.
+                    PRPP‑S activity is quantified by monitoring NADH₂ formation at 340 nm after sequential HGPRT and IMPDH reactions.
                 </p>
             </div>
         </section>
