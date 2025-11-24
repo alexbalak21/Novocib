@@ -1,6 +1,8 @@
 <?php
 global $title;
 $title = "404 Page not found";
+header("HTTP/1.1 404 Not Found");
+header("Status: 404 Not Found");
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/log404.php";
 

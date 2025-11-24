@@ -110,25 +110,27 @@ echo Banner::gen();
     </a>
 </div>
 
-<div class="container">
-    <div class="references my-5">
-        <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing Dck Phosphorylation Assay Kit from <span class="text-secondary">NOVOCIB</span>:</h5>
-        <ol>
-            <li>
-                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779049/">Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br> S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R Redfield, A. Heredia* Antivir Ther. 2019; 24(3): 17-186.</a>
-            </li>
-            <li>
-                <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788#">Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br> P.C. Jordan, S.K. Stevens, Y.Tam, R.P. Pemberton, S.Chaudhuri, A.D. Stoycheva, N. Dyatkina, G.Wang, J.A. Symons, J. Deval, L. Beigelman ACS Chem. Biol. 2017, 12, 1, 83-91</a>
-            </li>
-            <li>
-                <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30251630/">Combined Proteomic and In Silico Target Identification Reveal a Role for 5-Lipoxygenase in Developmental Signaling Pathways (2018) Brand et al., Cell Chemical Biology 25, 1095-1106 <br> S. Brand, S. Roy, P. Schröder, B. Rathmer, J. Roos, S. Kapoor , S. Patil, C. Pommerenke , T. Maier, P. Janning , S. Eberth, D. Steinhilber, D. Schade, G. Schneider, K. Kumar, S. Ziegler, H. Waldmann</a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0753332217326318">N (4)-[B-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan)methyl]-2'-deoxycytidine as a potential boron delivery agent with respect to glioblastoma (2017) <br> Ł. Uram , J. Nizioł, P. Maj, J. Sobich , W. Rode, T. Ruman Biomedicine & Pharmacotherapy V. 95, Pages 749-755</a>
-            </li>
-            <li>
-                <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8919275/">Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine (2022) <br> Thomas I. Kalman ACS Med Chem Lett. 13(3): 409-416</a>
-            </li>
-        </ol>
+<div class="bg-light mt-5 pt-1 pb-1">
+    <div class="container">
+        <div class="references">
+            <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing Dck Phosphorylation Assay Kit from <span class="text-secondary">NOVOCIB</span>:</h5>
+            <ol>
+                <li>
+                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779049/">Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br> S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R Redfield, A. Heredia* Antivir Ther. 2019; 24(3): 17-186.</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788#">Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br> P.C. Jordan, S.K. Stevens, Y.Tam, R.P. Pemberton, S.Chaudhuri, A.D. Stoycheva, N. Dyatkina, G.Wang, J.A. Symons, J. Deval, L. Beigelman ACS Chem. Biol. 2017, 12, 1, 83-91</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30251630/">Combined Proteomic and In Silico Target Identification Reveal a Role for 5-Lipoxygenase in Developmental Signaling Pathways (2018) Brand et al., Cell Chemical Biology 25, 1095-1106 <br> S. Brand, S. Roy, P. Schröder, B. Rathmer, J. Roos, S. Kapoor , S. Patil, C. Pommerenke , T. Maier, P. Janning , S. Eberth, D. Steinhilber, D. Schade, G. Schneider, K. Kumar, S. Ziegler, H. Waldmann</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0753332217326318">N (4)-[B-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan)methyl]-2'-deoxycytidine as a potential boron delivery agent with respect to glioblastoma (2017) <br> Ł. Uram , J. Nizioł, P. Maj, J. Sobich , W. Rode, T. Ruman Biomedicine & Pharmacotherapy V. 95, Pages 749-755</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8919275/">Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine (2022) <br> Thomas I. Kalman ACS Med Chem Lett. 13(3): 409-416</a>
+                </li>
+            </ol>
+        </div>
     </div>
 </div>
