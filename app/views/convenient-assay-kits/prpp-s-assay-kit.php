@@ -130,7 +130,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
 
         <div class="col-lg-6 text-center">
             <img class="img-fluid" src="/app/img/PRPP-S-Assay-Kit.png"
-                alt="Reaction schema of PRECICE® PRPP-S Assay Kit"
+                alt="PRECICE® PRPP-S Assay Kit reaction principle"
                 title="PRECICE® PRPP-S Assay Kit reaction principle" />
             <h4 class="novo-blue mt-3">PRECICE® PRPP-S Assay Kit</h4>
             <h5>Ref. #K0709-04-2</h5>
