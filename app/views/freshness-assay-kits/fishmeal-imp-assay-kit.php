@@ -7,42 +7,42 @@ ob_start(); ?>
 <meta name="description" content="Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies. Get reliable, sensitive results with our optimized protocol.">
 <meta name="keywords" content="Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies, enzyme activity assay, biochemical assay kit, research reagents, life science tools, Novocib assays, metabolic pathway analysis">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org/",
-  "@type": "Product",
-  "name": "Fishmeal IMP Assay Kit",
-  "description": "Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Novocib"
-  },
-  "category": "Life Science Research Kits",
-  "url": "https://www.novocib.com/fish-imp-assay-kit",
-  "sku": "FISH-IMP-KIT",
-  "offers": {
-    "@type": "Offer",
-    "availability": "https://schema.org/InStock",
-    "priceCurrency": "EUR",
-    "price": "0.00",
-    "seller": {
-      "@type": "Organization",
-      "name": "Novocib",
-      "url": "https://www.novocib.com"
+    {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "name": "Fishmeal IMP Assay Kit",
+        "description": "Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies.",
+        "brand": {
+            "@type": "Brand",
+            "name": "Novocib"
+        },
+        "category": "Life Science Research Kits",
+        "url": "https://www.novocib.com/fish-imp-assay-kit",
+        "sku": "FISH-IMP-KIT",
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "EUR",
+            "price": "0.00",
+            "seller": {
+                "@type": "Organization",
+                "name": "Novocib",
+                "url": "https://www.novocib.com"
+            }
+        },
+        "applicationCategory": "Biochemical Research",
+        "keywords": "Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies",
+        "slogan": "Precise IMP measurement for fishmeal quality assessment",
+        "additionalProperty": {
+            "@type": "PropertyValue",
+            "name": "Target Analyte",
+            "value": "Inosine 5'-monophosphate (IMP)"
+        },
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Research Scientists, Quality Control Specialists, Aquaculture Industry"
+        }
     }
-  },
-  "applicationCategory": "Biochemical Research",
-  "keywords": "Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies",
-  "slogan": "Precise IMP measurement for fishmeal quality assessment",
-  "additionalProperty": {
-    "@type": "PropertyValue",
-    "name": "Target Analyte",
-    "value": "Inosine 5'-monophosphate (IMP)"
-  },
-  "audience": {
-    "@type": "Audience",
-    "audienceType": "Research Scientists, Quality Control Specialists, Aquaculture Industry"
-  }
-}
 </script>
 <?php $metas = ob_get_clean();
 
@@ -52,7 +52,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <?= Banner::gen("/app/img/fish-farm.jpg", "coastal aquaculture facility") ?>
 <main class="container mt-5">
-    <h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE® Nucleotides Assay Kits</span></h2>
+    <h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE® Fishmeal IMP Assay Kit</span></h2>
     <div class="row my-5">
         <div class="col-lg-4">
             <img class="img-fluid border" src="/app/img/fish-meal.jpg" alt="fishmeal image">
@@ -153,37 +153,35 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </div>
     <div class=" d-flex justify-content-center mt-4">
         <div class="col-lg-10 col-12">
-            <table class="table product mb-2">
-                <thead>
-                    <tr>
-                        <th>
-                            #REF
-                        </th>
-                        <th class="text-center">
-                            SIZE
-                        </th>
-                        <th class="text-center">
-                            PRICE
-                        </th>
-                        <th class="pe-5"></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#K0700-004-10</td>
-                        <td class="text-center"> <strong>Spectrophotometer for 10 samples analyzed for IMP, inosine and hypoxanthine <br> <a target="_blank" href="/app/documents/PRECICE Freshness Assay Manual for Spectrophotometer K0700-004.pdf">See Documentation <i class="fa-solid fa-file-pdf"></i></a></strong></td>
-                        <td class="price text-center">€ 350.00</td>
-                        <td class="text-end pe-3"><a class="btn btn-primary" href="/inquiry?ref=none&amp;product=Freshness Assay Kit - 10 samples">Inquiry <i class="fa-solid fa-comment"></i></a></td>
-                    </tr>
-                    <tr>
-                        <td>#K0700-003-22</td>
-                        <td class="text-center"><strong>Plate reader for simultaneous analysis of IMP, Ino & Hx in 22 samples <br> <a target="_blank" href="/app/documents/PRECICE Freshness Assay Manual K0700-003 140709.pdf">See Documentation <i class="fa-solid fa-file-pdf"></i></a></strong></td>
-                        <td class="price text-center">€ 480.00</td>
-                        <td class="text-end pe-3"><a class="btn btn-primary" href="/inquiry?ref=none&amp;product=Freshness Assay Kit - 22 samples">Inquiry <i class="fa-solid fa-comment"></i></a></td>
-                    </tr>
-                </tbody>
-            </table>
-            <p class="text-muted text-center"><em>Pricing updated on October 01st, 2025</em><br></p>
+            <div class="table-responsive">
+                <table class="table product mb-2">
+                    <thead>
+                        <tr>
+                            <th class="d-none d-md-table-cell">#REF</th>
+                            <th class="text-center">SIZE</th>
+                            <th class="text-center d-none d-md-table-cell">PRICE</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d-none d-md-table-cell">#0700-06-12</td>
+                            <td class="text-center">PRECICE® Fishmeal IMP Assay Kit<br>(microplate reader, for 12 samples) including calibration curve with IMP</td>
+                            <td class="d-none d-md-table-cell text-center">190.00 €</td>
+                            <td class="text-end pe-3">
+                                <div class="d-block d-md-none text-end mb-1 fw-bold">
+                                    190.00 € </div>
+                                <a class="btn btn-primary" href="/inquiry?ref=0700-06-12&amp;price=190.00&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=microplate reader, for 12 samples">
+                                    Inquiry <i class="fa-solid fa-comment"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-muted text-center">
+                <em>Updated on November 25th, 2025.</em><br>
+            </p>
             <p class="text-center"><strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span> </strong></p>
             <p class="my-4 text-center">
                 <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>
@@ -191,36 +189,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </div>
     <div class="text-end mt-3 mb-5">
-        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
-        <p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
+        <p><i class="fa-solid fa-download"></i> Download <a target="_blank" href="/app/documents/PRECICE® Fishmeal IMP Assay Kit - User Manual - 0700-006">PRECICE® Fishmeal IMP Assay Kit</a> User Manual <i class="fa-solid fa-book-atlas"></i></p>
     </div>
-
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_1.jpg" alt="freshness graph">
-        </div>
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_2.jpg" alt="freshness graph">
-        </div>
-        <div class="col-lg-4">
-            <img class="w-100" src="/app/img/freshness_graph_3.jpg" alt="freshness graph">
-        </div>
-    </div>
-    <section class="mt-5">
-        <h3 class="novo-blue">Measure nucleotides to assess food quality</h3>
-        <p>Since seafood and fish are highly perishable products, the quality of raw material is of primary concern for seafood processing industry. While sensory analysis allows rapid evaluation of the quality of whole wet fish, the assessment of the quality of frozen fish, or that of frozen blocks of fillets or crumbed seafood products remains more difficult</p>
-        <p><strong>PRECICE® Nucleotides Assay Kit</strong> is a first enzymatic assay for spectrophotometric measurement of three major ATP degradation products. The enzymes provided with kit allow specific conversion of three major ATP catabolites - IMP, inosine (Ino) and hypoxanthine (Hx) to NADH2. The quantification of nucleotides is done by measuring sample absorbance at 340nm.</p>
-        <h4 class="novo-blue">Rapid & Precise
-            </h3>
-            <ul>
-                <li>Enzymatic reactions take 30 min;</li>
-                <li>R²=0.89 (IMP, HPLC); R²=0.91 (inosine, HPLC); R²=0.91 (hypoxanthine, HPLC);</li>
-                <li>R²=0.88 found between H-value measured with <strong class="novo-blue">PRECICE® Nucleotides Assay Kit</strong> and TMA/ABVT in whiting fillets (11 samples)</li>
-            </ul>
-            <h4 class="novo-blue">Wide Application Range</h4>
-            <ul>
-                <li>Frozen, fresh, stored under modified atmosphere, smoked, sterilized and canned products</li>
-            </ul>
-    </section>
-
 </main>
