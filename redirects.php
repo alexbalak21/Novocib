@@ -20,7 +20,7 @@ $redirects = [
     "/Freshness_Assay_Kits.html" => "/freshness-assay-kits",
     "/Freshness_Protocol.html" => "/freshness-assay-kits/how-it-works",
     "/Fish_Freshness_K_Value_Assay.html" => "/freshness-assay-kits/freshness-assay-kit",
-    "/freshness-assay-kits/freshness-principle" => "/freshness-assay-kits/fishmeal-imp-assay-kit",
+    // "/freshness-assay-kits/freshness-principle" => "/freshness-assay-kits/fishmeal-imp-assay-kit",
 
     //ACTIVE-PURIFIED-ENZYMES
     "/active-purified-enzymes/cnii" => "/active-purified-enzymes/cn-ii",
