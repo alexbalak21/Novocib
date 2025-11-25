@@ -4,21 +4,21 @@ $title = "Fishmeal IMP Assay Kit";
 
 // META TAGS 
 ob_start(); ?>
-<meta name="description" content="Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies. Get reliable, sensitive results with our optimized protocol.">
-<meta name="keywords" content="Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies, enzyme activity assay, biochemical assay kit, research reagents, life science tools, Novocib assays, metabolic pathway analysis">
+<meta name="description" content="PRECICE® IMP Assay Kit for enzymatic determination of IMP nucleotide in fishmeal samples (Ref. 0700-006). Accurately measure IMP levels in fishmeal using our optimized enzymatic assay with high sensitivity and specificity. Ideal for fishmeal quality control and freshness assessment in aquaculture and feed production.">
+<meta name="keywords" content="PRECICE IMP Assay Kit, fishmeal IMP test, IMP dehydrogenase assay, inosine monophosphate test, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection, 340nm spectrophotometry, fishmeal quality control, IMPDH enzyme assay, NADH quantification, fishmeal nucleotide analysis, PRECICE 0700-006, enzymatic fishmeal testing, IMP standard curve, fishmeal sample preparation, microplate reader assay, IMP concentration measurement, fishmeal degradation products, enzymatic fish freshness test">
 <script type="application/ld+json">
     {
         "@context": "https://schema.org/",
         "@type": "Product",
-        "name": "Fishmeal IMP Assay Kit",
-        "description": "Accurately measure IMP (Inosine 5'-monophosphate) levels in fishmeal with Novocib's FISH-IMP Assay Kit. Ideal for research in fishmeal quality control, freshness assessment, and nutritional studies.",
+        "name": "PRECICE® IMP Assay Kit",
+        "description": "PRECICE® IMP Assay Kit for enzymatic determination of IMP nucleotide in fishmeal samples (Ref. 0700-006). Accurately measure IMP levels in fishmeal using our optimized enzymatic assay with high sensitivity and specificity. The kit includes all necessary reagents for 12 samples with IMP standards for calibration.",
         "brand": {
             "@type": "Brand",
             "name": "Novocib"
         },
-        "category": "Life Science Research Kits",
-        "url": "https://www.novocib.com/fish-imp-assay-kit",
-        "sku": "FISH-IMP-KIT",
+        "category": "Aquaculture Testing Kits",
+        "url": "https://www.novocib.com/fishmeal-imp-assay-kit",
+        "sku": "0700-006",
         "offers": {
             "@type": "Offer",
             "availability": "https://schema.org/InStock",
@@ -30,17 +30,17 @@ ob_start(); ?>
                 "url": "https://www.novocib.com"
             }
         },
-        "applicationCategory": "Biochemical Research",
-        "keywords": "Fishmeal IMP Assay Kit, IMP assay, Inosine 5'-monophosphate, fishmeal quality control, freshness assessment, nutritional studies",
-        "slogan": "Precise IMP measurement for fishmeal quality assessment",
+        "applicationCategory": "Fishmeal Quality Control",
+        "keywords": "PRECICE IMP Assay Kit, fishmeal IMP test, IMP dehydrogenase assay, inosine monophosphate test, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection",
+        "slogan": "Enzymatic determination of IMP nucleotide in fishmeal samples",
         "additionalProperty": {
             "@type": "PropertyValue",
             "name": "Target Analyte",
-            "value": "Inosine 5'-monophosphate (IMP)"
+            "value": "Inosine 5'-monophosphate (IMP) in fishmeal samples"
         },
         "audience": {
             "@type": "Audience",
-            "audienceType": "Research Scientists, Quality Control Specialists, Aquaculture Industry"
+            "audienceType": "Aquaculture Feed Producers, Fishmeal Quality Control Labs, Research Scientists, Seafood Processing Industry, Feed Formulation Specialists"
         }
     }
 </script>
@@ -208,7 +208,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 <td class="text-end pe-3">
                                     <div class="d-block d-md-none text-end mb-1 fw-bold">
                                         190.00 € </div>
-                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-12&amp;price=190.00&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=microplate reader, for 12 samples">
+                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-12&amp;price=190&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=microplate reader, for 12 samples">
                                         Inquiry <i class="fa-solid fa-comment"></i>
                                     </a>
                                 </td>
@@ -216,11 +216,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <tr>
                                 <td class="d-none d-md-table-cell">#0700-06-10</td>
                                 <td class="text-center">PRECICE® Fishmeal IMP Assay Kit<br>(spectrophotometer, for 10 samples)</td>
-                                <td class="d-none d-md-table-cell text-center">190.00 €</td>
+                                <td class="d-none d-md-table-cell text-center">250.00 €</td>
                                 <td class="text-end pe-3">
                                     <div class="d-block d-md-none text-end mb-1 fw-bold">
                                         250.00 € </div>
-                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-10&amp;price=190.00&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=spectrophotometer, for 10 samples">
+                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-10&amp;price=250&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=spectrophotometer, for 10 samples">
                                         Inquiry <i class="fa-solid fa-comment"></i>
                                     </a>
                                 </td>
