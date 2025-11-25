@@ -817,7 +817,6 @@ function find_all_products_by_title(string $title): array
   }
 }
 
-
 function read_encrypted()
 {
   $conn = connect_db();

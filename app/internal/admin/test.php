@@ -1,13 +1,35 @@
 <?php
-define("__ROOT__", $_SERVER['DOCUMENT_ROOT']);
-define("__APP__", __ROOT__ . DIRECTORY_SEPARATOR . "app");
+function keep_the_last_date($date){
+    static $latestDate = null;
+    if ($latestDate === null) {
+        $latestDate = $date;
+    } else {
+        if ($date > $latestDate) {
+            $latestDate = $date;
+        }
+    }
+    return $latestDate;
+}
 
-echo realpath(__APP__);
+$ids= [1,2,3,4,5,6,7,8,9, 5, 8, 7,2];
 
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+foreach ($ids as $ids){
+    static $lastId = null;
+    if ($lastId === null) {
+        $lastId = $ids;
+    } else {
+        if ($ids > $lastId) {
+            $lastId = $ids;
+        }
+    }
+    echo $lastId, "<br>";
+}
 
-echo dirname(__FILE__);
+
+
+
+
+
+
+

@@ -56,5 +56,65 @@ class Products
         <?php endif; ?>
 <?php return ob_get_clean();
     }
+
+   static function gen_from_ids(...$ids) {
+        $mostRecentDate = null;
+         ob_start(); ?>
+        <div class="table-responsive">
+            <table class="table product mb-2">
+                <thead>
+                    <tr>
+                        <th class="d-none d-md-table-cell">#REF</th>
+                        <th class="text-center">SIZE</th>
+                        <th class="text-center d-none d-md-table-cell">PRICE</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    foreach ($ids as $id) {
+                        $latestDate = null;
+                        $product = get_product_by_id($id);
+                        if (!empty($product['updated_on'])) {
+                            $currentDate = strtotime($product['updated_on']);
+                            if ($latestDate === null || $currentDate > $latestDate) {
+                                $latestDate = $currentDate;
+                            }
+                        }
+                        if ($product !== null) echo gen_product_line($product);
+                        $mostRecentDate = $latestDate;
+                    } 
+                    ?>
+                </tbody>
+            </table>
+        </div>
+        <?php if ($mostRecentDate): ?>
+            <p class="text-muted text-center">
+                <em>Last updated on : <?= date('F jS, Y', $mostRecentDate) ?>.</em>
+                <br />
+            </p>
+        <?php endif; ?>
+<?php return ob_get_clean();
+        
+    }
+}
+
+function gen_product_line($product){
+    ob_start(); ?>
+      <tr>
+        <td class="d-none d-md-table-cell"><?= "#" . $product['reference'] ?></td>
+        <td class="text-center"><?= $product['title'] ?><br><?= $product['size'] ?></td>
+        <td class="text-center d-none d-md-table-cell"><?= $product['price'] . ".00 €" ?></td>
+        <td class="text-end pe-3">
+            <div class="d-block d-md-none text-end mb-1 fw-bold">
+                <?= $product['price'] . ".00 €" ?>
+            </div>
+            <a class="btn btn-primary"
+                href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= urlencode($product['title']) ?>&amp;volume=<?= $product['size'] ?>">
+                Inquiry <i class="fa-solid fa-comment"></i>
+            </a>
+        </td>
+    </tr>
+    <?php return ob_get_clean();
 }
 ?>

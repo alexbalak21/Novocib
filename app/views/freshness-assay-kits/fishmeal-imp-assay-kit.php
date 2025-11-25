@@ -188,49 +188,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <!-- PRODUCT -->
         <h3 class="novo-blue text-center mt-5">Buy the Kit <i class="fa-solid fa-cart-shopping"></i></h3>
-        <div class=" d-flex justify-content-center mt-4">
-            <div class="col-lg-10 col-12">
-                <div class="table-responsive">
-                    <table class="table product mb-2">
-                        <thead>
-                            <tr>
-                                <th class="d-none d-md-table-cell">#REF</th>
-                                <th class="text-center">SIZE</th>
-                                <th class="text-center d-none d-md-table-cell">PRICE</th>
-                                <th></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="d-none d-md-table-cell">#0700-06-12</td>
-                                <td class="text-center">PRECICE® Fishmeal IMP Assay Kit<br>(microplate reader, for 12 samples) including calibration curve with IMP</td>
-                                <td class="d-none d-md-table-cell text-center">190.00 €</td>
-                                <td class="text-end pe-3">
-                                    <div class="d-block d-md-none text-end mb-1 fw-bold">
-                                        190.00 € </div>
-                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-12&amp;price=190&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=microplate reader, for 12 samples">
-                                        Inquiry <i class="fa-solid fa-comment"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="d-none d-md-table-cell">#0700-06-10</td>
-                                <td class="text-center">PRECICE® Fishmeal IMP Assay Kit<br>(spectrophotometer, for 10 samples)</td>
-                                <td class="d-none d-md-table-cell text-center">250.00 €</td>
-                                <td class="text-end pe-3">
-                                    <div class="d-block d-md-none text-end mb-1 fw-bold">
-                                        250.00 € </div>
-                                    <a class="btn btn-primary" href="/inquiry?ref=0700-06-10&amp;price=250&amp;product=PRECICE® Fishmeal IMP Assay Kit&amp;volume=spectrophotometer, for 10 samples">
-                                        Inquiry <i class="fa-solid fa-comment"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <p class="text-muted text-center">
-                    <em>Updated on November 25th, 2025.</em><br>
-                </p>
+        <?= Products::gen_from_ids(32, 33) ?>
                 <p class="text-center"><strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span> </strong></p>
                 <p class="my-4 text-center">
                     <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>

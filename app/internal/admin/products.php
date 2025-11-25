@@ -109,6 +109,7 @@ if (isset($_GET['update']) && $_GET['update'] === "error") echo $errorAlert;
         <table class="table table-bordered mt-2">
             <thead>
                 <tr>
+                    <th class="col-1">ID</th>
                     <th class="col-1">Reference</th>
                     <th class="col-2">Title</th>
                     <th class="col-4">Size</th>
@@ -121,6 +122,7 @@ if (isset($_GET['update']) && $_GET['update'] === "error") echo $errorAlert;
             <tbody>
                 <?php foreach ($products as $product) : ?>
                     <tr>
+                        <td><?= $product['ID'] ?></td>
                         <td><?= $product['reference'] ?></td>
                         <td><?= $product['title'] ?></td>
                         <td><?= $product['size'] ?></td>
