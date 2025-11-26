@@ -83,229 +83,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 measured in its presence.</p>
         </section>
 
-        <section class="my-5 row align-items-center">
-            <h2 class="text-center h3 mb-2">IMP concentration comparison</h2>
-
-            <div class="table-responsive col-lg-6">
-                <table class="table table-bordered table-striped align-middle text-center imp-concentration-comparison">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Sample</th>
-                            <th>IMP (g/kg) - HPLC</th>
-                            <th class="novoblue">IMP (g/kg) - Enzymatic PRECICE Kit</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>FISHMEAL 1</td>
-                            <td>1.33</td>
-                            <td>1.26</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 2</td>
-                            <td>1.95</td>
-                            <td>1.90</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 3</td>
-                            <td>2.30</td>
-                            <td>2.13</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 4</td>
-                            <td>0.69</td>
-                            <td>0.58</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 5</td>
-                            <td>2.91</td>
-                            <td>3.00</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 6</td>
-                            <td>2.11</td>
-                            <td>2.11</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 7</td>
-                            <td>0.90</td>
-                            <td>0.84</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 8</td>
-                            <td>1.64</td>
-                            <td>1.56</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 9</td>
-                            <td>2.13</td>
-                            <td>2.36</td>
-                        </tr>
-                        <tr>
-                            <td>FISHMEAL 10</td>
-                            <td>3.94</td>
-                            <td>4.16</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Canvas MUST be before the script -->
-            <div class="col-lg-6">
-                <canvas id="impChart" width="600" height="400"></canvas>
-            </div>
-
-            <!-- Chart.js v4 + trendline plugin -->
-            <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline@2.0.0"></script>
-
-            <script>
-                const ctx = document.getElementById('impChart').getContext('2d');
-
-                const dataPoints = [{
-                        x: 1.33,
-                        y: 1.26
-                    },
-                    {
-                        x: 1.95,
-                        y: 1.90
-                    },
-                    {
-                        x: 2.30,
-                        y: 2.13
-                    },
-                    {
-                        x: 0.69,
-                        y: 0.58
-                    },
-                    {
-                        x: 2.91,
-                        y: 3.00
-                    },
-                    {
-                        x: 2.11,
-                        y: 2.11
-                    },
-                    {
-                        x: 0.90,
-                        y: 0.84
-                    },
-                    {
-                        x: 1.64,
-                        y: 1.56
-                    },
-                    {
-                        x: 2.13,
-                        y: 2.36
-                    },
-                    {
-                        x: 3.94,
-                        y: 4.16
-                    }
-                ];
-
-                const regressionLabelPlugin = {
-                    id: 'regressionLabel',
-                    beforeDraw(chart) {
-                        const {
-                            ctx,
-                            chartArea: {
-                                top,
-                                right
-                            }
-                        } = chart;
-                        ctx.save();
-                        ctx.font = '14px Arial';
-                        ctx.fillStyle = 'black';
-                        ctx.textAlign = 'right';
-                        ctx.fillText('y = 1.01166x', right - 10, top + 20);
-                        ctx.fillText('R² = 0.9968', right - 10, top + 40);
-                        ctx.restore();
-                    }
-                };
-
-                new Chart(ctx, {
-                    type: 'scatter',
-                    data: {
-                        datasets: [{
-                            label: 'IMP Concentration (g/kg)',
-                            data: dataPoints,
-                            backgroundColor: 'rgb(55, 113, 200)',
-                            borderColor: 'rgb(55, 113, 200)',
-                            pointRadius: 5,
-                            trendlineLinear: {
-                                style: "rgba(255,105,180,0.8)",
-                                width: 2,
-                                projection: true,
-                                lineStyle: "dotted",
-                                label: "y = 1.0166x"
-                            }
-                        }]
-                    },
-                    options: {
-                        responsive: true,
-                        maintainAspectRatio: false,
-                        plugins: {
-                            legend: {
-                                display: false
-                            }
-                        },
-                        scales: {
-                            x: {
-                                type: 'linear',
-                                bounds: 'ticks',
-                                min: 0.0,
-                                max: 5.0,
-                                title: {
-                                    display: true,
-                                    text: 'IMP (g/kg) by HPLC'
-                                },
-                                ticks: {
-                                    stepSize: 1.0,
-                                    callback: function(value) {
-                                        return value.toFixed(2);
-                                    }
-                                }
-                            },
-                            y: {
-                                type: 'linear',
-                                bounds: 'ticks',
-                                min: 0.0,
-                                max: 4.5,
-                                title: {
-                                    display: true,
-                                    text: 'IMP (g/kg) by Enzymatic Kit'
-                                }
-                            }
-                        }
-                    },
-                    plugins: [regressionLabelPlugin]
-                });
-            </script>
-
-            <div class="table-responsive col-12">
-                <table class="table table-bordered text-center align-middle">
-                    <thead class="table-light">
-                        <tr>
-                            <th style="width: 50%;">R² /HPLC data</th>
-                            <th style="width: 50%;">Recovery (Enzymatic versus HPLC)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="text-primary">0.99</td>
-                            <td class="text-primary">101%</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <p class="text-center">The correlation between HPLC and PRECICE kit measurements is extremely strong: Pearson r ≈ 0.99 and R² ≈ 0.98, showing that both methods yield highly consistent results.</p>
-        </section>
-
-
-
-
-
         <!-- Nucleotides content in fishmeal -->
         <section class="my-5 pt-4 ">
             <h2 class="text-center mb-4">Nucleotides content in fishmeal</h2>
@@ -414,6 +191,103 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </div>
             </div>
         </div>
+
+        <!-- IMP concentration comparison -->
+        <section class="my-5 row align-items-center">
+            <h2 class="text-center h3 mb-2">IMP concentration comparison</h2>
+
+            <div class="table-responsive col-lg-6">
+                <table class="table table-bordered table-striped align-middle text-center imp-concentration-comparison">
+                    <thead class="table-light">
+                        <tr>
+                            <th>Sample</th>
+                            <th>IMP (g/kg) - HPLC</th>
+                            <th class="novoblue">IMP (g/kg) - Enzymatic PRECICE Kit</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FISHMEAL 1</td>
+                            <td>1.33</td>
+                            <td>1.26</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 2</td>
+                            <td>1.95</td>
+                            <td>1.90</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 3</td>
+                            <td>2.30</td>
+                            <td>2.13</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 4</td>
+                            <td>0.69</td>
+                            <td>0.58</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 5</td>
+                            <td>2.91</td>
+                            <td>3.00</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 6</td>
+                            <td>2.11</td>
+                            <td>2.11</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 7</td>
+                            <td>0.90</td>
+                            <td>0.84</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 8</td>
+                            <td>1.64</td>
+                            <td>1.56</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 9</td>
+                            <td>2.13</td>
+                            <td>2.36</td>
+                        </tr>
+                        <tr>
+                            <td>FISHMEAL 10</td>
+                            <td>3.94</td>
+                            <td>4.16</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Canvas MUST be before the script -->
+            <div class="col-lg-6">
+                <canvas id="impChart" width="600" height="400"></canvas>
+            </div>
+
+            <!-- Chart.js v4 + trendline plugin -->
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline@2.0.0"></script>
+            <script src="/app/js/imp-concentration-graph.js"></script>
+
+            <div class="table-responsive col-12">
+                <table class="table table-bordered text-center align-middle">
+                    <thead class="table-light">
+                        <tr>
+                            <th style="width: 50%;">R² /HPLC data</th>
+                            <th style="width: 50%;">Recovery (Enzymatic versus HPLC)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-primary">0.99</td>
+                            <td class="text-primary">101%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center">The correlation between HPLC and PRECICE kit measurements is extremely strong: Pearson r ≈ 0.99 and R² ≈ 0.98, showing that both methods yield highly consistent results.</p>
+        </section>
 
         <!-- PRODUCT -->
         <h3 class="novo-blue text-center mt-5">Buy the Kit <i class="fa-solid fa-cart-shopping"></i></h3>
