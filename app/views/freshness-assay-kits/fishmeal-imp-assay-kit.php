@@ -204,14 +204,25 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     }
                 ];
 
-                // Compute bounds with a small padding
-                const xVals = dataPoints.map(p => p.x);
-                const yVals = dataPoints.map(p => p.y);
-                const pad = 0.1;
-                const xMin = Math.min(...xVals) - pad;
-                const xMax = Math.max(...xVals) + pad;
-                const yMin = Math.min(...yVals) - pad;
-                const yMax = Math.max(...yVals) + pad;
+                const regressionLabelPlugin = {
+                    id: 'regressionLabel',
+                    beforeDraw(chart) {
+                        const {
+                            ctx,
+                            chartArea: {
+                                top,
+                                right
+                            }
+                        } = chart;
+                        ctx.save();
+                        ctx.font = '14px Arial';
+                        ctx.fillStyle = 'black';
+                        ctx.textAlign = 'right';
+                        ctx.fillText('y = 1.01166x', right - 10, top + 20);
+                        ctx.fillText('R² = 0.9968', right - 10, top + 40);
+                        ctx.restore();
+                    }
+                };
 
                 new Chart(ctx, {
                     type: 'scatter',
@@ -222,7 +233,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             backgroundColor: 'rgb(55, 113, 200)',
                             borderColor: 'rgb(55, 113, 200)',
                             pointRadius: 5,
-                            // trendline plugin v2
                             trendlineLinear: {
                                 style: "rgba(255,105,180,0.8)",
                                 width: 2,
@@ -238,25 +248,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         plugins: {
                             legend: {
                                 display: false
-                            },
-                            annotationLabel: {
-                                id: 'regressionLabel',
-                                beforeDraw(chart) {
-                                    const {
-                                        ctx,
-                                        chartArea: {
-                                            top,
-                                            right
-                                        }
-                                    } = chart;
-                                    ctx.save();
-                                    ctx.font = '14px Arial';
-                                    ctx.fillStyle = 'black';
-                                    ctx.textAlign = 'right';
-                                    ctx.fillText('y = 1.01166x', right - 10, top + 20);
-                                    ctx.fillText('R² = 0.9968', right - 10, top + 40);
-                                    ctx.restore();
-                                }
                             }
                         },
                         scales: {
@@ -272,7 +263,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 ticks: {
                                     stepSize: 1.0,
                                     callback: function(value) {
-                                        return value.toFixed(2); // 👈 forces 2 decimal places
+                                        return value.toFixed(2);
                                     }
                                 }
                             },
@@ -287,7 +278,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 }
                             }
                         }
-                    }
+                    },
+                    plugins: [regressionLabelPlugin]
                 });
             </script>
 
