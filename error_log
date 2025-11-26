@@ -1,0 +1,19 @@
+[25-Nov-2025 15:43:56 Europe/Paris] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[25-Nov-2025 15:43:56 Europe/Paris] Visit logging failed: Unable to connect to the database.
+[25-Nov-2025 15:49:25 Europe/Paris] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[25-Nov-2025 15:49:25 Europe/Paris] Visit logging failed: Unable to connect to the database.
+[25-Nov-2025 15:49:25 Europe/Paris] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[25-Nov-2025 15:49:25 Europe/Paris] PHP Fatal error:  Uncaught RuntimeException: Unable to connect to the database. in /home/cp68325/public_html/app/db/connect:18
+Stack trace:
+#0 /home/cp68325/public_html/app/logic/db_operations.php(50): connect_db()
+#1 /home/cp68325/public_html/app/logic/log404.php(24): log404toDB('2025-11-25 15:4...', '74.125.208.37', '/.well-known/tr...')
+#2 /home/cp68325/public_html/app/logic/log404.php(45): log404request()
+#3 /home/cp68325/public_html/app/views/404.php(7): require_once('/home/cp68325/p...')
+#4 /home/cp68325/public_html/index.php(65): include('/home/cp68325/p...')
+#5 /home/cp68325/public_html/index.php(82): loadView('404.php')
+#6 {main}
+  thrown in /home/cp68325/public_html/app/db/connect on line 18
+[25-Nov-2025 15:49:34 Europe/Paris] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[25-Nov-2025 15:49:34 Europe/Paris] Visit logging failed: Unable to connect to the database.
+[25-Nov-2025 15:56:21 Europe/Paris] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[25-Nov-2025 15:56:21 Europe/Paris] Visit logging failed: Unable to connect to the database.

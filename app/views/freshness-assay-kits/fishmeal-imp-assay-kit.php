@@ -152,7 +152,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
             <div class="col-lg-6"><canvas id="impChart" width="600" height="400"></canvas></div>
 
-            <div class="table-responsive mb-4">
+            <div class="table-responsive col-12">
                 <table class="table table-bordered text-center align-middle">
                     <thead class="table-light">
                         <tr>
@@ -165,15 +165,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <td class="text-primary">0.99</td>
                             <td class="text-primary">101%</td>
                         </tr>
-
                     </tbody>
                 </table>
             </div>
+            <p class="text-center">The correlation between HPLC and PRECICE kit measurements is extremely strong: Pearson r ≈ 0.99 and R² ≈ 0.98, showing that both methods yield highly consistent results.</p>
         </section>
 
 
         <!-- Nucleotides content in fishmeal -->
-        <section class="my-5">
+        <section class="my-5 pt-4 ">
             <h2 class="text-center mb-4">Nucleotides content in fishmeal</h2>
             <h4 class="mb-4">Table 1. Nucleotides Content in Fishmeal Samples (Anchovy)</h4>
             <div class="table-responsive mb-5">
