@@ -42,8 +42,4 @@ function check_customer(string $pid)
 <?php echo ob_get_clean();
 }
 
-
-
-
-
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/foot.php";
