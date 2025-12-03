@@ -3,178 +3,251 @@ global $title;
 $title = "Nucleotide Analysis Service";
 
 ob_start(); ?>
-<meta name="keywords" content="NOVOCIB Provides Accurate and Customized HPLC analysis of Nucleosides, Nucleotides and Nucleic Acids in feed and food ingredients">
-<meta name="description" content="Dietary nucleotides, 5'-nucleotides,  5'AMP, 5'GMP,5'IMP,5'CMP,5'UMP, nucleic acids, hplc nucleotides analysis">
+<meta name="keywords" content="NOVOCIB, HPLC analysis, nucleotides, nucleosides, nucleic acids, RNA, DNA, 5'AMP, 5'GMP, 5'IMP, 5'CMP, 5'UMP, enzymatic hydrolysis, acid hydrolysis, ion-paired chromatography, dietary nucleotides, food chemistry, feed ingredients">
+<meta name="description" content="NOVOCIB provides accurate HPLC-UV analysis of dietary nucleotides, nucleosides, and nucleic acids in food and feed. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), RNA and DNA analysis, and comparison of acid hydrolysis versus enzymatic hydrolysis methods for precise and eco-friendly results.">
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "brand": {
+            "@type": "Brand",
+            "name": "NOVOCIB"
+        },
+        "name": "HPLC-UV Analysis of Dietary Nucleotides",
+        "description": "NOVOCIB provides accurate HPLC-UV analysis of dietary nucleotides, nucleosides, and nucleic acids in food and feed ingredients. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), RNA and DNA analysis, and comparison of acid hydrolysis versus enzymatic hydrolysis methods.",
+        "url": "https://www.novocib.com/dietary-nucleotides-analysis",
+        "image": "https://www.novocib.com/app/img/hplc-photo.jpg",
+        "category": "Analytical Services",
+        "sku": "S1200-03-NA",
+        "offers": [{
+                "@type": "Offer",
+                "sku": "S1200-03-NA",
+                "name": "Full spectra nucleotides analysis (DNA + RNA)",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-03-NA",
+                "price": "420.00",
+                "priceCurrency": "EUR",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "sku": "S1200-03-RNA",
+                "name": "Full spectra nucleotides analysis (RNA only)",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-03-RNA",
+                "price": "380.00",
+                "priceCurrency": "EUR",
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "sku": "S1200-03-PURINES",
+                "name": "Purines content analysis",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-03-PURINES",
+                "price": "on request",
+                "priceCurrency": "EUR",
+                "availability": "https://schema.org/OnDemand"
+            }
+        ],
+        "mainEntity": {
+            "@type": "FAQPage",
+            "mainEntity": [{
+                    "@type": "Question",
+                    "name": "What is the advantage of enzymatic hydrolysis compared to acid hydrolysis?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Enzymatic hydrolysis preserves the distinction between free nucleotides and polymeric nucleic acids, providing accurate and functionally relevant results. Acid hydrolysis is faster but collapses all compounds into bases, losing origin information."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Which nucleotides are quantified in NOVOCIB’s analysis?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "NOVOCIB quantifies free bases (adenine, guanine, cytosine, uracil, thymine), nucleosides, nucleotide monophosphates (AMP, GMP, IMP, CMP, UMP), and nucleic acids (RNA and DNA)."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What is the environmental impact of the methods?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Acid hydrolysis generates hazardous corrosive waste requiring special disposal. Enzymatic hydrolysis uses biodegradable enzymes, resulting in a greener waste stream."
+                    }
+                }
+            ]
+        }
+    }
+</script>
+
+
 <?php $metas = ob_get_clean();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 <?= Banner::gen("/app/img/hplc.jpg") ?>
 
-<div class="container mt-5">
-    <h2 class="underlinedTitle center">
-        <span class="underlined novoblue center">Full dietary nucleotides spectra by HPLC</span>
-    </h2>
-    <p class="col-lg-10 mx-auto text-center mb-5">
-        <strong class="lead">Using ion-paired high-performance liquid chromatography with diode array
-            detection <span class="novo-blue">NOVOCIB</span> provides HPLC analytical
-            services of full spectra of nucleotides in cell extracts and in feed/ food
-            products and ingredients.</strong>
-    </p>
+<main class="container mt-5">
+    <!-- Title & Intro -->
+    <div class="text-center mb-5">
+        <h1 class="underlinedTitle">
+            <span class="underlined novoblue">Full Dietary Nucleotides Spectra by HPLC</span>
+        </h1>
+        <p class="col-lg-10 mx-auto lead">
+            <span class="novo-blue">NOVOCIB</span> provides advanced analytical services using ion-paired
+            high-performance liquid chromatography (HPLC-UV) for complete characterization of dietary nucleotides,
+            nucleosides, bases, and nucleic acids in food, feed, and biological samples.
+        </p>
+    </div>
 
-    <article class="row">
-        <div class="col-lg-6 d-flex align-items-center">
-            <img class="h-50 w-100 h-auto" style="border: 1px solid silver" src="/app/img/nucleotides-3.jpg" alt="nucleosides structure" />
-        </div>
-        <div class="col-lg-6 list-1 d-flex align-items-center">
-            <div>
-                <h4 class="mt-4 novo-blue">
-                    Nucleotides are present in cells in different forms:
-                </h4>
-                <ul>
-                    <li>
-                        Apolar free heterocyclic bases adenine, guanine, cytosine, and
-                        uracil (RNA) or thymine (DNA);
-                    </li>
-                    <li>
-                        Apolar free ribo- and deoxyribonucleosides <br />
-                        purines: adenosine/deoxyadenosine, guanosine/deoxyguanosine,
-                        inosine;
-                        <br />
-                        pyrimidines: cytidine/deoxycystidine, uridine, thymidine;
-                    </li>
-                    <li>
-                        Negatively charged free ribo- and deoxyribonucleotides mono-, di-
-                        and triphosphates (AMP/dAMP, GMP/dGMP, IMP, CMP/dCMP, UMP, dTMP,
-                        ADP/dADP, GDP/dGDP, CDP/dCDP, UDP, ATP/dATP, GTP/dGTP, CTP/dCTP,
-                        UTP)
-                    </li>
-                    <li>
-                        Polymeric negatively charged nucleic acids RNA and DNA composed of
-                        ribo- and deoxynucleotides monophosphates, respectively.
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-6 mt-5 d-flex align-items-center">
-            <div>
-                <h4 class="novo-blue">
-                    There are several analytical methods for separating and analyzing
-                    nucleotides:
-                </h4>
-                <ol>
-                    <li>
-                        Anion Exchange Chromatography allows the separation and
-                        quantification of nucleotides mono-, di- and tr-phosphates. <br />
-                        😒 However, this method does not allow the analysis of corresponding
-                        bases and nucleosides that can be present along with negatively
-                        charged nucleotides.
-                    </li>
-                    <li>
-                        Acidic hydrolysis of nucleotides to corresponding bases followed by
-                        separation of heterocyclic bases. <br />
-                        😒 However, this approach does not allow to discriminate whether
-                        heterocyclic bases result from the degradation of ribo- or
-                        deoxynucleotides or even from nucleic acids degradation.
-                    </li>
-                    <li>
-                        Ion-paired chromatography is a technique that allows to separate
-                        both apolar (bases and nucleosides) and negatively charged compounds
-                        (nucleotides mono- di- and triphosphates) in one-run.<br />
-                        😀 This technique overcomes challenges faced by other ion
-                        chromatography methods; <br />
-                        😒 but requires careful selection of ion-pairing reagents and has
-                        limited column lifetime.
-                    </li>
-                    <p class="mt-3">
-                        <b>Using ion-paired chromatography with diode array detection
-                            (HPLC-UV), <span class="novo-blue">NOVOCIB</span> provides
-                            analytical service for complete dietary nucleotides spectra
-                            characterization (bases, nucleosides, nucleotides mono-, di- and
-                            triphosphates).</b>
-                    </p>
-                </ol>
-                <div class="text-center d-flex justify-content-center mt-4">
-                    <h4 class="mt-1 me-3">To know more</h4>
-                    <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-5">
-            <figure class="">
-                <img class="w-100" style="border: 1px solid silver" src="/app/img/column-evolution-time.jpg" alt="HPLC spectra" title="Column evolution time" />
+    <!-- Section: Chemical Diversity -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue">Chemical Diversity of Nucleotides</h2>
+            <p>
+                Nucleotides exist in cells in multiple chemical forms, making their analysis complex:
+            </p>
+            <ul>
+                <li>Heterocyclic bases: adenine, guanine, cytosine, uracil (RNA), thymine (DNA)</li>
+                <li>Ribo- and deoxyribonucleosides</li>
+                <li>Ribo- and deoxyribonucleotides: mono-, di-, and triphosphates (NMP, NDP, NTP; dNMP, dNDP, dNTP)</li>
+                <li>Polymeric nucleic acids: RNA and DNA composed of ribo- and deoxynucleotides</li>
+            </ul>
+            <p>
+                Because of this chemical diversity, these molecules cannot be separated in a single HPLC run without
+                specialized approaches.
+            </p>
+        </article>
+        <article class="col-lg-6">
+            <figure>
+                <img class="img-fluid" style="border: 1px solid silver"
+                    src="/app/img/purine-pyrimidine-bases-nucleosides-nucleotides.jpg"
+                    alt="Structures of purine and pyrimidine bases, nucleosides, and nucleotides" />
                 <figcaption class="text-muted text-center">
-                    <small><b>Fig. 1:</b> Representative chromatogram of a mixture of
-                        nucleotides mono-, di- and triphosphates, nucleosides and
-                        heterocyclic bases separated using ion-paired reverse-phase HPLC
-                        coupled to a UV detector set at 254nm.</small>
+                    <small><b>Fig. 1:</b> Purine and pyrimidine bases, nucleosides, and nucleotides.</small>
                 </figcaption>
             </figure>
-        </div>
-        <div class="col-lg-6 mt-5 d-flex align-items-center">
-            <div>
-                <h4 class="novo-blue text-center mb-3">
-                    Dietary Nucleic acids DNA and RNA quantification:
-                </h4>
-                <ol>
-                    <li class="mb-3">
-                        <b>UV spectroscopy</b>
-                        Nucleic acids can be quantified by measuring the absorbance at 260
-                        nm and 280 nm with 1A 260 corresponding to 50µg/ml of dsDNA, to
-                        ~40µg/ml RNA and to 33µg/ml ssDNA. <br />
-                        😒 This method can be applied only to purified DNA or RNA.
-                    </li>
-                    <li class="mb-3">
-                        <b>Acid hydrolysis/ chromatography</b>
-                        Acidic hydrolysis of nucleic acids in perchloric or formic acid
-                        leads to the formation of purine and pyrimidine bases that are
-                        analyzed by LC-MS/MS or HPLC-UV chromatography. <br />
-                        😒 Using environmental pollutant perchlorate or toxic formic acid
-                        together with high cost are major limitations of this powerful
-                        analytical method.
-                    </li>
-                    <li>
-                        <b>Enzymatic/HPLC-UV</b>
-                        Nuclease digestion of DNA and RNA into constituent nucleotides NMP
-                        and dNMP prior to HPLC-UV analysis. <br />
-                        😀 This technique overcomes environment and cost challenges of
-                        acidic hydrolysis; <br />
-                        😒 requires careful selection of conditions to achieve complete
-                        nucleic acid digestion.
-                    </li>
-                    <p class="mt-4">
-                        <b>To quantify dietary nucleic acids
-                            <span class="novo-blue">NOVOCIB</span> uses enzymatic/HPLC-UV
-                            approach where nucleic acids are converted enzymatically to 5'NMP
-                            and analyzed before and after nuclease treatment. Nucleic acid
-                            concentration is calculated as a difference in 5'NMP concentration
-                            before and after nuclease.</b>
-                    </p>
-                </ol>
-                <div class="text-center d-flex justify-content-center mt-4">
-                    <h4 class="mt-1 me-3">To know more</h4>
-                    <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us</span></a>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 mt-5">
-            <figure class="">
-                <img class="w-100" style="border: 1px solid silver" src="/app/img/nucleotide_spectra.jpg" alt="Nucleotide spectra of yeast extract" title="Nucleotide spectra" />
+        </article>
+    </section>
+
+    <!-- Section: Traditional Acid Hydrolysis -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue h3">Traditional Acid Hydrolysis Method</h2>
+            <p>
+                The conventional approach uses perchloric acid hydrolysis followed by reverse-phase HPLC:
+            </p>
+            <ol>
+                <li>Strong acid hydrolyzes nucleic acids, nucleotides, and nucleosides into free bases.</li>
+                <li>Bases are separated by reverse-phase HPLC.</li>
+            </ol>
+            <p><strong>Advantages:</strong> Simple, fast, widely used.</p>
+            <p><strong>Limitations:</strong></p>
+            <ul>
+                <li>Non-specific: cannot distinguish free NMP from nucleosides or nucleic acids.</li>
+                <li>Functional mismatch: RNA-rich samples appear identical to free NMP-rich samples.</li>
+                <li>Harsh conditions: acids degrade/modify analytes, introducing artifacts.</li>
+                <li>Environmental impact: corrosive waste requiring special disposal.</li>
+            </ul>
+        </article>
+        <article class="col-lg-6">
+            <figure>
+                <img class="img-fluid" style="border: 1px solid silver"
+                    src="/app/img/hplc-chromatogram-heterocyclic-bases.jpg"
+                    alt="Chromatogram of heterocyclic bases separated by reverse-phase HPLC"
+                    title="Chromatogram of bases" />
                 <figcaption class="text-muted text-center">
-                    <small><b>Fig. 2:</b>Nucleotide spectra of yeast extract before (blue) and
-                        (red) after nuclease treatment obtained using ion-paired
-                        reverse-phase HPLC with UV detector.</small>
+                    <small><b>Fig. 2:</b> Chromatogram of heterocyclic bases separated after acid hydrolysis.</small>
                 </figcaption>
             </figure>
-        </div>
-        <div class="col-lg-6 my-5">
-            <figure class="col-10 mx-auto">
-                <img class="w-100" src="/app/img/hplc-photo.jpg" alt="Photo HPLC Analysis and spectra" title="Photo HPLC Analysis" />
+        </article>
+    </section>
+
+    <!-- Section: NOVOCIB Enzymatic/HPLC Approach -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue h3">NOVOCIB’s Enzymatic Hydrolysis + Ion-Paired HPLC</h2>
+            <p>
+                NOVOCIB’s method couples enzymatic hydrolysis with ion-paired reverse-phase HPLC and diode array detection:
+            </p>
+            <ol>
+                <li>Ion-paired chromatography separates bases, nucleosides, and nucleotides (mono-, di-, triphosphates) in one run.</li>
+                <li>Nucleic acids (RNA/DNA) are enzymatically hydrolyzed to NMP/dNMP and quantified before and after nuclease treatment.</li>
+            </ol>
+            <p><strong>Advantages:</strong></p>
+            <ul>
+                <li>Specific and accurate: distinguishes nucleotides, nucleosides, bases, and nucleic acids.</li>
+                <li>No chemical modification of analytes.</li>
+                <li>Relevant: reflects true composition (taste-active NMP vs inert RNA).</li>
+                <li>Greener: reduced environmental impact compared to acid hydrolysis.</li>
+            </ul>
+            <p>
+                <strong>Why enzymatic-HPLC?</strong> Acid hydrolysis is fast but blind, collapsing all compounds into bases.
+                Enzymatic-HPLC is slower but precise, preserving distinctions critical for food chemistry, nutrition, and pharmacology.
+            </p>
+        </article>
+        <article class="col-lg-6">
+            <figure>
+                <img class="img-fluid" style="border: 1px solid silver"
+                    src="/app/img/rna-dna-hplc-chromatogram-nuclease.jpg"
+                    alt="Nucleotide spectra before and after nuclease treatment"
+                    title="Nucleotide spectra" />
+                <figcaption class="text-muted text-center">
+                    <small><b>Fig. 3:</b> Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment.</small>
+                </figcaption>
             </figure>
+        </article>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4 novo-blue">Method Comparison for Nucleotide Analysis</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col">Attribute</th>
+                        <th scope="col">Perchloric Acid Hydrolysis + HPLC</th>
+                        <th scope="col">Enzymatic Hydrolysis + HPLC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Specificity</th>
+                        <td>Low — collapses sources into bases</td>
+                        <td>High — distinguishes free NMP/nucleosides from RNA/DNA</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Quantitative Accuracy</th>
+                        <td>Prone to overestimation — assumes bases equal NMP</td>
+                        <td>Accurate — g/kg attribution to actual sources</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Analyte Integrity</th>
+                        <td>Harsh — potential degradation and artifacts</td>
+                        <td>Gentle — preserves native monomers</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Functional Relevance</th>
+                        <td>Poor — taste/bioactivity not reflected</td>
+                        <td>Strong — aligns with sensory and biological properties</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Operational Complexity</th>
+                        <td>Simple workflow</td>
+                        <td>Two-step but standardized</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Environmental Impact</th>
+                        <td>Hazardous strong acid; corrosive waste requiring neutralization and disposal</td>
+                        <td>Enzymes aqueous and biodegradable; lower hazard and greener waste stream</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div class="my-5 col-lg-6">
-            <h4 class="novo-blue mb-3">Our analytical system</h4>
+    </section>
+
+    <!-- Section: HPLC Photo -->
+    <section class="row my-5">
+        <article class="my-5 col-lg-6">
+            <h2 class="novo-blue mb-3">Our analytical system</h2>
             <p>
                 Agilent 1120 series HPLC liquid chromatograph fitted with binary pump,
                 vacuum degasser, well-plate autosampler, thermostatic column compartment
@@ -188,9 +261,26 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 spectra (254/280 ratio) with those of standards. The area of individual
                 peaks was measured using ChemStation software (Agilent).
             </p>
+        </article>
+        <div class="col-lg-6 mx-auto">
+            <figure>
+                <img class="img-fluid" src="/app/img/hplc-photo.jpg"
+                    alt="Laboratory photo of HPLC system used for nucleotide analysis"
+                    title="HPLC Analysis" />
+                <figcaption class="text-muted text-center">
+                    <small>Photo of HPLC system used for nucleotide analysis.</small>
+                </figcaption>
+            </figure>
         </div>
-    </article>
+    </section>
 
+    <!-- Call to Action -->
+    <div class="text-center mt-5">
+        <h3 class="mt-1 me-3 d-inline">To know more</h3>
+        <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us <i class="fa-solid fa-envelope"></i></span></a>
+    </div>
+</main>
+<div class="container my-5">
     <article class="my-5">
         <div class="d-flex justify-content-center">
             <table class="table w-100 product">
@@ -239,12 +329,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 (Ref. #S1200-03-NA or Ref. #S1200-03-RNA)
                             </p>
                         </td>
-                        <td class="price">€ 30.00 / sample</td>
+                        <td class="price text-center">On request</td>
                         <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-PURINES&amp;price=30&amp;product=Purines%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-PURINES&amp;product=Purines%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
                         </td>
                     </tr>
-
                 </tbody>
             </table>
         </div>
