@@ -24,7 +24,7 @@ ob_start(); ?>
                 "sku": "S1200-03-NA",
                 "name": "Full spectra nucleotides analysis (DNA + RNA)",
                 "url": "https://www.novocib.com/inquiry?ref=S1200-03-NA",
-                "price": "420.00",
+                "price": "330.00",
                 "priceCurrency": "EUR",
                 "availability": "https://schema.org/InStock"
             },
@@ -33,7 +33,7 @@ ob_start(); ?>
                 "sku": "S1200-03-RNA",
                 "name": "Full spectra nucleotides analysis (RNA only)",
                 "url": "https://www.novocib.com/inquiry?ref=S1200-03-RNA",
-                "price": "380.00",
+                "price": "300.00",
                 "priceCurrency": "EUR",
                 "availability": "https://schema.org/InStock"
             },
@@ -304,9 +304,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 **Nucleic acids DNA and RNA are analyzed after enzymatic digestion of RNA and DNA to NMP and dNMP with nuclease.
                             </p>
                         </td>
-                        <td class="price">€ 420.00 / sample</td>
+                        <td class="price">€ 330.00 / sample</td>
                         <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=420&amp;product=Dietary%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=330&amp;product=Dietary%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
                         </td>
                     </tr>
                     <tr>
@@ -316,9 +316,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 HPLC-UV analysis of full spectra of dietary nucleotides in food and feed ingredients—free bases, nucleosides, nucleotide monophosphates and nucleic acid RNA (without DNA), expressed as g/100g
                             </p>
                         </td>
-                        <td class="price">€ 380.00 / sample</td>
+                        <td class="price">€ 300.00 / sample</td>
                         <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=380&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=300&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
                         </td>
                     </tr>
                     <tr>
