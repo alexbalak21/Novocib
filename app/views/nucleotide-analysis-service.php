@@ -396,11 +396,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             Scientific References citing Novocib's Nucleotide Analysis Service
             <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
         </h2>
-        <div class="col-2 d-none d-md-block">
+        <div class="col-2">
             <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
         </div>
-
-        <div class="col-8">
+        <div class="col-9 d-flex align-items-center mx-1">
             <ol>
                 <li>
                     <a id="ref1" target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/7762521/" title="Go to article on PubMed">
