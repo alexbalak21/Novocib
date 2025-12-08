@@ -204,14 +204,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <thead class="table-light">
                     <tr>
                         <th scope="col">Attribute</th>
-                        <th scope="col">Perchloric Acid Hydrolysis + HPLC</th>
-                        <th scope="col">Enzymatic Hydrolysis + HPLC</th>
+                        <th scope="col">Traditional Acid Hydrolysis + HPLC</th>
+                        <th scope="col">NOVOCIB’s Enzymatic Hydrolysis + Ion-Paired HPLC</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">Specificity</th>
-                        <td>Low — collapses sources into bases</td>
+                        <td>Low — collapses all sources into bases</td>
                         <td>High — distinguishes free NMP/nucleosides from RNA/DNA</td>
                     </tr>
                     <tr>
@@ -238,6 +238,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <th scope="row">Environmental Impact</th>
                         <td>Hazardous strong acid; corrosive waste requiring neutralization and disposal</td>
                         <td>Enzymes aqueous and biodegradable; lower hazard and greener waste stream</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Application</th>
+                        <td>Purified ingredients enriched in nucleotides</td>
+                        <td>Complex mixtures or final products with low nucleotide and RNA content</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Example</th>
+                        <td>Yeast extracts</td>
+                        <td>Aquafeed supplemented with nucleotides and/or RNA</td>
                     </tr>
                 </tbody>
             </table>
