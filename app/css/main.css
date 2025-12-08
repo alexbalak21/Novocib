@@ -78,10 +78,10 @@ p:not(.lead):not(.display-1):not(.display-2):not(.display-3):not(.display-4):not
   font-size: 16px !important;
 }
 
-p a {
+/* p a {
   font-size: 18px;
   font-weight: 500;
-}
+} */
 
 li::marker {
   color: var(--novo-blue);

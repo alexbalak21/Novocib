@@ -89,12 +89,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <!-- Title & Intro -->
     <div class="text-center mb-5">
         <h1 class="underlinedTitle">
-            <span class="underlined novoblue">Full Dietary Nucleotides Spectra by HPLC</span>
+            <span class="underlined novoblue">Total Potentially Available Nucleotides (TPAN) Analysis by Coupled Enzymatic-HPLC approach</span>
         </h1>
         <p class="col-lg-10 mx-auto lead">
-            <span class="novo-blue">NOVOCIB</span> provides advanced analytical services using ion-paired
-            high-performance liquid chromatography (HPLC-UV) for complete characterization of dietary nucleotides,
-            nucleosides, bases, and nucleic acids in food, feed, and biological samples.
+            <span class="novo-blue">NOVOCIB</span> provides advanced analytical services
+            using enzymatic approach coupled to ion-paired high-performance liquid chromatography
+            (HPLC-UV) for complete characterization of Total Potentially Available Nucleotides (nucleotides, nucleosides, bases,
+            and nucleic acids) present in food, feed, and biological samples.
         </p>
     </div>
 
@@ -103,18 +104,19 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <article class="col-lg-6">
             <h2 class="novo-blue">Chemical Diversity of Nucleotides</h2>
             <p>
-                Nucleotides exist in cells in multiple chemical forms, making their analysis complex:
+                Total Potentially Available Nucleotides (TPAN) is the sum of all nucleotides that can be liberated from nucleic acids and nucleotide-containing compounds in a food or biological sample after complete enzymatic hydrolysis. It includes:
             </p>
             <ul>
-                <li>Heterocyclic bases: adenine, guanine, cytosine, uracil (RNA), thymine (DNA)</li>
-                <li>Ribo- and deoxyribonucleosides</li>
-                <li>Ribo- and deoxyribonucleotides: mono-, di-, and triphosphates (NMP, NDP, NTP; dNMP, dNDP, dNTP)</li>
-                <li>Polymeric nucleic acids: RNA and DNA composed of ribo- and deoxynucleotides</li>
+                <li>Free nucleotides already present (e.g., AMP, GMP, CMP, UMP).</li>
+                <li>Nucleotides bound in RNA and DNA, which are released upon hydrolysis of nucleic acids.</li>
+                <li>Nucleotide derivatives (such as nucleosides or nucleoside monophosphates) that can be converted into nucleotides.</li>
             </ul>
             <p>
-                Because of this chemical diversity, these molecules cannot be separated in a single HPLC run without
-                specialized approaches.
+                The definition TPAN was suggested first for milk nucleotides (Leach at el, 1995*) who has developed a new method that measured the total potentially available nucleosides (TPAN) including free nucleosides, free nucleotides, nucleotide-containing adducts (such as NAD and UDP glucose), and nucleotide polymers, primarily RNA. With this method, Leach et al. determined that milk samples from American and European women contained averages of 72 and 68 mg/L of TPAN, respectively. * According to study (Tressler et al, 1998) free nucleotides in human milk represent less than half of the TPAN with RNA representing 43% and free nucleosides - 39,9% **.
             </p>
+            <p><a class="text-secondary" href="#ref1">(1) J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor Total potentially available nucleosides of human milk by stage of lactation. Am J Clin Nutr 1995 . Jun;61(6):1224-30</a></p>
+            <p><a class="text-secondary" href="#ref2">(2) Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998). Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)</a></p>
+
         </article>
         <article class="col-lg-6">
             <figure class="border">
@@ -385,4 +387,36 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </table>
         </div>
     </article>
+
+
 </div>
+<section class="bg-light py-2">
+    <div class="references row justify-content-center">
+        <h2 class="text-center py-3 w-100 h5">
+            Scientific References citing Novocib's Nucleotide Analysis Service
+            <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
+        </h2>
+        <div class="col-2 d-none d-md-block">
+            <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
+        </div>
+
+        <div class="col-8">
+            <ol>
+                <li>
+                    <a id="ref1" target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/7762521/" title="Go to article on PubMed">
+                        <em>J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor</em><br>
+                        Total potentially available nucleosides of human milk by stage of lactation.
+                        <em> Am J Clin Nutr 1995 . Jun;61(6):1224-30</em>
+
+                    </a>
+                </li>
+                <li>
+                    <a id="ref2" target="_blank" rel="noopener" href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN" title="Go to article on ResearchGate">
+                        <em>Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998).</em><br>
+                        Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>

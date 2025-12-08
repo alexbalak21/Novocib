@@ -41,6 +41,7 @@ return [
     '/freshness-assay-kits/fishmeal-imp-assay-kit' => 'app/views/freshness-assay-kits/fishmeal-imp-assay-kit.php',
     '/freshness-assay-kits/freshness-assay-kit' => 'app/views/freshness-assay-kits/freshness-assay-kit.php',
     '/freshness-assay-kits/how-it-works' => 'app/views/freshness-assay-kits/how-it-works.php',
+    '/freshness-assay-kits/fish-freshness' => 'app/views/freshness-assay-kits/fish-freshness.php',
 
     // Convenient Assay Kits
     '/convenient-assay-kits' => 'app/views/convenient-assay-kits/index.php',
