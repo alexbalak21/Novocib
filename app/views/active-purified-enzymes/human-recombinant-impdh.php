@@ -154,17 +154,10 @@ echo Banner::gen();
             <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
                 <meta itemprop="name" content="NOVOCIB">
             </div>
-            <div class="col-lg-10 col-12">
-                <?= Products::gen("Human IMPDH Type 2") ?>
+            <div>
+                <?= Products::gen_from_ids(38, 39, 40) ?>
                 <div class="text-center" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-                    <p class="mb-2">
-                        <strong>Product Code: </strong><span itemprop="sku">E-Nov1</span>
-                    </p>
-                    <p class="mb-2">
-                        <b>Kit is provided in stable lyophilized form and
-                            <span class="text-danger">shipped without dry ice</span></b>
-                    </p>
-                    <meta itemprop="priceCurrency" content="USD">
+                    <meta itemprop="priceCurrency" content="EUR">
                     <link itemprop="availability" href="https://schema.org/InStock">
                 </div>
                 <p class="my-4 text-center">
@@ -193,8 +186,13 @@ echo Banner::gen();
             <div class="col-lg-2 col-4 my-4">
                 <img height="400" class="img-fluid" src="/app/img/IMPDH-Gel.png" alt="SDS-PAGE analysis of purified Human IMPDH Type 2 showing high purity" loading="lazy" />
             </div>
-            <div class="col-lg-8 my-4">
-                <img height="400" class="img-fluid" src="/app/img/IMPDH-IC50.png" alt="Dose-response curve showing IMPDH Type 2 inhibition by mycophenolic acid" loading="lazy" />
+            <div class="col-lg-8 my-4 bg-white border">
+                <figure>
+                    <figcaption class="text-center mb-0">
+                        <span class="h3">IMPDH II inhibition by MPA</span>
+                    </figcaption>
+                </figure>
+                <img height="400" class="img-fluid" src="/app/img/IMPDH-2-inhibition-MPA-IC50-41nM.jpg" alt="Dose-response curve showing IMPDH Type 2 inhibition by mycophenolic acid" loading="lazy" />
             </div>
         </div>
         <p class="text-end mt-4">

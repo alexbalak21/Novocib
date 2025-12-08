@@ -1,28 +1,28 @@
 <?php
 class Modal
 {
-    static function gen()
-    {
-        return <<<Modal
-        <div class="modal" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Modal body text goes here.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+  static function gen($modalId, $modalImgSrc, $alt, $modalCaption)
+  {
+
+    ob_start(); ?>
+    <!-- MODAL -->
+    <div class="modal fade" id="<?= $modalId ?>" tabindex="-1" aria-labelledby="<?= $modalId ?>Label" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+          <button type="button" class="btn-close ms-auto mt-2 me-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-body text-center">
+            <img src="<?= $modalImgSrc ?>"
+              alt="<?= $modalCaption ?>"
+              class="w-100"
+              style="max-height: 80vh;" />
+            <p class="mt-3 text-muted">
+              <?= $alt ?>
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-Modal;
-    }
+<?php return ob_get_clean();
+  }
 }
+?>

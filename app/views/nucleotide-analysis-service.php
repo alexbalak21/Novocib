@@ -117,8 +117,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </p>
         </article>
         <article class="col-lg-6">
-            <figure>
-                <img class="img-fluid" style="border: 1px solid silver"
+            <figure class="border">
+                <img class="img-fluid"
                     src="/app/img/purine-pyrimidine-bases-nucleosides-nucleotides.jpg"
                     alt="Structures of purine and pyrimidine bases, nucleosides, and nucleotides" />
                 <figcaption class="text-muted text-center">
@@ -147,17 +147,34 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <li>Harsh conditions: acids degrade/modify analytes, introducing artifacts.</li>
                 <li>Environmental impact: corrosive waste requiring special disposal.</li>
             </ul>
+            <!-- Figure & Trigger modal -->
+            <figure class="mt-4 border">
+                <img src="/app/img/nucleotide-analysis-traditional-acid-hydrolysis-method.jpg"
+                    alt="Nucleotide analysis Traditional Acid Hydrolysis Method"
+                    class="img-fluid"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#acidHydrolysisModal" />
+                <figcaption class="text-muted text-center">
+                    <small class="text-muted">Schematic of traditional acid hydrolysis method for nucleotide analysis. <i class="fa-solid fa-arrow-pointer"></i></small>
+                </figcaption>
+            </figure>
+            <?= Modal::gen("acidHydrolysisModal", "/app/img/nucleotide-analysis-traditional-acid-hydrolysis-method.jpg", "Nucleotide analysis Traditional Acid Hydrolysis Method", "Schematic of traditional acid hydrolysis method for nucleotide analysis.") ?>
         </article>
         <article class="col-lg-6">
-            <figure>
-                <img class="img-fluid" style="border: 1px solid silver"
+            <figure class="border">
+                <img class="img-fluid"
                     src="/app/img/hplc-chromatogram-heterocyclic-bases.jpg"
                     alt="Chromatogram of heterocyclic bases separated by reverse-phase HPLC"
-                    title="Chromatogram of bases" />
+                    title="Chromatogram of bases"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#heterocyclicBasesModal" />
                 <figcaption class="text-muted text-center">
                     <small><b>Fig. 2:</b> Chromatogram of heterocyclic bases separated after acid hydrolysis.</small>
                 </figcaption>
             </figure>
+            <?= Modal::gen("heterocyclicBasesModal", "/app/img/hplc-chromatogram-heterocyclic-bases.jpg", "Chromatogram of heterocyclic bases separated by reverse-phase HPLC", "Chromatogram of heterocyclic bases separated after acid hydrolysis.") ?>
         </article>
     </section>
 
@@ -185,17 +202,37 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </p>
         </article>
         <article class="col-lg-6">
-            <figure>
-                <img class="img-fluid" style="border: 1px solid silver"
-                    src="/app/img/rna-dna-hplc-chromatogram-nuclease.jpg"
+            <figure class="border">
+                <img src="/app/img/rna-dna-hplc-chromatogram-nuclease.jpg"
                     alt="Nucleotide spectra before and after nuclease treatment"
-                    title="Nucleotide spectra" />
+                    class="img-fluid"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#nucleotideBeforeAfterModal" />
                 <figcaption class="text-muted text-center">
-                    <small><b>Fig. 3:</b> Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment.</small>
+                    <small><b>Fig. 3:</b> Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment. <i class="fa-solid fa-arrow-pointer"></i></small>
                 </figcaption>
             </figure>
+            <?= Modal::gen("nucleotideBeforeAfterModal", "/app/img/rna-dna-hplc-chromatogram-nuclease.jpg", "Nucleotide spectra before and after nuclease treatment", "Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment.") ?>
         </article>
+
+        <div class="col-lg-8 mx-auto mt-3 d-flex justify-content-center">
+            <figure class="border">
+                <figcaption class="text-muted text-center">
+                    <small>Schematic of enzymatic hydrolysis method for nucleotide analysis. <i class="fa-solid fa-arrow-pointer"></i></small>
+                </figcaption>
+                <img src="/app/img/Nucleotide-Analysis-by-Enzymatic-Hydrolysis-coupled-to-Ion-Paired-HPLC.jpg"
+                    alt="Nucleotide analysis by Enzymatic Hydrolysis coupled to Ion-Paired HPLC"
+                    class="w-100"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enzymaticHydrolysisModal" />
+            </figure>
+            <?= Modal::gen("enzymaticHydrolysisModal", "/app/img/Nucleotide-Analysis-by-Enzymatic-Hydrolysis-coupled-to-Ion-Paired-HPLC.jpg", "Nucleotide analysis by Enzymatic Hydrolysis coupled to Ion-Paired HPLC", "Schematic of enzymatic hydrolysis method for nucleotide analysis.") ?>
+        </div>
     </section>
+
+
 
     <section class="container my-5">
         <h2 class="text-center mb-4 novo-blue">Method Comparison for Nucleotide Analysis</h2>
