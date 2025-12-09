@@ -232,6 +232,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </figure>
             <?= Modal::gen("enzymaticHydrolysisModal", "/app/img/Nucleotide-Analysis-by-Enzymatic-Hydrolysis-coupled-to-Ion-Paired-HPLC.jpg", "Nucleotide analysis by Enzymatic Hydrolysis coupled to Ion-Paired HPLC", "Schematic of enzymatic hydrolysis method for nucleotide analysis.") ?>
         </div>
+        <div class="col-lg-8 mx-auto mt-3 border p-3 mb-5">
+            <p class="lead text-secondary">In addition to protocol developed by Leach et al. (1995) that does not distinguish between ribonucleotides
+                (RNA-derived) and deoxyribonucleotides (DNA-derived), NOVOCIB's approach allows separate quantification of
+                ribo-NMP (RNA) and dNMP (DNA).</p>
+        </div>
     </section>
 
 
@@ -295,8 +300,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
     <!-- Section: HPLC Photo -->
     <section class="row my-5">
+        <!-- <h2 class="novo-blue text-center mb-2">Aquafeed HPLC Spectra</h2> -->
         <article class="my-5 col-lg-6">
-            <h2 class="novo-blue mb-3">Our analytical system</h2>
+            <h3 class="mb-3 novo-blue">Our analytical system</h3>
             <p>
                 Agilent 1120 series HPLC liquid chromatograph fitted with binary pump,
                 vacuum degasser, well-plate autosampler, thermostatic column compartment
@@ -348,7 +354,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <td>#S1200-03-NA</td>
                         <td class="text-center">
                             <p>
-                                HPLC-UV analysis of full spectra of dietary nucleotides in food and feed ingredients—free bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP) and nucleic acids (DNA** and RNA**), expressed as g/100g.
+                                HPLC-UV analysis of <b>TPAN</b> in food and feed ingredients—free bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP) and nucleic acids (DNA** and RNA**), expressed as g/100g.
                                 *The analysis of full spectra nucleotides is realized by ion-paired HPLC-UV allowing simultaneous separation of apolar bases, nucleosides, polar NMP and dNMP in one run
                                 **Nucleic acids DNA and RNA are analyzed after enzymatic digestion of RNA and DNA to NMP and dNMP with nuclease.
                             </p>
@@ -362,7 +368,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <td>#S1200-03-RNA</td>
                         <td class="text-center">
                             <p>
-                                HPLC-UV analysis of full spectra of dietary nucleotides in food and feed ingredients—free bases, nucleosides, nucleotide monophosphates and nucleic acid RNA (without DNA), expressed as g/100g
+                                HPLC-UV analysis of <b>TPAN</b> in food and feed ingredients—free bases, nucleosides, nucleotide monophosphates and nucleic acid RNA (without DNA), expressed as g/100g
                             </p>
                         </td>
                         <td class="price">€ 300.00 / sample</td>
@@ -392,14 +398,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 </div>
 <section class="bg-light py-2">
     <div class="references row justify-content-center">
-        <h2 class="text-center py-3 w-100 h5">
-            Scientific References citing Novocib's Nucleotide Analysis Service
-            <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
+        <h2 class="text-center py-3 w-100 h4">
+            Scientific references
+            <i class="fa-solid fa-microscope novo-blue"></i>
         </h2>
         <div class="col-2">
             <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
         </div>
-        <div class="col-9 d-flex align-items-center mx-1">
+        <div class="col-8 d-flex align-items-center mx-1">
             <ol>
                 <li>
                     <a id="ref1" target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/7762521/" title="Go to article on PubMed">
