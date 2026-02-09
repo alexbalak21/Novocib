@@ -314,6 +314,36 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
         </div>
     </section>
+
+
+    <!-- Scientific References -->
+    <section class="">
+        <div class="references row justify-content-center">
+            <h5 class="text-center py-3 w-100">
+                Scientific References citing Novocib's PRECICE® AMP Deaminase Assay Kit
+                <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
+            </h5>
+
+            <div class="col-2 d-none d-md-block">
+                <img src="/app/img/icons/book.svg" class="w-100" alt="Book icon">
+            </div>
+
+            <div class="col-8">
+                <ol class="ps-3">
+                    <li class="mb-3">
+                        <a target="_blank" rel="noopener"
+                            href="https://pubmed.ncbi.nlm.nih.gov/41496329/"
+                            title="Go to article on PubMed">
+                            <em>PubMed Reference</em><br>
+                            Article referencing Novocib's PRECICE® AMP Deaminase Assay Kit.
+                            PubMed ID: 41496329.
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
 </main>
 
 <script type="application/ld+json">
