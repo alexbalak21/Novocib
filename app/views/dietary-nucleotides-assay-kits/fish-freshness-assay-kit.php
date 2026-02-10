@@ -433,20 +433,61 @@
             </div>
     </main>
 
-    <div class="bg-light">
-        <section class="container mt-5">
-            <div class="references mt-5 pt-2 row justify-content-center">
-                <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="novo-blue fa-solid fa-arrow-up-right-from-square"></i></h6>
+    <div class="bg-light py-2 mt-5">
+        <section class="container">
+            <div class="references pt-2 row justify-content-center">
+                <h5 class="ps-5 mb-4"><i class="novo-blue fa-solid fa-microscope"></i> Scientific References & External Literature Sources</h5>
                 <div class="col-2 d-lg-block d-none">
-                    <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">
+                    <img class="w-100 pt-3" src="/app/img/icons/book.svg" alt="book icon">
                 </div>
                 <div class="col-lg-8">
                     <ol>
-                        <li><a target="_blank" href="" title="">Saito, T., Aarai, K. and Matsuyoshi, M. (1959) A New Method for Estimating the Freshness of Fish. Bulletin of the Japanese Society of Scientific, 24, 749-750.</a></li>
-                        <li><a target="_blank" href="" title="">Peter Howgate (2006) Review of the kinetics of degradation of inosine monophosphate in some species of fish during chilled storage. International Journal of Food Science & Technology (2006), 41(4):341-353</a></li>
-                        <li><a target="_blank" href="" title="">Luong JHT, Male KB, Masson C, Nguyen AL. 1992. Hypoxanthine ratio determination in fish extract using capillary electrophoresis and immobilized enzymes. Journal of Food Science 57(1):77-81</a></li>
-                        <li><a target="_blank" href="" title="">Watanabe E, Toyama K, Karube I, Matsuoka H, Suzuki S. 1984. Enzyme sensor for hypoxanthine and inosine determination in edible fish. Applied Microbiology and Biotechnology 19(1):18-22</a></li>
-                        <li><a target="_blank" href="" title="">Hong H, Regenstein IM, Luo Y. 2017. The importance of ATP-related compounds for the freshness and flavour of post-mortem fish and shellfish muscle: a review. Critical Reviews in Food Science Nutrition 57(9):1787-1798.</a></li>
+                        <li class="mb-2">
+                            <a href="https://pubmed.ncbi.nlm.nih.gov/26114933/"
+                                target="_blank"
+                                title="pubmed external link"
+                                class="text-decoration-none">
+                                <div class="fw-semibold">The Importance of ATP-Related Compounds for the Freshness and Flavour of Post-Mortem Fish and Shellfish Muscle: A Review. (2017)</div>
+                                <div class="fst-italic text-muted">Hui Hong, Joe M Regenstein, Yongkang Luo</div>
+                                <div class="small text-body-secondary"><i>Critical Reviews in Food Science and Nutrition, 57(9), 1787-1798.</i></div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://academic.oup.com/ijfst/article/41/4/341/7863908"
+                                target="_blank"
+                                class="text-decoration-none">
+                                <div class="fw-semibold">A Review of the Kinetics of Degradation of Inosine Monophosphate in Some Species of Fish During Chilled Storage. (2006)</div>
+                                <div class="fst-italic text-muted">Peter Howgate</div>
+                                <div class="small text-body-secondary"><i>International Journal of Food Science & Technology, 41(4), 341–353.</i></div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://ift.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2621.1992.tb05429.x"
+                                target="_blank"
+                                class="text-decoration-none">
+                                <div class="fw-semibold">Hypoxanthine Ratio Determination in Fish Extract Using Capillary Electrophoresis and Immobilized Enzymes. (1992)</div>
+                                <div class="fst-italic text-muted">Luong J.H.T., Male K.B., Masson C., Nguyen A.L.</div>
+                                <div class="small text-body-secondary"><i>Journal of Food Science, 57(1), 77–81.</i></div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://link.springer.com/article/10.1007/BF00252811"
+                                target="_blank"
+                                class="text-decoration-none">
+                                <div class="fw-semibold">Enzyme Sensor for Hypoxanthine and Inosine Determination in Edible Fish. (1984)</div>
+                                <div class="fst-italic text-muted">Watanabe E., Toyama K., Karube I., Matsuoka H., Suzuki S.</div>
+                                <div class="small text-body-secondary"><i>Applied Microbiology and Biotechnology, 19(1), 18–22.</i></div>
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="https://scirp.org/reference/referencespapers?referenceid=1208657"
+                                target="_blank"
+                                class="text-decoration-none">
+                                <div class="fw-semibold">A New Method for Estimating the Freshness of Fish. (1959)</div>
+                                <div class="fst-italic text-muted">Saito, T., Aarai, K. & Matsuyoshi, M.</div>
+                                <div class="small text-body-secondary"><i>Bulletin of the Japanese Society of Scientific, 24, 749–750.</i></div>
+                            </a>
+                        </li>
                     </ol>
                 </div>
             </div>
