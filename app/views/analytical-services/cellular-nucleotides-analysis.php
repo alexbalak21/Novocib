@@ -145,9 +145,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </div>
             </div>
         </div>
-
-
-
         <section class="mt-5 container">
             <h2 class="underlinedTitle center mb-4" style="margin-bottom: 0">
                 <span class="underlined novoblue center">Cellular Nucleotides Profiling - Analytical Service</span>
@@ -426,25 +423,30 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </tbody>
                 </table>
             </div>
-
             <p class="my-5"><strong>Nucleotide profiling:</strong> For every nucleotide and nucleoside metabolite, drug-treated / non-treated cells concentration ratios are calculated and graphically reported. The base line indicates the control level.</p>
-            <div class="row justify-content-center my-4">
-                <img class="col-lg-2 col-4 h-100" src="/app/img/pubmed-logo.png" alt="PubMed Logo">
-                <div class="col-lg-8 col-11">
-                    <strong>
-                        References (Link to PubMed) <br>
-                    </strong>
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/7901217/">Eicar (5-ethynyl-1-beta-D-ribofuranosylimidazole-4-carboxamide). A novel potent inhibitor of inosinate dehydrogenase activity and guanylate biosynthesis</a>
-                </div>
-                <div class="text-center mt-5">
-                    <a href="/contact" class="btn btn-primary btn-lg me-3">
-                        <i class="fas fa-envelope me-2"></i>Request a Quote
-                    </a>
-                    <a href="/app/documents/NovoCIB-Customized-Nucleotide-Analysis.pdf" class="btn btn-outline-primary btn-lg">
-                        <i class="far fa-file-pdf me-2"></i>Download Full Brochure
-                    </a>
-                </div>
-
+            <div class="text-center mt-5 gap-3">
+                <a href="/contact" class="btn btn-primary btn-lg me-3 mb-2 mb-lg-0">
+                    <i class="fas fa-envelope me-2"></i>Request a Quote
+                </a>
+                <a href="/app/documents/NovoCIB-Customized-Nucleotide-Analysis.pdf" class="btn btn-outline-primary btn-lg">
+                    <i class="far fa-file-pdf me-2"></i>Download Full Brochure
+                </a>
             </div>
         </section>
 </main>
+<div class="bg-light pt-2 mt-5">
+    <section class="mx-3 pb-3">
+        <div class="references pt-2 row justify-content-center">
+            <h6 class="ps-5"><i>References (with external links to PubMed) </i><i class="novo-blue fa-solid fa-arrow-up-right-from-square"></i></h6>
+            <div class="col-2 d-lg-block d-none">
+                <img class="w-100 pt-3" src="/app/img/pubmed.png" alt="pubmed logo">
+            </div>
+            <div class="col-lg-8">
+                <ol>
+                    <li><a target="_blank" href="https://www.nature.com/articles/cdd201412" title="Stem cell characteristics in glioblastoma are maintained by the ecto-nucleotidase E-NPP1.">Stem cell characteristics in glioblastoma are maintained by the ecto-nucleotidase <br><i> E-NPP1. Cell Death Differ 21, 929-940 (2014).</i><br><em>Bageritz, J., Puccio, L., Piro, R. et al.</em></a></li>
+                    <li><a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/41496329/" title="AMP deaminase-2- and adenosine deaminase-mediated disposal of β-cell intracellular adenosine protects against multiple low-dose streptozotocin-induced type 1 diabetes">AMP deaminase-2- and adenosine deaminase-mediated disposal of β-cell intracellular adenosine protects against multiple low-dose streptozotocin-induced type 1 diabetes.<br> <em>Singh K, Zhao T, Ngamjariyawat A, Adjieva K, Shekha M, Andersson R, Aslani AO, Blixt M, Luo Z, Sandler S, Welsh N. <br> <i>Biomed Pharmacother. 2026 Jan;194:118914. PMID: 41496329</i></em></a></li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</div>

@@ -266,7 +266,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
             <div class="card border-0 shadow-sm">
                 <div class="card-body">
-                    <h3 class="h4 text-center mb-4">Scientific Research & Publications</h3>
+                    <h3 class="h4 text-center mb-4 novo-blue"><i class="fa-solid fa-book"></i> Scientific Research & Publications</h3>
                     <p class="text-center mb-4">The PRECICE® AMP Deaminase Assay Kit has been utilized in numerous peer-reviewed studies, demonstrating its reliability and effectiveness in AMP deaminase research:</p>
 
                     <div class="list-group list-group-flush">
@@ -278,6 +278,16 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <p class="mb-1">Nature Communications 16(1) - Macak, D., Lee, S.Y., Nyman, T., et al.</p>
                             <small class="text-muted">DOI: 10.1038/s41467-025-61605-4</small>
                         </a>
+
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/41496329/" target="_blank" class="list-group-item list-group-item-action border-0 py-3">
+                            <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">AMP deaminase-2- and adenosine deaminase-mediated disposal of β-cell intracellular adenosine protects against multiple low-dose streptozotocin-induced type 1 diabetes</h5>
+                                <small class="text-muted">2024</small>
+                            </div>
+                            <p class="mb-1">Kailash Singh, Tongjian Zhao, Anongnad Ngamjariyawat, Kina Adjieva, Mudhir Shekha, Ronja Andersson, Averina Octaxena Aslani, Martin Blixt, <br> Zhengkang Luo, Stellan Sandler, Nils Welsh</p>
+                            <small class="text-muted">PMID: 41496329 DOI: 10.1016/j.biopha.2025.118914</small>
+                        </a>
+
                         <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jmedchem.0c00726" target="_blank" class="list-group-item list-group-item-action border-0 py-3">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Discovery of N-Arylsulfonyl-Indole-2-Carboxamide Derivatives as Fructose-1,6-Bisphosphatase Inhibitors</h5>
@@ -288,6 +298,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -314,36 +325,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
         </div>
     </section>
-
-
-    <!-- Scientific References -->
-    <section class="">
-        <div class="references row justify-content-center">
-            <h5 class="text-center py-3 w-100">
-                Scientific References citing Novocib's PRECICE® AMP Deaminase Assay Kit
-                <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i>
-            </h5>
-
-            <div class="col-2 d-none d-md-block">
-                <img src="/app/img/icons/book.svg" class="w-100" alt="Book icon">
-            </div>
-
-            <div class="col-8">
-                <ol class="ps-3">
-                    <li class="mb-3">
-                        <a target="_blank" rel="noopener"
-                            href="https://pubmed.ncbi.nlm.nih.gov/41496329/"
-                            title="Go to article on PubMed">
-                            <em>PubMed Reference</em><br>
-                            Article referencing Novocib's PRECICE® AMP Deaminase Assay Kit.
-                            PubMed ID: 41496329.
-                        </a>
-                    </li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
 </main>
 
 <script type="application/ld+json">
