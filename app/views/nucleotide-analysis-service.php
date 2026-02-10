@@ -337,7 +337,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 </main>
 <div class="container my-5">
     <article class="my-5">
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mb-0">
             <table class="table w-100 product">
                 <thead>
                     <tr>
@@ -359,9 +359,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 **Nucleic acids DNA and RNA are analyzed after enzymatic digestion of RNA and DNA to NMP and dNMP with nuclease.
                             </p>
                         </td>
-                        <td class="price">€ 330.00 / sample</td>
+                        <td class="price">€ 350.00 / sample</td>
                         <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=330&amp;product=Dietary%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=350&amp;product=Dietary%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
                         </td>
                     </tr>
                     <tr>
@@ -371,54 +371,65 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 HPLC-UV analysis of <b>TPAN</b> in food and feed ingredients—free bases, nucleosides, nucleotide monophosphates and nucleic acid RNA (without DNA), expressed as g/100g
                             </p>
                         </td>
-                        <td class="price">€ 300.00 / sample</td>
+                        <td class="price">€ 315.00 / sample</td>
                         <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=300&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>#S1200-03-PURINES</td>
-                        <td class="text-center">
-                            <p>
-                                Purines content (bases adenine, guanine, xanthine and hypoxanthine, expressed as g/100g) calculated from full spectra of nucleotides
-                                (Ref. #S1200-03-NA or Ref. #S1200-03-RNA)
-                            </p>
-                        </td>
-                        <td class="price text-center">On request</td>
-                        <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-PURINES&amp;product=Purines%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=315&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        <p class="text-muted text-center"><em>Updated on February 10th, 2026.</em></p>
     </article>
 
 
 </div>
 <section class="bg-light py-2">
     <div class="references row justify-content-center">
-        <h2 class="text-center py-3 w-100 h4">
+        <h3 class="text-center py-3 w-100 h4">
             Scientific references
             <i class="fa-solid fa-microscope novo-blue"></i>
-        </h2>
+        </h3>
         <div class="col-2">
             <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
         </div>
         <div class="col-8 d-flex align-items-center mx-1">
             <ol>
-                <li>
-                    <a id="ref1" target="_blank" rel="noopener" href="https://pubmed.ncbi.nlm.nih.gov/7762521/" title="Go to article on PubMed">
-                        <em>J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor</em><br>
-                        Total potentially available nucleosides of human milk by stage of lactation.
-                        <em> Am J Clin Nutr 1995 . Jun;61(6):1224-30</em>
+                <li class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/7762521/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Total potentially available nucleosides of human milk by stage of lactation — PubMed external link"
+                        class="text-decoration-none">
 
+                        <div class="fw-semibold">
+                            Total potentially available nucleosides of human milk by stage of lactation. (1995)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            J. L. Leach, J. H. Baxter, B. E. Molitor, M. B. Ramstack, M. L. Masor
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>American Journal of Clinical Nutrition, 61(6), 1224–1230.</i>
+                        </div>
                     </a>
                 </li>
-                <li>
-                    <a id="ref2" target="_blank" rel="noopener" href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN" title="Go to article on ResearchGate">
-                        <em>Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998).</em><br>
-                        Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)
+                <li class="mb-3">
+                    <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
+                        target="_blank"
+                        rel="noopener"
+                        title="Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women — ResearchGate external link"
+                        class="text-decoration-none">
+                        <div class="fw-semibold">
+                            Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. (1998)
+                        </div>
+                        <div class="fst-italic text-muted">
+                            Tressler R., Ramstack M., White N., Molitor B., Masor M.
+                        </div>
+                        <div class="small text-body-secondary">
+                            <i>Journal of Pediatric Gastroenterology and Nutrition, 26(5).</i>
+                        </div>
                     </a>
                 </li>
             </ol>
