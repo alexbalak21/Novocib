@@ -61,61 +61,14 @@ $page_content = <<<CONTENT
         </div>
         <div class="d-flex justify-content-center mt-4">
             <div class="col-lg-10 col-12">
-                <table class="table product mb-2">
-                    <thead>
-                        <tr>
-                            <th>#REF</th>
-                            <th class="text-center">Kit Version</th>
-                            <th class="text-center">SIZE</th>
-                            <th class="text-center">PRICE</th>
-                            <th class="pe-5"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>#K0700-001-15</td>
-                            <td class="text-center"><strong>PRECICE® K(IMP)</strong></td>
-                            <td class="text-center"><strong>15 Kits</strong></td>
-                            <td class="price text-center">€ 250.00</td>
-                            <td class="text-end pe-3">
-                                <a
-                                    class="btn btn-primary"
-                                    href="/inquiry?ref=K0709-01-2&product=PRCE® Freshness Assay Kit - K(IMP) - K0700-001-15">
-                                    Inquiry
-<i class="fa-solid fa-comment"></i>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>#K0700-001-31</td>
-                            <td class="text-center"><strong>PRECICE® K(IMP)</strong></td>
-                            <td class="text-center"><strong>31 Kits</strong></td>
-                            <td class="price text-center">€ 370.00</td>
-                            <td class="text-end pe-3">
-                                <a
-                                    class="btn btn-primary"
-                                    href="/inquiry?ref=K0709-01-2&product=PRCE® Freshness Assay Kit - K(IMP) - K0700-001-31">
-                                    Inquiry
-<i class="fa-solid fa-comment"></i>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>#K0700-001-31</td>
-                            <td class="text-center"><strong>PRECICE® (IMP, Ino & Hx)</strong></td>
-                            <td class="text-center"><strong>22 Kits</strong></td>
-                            <td class="price text-center">€ 370.00</td>
-                            <td class="text-end pe-3">
-                                <a
-                                    class="btn btn-primary"
-                                    href="/inquiry?ref=K0709-01-2&product=PRCE® Freshness Assay Kit - (IMP, Ino & Hx) - K0700-001-22">
-                                    Inquiry
-<i class="fa-solid fa-comment"></i>
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+              
+            <h2 class="text-danger mt-5 mb-2 text-center">Discontinued</h2>
+            <h3 class="text-center mb-4">
+            <a href="/dietary-nucleotides-assay-kits/fish-freshness-assay-kit">
+                Fish Freshness Assay Kit
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+
 
                 <p class="text-center mt-3">
                     <strong>
