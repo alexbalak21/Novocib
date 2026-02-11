@@ -19,7 +19,8 @@ $redirects = [
     // Freshness Assay Kits
     "/Freshness_Assay_Kits.html" => "/freshness-assay-kits",
     "/Freshness_Protocol.html" => "/freshness-assay-kits/how-it-works",
-    "/Fish_Freshness_K_Value_Assay.html" => "/freshness-assay-kits/freshness-assay-kit",
+    "/Fish_Freshness_K_Value_Assay.html" => "/dietary-nucleotides-assay-kits/fish-freshness-assay-kit",
+    "/freshness-assay-kits/freshness-assay-kit" => "/dietary-nucleotides-assay-kits/fish-freshness-assay-kit",
     // "/freshness-assay-kits/freshness-principle" => "/freshness-assay-kits/fishmeal-imp-assay-kit",
 
     //ACTIVE-PURIFIED-ENZYMES
