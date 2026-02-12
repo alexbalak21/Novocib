@@ -198,12 +198,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </div>
             </div>
 
-            <h3 class="mt-4">Related Products</h3>
+            <h3 class="mt-5 novo-blue">Related Products</h3>
             <p>
                 NOVOCIB also provides:
             </p>
             <ul>
-                <li><strong>Bacterial FMN‑Reductase (Ref. #E‑Nov8)</strong> — required for FMNH₂ generation</li>
+                <li><a class="fw-semibold" href="/active-purified-enzymes/fmn-reductase">Bacterial FMN‑Reductase (Ref. #E‑Nov8)</a> — required for FMNH₂ generation</li>
             </ul>
 
         </div>
