@@ -278,31 +278,35 @@ function logSearch($search)
 
 function search_db($search_term = "")
 {
-  if ($search_term === "") return [];
+    if ($search_term === "") return [];
 
-  $search_term = trim($search_term);
-  $search_term = strtolower($search_term);
+    $search_term = trim($search_term);
+    $search_term = strtolower($search_term);
 
-  $sql = "
-    SELECT * FROM articles
-    WHERE title LIKE :like_term
-       OR content LIKE :like_term
-       OR EXISTS (
-         SELECT 1
-         FROM JSON_TABLE(keywords, '$[*]' COLUMNS (kw VARCHAR(255) PATH '$')) AS jt
-         WHERE jt.kw LIKE :like_term
-       );
-  ";
+    $sql = "
+        SELECT *
+        FROM articles
+        WHERE LOWER(CONVERT(title USING utf8mb4)) LIKE :like_term
+           OR LOWER(CONVERT(content USING utf8mb4)) LIKE :like_term
+           OR JSON_SEARCH(
+                CONVERT(keywords USING utf8mb4),
+                'one',
+                :raw_term
+              ) IS NOT NULL
+    ";
 
-  $pdo = connect_db();
-  $stmt = $pdo->prepare($sql);
-  $stmt->execute([
-    ':like_term' => "%$search_term%"
-  ]);
+    $pdo = connect_db();
+    $stmt = $pdo->prepare($sql);
 
-  logSearch($search_term);
-  return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $stmt->execute([
+        ':like_term' => "%$search_term%",
+        ':raw_term'  => $search_term
+    ]);
+
+    logSearch($search_term);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
+
 
 
 

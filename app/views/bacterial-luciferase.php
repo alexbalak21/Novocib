@@ -18,7 +18,7 @@ ob_start(); ?>
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 
-<?= Banner::gen() ?>
+<?= Banner::gen("/app/img/bacterial-luciferase.webp") ?>
 <main class="">
 
     <!-- TITLE + SHORT DESCRIPTION -->
@@ -125,10 +125,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </section>
 
     <!-- SCIENTIFIC DESCRIPTION -->
-    <section class="bg-light py-4">
+    <section class="py-4">
         <div class="container">
 
-            <h3 class="mt-4">Description</h3>
+            <h3 class="mt-4 novo-blue">Description</h3>
             <p>
                 NOVOCIB’s bacterial luciferase is purified from a naturally luminescent
                 <em>Photobacterium phosphoreum</em> strain isolated from squid. The PDF states:
@@ -136,7 +136,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 subunits show high identity to native proteins (94% and 92%).
             </p>
 
-            <h3 class="mt-4">Mechanism of Bioluminescence</h3>
+            <h3 class="mt-5 novo-blue">Mechanism of Bioluminescence</h3>
             <p>
                 In marine photobacteria, light production results from two sequential enzymatic reactions:
             </p>
@@ -154,7 +154,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 proportional to NAD(P)H concentration,” enabling highly sensitive quantification.
             </p>
 
-            <h3 class="mt-4">Applications</h3>
+            <h3 class="mt-5 novo-blue">Applications</h3>
             <p>
                 Coupling luciferase with FMN‑NAD(P)H oxidoreductase provides an ultrasensitive system for:
             </p>
@@ -168,7 +168,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <li>Analytical biochemistry and metabolic studies</li>
             </ul>
 
-            <h3 class="mt-4">Activity & Performance</h3>
+            <h3 class="mt-5 novo-blue">Activity & Performance</h3>
             <p>
                 According to the product sheet, the enzyme exhibits:
             </p>
@@ -209,7 +209,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </section>
     <!-- REFERENCES -->
-    <div class="py-2 mt-5">
+    <div class="py-2 mt-5 bg-light">
         <section class="container">
             <div class="references pt-2 row justify-content-center">
                 <h5 class="ps-5 mb-4">
