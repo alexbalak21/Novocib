@@ -17,7 +17,7 @@ $additional_head = <<<HEAD
 <script src="app/js/owlcarousel.js" defer></script>
 HEAD;
 
-require_once "app/templates/base.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base.php";
 
 
 

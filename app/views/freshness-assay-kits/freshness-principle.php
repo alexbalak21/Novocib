@@ -1,7 +1,7 @@
 <?php
 global $title;
 $title = "Freshness Assay Kit - Seafood Freshness Quality Control - K value";
-require_once "app/templates/base.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base.php";
 
 $novoblue = "#4167b1";
 
