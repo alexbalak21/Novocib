@@ -41,8 +41,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <p class="text-center text-muted mx-auto col-lg-8">
             Derived from a squid‑associated <em>P. phosphoreum</em> strain selected for its brightest
             luminescence. According to the product sheet, “the luxAB gene was amplified by PCR and cloned,
-            and the α and β subunits show 94% and 92% identity to SwissProt entries P24113 and P12744”
-            (PDF).
+            and the α and β subunits show 94% and 92% identity to SwissProt entries P24113 and P12744”.
         </p>
 
         <!-- PRODUCT TABLE -->
@@ -95,28 +94,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             </tr>
                         </tbody>
                     </table>
-
-                    <p class="text-center mt-4">
-                        <strong>Kit is provided in stable lyophilized form and
-                            <span class="text-danger">shipped without dry ice</span>.
-                        </strong>
-                    </p>
-
-                    <p class="mt-5 text-center"><strong>Bulk quantity available.</strong></p>
-
-                    <p class="mb-5 text-center">
-                        <strong>
-                            Request a quotation at
-                            <a href="mailto:contact@novocib.com">contact@novocib.com</a>
-                        </strong>
-                    </p>
-
-                    <p class="my-4 mb-5 text-end">
-                        <i class="fa-solid fa-download"></i>
-                        Download
-                        <a target="_blank" href="/app/documents/NovoCIB E-Nov10.pdf">
-                            <strong>NOVOCIB's Bacterial Luciferase</strong>
-                            <i class="fa-regular fa-file-pdf"></i>
+                    <p class="text-center mt-4 fw-semibold"><i class="fa-solid fa-box"></i> &nbsp; Kit is provided in stable lyophilized form &amp; <span class="text-danger">shipped without dry ice. <i class="fa-solid fa-triangle-exclamation"></i></span></p>
+                    <p class="my-4 text-center"><i class="fa-solid fa-boxes-stacked"></i> Bulk quantity available.</p>
+                    <p class="mb-5 text-center"><i class="fa-regular fa-paper-plane text-primary"></i> Request a quotation at <a class="fw-semibold" href="mailto:contact@novocib.com">contact@novocib.com</a></p>
+                    <p class="my-4 mb-5 text-end"> <i class="fa-solid fa-download"></i> Download <a target="_blank" class="fw-semibold" href="/app/documents/NovoCIB E-Nov10.pdf">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i> NOVOCIB's Bacterial Luciferase <i class="fa-regular fa-file-pdf"></i>
                         </a>
                     </p>
                 </div>
@@ -162,7 +144,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <li>NADH and NADPH quantification</li>
                 <li>Dehydrogenase‑coupled assays</li>
                 <li>Measurement of substrates of NADH‑dependent enzymes:
-                    glucose, lactate, malate, ethanol, sorbitol, oxaloacetate (PDF)
+                    glucose, lactate, malate, ethanol, sorbitol, oxaloacetate
                 </li>
                 <li>Bioluminescent biosensors</li>
                 <li>Analytical biochemistry and metabolic studies</li>
@@ -174,7 +156,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </p>
             <p class="text-center fw-bold">
                 “>500,000 RLU per second per µg of protein in the presence of 10 µM NADH and
-                3.5 mU/mL FMN‑reductase” (PDF).
+                3.5 mU/mL FMN‑reductase”.
             </p>
 
             <div class="row justify-content-center mt-4">
@@ -201,24 +183,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <h3 class="mt-5 novo-blue">Related Products</h3>
             <p>
                 NOVOCIB also provides:
-            </p>
-            <ul>
-                <li><a class="fw-semibold" href="/active-purified-enzymes/fmn-reductase">Bacterial FMN‑Reductase (Ref. #E‑Nov8)</a> — required for FMNH₂ generation</li>
-            </ul>
-
-        </div>
-    </section>
-    <!-- REFERENCES -->
-    <div class="py-2 mt-5 bg-light">
+</p> <ul> <li><a class="fw-semibold novo-blue" href="/active-purified-enzymes/fmn-reductase"><i class="fa-solid fa-arrow-right"></i> Bacterial FMN‑Reductase (Ref. #E‑Nov8)&nbsp; <i class="fa-solid fa-arrow-up-right-from-square"></i></a> — required for FMNH₂ generation</li> </ul> </div> </section> <!-- REFERENCES -->
+    <div class="py-3 mt-5 bg-light">
         <section class="container">
             <div class="references pt-2 row justify-content-center">
-                <h5 class="ps-5 mb-4">
-                    <i class="novo-blue fa-solid fa-microscope"></i>
+                <h4 class="ps-5 mb-4 text-center mb-4 novo-blue">
+                    <i class="fa-solid fa-microscope"></i>
                     Scientific References &amp; External Literature Sources
-                </h5>
+                </h4>
 
                 <div class="col-2 d-lg-block d-none">
-                    <img class="w-100 pt-3" src="/app/img/icons/book.svg" alt="book icon">
+                    <img class="w-100" src="/app/img/icons/book.svg" alt="book icon">
                 </div>
 
                 <div class="col-lg-8">
