@@ -89,7 +89,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                     <h3 class="h5 mb-3">PRECICE® AMP Deaminase Assay Kit</h3>
                                     <ul class="list-unstyled mb-4">
                                         <li class="mb-2"><i class="fas fa-vial me-2 text-primary"></i> <strong>#K0709-05-2</strong> - 96 tests/kit</li>
-                                        <li class="mb-2"><i class="fas fa-flask me-2 text-primary"></i> Includes active AMP deaminase control</li>
+                                        <li class="mb-2"><i class="fas fa-flask me-2 text-primary"></i> Includes <b class="text-danger">bacterial</b> active AMP deaminase <b class="text-danger">as a positive</b> control</li>
                                         <li class="mb-2"><i class="fas fa-shipping-fast me-2 text-primary"></i> Shipped at ambient temperature</li>
                                         <li class="mb-2"><i class="fas fa-calendar-alt me-2 text-primary"></i> 12 months shelf life at -20°C</li>
                                     </ul>
@@ -319,7 +319,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

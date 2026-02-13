@@ -16,7 +16,6 @@ function logError($message)
     // Create logs directory if it doesn't exist
     if (!is_dir($dir)) {
         if (!@mkdir($dir, 0755, true)) {
-            // If we can't create the log directory, log to PHP error log
             error_log("Failed to create log directory: $dir");
             return;
         }
@@ -28,15 +27,18 @@ function logError($message)
         return;
     }
 
-    // Format the error message
+    // Gather context
     $timestamp = date('Y-m-d H:i:s');
-    $logMessage = "[$timestamp] ERROR: $message" . PHP_EOL;
+    $script = __FILE__;
+    $uri = $_SERVER['REQUEST_URI'] ?? 'N/A';
+    $method = $_SERVER['REQUEST_METHOD'] ?? 'N/A';
+    $logMessage = "[$timestamp] ERROR in $script | URI: $uri | Method: $method | $message" . PHP_EOL;
 
     // Write to log file
     @file_put_contents($logFile, $logMessage, FILE_APPEND);
 
     // Also log to PHP error log
-    error_log($message);
+    error_log($logMessage);
 }
 
 // Check if mail function is available

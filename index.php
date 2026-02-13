@@ -1,5 +1,14 @@
 <?php
+
 declare(strict_types=1);
+
+// Set PHP error log to /logs/php_error.log
+$logDir = __DIR__ . '/logs';
+if (!is_dir($logDir)) {
+    @mkdir($logDir, 0755, true);
+}
+ini_set('log_errors', '1');
+ini_set('error_log', $logDir . '/php_error.log');
 
 // Set to false to disable debug logging
 define('DEBUG_MODE', false);

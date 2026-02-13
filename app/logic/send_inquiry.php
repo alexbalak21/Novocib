@@ -26,9 +26,12 @@ function logError($message)
     }
 
     $timestamp = date('Y-m-d H:i:s');
-    $logMessage = "[$timestamp] ERROR: $message" . PHP_EOL;
+    $script = __FILE__;
+    $uri = $_SERVER['REQUEST_URI'] ?? 'N/A';
+    $method = $_SERVER['REQUEST_METHOD'] ?? 'N/A';
+    $logMessage = "[$timestamp] ERROR in $script | URI: $uri | Method: $method | $message" . PHP_EOL;
     @file_put_contents($logFile, $logMessage, FILE_APPEND);
-    error_log($message);
+    error_log($logMessage);
 }
 
 if (!function_exists('mail')) {
