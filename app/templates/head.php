@@ -1,6 +1,5 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/components/autoloader.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/logVisit.php";
 
 //SETTING FONT AWESOME SOURCE
 $fontAwesome_cdn = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css";

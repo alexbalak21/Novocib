@@ -13,7 +13,7 @@ $structuredData = <<<JSON
     "@id": "https://www.novocib.com/#organization",
     "name": "NOVOCIB",
     "url": "https://www.novocib.com/",
-    "logo": "https://www.novocib.com/app/img/logo_underline.png",
+    "logo": "https://www.novocib.com/app/img/logo-n.png",
     "image": "https://www.novocib.com/app/img/brand-image.jpg",
     "description": "Novocib is a biotechnology company focused on nucleotides metabolism, developing innovative products and services for nucleotide analysis in cells, food, and feed ingredients.",
     "sameAs": [

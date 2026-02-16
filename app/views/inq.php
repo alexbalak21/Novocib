@@ -55,6 +55,9 @@ ob_start(); ?>
                     <div class="invalid-feedback">Enter your name (min: 4 letters)</div>
                     <label for="name">Your Name</label>
                 </div>
+                <p>
+                    
+                </p>
             </div>
             <div class="col-md-6">
                 <div class="form-floating">

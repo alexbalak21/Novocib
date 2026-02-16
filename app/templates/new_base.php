@@ -1,6 +1,6 @@
 <?php
 require_once __DIR__ . "/../components/autoloader.php";
-require_once __DIR__ . "/../logic/logVisit.php";
+
 if (!isset($title)) {
     global $title;
     $title = "Novocib";
