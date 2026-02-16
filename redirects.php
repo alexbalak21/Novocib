@@ -26,6 +26,7 @@ $redirects = [
     //ACTIVE-PURIFIED-ENZYMES
     "/active-purified-enzymes/cnii" => "/active-purified-enzymes/cn-ii",
     "/active-purified-enzymes/cnII" => "/active-purified-enzymes/cn-ii",
+    "/Recombinant_Deoxycytidine_Kinase.html" => "/active-purified-enzymes/recombinant-deoxycytidine-kinase",
 
 
     // Convenient Assay Kits
@@ -42,6 +43,7 @@ $redirects = [
     "/HPRT_Assay_Kit.html" => "/convenient-assay-kits/hprt-assay-kit",
     "/HPRT_Assay_Kit.html" => "/convenient-assay-kits/hprt-assay-kit",
     "/dCK_Phosphorylation_In_Vitro_Assay_Service" => "/convenient-assay-kits/dck-phosphorylation-assay-kit",
+    "/old/dCK_Assay_Kit.html" => "/convenient-assay-kits/dck-phosphorylation-assay-kit",
     "/Convenient_Assay_Kits" => "/convenient-assay-kits",
 
     // Nucleotides and Analysis

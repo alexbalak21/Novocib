@@ -51,7 +51,16 @@ $messages = $MessageRepo->get_all_messages();
                                     <?= htmlspecialchars($message['message']) ?>... <i class="fa-solid fa-arrow-pointer"></i>
                                 </a>
                             </td>
-                            <td><?= $message['created_on'] ?></td>
+                            <td>
+                                <?php
+                                $dt = DateTime::createFromFormat('Y-m-d H:i:s', $message['created_on']);
+                                if ($dt) {
+                                    echo $dt->format('d/m/y') . '<br>' . $dt->format('H:i');
+                                } else {
+                                    echo htmlspecialchars($message['created_on']);
+                                }
+                                ?>
+                            </td>
                             <td>
                                 <button class="btn btn-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Delete

@@ -13,7 +13,8 @@ $structuredData = <<<JSON
     "@id": "https://www.novocib.com/#organization",
     "name": "NOVOCIB",
     "url": "https://www.novocib.com/",
-    "logo": "https://www.novocib.com/app/img/novocib-logo.png",
+    "logo": "https://www.novocib.com/app/img/logo_underline.png",
+    "image": "https://www.novocib.com/app/img/brand-image.jpg",
     "description": "Novocib is a biotechnology company focused on nucleotides metabolism, developing innovative products and services for nucleotide analysis in cells, food, and feed ingredients.",
     "sameAs": [
         "https://www.linkedin.com/company/novocib/",
@@ -54,6 +55,8 @@ ob_start(); ?>
 <meta name="main services of novocib" content="services provided by novocib are: Active purified enzymes kits, One-step analysis Kits, wide range of Analytical Services">
 <meta name="keywords" content="Freshness Assay Kits, Active Purified Enzymes, Analytical Services">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta property="og:image" content="https://www.novocib.com/app/img/logo_underline.png">
+<meta property="og:image:alt" content="NOVOCIB logo">
 <?php $metas = ob_get_clean();
 
 // LINKS CSS & JS
