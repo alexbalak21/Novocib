@@ -7,6 +7,11 @@ function dump_section($title, $data) {
     echo "</pre>";
 }
 
-dump_section("getenv()", getenv());
 dump_section("\$_ENV", $_ENV);
-dump_section("\$_SERVER", $_SERVER);
+
+
+echo '<br>';
+echo '<br>';
+// Accessing a specific environment variable
+echo "DB_URL=" . ($_ENV['DB_URL'] ?? ' DB_URL not set');
+echo '<br>';
