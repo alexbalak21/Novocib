@@ -19,7 +19,7 @@
     <main class="container w-100 mt-5">
 
         <h2 class="underlinedTitle center">
-            <span class="underlined novoblue center">PRECICE® IMP, Inosine and Hypoxanthine Assay Kit <br>Spectrophotometric, microplate format</span>
+            <span class="underlined novoblue center">PRECICE<sup>®</sup> IMP, Inosine and Hypoxanthine Assay Kit <br>Spectrophotometric, microplate format</span>
         </h2>
         <h3 class="text-center mt-0">Freshness Test</h3>
         <div class="row">
@@ -66,7 +66,7 @@
                 <div class="col-lg-6">
                     <h4 class="novo-blue">Kit principle:</h4>
                     <p class="mt-2">
-                        <b>PRECICE® IMP, Inosine, and Hypoxanthine Assay Kit</b> has been specifically designed in a 96-well plate format to facilitate the measurement of three major ATP catabolites in the same fish sample. The microplate is supplied prefilled with specific enzymes that irreversibly convert three nucleotides - IMP, inosine and hypoxanthine to one common substance - NADH2. After addition of boiled fish extract to microplate well and 30 min incubation, NADH is quantitatively measured at a wavelength of 340nm using microplate reader. These absorbance data can be used to calculate K-value, H-value or other values:
+                        <b>PRECICE<sup>®</sup> IMP, Inosine, and Hypoxanthine Assay Kit</b> has been specifically designed in a 96-well plate format to facilitate the measurement of three major ATP catabolites in the same fish sample. The microplate is supplied prefilled with specific enzymes that irreversibly convert three nucleotides - IMP, inosine and hypoxanthine to one common substance - NADH2. After addition of boiled fish extract to microplate well and 30 min incubation, NADH is quantitatively measured at a wavelength of 340nm using microplate reader. These absorbance data can be used to calculate K-value, H-value or other values:
                     </p>
                 </div>
                 <div class="col-lg-6">
@@ -121,13 +121,13 @@
                             <tr>
                                 <td class="d-none d-md-table-cell">#K0700-003-06</td>
                                 <td class="text-center">
-                                    <b>PRECICE® IMP, Inosine and Hypoxanthine Assay Kit</b><br>
+                                    <b>PRECICE<sup>®</sup> IMP, Inosine and Hypoxanthine Assay Kit</b><br>
                                     For 6 samples (microplate reader)
                                 </td>
                                 <td class="d-none d-md-table-cell text-center">220.00 €</td>
                                 <td class="text-end pe-3">
                                     <div class="d-block d-md-none text-end mb-1 fw-bold">220.00 €</div>
-                                    <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0700-003-06&amp;product=PRECICE® IMP, Inosine and Hypoxanthine Assay Kit&amp;volume=6 samples (microplate)">
+                                    <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0700-003-06&amp;product=PRECICE<sup>®</sup> IMP, Inosine and Hypoxanthine Assay Kit&amp;volume=6 samples (microplate)">
                                         Inquiry <i class="fa-solid fa-comment"></i>
                                     </a>
                                 </td>
@@ -135,13 +135,13 @@
                             <tr>
                                 <td class="d-none d-md-table-cell">#K0700-003-12</td>
                                 <td class="text-center">
-                                    <b>PRECICE® IMP, Inosine and Hypoxanthine Assay Kit</b><br>
+                                    <b>PRECICE<sup>®</sup> IMP, Inosine and Hypoxanthine Assay Kit</b><br>
                                     For 12 samples (microplate reader)
                                 </td>
                                 <td class="d-none d-md-table-cell text-center">420.00 €</td>
                                 <td class="text-end pe-3">
                                     <div class="d-block d-md-none text-end mb-1 fw-bold">420.00 €</div>
-                                    <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0700-003-12&amp;product=PRECICE® IMP, Inosine and Hypoxanthine Assay Kit&amp;volume=12 samples (microplate)">
+                                    <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0700-003-12&amp;product=PRECICE<sup>®</sup> IMP, Inosine and Hypoxanthine Assay Kit&amp;volume=12 samples (microplate)">
                                         Inquiry <i class="fa-solid fa-comment"></i>
                                     </a>
                                 </td>
@@ -178,7 +178,7 @@
         </div>
 
         <div class="mt-5 mb-5">
-            <h4 class="mt-5 pt-4 novo-blue text-center">🧬 Advantages of the PRECICE® IMP, inosine, hypoxanthine Assay Kit</h4>
+            <h4 class="mt-5 pt-4 novo-blue text-center">🧬 Advantages of the PRECICE<sup>®</sup> IMP, inosine, hypoxanthine Assay Kit</h4>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
 
                 <div class="col">
@@ -256,16 +256,16 @@
                     <div class="col-lg-4 col-md-6 mb-1"><img class="w-100" src="/app/img/Fish-freshness/LineB.png" alt="Spectrophotometric graph showing absorbance at 340nm for various concentrations of IMP (inosine monophosphate), ranging from 0 to 6 mmol/kg."></div>
                     <div class="col-lg-4 col-md-6 mb-1"><img class="w-100" src="/app/img/Fish-freshness/LineC.png" alt="Spectrophotometric graph displaying absorbance at 340nm for hypoxanthine at multiple concentrations, from 0 to 6 mmol/kg."></div>
                     <div class="col-lg-4 col-md-6 mb-1"><img class="w-100" src="/app/img/Fish-freshness/LineD.png" alt="Spectrophotometric graph illustrating absorbance at 340nm for inosine, comparing concentrations from 0 to 6 mmol/kg."></div>
-                    <p class="text-center mb-5"><b>The reactions were followed at 30°C using PRECICE® microplate (30°C, 200µL per well) and Labsystems iEMS Reader (Thermo).</b></p>
+                    <p class="text-center mb-5"><b>The reactions were followed at 30°C using PRECICE<sup>®</sup> microplate (30°C, 200µL per well) and Labsystems iEMS Reader (Thermo).</b></p>
                     <div class="col-lg-4 col-md-6 mb-1"><img src="/app/img/Fish-freshness/IMPmmolsPerKg.png" alt="IMP mmols per Kg graph" class="w-100" title="IMP mmols per kg"></div>
                     <div class="col-lg-4 col-md-6 mb-1"><img src="/app/img/Fish-freshness/Inosine.png" alt="Inosine, mmols per Kg" class="w-100" title="Inosine, mmols per kg"></div>
                     <div class="col-lg-4 col-md-6 mb-1"><img src="/app/img/Fish-freshness/Hypoxanthine.png" alt="Hypoxanthine mmols per Kg graph" class="w-100" title="Hypoxanthine mmols per kg"></div>
                 </div>
-                <p class="text-center"><b>Calibration curves for IMP, inosine and hypoxanthine obtained using PRECICE® IMP, inosine, and hypoxanthine Assay kit.</b></p>
+                <p class="text-center"><b>Calibration curves for IMP, inosine and hypoxanthine obtained using PRECICE<sup>®</sup> IMP, inosine, and hypoxanthine Assay kit.</b></p>
             </div>
             <div class="mt-5 pt-3 mb-5">
                 <h3 class="novo-blue mb-3">Recovery:</h3>
-                <h5 class="">IMP, inosine and hypoxanthine recovery obtained with PRECICE® IMP, inosine, and hypoxanthine Assay kit</h5>
+                <h5 class="">IMP, inosine and hypoxanthine recovery obtained with PRECICE<sup>®</sup> IMP, inosine, and hypoxanthine Assay kit</h5>
 
                 <div class="row row-cols-1 row-cols-md-3 g-4 mt-1">
                     <!-- IMP Table -->

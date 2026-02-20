@@ -35,7 +35,7 @@ $content_title
     <i class="fa-solid fa-download"></i>
     Download
     <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">
-        <strong>PRECICE® Nucleotides Assay Kit</strong>
+        <strong>PRECICE<sup>®</sup> Nucleotides Assay Kit</strong>
         <i class="fa-regular fa-file-pdf"></i>
     </a>
     (User manual)
@@ -45,7 +45,7 @@ $content_title
     <i class="fa-solid fa-download"></i>
     Download
     <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdff">
-        <strong>PRECICE® Nucleotides Assay Kit</strong>
+        <strong>PRECICE<sup>®</sup> Nucleotides Assay Kit</strong>
         <i class="fa-regular fa-file-pdf"></i>
     </a>
     (User manual)

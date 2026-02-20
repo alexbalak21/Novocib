@@ -15,7 +15,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="row">
         <div class="col-lg-6">
             <p>
-                <b class="novo-blue">PRECICE® ADK Assay Kit</b> provides a convenient, high throughput compatible and non-radioactive assay for in vitro measurement of ADK activity and for Drug Discovery of novel ADK inhibitors. Novel tool for Drug Discovery, this kit allows HTS search of novel ADK inhibitors.
+                <b class="novo-blue">PRECICE<sup>®</sup> ADK Assay Kit</b> provides a convenient, high throughput compatible and non-radioactive assay for in vitro measurement of ADK activity and for Drug Discovery of novel ADK inhibitors. Novel tool for Drug Discovery, this kit allows HTS search of novel ADK inhibitors.
             </p>
             <h4 class="novo-blue">Principle:</h4>
             <p>
@@ -24,7 +24,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
         <div class="col-lg-6 text-center">
             <img class="w-100" src="/app/img/ADK_Assay_Kit_Principle.png" alt="ADK Assay Kit reaction schema" />
-            <h4 class="novo-blue">PRECICE® ADK Assay Kit</h4>
+            <h4 class="novo-blue">PRECICE<sup>®</sup> ADK Assay Kit</h4>
             <h5>Ref. #K0507-01</h5>
         </div>
         <div class="d-flex justify-content-center mt-4">
@@ -99,7 +99,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <p class="mt-5 text-center">
                 For rapid analysis of in vitro phosphorylation of novel nucleoside analogs for human adenosine kinase, see our
                 <a href="/convenient-assay-kits/adk-phosphorylation-assay-kit">
-                    PRECICE® ADK Phosphorylation Assay Kit <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
             </p>
         </div>
@@ -117,7 +117,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
         <div>
             <h5>Validation</h5>
-            <p>The use of <strong>PRECICE® ADK Screening Assay Kit</strong> for the screening of ADK inhibitors and IC50 measurements was validated with compound A-134974, a known ADK inhibitor (Sigma-Aldrich, under license from Abbott Laboratories). Z'-Factor was calculated from 44 negative (no ADK inhibition) and positive (inhibition of ADK with 500nM A-134974) and measured as 0.68, which is an excellent level of performance for a screening assay</p>
+            <p>The use of <strong>PRECICE<sup>®</sup> ADK Screening Assay Kit</strong> for the screening of ADK inhibitors and IC50 measurements was validated with compound A-134974, a known ADK inhibitor (Sigma-Aldrich, under license from Abbott Laboratories). Z'-Factor was calculated from 44 negative (no ADK inhibition) and positive (inhibition of ADK with 500nM A-134974) and measured as 0.68, which is an excellent level of performance for a screening assay</p>
             <div class="d-flex justify-content-center">
                 <figure class="col-lg-7">
                     <img src="/app/img/ADK_Inhibition_Curve.png" alt="ADK Inhibition Curve Graph" class="w-100">
@@ -137,7 +137,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <div class="mx-4">
     <div class="references mt-4">
-        <h5 class="ms-1 pt-4 pb-3 mb-4 text-center">Scientific Works citing <span class="novo-blue">NOVOCIB</span> Adenosine Kinase and PRECICE® ADK Assay kits <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i></h5>
+        <h5 class="ms-1 pt-4 pb-3 mb-4 text-center">Scientific Works citing <span class="novo-blue">NOVOCIB</span> Adenosine Kinase and PRECICE<sup>®</sup> ADK Assay kits <i class="novo-blue fa-solid fa-arrow-up-right-from-square ms-2"></i></h5>
         <div class="row">
             <div class="col-2 d-none d-md-block">
                 <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">

@@ -13,14 +13,14 @@ ob_start(); ?>
     <?= $content_title ?>
     <div class="row">
         <div class="col-lg-6">
-            <p><strong>PRECICE® ITPase Assay kit</strong> provides the first <strong>non radioactive and continuous</strong> protocol for measurement of <strong>ITP pyrophosphatase activity</strong> (also known as inosine triphosphatase and inosine triphosphate pyrophosphohydrolase) in cellular lysates in a convenient 96-well plate format.</p>
+            <p><strong>PRECICE<sup>®</sup> ITPase Assay kit</strong> provides the first <strong>non radioactive and continuous</strong> protocol for measurement of <strong>ITP pyrophosphatase activity</strong> (also known as inosine triphosphatase and inosine triphosphate pyrophosphohydrolase) in cellular lysates in a convenient 96-well plate format.</p>
             <p>ITP pyrophosphatase, or ITPase (EC 3.6.1.19), is an intracellular enzyme that catalyzes the pyrophosphohydrolysis of ITP/dITP and xanthosine triphosphate to prevent unusual nucleoside triphosphates from accumulating in (deoxy) nucleoside triphosphate (d)NTP pools and being integrated into RNA and DNA.<br>
                 This enzyme is encoded by the ITPA gene in mammals. Certain ITPA variants causing ITPase deficiency have been linked to adverse reactions to the immunosuppressive thiopurine drugs azathioprine and 6-mercaptopurine, and protection against ribavirin-induced anemia.
             </p>
         </div>
         <div class="col-lg-6">
             <img class="w-100" src="/app/img/ITPase-assay-reaction.jpg" alt="">
-            <h4 class="novo-blue text-center">PRECICE® ITPase Assay Kit</h4>
+            <h4 class="novo-blue text-center">PRECICE<sup>®</sup> ITPase Assay Kit</h4>
             <h5 class="text-center">Ref. #K0709-06-2</h5>
         </div>
         <div class=" d-flex justify-content-center mt-3">
@@ -42,7 +42,7 @@ ob_start(); ?>
         </div>
         <div class="col-lg-9 text-center bg-light">
             <p class="pt-2">
-                Specific activitiy of ITP pyrophosphohydrolase in lysates of human erythrocytes measured by PRECICE® ITPase Assay kit.
+                Specific activitiy of ITP pyrophosphohydrolase in lysates of human erythrocytes measured by PRECICE<sup>®</sup> ITPase Assay kit.
             </p>
         </div>
         <div style="margin:0px" class="row mb-3 py-2 align-items-center bg-light">
@@ -88,7 +88,7 @@ ob_start(); ?>
     </div>
     <div class="bg-light">
         <div class="references my-5">
-            <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing PRECICE® HPRT Assay kit from <span class="text-secondary">NOVOCIB</span>:</h5>
+            <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing PRECICE<sup>®</sup> HPRT Assay kit from <span class="text-secondary">NOVOCIB</span>:</h5>
             <ul>
                 <li class="text-center pb-3">
                     <a target="_blank" href="https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1010332">A.A. Valli, R.G. López, M. Ribaya, F.J. Martínez, D.G. Gómez, B. García, I. Gonzalo, A.G. de Prádena, F. Pasin, I. Montanuy, E. Rodríguez-Gonzalo 2, J.A. García <br>

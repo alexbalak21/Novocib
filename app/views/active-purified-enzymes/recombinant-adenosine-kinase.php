@@ -112,11 +112,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
       </p>
       <p>
         For rapid evaluation of substrate properties of novel nucleoside analogs for human adenosine kinase see our
-        <a href="/convenient-assay-kits/adk-phosphorylation-assay-kit">PRECICE® ADK Phosphorylation Assay Kit.</a>
+        <a href="/convenient-assay-kits/adk-phosphorylation-assay-kit">PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit.</a>
       </p>
       <p>
         For rapid HTS search of novel ADK inhibitors see our
-        <a href="/convenient-assay-kits/adk-assay-kit">PRECICE® ADK Assay Kit.</a>
+        <a href="/convenient-assay-kits/adk-assay-kit">PRECICE<sup>®</sup> ADK Assay Kit.</a>
       </p>
     </div>
     <div class="col-lg-6 my-5">
@@ -329,7 +329,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="container">
       <div class="references mt-5 pb-3">
         <h5 class="ms-5 pt-4 pb-3 text-secondary">
-          Scientific Works citing <span class="novo-blue">NOVOCIB</span> Adenosine Kinase and PRECICE® ADK Assay kits:
+          Scientific Works citing <span class="novo-blue">NOVOCIB</span> Adenosine Kinase and PRECICE<sup>®</sup> ADK Assay kits:
         </h5>
         <ol>
           <li id="ref-1">

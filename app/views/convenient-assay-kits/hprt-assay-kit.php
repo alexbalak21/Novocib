@@ -4,7 +4,7 @@ $title = "HPRT Assay Kit | Hypoxanthine-Guanine Phosphoribosyltransferase Assay"
 
 ob_start(); ?>
 <meta name="keywords" content="HPRT Assay Kit, HPRT enzyme assay, hypoxanthine-guanine phosphoribosyltransferase test, HPRT1 gene testing, Lesch-Nyhan syndrome diagnosis, HPRT enzyme activity, purine metabolism assay, HPRT deficiency test, non-radioactive HPRT assay, research HPRT kit">
-<meta name="description" content="Accurate and reliable PRECICE® HPRT Assay Kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics. Non-radioactive, microplate format with human recombinant HPRT enzyme. CE-IVD compliant.">
+<meta name="description" content="Accurate and reliable PRECICE<sup>®</sup> HPRT Assay Kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics. Non-radioactive, microplate format with human recombinant HPRT enzyme. CE-IVD compliant.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.novocib.com/convenient-assay-kits/hprt-assay-kit" />
@@ -20,7 +20,7 @@ ob_start(); ?>
     {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": "PRECICE® HPRT Assay Kit",
+        "name": "PRECICE<sup>®</sup> HPRT Assay Kit",
         "description": "High-sensitivity assay kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in biological samples.",
         "brand": {
             "@type": "Brand",
@@ -48,7 +48,7 @@ echo Banner::gen();
 <main class="mt-5" itemscope itemtype="https://schema.org/Product">
     <div class="container">
         <h1 class="h2 underlinedTitle text-center mb-4" itemprop="name">
-            <span class="underlined novoblue">PRECICE® HPRT Assay Kit</span>
+            <span class="underlined novoblue">PRECICE<sup>®</sup> HPRT Assay Kit</span>
         </h1>
         <p class="lead text-center mb-4">Spectrophotometric microplate assay for precise measurement of hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics</p>
         <div class="text-center mb-4">
@@ -60,7 +60,7 @@ echo Banner::gen();
         <div class="row">
             <div class="col-lg-6">
                 <section aria-labelledby="hprt-intro">
-                    <p>Developed by our R&D team, the PRECICE® HPRT Assay Kit represents a breakthrough in HPRT enzyme analysis. As the first non-radioactive solution for measuring HPRT activity, this innovative kit was specifically designed for user-friendly application in a 96-well plate format, eliminating the need for hazardous radioactive materials while maintaining exceptional sensitivity and accuracy.
+                    <p>Developed by our R&D team, the PRECICE<sup>®</sup> HPRT Assay Kit represents a breakthrough in HPRT enzyme analysis. As the first non-radioactive solution for measuring HPRT activity, this innovative kit was specifically designed for user-friendly application in a 96-well plate format, eliminating the need for hazardous radioactive materials while maintaining exceptional sensitivity and accuracy.
                         <a style="font-size: 16px;" href="https://www.researchgate.net/publication/232784768_A_continuous_spectrophotometric_assay_for_rapid_measurement_of_hypoxanthine-guanine_phosphoribosyltransferase_HPRT_activity_in_cell_lysates" target="_blank">ResarchGate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </p>
 
@@ -77,7 +77,7 @@ echo Banner::gen();
                 <figure>
                     <a href="/app/img/HPRT-Assay-Kit-Principle.png"><img class="img-fluid p-1 border rounded" src="/app/img/HPRT-Assay-Kit-Principle.png" alt="HPRT enzyme Molecular Structure" title="HPRT enzyme Molecular Structure"></a>
                     <figcaption class="text-center">
-                        <h4 class="novo-blue">PRECICE® HPRT Assay Kit</h4>
+                        <h4 class="novo-blue">PRECICE<sup>®</sup> HPRT Assay Kit</h4>
                         <h5>#K0709-01-2</h5>
                     </figcaption>
                 </figure>
@@ -185,7 +185,7 @@ echo Banner::gen();
                 <thead class="table-primary">
                     <tr>
                         <th scope="col">Cell Type</th>
-                        <th scope="col">PRECICE® HPRT Assay Kit<br><small>(nmol/h/mg or per 10⁶ cells)</small></th>
+                        <th scope="col">PRECICE<sup>®</sup> HPRT Assay Kit<br><small>(nmol/h/mg or per 10⁶ cells)</small></th>
                         <th scope="col">Published Data<br><small>(nmol/h/mg or per 10⁶ cells)</small></th>
                         <th scope="col">Ref<sup>*</sup></th>
                     </tr>
@@ -246,7 +246,7 @@ echo Banner::gen();
         <div class="container">
             <div class="text-center py-4">
                 <img class="col-lg-6 col-12" src="/app/img/HPRT-Assay-Kit-Calibration.png" alt="HPRT Assay Kit Calibration Graph" title="HPRT Assay Kit Calibration Graph">
-                <h6 class="mt-3">Calibration curve of IMPDH-based PRECICE® HPRT Assay</h6>
+                <h6 class="mt-3">Calibration curve of IMPDH-based PRECICE<sup>®</sup> HPRT Assay</h6>
                 <p>
                     The rate of the increase in absorbance at 340nm per hour as a function of the concentration of human recombinant HPRT enzyme (NovoCIB, ref. E-Nov-9). The changes in absorbance corresponding to 3 different control hemolysates diluted in complete reaction mixture to final hemoglobin concentration 1mg/ml (n=4) are shown by filled squares, filled triangles and filled circles. The insert shows a linear correlation observed in whole range of 21ng/ml up to 1.5µg/ml of recombinant HPRT; the units are the same.</p>
             </div>
@@ -316,7 +316,7 @@ echo Banner::gen();
     <div class="bg-light">
         <div class="references mt-5 pb-3 container">
             <h2 class="h4 pt-4 pb-3 text-center border-top border-bottom">Scientific Research & Publications</h2>
-            <p class="text-center mb-4">The PRECICE® HPRT Assay Kit has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
+            <p class="text-center mb-4">The PRECICE<sup>®</sup> HPRT Assay Kit has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
             <ol>
                 <li>
                     <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1873506123001307">CRISPR/Cas9-mediated generation of human embryonic stem cell sub-lines with HPRT1 gene knockout to model Lesch Nyhan disease</a>

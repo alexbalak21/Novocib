@@ -20,19 +20,19 @@ echo Banner::gen();
                 Human deoxycytidine kinase enzyme has a broad substrate specificity and provides the phosphorylation of purine/pyrimidine deoxynucleosides and pyrimidine ribonucleosides. Deoxycytidine kinase is critical for phosphorylation of cytidine analogs and provides first steps of activation of highly effective anti-cancer prodrugs, such as aracytidine, gemcitabine and cladribine.
             </p>
             <p>
-                <strong>PRECICE® dCK Phosphorylation Assay Kit</strong> is a first tool for rapid evaluation of substrates properties of novel nucleoside analogues for human deoxycytidine kinase.
+                <strong>PRECICE<sup>®</sup> dCK Phosphorylation Assay Kit</strong> is a first tool for rapid evaluation of substrates properties of novel nucleoside analogues for human deoxycytidine kinase.
             </p>
             <p>
             <h4 class="novo-blue">Principle</h4>
-            <strong>PRECICE® dCK Phosphorylation Assay Kit</strong> is based on competitive inhibition of deoxyinosine (dIR) phosphorylation by dCK enzyme. In the absence of nucleoside competitor, deoxycytidine kinase phosphorylates deoxyinosine resulting in the formation of dIMP. dIMP is further oxidized by IMPDH to dXMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of deoxyinosine, poor dCK substrate, is inhibited detected as a decrease in NADH2 formation.
+            <strong>PRECICE<sup>®</sup> dCK Phosphorylation Assay Kit</strong> is based on competitive inhibition of deoxyinosine (dIR) phosphorylation by dCK enzyme. In the absence of nucleoside competitor, deoxycytidine kinase phosphorylates deoxyinosine resulting in the formation of dIMP. dIMP is further oxidized by IMPDH to dXMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of deoxyinosine, poor dCK substrate, is inhibited detected as a decrease in NADH2 formation.
             </p>
             <p>
-                <strong>PRECICE® dCK Phosphorylation Assay Kit</strong> is based on competitive inhibition of deoxyinosine (dIR) phosphorylation by dCK enzyme. In the absence of nucleoside competitor, deoxycytidine kinase phosphorylates deoxyinosine resulting in the formation of dIMP. dIMP is further oxidized by IMPDH to dXMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of deoxyinosine, poor dCK substrate, is inhibited detected as a decrease in NADH2 formation.
+                <strong>PRECICE<sup>®</sup> dCK Phosphorylation Assay Kit</strong> is based on competitive inhibition of deoxyinosine (dIR) phosphorylation by dCK enzyme. In the absence of nucleoside competitor, deoxycytidine kinase phosphorylates deoxyinosine resulting in the formation of dIMP. dIMP is further oxidized by IMPDH to dXMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of deoxyinosine, poor dCK substrate, is inhibited detected as a decrease in NADH2 formation.
             </p>
         </div>
         <div class="col-lg-6 text-center">
             <img class="w-100" src="/app/img/dCK-phosphorylation-kit.png" alt="dCK phosphorylation kit reaction schema" />
-            <h4 class="novo-blue">PRECICE® dCK Phosphorylation Assay Kit</h4>
+            <h4 class="novo-blue">PRECICE<sup>®</sup> dCK Phosphorylation Assay Kit</h4>
             <h5>Ref. #K0307-01</h5>
         </div>
         <div class="d-flex justify-content-center mt-4">

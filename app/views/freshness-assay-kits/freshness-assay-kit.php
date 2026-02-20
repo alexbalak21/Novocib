@@ -37,7 +37,7 @@ $page_content = <<<CONTENT
                 difficult.
             </p>
             <p>
-                PRECICE® Freshness Assay Kit is a first microplate assay for routine physico-chemical assessment of
+                PRECICE<sup>®</sup> Freshness Assay Kit is a first microplate assay for routine physico-chemical assessment of
                 quality of seafood freshness. The enzymes provided with kit allow specific conversion of three major ATP
                 catabolites - IMP, inosine (Ino) and hypoxanthine (Hx) to NADH2. The quantification of nucleotides is
                 done by measuring sample absorbance at 340nm. Used enzymatic reactions are: highly specific and
@@ -50,7 +50,7 @@ $page_content = <<<CONTENT
                 class="col-lg-8 col-12"
                 src="/app/img/Freshness_Assay_Kit_Principle.png"
                 alt="Fish Freshness Assay Kit photo" />
-            <h4 class="novo-blue mt-3">PRECICE® Freshness Assay Kits</h4>
+            <h4 class="novo-blue mt-3">PRECICE<sup>®</sup> Freshness Assay Kits</h4>
             <h5>Ref. #K0700-01-03</h5>
         </div>
         <div class="col-lg-6 col-10 my-5 text-center">
@@ -88,7 +88,7 @@ $page_content = <<<CONTENT
                     <i class="fa-solid fa-download"></i>
                     Download
                     <a target="_blank" href="/app/documents/PRECICE Ultra-Freshness Assay Manual K0700-01 131124E.pdf">
-                        <strong>PRECICE® K (IMP) Assay Kit</strong>
+                        <strong>PRECICE<sup>®</sup> K (IMP) Assay Kit</strong>
                         <i class="fa-regular fa-file-pdf"></i>
                     </a>
                     (User manual)
@@ -98,7 +98,7 @@ $page_content = <<<CONTENT
                     <i class="fa-solid fa-download"></i>
                     Download
                     <a target="_blank" href="/app/documents/PRECICE Freshness Assay Manual K0700-003 140709.pdf">
-                        <strong>PRECICE® Freshness (IMP, Ino, Hx) Assay Kit</strong>
+                        <strong>PRECICE<sup>®</sup> Freshness (IMP, Ino, Hx) Assay Kit</strong>
                         <i class="fa-regular fa-file-pdf"></i>
                     </a>
                     (User manual)

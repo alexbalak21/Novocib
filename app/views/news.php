@@ -65,7 +65,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <span class="d-block text-center">
                     We’re excited to introduce our latest innovation: new version of the:
                 </span>
-                <a class="text-center mb-1 d-block my-2" href="https://www.novocib.com/dietary-nucleotides-assay-kits/fish-freshness-assay-kit">PRECICE® Fish Freshness Assay Kit</a>
+                <a class="text-center mb-1 d-block my-2" href="https://www.novocib.com/dietary-nucleotides-assay-kits/fish-freshness-assay-kit">PRECICE<sup>®</sup> Fish Freshness Assay Kit</a>
                 <span>This kit has been specifically designed in a 96-well plate format to facilitate the measurement of three major ATP catabolites (IMP, Inosine, and Hypoxanthine) in the same fish sample. In contrast to previous version, requiring two series of pipetting, our latest version includes microplate already prefilled with the enzymes. Just add the fish extract an mesure.</span>
             </p>
         </div>

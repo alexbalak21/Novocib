@@ -154,7 +154,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="col-lg-4 d-flex justify-content-center">
             <div class="box">
                 <a href="/convenient-assay-kits"><img src="/app/img/HPRT-Assay-kit.jpg" freshness="" assay="" kits="" page="Freshness Assay Kits page" title="Go to Freshness Assay Kits page"></a>
-                <div class="text-center"><a href="/convenient-assay-kits">PRECICE® One-step Kits</a></div>
+                <div class="text-center"><a href="/convenient-assay-kits">PRECICE<sup>®</sup> One-step Kits</a></div>
                 <div class="card-content">
                     <ul>
                         <li>Include precise amounts of enzymes, buffers, cofactors and substrates at optimal concentrations;</li>

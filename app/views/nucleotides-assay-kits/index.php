@@ -28,7 +28,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base_temp.php";
     <h3><span class="novo-blue">NOVOCIB</span> provides:</h3>
     <ol>
         <li>analytical service for the determination of full spectra of nucleotides in food and feed using HPLC-UV.;</li>
-        <li>PRECICE® enzymatic assay kits for nucleotides determination in fishmeal, yeast extracts and related products:</li>
+        <li>PRECICE<sup>®</sup> enzymatic assay kits for nucleotides determination in fishmeal, yeast extracts and related products:</li>
     </ol>
     
         <h4 class="text-center mt-3">Available Assay Kits</h4>
@@ -36,7 +36,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base_temp.php";
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h3 class="h5 card-title">PRECICE® Fishmeal IMP Assay kit</h3>
+                        <h3 class="h5 card-title">PRECICE<sup>®</sup> Fishmeal IMP Assay kit</h3>
                         <p class="card-text">For the quantitative determination of Inosine Monophosphate (IMP) in various samples.</p>
                         <ul class="list-unstyled">
                             <li><strong>Sensitivity:</strong> 0.1 µM</li>
@@ -49,7 +49,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base_temp.php";
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
                     <div class="card-body">
-                        <h3 class="h5 card-title">PRECICE® GMP-IMP Assay kit</h3>
+                        <h3 class="h5 card-title">PRECICE<sup>®</sup> GMP-IMP Assay kit</h3>
                         <p class="card-text">For the quantitative determination of Guanosine Monophosphate (GMP).</p>
                         <ul class="list-unstyled">
                             <li><strong>Sensitivity:</strong> 0.15 µM</li>
@@ -74,15 +74,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base_temp.php";
             </div>
         </div>
         <div class="container mt-4">
-  <h2 class="mb-3">PRECICE® Nucleotides Kits</h2>
-  <p>PRECICE® Nucleotides kits have been developed in a user-friendly 96-well format.</p>
+  <h2 class="mb-3">PRECICE<sup>®</sup> Nucleotides Kits</h2>
+  <p>PRECICE<sup>®</sup> Nucleotides kits have been developed in a user-friendly 96-well format.</p>
   <p>Microplates provided with the kit are prefilled:</p>
   <ul>
     <li>With the enzymes that simplify the assay procedure</li>
     <li>With calibration standards</li>
   </ul>
 
-  <h3 class="mt-4">Advantages of Using PRECICE® Nucleotides Kits</h3>
+  <h3 class="mt-4">Advantages of Using PRECICE<sup>®</sup> Nucleotides Kits</h3>
   <ul>
     <li>Enzymes are stereospecific towards 5'NMP</li>
     <li>Enzymatic approach is faster than analytical approach</li>

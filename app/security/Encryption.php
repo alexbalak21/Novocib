@@ -1,5 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/config/data";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/config/data.php";
+
 
 class Encryption
 {

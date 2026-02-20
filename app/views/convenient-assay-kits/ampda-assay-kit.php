@@ -4,7 +4,7 @@ $title = "AMP Deaminase Assay Kit | Non-radioactive AMPDA Activity Test";
 
 ob_start(); ?>
 <meta name="keywords" content="AMP Deaminase Assay Kit, AMPDA activity test, non-radioactive AMPDA assay, adenosine monophosphate deaminase test, purine metabolism assay, erythrocyte AMPD assay, muscle AMPDA deficiency test, IMPDH-based AMPD assay, NOVOCIB AMPD kit, 96-well plate enzyme assay">
-<meta name="description" content="PRECICE® AMP Deaminase Assay Kit provides a sensitive, non-radioactive method for measuring AMP deaminase activity in cell lysates. Ideal for research on muscle function, exercise physiology, and purine metabolism disorders. 96-well plate format with continuous monitoring.">
+<meta name="description" content="PRECICE<sup>®</sup> AMP Deaminase Assay Kit provides a sensitive, non-radioactive method for measuring AMP deaminase activity in cell lysates. Ideal for research on muscle function, exercise physiology, and purine metabolism disorders. 96-well plate format with continuous monitoring.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.novocib.com/convenient-assay-kits/ampda-assay-kit" />
@@ -20,7 +20,7 @@ ob_start(); ?>
     {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": "PRECICE® AMP Deaminase Assay Kit",
+        "name": "PRECICE<sup>®</sup> AMP Deaminase Assay Kit",
         "description": "Non-radioactive assay kit for measuring AMP deaminase (AMPD) activity in biological samples with high sensitivity and specificity.",
         "brand": {
             "@type": "Brand",
@@ -47,7 +47,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 <main class="mt-5" itemscope itemtype="https://schema.org/Product">
     <div class="container">
         <h1 class="h2 underlinedTitle text-center mb-4" itemprop="name">
-            <span class="underlined novoblue">PRECICE® AMP Deaminase Assay Kit</span>
+            <span class="underlined novoblue">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</span>
         </h1>
         <p class="lead text-center mb-4">Non-radioactive, continuous spectrophotometric assay for precise measurement of AMP deaminase activity in biological samples</p>
 
@@ -60,7 +60,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <section aria-labelledby="ampd-intro">
-                    <p class="lead">The <strong>PRECICE® AMP Deaminase Assay Kit</strong> offers researchers a <strong>non-radioactive, one-step protocol</strong> for accurate measurement of AMP deaminase (AMPD) activity in cellular lysates. This innovative kit utilizes a <strong>continuous spectrophotometric method</strong> in a convenient 96-well plate format, eliminating the need for hazardous radioactive materials while providing real-time kinetic data.</p>
+                    <p class="lead">The <strong>PRECICE<sup>®</sup> AMP Deaminase Assay Kit</strong> offers researchers a <strong>non-radioactive, one-step protocol</strong> for accurate measurement of AMP deaminase (AMPD) activity in cellular lysates. This innovative kit utilizes a <strong>continuous spectrophotometric method</strong> in a convenient 96-well plate format, eliminating the need for hazardous radioactive materials while providing real-time kinetic data.</p>
 
                     <h3 class="h5 mt-4">Key Benefits:</h3>
                     <ul class="list-unstyled">
@@ -75,7 +75,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <figure class="text-center">
                     <img class="img-fluid border rounded shadow-sm" src="/app/img/AMPD-assay-reaction.jpg" alt="AMP Deaminase Assay Reaction Scheme" title="AMP Deaminase Assay Reaction Principle">
                     <figcaption class="mt-2">
-                        <h4 class="h5 novo-blue">PRECICE® AMP Deaminase Assay Kit</h4>
+                        <h4 class="h5 novo-blue">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</h4>
                         <p class="text-muted mb-0">#K0709-05-2 | 96 tests/kit</p>
                     </figcaption>
                 </figure>
@@ -86,7 +86,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <div class="card-body p-4">
                             <div class="row align-items-center">
                                 <div class="col-md-8">
-                                    <h3 class="h5 mb-3">PRECICE® AMP Deaminase Assay Kit</h3>
+                                    <h3 class="h5 mb-3">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</h3>
                                     <ul class="list-unstyled mb-4">
                                         <li class="mb-2"><i class="fas fa-vial me-2 text-primary"></i> <strong>#K0709-05-2</strong> - 96 tests/kit</li>
                                         <li class="mb-2"><i class="fas fa-flask me-2 text-primary"></i> Includes <b class="text-danger">bacterial</b> active AMP deaminase <b class="text-danger">as a positive</b> control</li>
@@ -208,7 +208,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <h2 class="h4 mb-4">Assay Principle</h2>
                         <div class="row align-items-center">
                             <div class="col-lg-8">
-                                <p>AMP Deaminase (AMPD) catalyzes the hydrolytic deamination of adenosine monophosphate (AMP) to inosine monophosphate (IMP) and ammonia. The PRECICE® AMP Deaminase Assay Kit measures this activity through a coupled enzymatic reaction:</p>
+                                <p>AMP Deaminase (AMPD) catalyzes the hydrolytic deamination of adenosine monophosphate (AMP) to inosine monophosphate (IMP) and ammonia. The PRECICE<sup>®</sup> AMP Deaminase Assay Kit measures this activity through a coupled enzymatic reaction:</p>
 
                                 <ol class="list-unstyled">
                                     <li class="mb-2"><strong>1. AMP Deaminase Reaction:</strong><br>AMP + H₂O → IMP + NH₄⁺</li>
@@ -267,7 +267,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <div class="card border-0 shadow-sm">
                 <div class="card-body">
                     <h3 class="h4 text-center mb-4 novo-blue"><i class="fa-solid fa-book"></i> Scientific Research & Publications</h3>
-                    <p class="text-center mb-4">The PRECICE® AMP Deaminase Assay Kit has been utilized in numerous peer-reviewed studies, demonstrating its reliability and effectiveness in AMP deaminase research:</p>
+                    <p class="text-center mb-4">The PRECICE<sup>®</sup> AMP Deaminase Assay Kit has been utilized in numerous peer-reviewed studies, demonstrating its reliability and effectiveness in AMP deaminase research:</p>
 
                     <div class="list-group list-group-flush">
                         <a href="https://www.nature.com/articles/s41467-025-61605-4" target="_blank" class="list-group-item list-group-item-action border-0 py-3">
@@ -309,7 +309,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     <div class="row align-items-center">
                         <div class="">
                             <h2 class="h3 mb-4">Need More Information?</h2>
-                            <p class="lead">Our technical support team is ready to assist you with any questions about the PRECICE® AMP Deaminase Assay Kit.</p>
+                            <p class="lead">Our technical support team is ready to assist you with any questions about the PRECICE<sup>®</sup> AMP Deaminase Assay Kit.</p>
                             <div class="d-flex flex-wrap gap-3 mt-4 justify-content-center">
                                 <a href="/contact" class="btn btn-primary px-4">
                                     <i class="fas fa-envelope me-2"></i>Contact Us

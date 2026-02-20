@@ -4,7 +4,7 @@ $title = "Adenosine Kinase Phosphorylation Assay Kit";
 
 ob_start(); ?>
 <meta name="keywords" content="Adenosine Kinase Assay Kit, Nucleoside Analog Screening, ADK Competitive Inhibition, Phosphorylation of Nucleosides, Adenosine Kinase Drug Discovery, High-Throughput Screening (HTS) Tools, Antiviral Nucleoside Activation, Cancer Drug Development Assay, IMPDH Monitoring System, NADH2 Assay Detection">
-<meta name="description" content="Unlock rapid drug discovery with PRECICE® ADK Phosphorylation Assay Kit. Conduct continuous, homogenous assays for screening ADK inhibitors and evaluating nucleoside analogs phosphorylation in antiviral and anticancer research. Designed for high-throughput efficiency.">
+<meta name="description" content="Unlock rapid drug discovery with PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit. Conduct continuous, homogenous assays for screening ADK inhibitors and evaluating nucleoside analogs phosphorylation in antiviral and anticancer research. Designed for high-throughput efficiency.">
 <?php $metas = ob_get_clean();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
@@ -22,12 +22,12 @@ echo Banner::gen()
             </p>
             <h4>Principle</h4>
             <p>
-                <strong>PRECICE® ADK Phosphorylation Assay Kit</strong> is based on competitive inhibition of suboptimal substrate inosine (IR) phosphorylation. In the absence of nucleoside competitor, adenosine kinase phosphorylates inosine resulting in the formation of IMP. IMP is further oxidized by IMPDH to XMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of inosine, poor ADK substrate, is inhibited detected as a decrease in NADH2 formation. <br> <strong>PRECICE® ADK Phosphorylation Assay Kit</strong> is a first tool for rapid evaluation of substrates properties of novel nucleoside analogues for human adenosine kinase.
+                <strong>PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit</strong> is based on competitive inhibition of suboptimal substrate inosine (IR) phosphorylation. In the absence of nucleoside competitor, adenosine kinase phosphorylates inosine resulting in the formation of IMP. IMP is further oxidized by IMPDH to XMP and NADH2 continuously monitored at 340nm. In the presence of nucleoside competitor, the phosphorylation of inosine, poor ADK substrate, is inhibited detected as a decrease in NADH2 formation. <br> <strong>PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit</strong> is a first tool for rapid evaluation of substrates properties of novel nucleoside analogues for human adenosine kinase.
             </p>
         </div>
         <div class="col-lg-6 text-center">
             <img class="w-100" src="/app/img/ADK-phosphorylation-kit.png" alt="ADK phosphorylation reaction schema" />
-            <h4 class="novo-blue">PRECICE® ADK Phosphorylation Assay Kit</h4>
+            <h4 class="novo-blue">PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit</h4>
             <h5>#K0507-02</h5>
         </div>
         <div class="d-flex justify-content-center mt-4">

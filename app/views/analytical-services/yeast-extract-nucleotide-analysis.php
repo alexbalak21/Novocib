@@ -160,7 +160,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <div class="col-lg-6 lead">
                     <ul class="list-unstyled">
                         <li><b class="fw-bold">Step 4:</b> Determination of soluble bases, nucleosides and nucleotides before and after RNA and DNA hydrolysis by ion-paired HPLC-UV with simultaneous separation of apolar bases, nucleosides, polar NMP and dNMP in one run.</li>
-                        <li><b class="fw-bold">Step 5:</b> As our internal Quality Control, we measure 5'IMP and 5'AMP concentration using independent enzymatic PRECICE® Nucleotide Assay Kit and compare the results of enzymatic assay and HPLC analysis.</li>
+                        <li><b class="fw-bold">Step 5:</b> As our internal Quality Control, we measure 5'IMP and 5'AMP concentration using independent enzymatic PRECICE<sup>®</sup> Nucleotide Assay Kit and compare the results of enzymatic assay and HPLC analysis.</li>
                     </ul>
                 </div>
                 <div class="col-lg-6">
@@ -175,14 +175,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     <figure class="border text-center">
                         <figcaption class="h4 mt-2">IMP content in yeast products: correlation HPLC and enzymatic data</figcaption>
                         <img src="/app/img/IMP_content.png" alt="IMP content in yeast products: correlation HPLC and enzymatic data" title="Correlation of IMP content in yeast products between HPLC and enzymatic data" class="img-fluid">
-                        <span class="fw-bold">PRECICE® Enzymatic assay</span>
+                        <span class="fw-bold">PRECICE<sup>®</sup> Enzymatic assay</span>
                     </figure>
                 </div>
                 <div class="col-lg-6 p-2 mt-3">
                     <figure class="border text-center">
                         <figcaption class="h4 mt-2">AMP content in yeast products: correlation HPLC and enzymatic data</figcaption>
                         <img src="/app/img/AMP_content.png" alt="AMP content in yeast products: correlation HPLC and enzymatic data" title="Correlation of AMP content in yeast products between HPLC and enzymatic data" class="img-fluid">
-                        <span class="fw-bold">PRECICE® Enzymatic assay</span>
+                        <span class="fw-bold">PRECICE<sup>®</sup> Enzymatic assay</span>
                     </figure>
                 </div>
                 <div class="col-lg-8 mx-auto text-center mt-2">

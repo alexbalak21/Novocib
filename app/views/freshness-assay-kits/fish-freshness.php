@@ -17,7 +17,7 @@ $page_content = <<<CONTENT
 $content_title
 <p>Since seafood and fish are highly perishable products, the quality of raw material is of primary concern for seafood processing industry. Testing raw material is first main stage of currently used procedure of Quality Control</p>
 <p>While sensory analysis allows rapid evaluation of the quality of whole wet fish, the assessment of the quality of frozen fish, of frozen blocks of fillets, or crumbed seafood products remains more difficult.</p>
-<p><strong>Nucleotide</strong> contents (IMP, Ino and Hx) or K-values were measured using <strong>PRECICE® Freshness Assay kit</strong> to determine the quality of different types of fish and seafoods.</p>
+<p><strong>Nucleotide</strong> contents (IMP, Ino and Hx) or K-values were measured using <strong>PRECICE<sup>®</sup> Freshness Assay kit</strong> to determine the quality of different types of fish and seafoods.</p>
 
 <div class="row text-center inner-links">
 <div class="col-lg-6 my-4">
@@ -32,7 +32,7 @@ $content_title
 <div class="col-lg-6 my-4">
 <a href="#Frozen_Gambas"><strong>Freshness of shrimps/gambas <i class="fa-solid fa-file-arrow-down"></i></strong></a>
 </div>
-<h5 class="text-center mt-4">Go to <a href="/freshness-assay-kits/freshness-principle">PRECICE® Freshness Assay Kit <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h5>
+<h5 class="text-center mt-4">Go to <a href="/freshness-assay-kits/freshness-principle">PRECICE<sup>®</sup> Freshness Assay Kit <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h5>
 </div>
 </section>
 </div>
@@ -54,7 +54,7 @@ The follow up of inosine degradation and hypoxanthine accumulation in cold-smoke
 <div class="col-lg-5 mb-2 mx-2">
 <img src="/app/img/salmon_conservative_2.jpg" alt="salmon conservative graph" class="w-100">
 </div>
-<p class="col-12"><i>Figure 1,2 :</i> Study of preservative effects on Inosine and Hypoxanthine content in smoked salmon. The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</p>
+<p class="col-12"><i>Figure 1,2 :</i> Study of preservative effects on Inosine and Hypoxanthine content in smoked salmon. The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</p>
 </div>
 </div>
 </section>
@@ -101,14 +101,14 @@ The follow up of inosine degradation and hypoxanthine accumulation in cold-smoke
 <figure class="col-lg-10">
 <img class="w-100" src="/app/img/cod_k_value.png" alt="">
 <figcaption class="text-center"><i>Figure 1. :</i> K-values measured in 13 samples of cod fillets labeled as "quick frozen at sea" compared to 20 "frozen" cod fillets without any label.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 <div class="mb-5 d-flex justify-content-center">
 <figure class="col-lg-8" >
 <img class="w-100" src="/app/img/cod.png" alt="">
 <figcaption class="text-center"><i>Figure 2. :</i> Nucleotides contents in 13 samples of cod fillets labeled as "quick frozen at sea" compared to 20 "frozen" cod fillets without any label.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 </section>
@@ -153,12 +153,12 @@ The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</fig
 <p>*Erikson U, Beyer AR and Sigholt T Muscle High-Energy Phosphates and Stress affect K-values during Ice Storgae of Atlantic Samon (Salmo salar) J Food Sci 1997 v 62(1) 43-47</p>
 
 <h6><span class="novo-blue">NOVOCIB</span> Data:</h6>
-<p>K-values of Atlantic salmon were measured in frozen fillets of Atlantic salmon (11 samples) and compared to those of chilled salmon fillets (13 samples). The analysis was performed in duplicate using PRECICE® Freshness Assay Kit following "User Manual"</p>
+<p>K-values of Atlantic salmon were measured in frozen fillets of Atlantic salmon (11 samples) and compared to those of chilled salmon fillets (13 samples). The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit following "User Manual"</p>
 <div class="d-flex justify-content-center">
 <figure  class="col-lg-7">
 <img src="/app/img/Salmon_K_value.png" alt="Salmon K value graph" class="w-100">
 <figcaption><i>Figure 3.</i> K-values measured in 11 samples of frozen fillets of Atlantic salmon compared to 13 samples of chilled salmon fillets.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 
@@ -199,7 +199,7 @@ The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</fig
 <figure class="col-lg-8 col-12">
 <img class="w-100" src="/app/img/Salmon_nucleotides.png" alt="Salmon nucleotides graph">
 <figcaption class="text-center"><i>Figure 4.</i> Nucleotides contents in 11 samples of frozen fillets of Atlantic salmon compared to 13 samples of chilled salmon fillets.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 </div>
@@ -214,7 +214,7 @@ K-values and nucleotide contents were measured in 9 gambas samples collected in 
 <figure class="col-lg-6">
 <img class="w-100" src="/app/img/Gambas_K-value.png" alt="Gambas K-value Graph">
 <figcaption class="text-center">Figure 5. K-values measured in 9 samples of frozen gambas.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 
@@ -253,7 +253,7 @@ The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</fig
 <figure  class="col-lg-6">
 <img src="/app/img/Gambas_nucleotides.png" alt="Gambas nucleotides graph" class="w-100">
 <figcaption><i>Figure 6.</i> Nucleotides contents in 9 samples of frozen gambas.
-The analysis was performed in duplicate using PRECICE® Freshness Assay Kit</figcaption>
+The analysis was performed in duplicate using PRECICE<sup>®</sup> Freshness Assay Kit</figcaption>
 </figure>
 </div>
 <p class="mt-3 mb-5">Figure 6 demonstrates that in 1 of 9 gambas samples collected in supermarkets, the IMP contents was at 25%, which is well below the average of 53,3%. These results also show that for shellfish, inosine may be a better indicator of early stages of alteration than hypoxanthine.</p>

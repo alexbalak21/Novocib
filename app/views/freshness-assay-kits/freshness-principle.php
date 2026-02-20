@@ -13,7 +13,7 @@ addContent(Banner::gen());
 
 $page_content = <<<CONTENT
 <main class="container mt-5">
-<h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE® Nucleotides Assay Kits</span></h2>
+<h2 class="underlinedTitle center"><span class="underlined novoblue center">PRECICE<sup>®</sup> Nucleotides Assay Kits</span></h2>
 <div class="row">
 <div class="col-lg-4">
 <img class="w-100" src="/app/img/freshness_graph_1.jpg" alt="freshness graph">
@@ -75,12 +75,12 @@ $page_content = <<<CONTENT
 <section class="mt-5">
 <h3 class="novo-blue">Measure nucleotides to assess food quality</h3>
 <p>Since seafood and fish are highly perishable products, the quality of raw material is of primary concern for seafood processing industry. While sensory analysis allows rapid evaluation of the quality of whole wet fish, the assessment of the quality of frozen fish, or that of frozen blocks of fillets or crumbed seafood products remains more difficult</p>
-<p><strong>PRECICE® Nucleotides Assay Kit</strong> is a first enzymatic assay for spectrophotometric measurement of three major ATP degradation products. The enzymes provided with kit allow specific conversion of three major ATP catabolites - IMP, inosine (Ino) and hypoxanthine (Hx) to NADH2. The quantification of nucleotides is done by measuring sample absorbance at 340nm.</p>
+<p><strong>PRECICE<sup>®</sup> Nucleotides Assay Kit</strong> is a first enzymatic assay for spectrophotometric measurement of three major ATP degradation products. The enzymes provided with kit allow specific conversion of three major ATP catabolites - IMP, inosine (Ino) and hypoxanthine (Hx) to NADH2. The quantification of nucleotides is done by measuring sample absorbance at 340nm.</p>
 <h4 class="novo-blue">Rapid & Precise</h3>
 <ul>
 <li>Enzymatic reactions take 30 min;</li>
 <li>R²=0.89 (IMP, HPLC); R²=0.91 (inosine, HPLC); R²=0.91 (hypoxanthine, HPLC);</li>
-<li>R²=0.88 found between H-value measured with <strong class="novo-blue">PRECICE® Nucleotides Assay Kit</strong> and TMA/ABVT in whiting fillets (11 samples)</li>
+<li>R²=0.88 found between H-value measured with <strong class="novo-blue">PRECICE<sup>®</sup> Nucleotides Assay Kit</strong> and TMA/ABVT in whiting fillets (11 samples)</li>
 </ul>
 <h4 class="novo-blue">Wide Application Range</h4>
 <ul>
@@ -88,8 +88,8 @@ $page_content = <<<CONTENT
 </ul>
 </section>
 <div class="text-end mt-3 mb-5">
-<p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
-<p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE® Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
+<p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-004.pdf">"PRECICE<sup>®</sup> Nucleotides Assay Kit"</a> <strong>User Manual</strong> for cuvette spectrophotometer.</p>
+<p>Download <a target="_blank" href="/app/documents/PRECICE Nucleotides Assay Kit K0700-003.pdf">"PRECICE<sup>®</sup> Nucleotides Assay Kit"</a> <strong>User Manual</strong> for plate reader.</p>
 </div>
 </main>
 CONTENT;

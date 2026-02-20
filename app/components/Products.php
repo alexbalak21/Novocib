@@ -1,4 +1,5 @@
 <?php
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/db_operations.php";
 class Products
 {
     static function gen(string $product_title)

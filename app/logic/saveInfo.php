@@ -1,6 +1,6 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/Secure.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/utils/Encryption.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/security/Encryption.php";
 
 
 function randString($length = 23)

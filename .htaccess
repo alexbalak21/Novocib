@@ -2,6 +2,11 @@
 # PHP ROUTER - .htaccess Configuration
 # ============================================================
 
+# ----------------------------------------------------------------------
+# Custom Environment Variables
+# ----------------------------------------------------------------------
+# SetEnv DB_URL 127.0.0.1
+
 # Enable the rewrite engine
 RewriteEngine On
 

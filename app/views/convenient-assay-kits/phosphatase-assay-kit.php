@@ -3,8 +3,8 @@ global $title;
 $title = "Continuous Spectrophotometric Phosphatase Assay Kit";
 
 ob_start(); ?>
-<meta name="keywords" content="phosphatase assay kit, inorganic phosphate quantification, continuous phosphate detection, ATPase activity assay, GTPase assay kit, spectrophotometric phosphate assay, NADH absorbance 340nm, enzymatic phosphate detection, high-throughput phosphate assay, PNP-XDH enzymatic system, phosphate release measurement, non-radioactive assay kit, research-use phosphate assay, PRECICE® phosphatase kit, phosphate detection in cell lysates" />
-<meta name="description" content="Explore the PRECICE® Phosphatase Assay Kit from NovoCIB—an easy one-step spectrophotometric solution for quantifying inorganic phosphate in enzymatic reactions. Ideal for ATPase and GTPase activity assays with continuous absorbance reading at 340nm. High-throughput, accurate, and research-ready." />
+<meta name="keywords" content="phosphatase assay kit, inorganic phosphate quantification, continuous phosphate detection, ATPase activity assay, GTPase assay kit, spectrophotometric phosphate assay, NADH absorbance 340nm, enzymatic phosphate detection, high-throughput phosphate assay, PNP-XDH enzymatic system, phosphate release measurement, non-radioactive assay kit, research-use phosphate assay, PRECICE<sup>®</sup> phosphatase kit, phosphate detection in cell lysates" />
+<meta name="description" content="Explore the PRECICE<sup>®</sup> Phosphatase Assay Kit from NovoCIB—an easy one-step spectrophotometric solution for quantifying inorganic phosphate in enzymatic reactions. Ideal for ATPase and GTPase activity assays with continuous absorbance reading at 340nm. High-throughput, accurate, and research-ready." />
 <?php $metas = ob_get_clean();
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
@@ -21,7 +21,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="row">
         <div class="col-lg-6">
             <p>
-                <strong>PRECICE® Phosphatase Assay Kit</strong>
+                <strong>PRECICE<sup>®</sup> Phosphatase Assay Kit</strong>
                 developed by
                 <strong class="novo-blue">NOVOCIB</strong>
                 is a continuous spectrophotometric enzyme assay to monitor activity of any enzymes liberating inorganic
@@ -50,7 +50,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 src="/app/img/Phosphatase_Assay_Principle.png"
                 alt="Phosphatase Assay Kit Principle reaction schema"
                 title="Phosphatase Assay Kit Principle" />
-            <h4 class="novo-blue">PRECICE® Phosphatase Assay Kit</h4>
+            <h4 class="novo-blue">PRECICE<sup>®</sup> Phosphatase Assay Kit</h4>
             <h5>Ref. #K0211-01</h5>
         </div>
         <div class="d-flex justify-content-center mt-4">
@@ -68,13 +68,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         <tr>
                             <td class="d-none d-md-table-cell">#K0211-01</td>
                             <td class="text-center">
-                                PRECICE® Phosphatase Assay Kit<br>
+                                PRECICE<sup>®</sup> Phosphatase Assay Kit<br>
                                 1 plate (96 assays)
                             </td>
                             <td class="d-none d-md-table-cell text-center">410.00 €</td>
                             <td class="text-end pe-3">
                                 <div class="d-block d-md-none text-end mb-1 fw-bold">410.00 €</div>
-                                <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0211-01&product=PRECICE® Phosphatase Assay Kit">
+                                <a title="Order" class="btn btn-primary" href="/inquiry?ref=K0211-01&product=PRECICE<sup>®</sup> Phosphatase Assay Kit">
                                     Inquiry <i class="fa-solid fa-comment"></i>
                                 </a>
                             </td>

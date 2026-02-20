@@ -485,32 +485,6 @@ function update_username(string $old_username, string $new_username): array
   }
 }
 
-// function reset_password_by_id(int $user_id, string $new_password): string
-// {
-//   // Connect to the database
-//   $conn = connect_db();
-//   if ($conn == null) return "Database connection failed.";
-
-// Hash the new password
-//   $new_hash = password_hash($new_password, PASSWORD_DEFAULT);
-
-//   // Prepare the update query
-//   $update = "UPDATE users SET password_hash = :new_hash WHERE id = :user_id";
-//   $stmt = $conn->prepare($update);
-//   $stmt->bindParam(':new_hash', $new_hash);
-//   $stmt->bindParam(':user_id', $user_id);
-
-//   try {
-//     $stmt->execute();
-//     return $stmt->rowCount() > 0 ? "Password reset successfully." : "No changes made.";
-//   } catch (PDOException $e) {
-//     return "Error: " . $e->getMessage();
-//   } finally {
-//     $conn = null;
-//   }
-// }
-
-
 function update_email(string $username, string $new_email): array
 {
   // Connect to the database

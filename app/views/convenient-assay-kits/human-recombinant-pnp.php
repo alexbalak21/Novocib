@@ -26,7 +26,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 PNP is an important therapeutic target enzyme. Several PNP inhibitors have been developed to treat cancer, viral infection, and auto-immune diseases. PNP is also a drug target for new antiparasitic drugs.
             </p>
             <p>
-                For direct and continuous measurement of PNP activity see our <a href=""><strong>PRECICE® PNP Assay kit</strong></a>.
+                For direct and continuous measurement of PNP activity see our <a href=""><strong>PRECICE<sup>®</sup> PNP Assay kit</strong></a>.
             </p>
         </div>
         <div class="col-lg-6 text-center">

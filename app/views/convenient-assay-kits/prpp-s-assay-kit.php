@@ -4,13 +4,13 @@ $title = "PRPP-S Assay Kit";
 
 ob_start(); ?>
 <meta name="keywords" content="PRPP-S Assay Kit, Non-radioactive assay, Phosphoribosylpyrophosphate synthetase, PRPP measurement, Enzymatic assay, Purine salvage pathway, Genetic disorders, Continuous monitoring, 96-well plate format, NADH formation, HGPRT enzyme, IMPDH enzyme, PRPP-S activity, Cell lysates, Convenient assay kit">
-<meta name="description" content="Discover the PRECICE® PRPP-S Assay Kit, the first non-radioactive solution for precise measurement of PRPP-S activity in cellular lysates. Designed for convenience, this enzymatic assay utilizes highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation. Ideal for research on purine salvage pathways and genetic disorders, the kit offers a fast, reliable, and user-friendly protocol in a 96-well plate format. Enhance your studies with this innovative tool for accurate PRPP quantification.">
+<meta name="description" content="Discover the PRECICE<sup>®</sup> PRPP-S Assay Kit, the first non-radioactive solution for precise measurement of PRPP-S activity in cellular lysates. Designed for convenience, this enzymatic assay utilizes highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation. Ideal for research on purine salvage pathways and genetic disorders, the kit offers a fast, reliable, and user-friendly protocol in a 96-well plate format. Enhance your studies with this innovative tool for accurate PRPP quantification.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Product",
-        "name": "PRECICE® PRPP Assay Kit",
+        "name": "PRECICE<sup>®</sup> PRPP Assay Kit",
         "description": "Non-radioactive enzymatic assay for quantification of PRPP in cell extracts. Based on HGPRT and IMPDH coupling reactions with spectrophotometric detection at 340 nm.",
         "brand": {
             "@type": "Brand",
@@ -108,7 +108,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
 
 <main class="container mt-5">
     <h2 class="underlinedTitle right mb-4">
-        <span class="underlined novoblue right">PRECICE® PRPP-S Assay Kit</span>
+        <span class="underlined novoblue right">PRECICE<sup>®</sup> PRPP-S Assay Kit</span>
     </h2>
     <h3 class="text-center mb-4">Spectrophotometric, 96‑well microplate format</h3>
 
@@ -130,9 +130,9 @@ echo Banner::gen("/app/img/prps-kit.jpg")
 
         <div class="col-lg-6 text-center">
             <img class="img-fluid" src="/app/img/PRPP-S-Assay-Kit.png"
-                alt="PRECICE® PRPP-S Assay Kit reaction principle"
-                title="PRECICE® PRPP-S Assay Kit reaction principle" />
-            <h4 class="novo-blue mt-3">PRECICE® PRPP-S Assay Kit</h4>
+                alt="PRECICE<sup>®</sup> PRPP-S Assay Kit reaction principle"
+                title="PRECICE<sup>®</sup> PRPP-S Assay Kit reaction principle" />
+            <h4 class="novo-blue mt-3">PRECICE<sup>®</sup> PRPP-S Assay Kit</h4>
             <h5>Ref. #K0709-04-2</h5>
         </div>
     </div>
@@ -140,12 +140,12 @@ echo Banner::gen("/app/img/prps-kit.jpg")
     <section class="mt-4">
         <h4 class="novo-blue">Kit Description</h4>
         <p>
-            The PRECICE® PRPP-S Assay Kit is the first non‑radioactive solution for precise measurement of PRPP‑S activity in cellular lysates. This enzymatic assay uses highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation.
+            The PRECICE<sup>®</sup> PRPP-S Assay Kit is the first non‑radioactive solution for precise measurement of PRPP‑S activity in cellular lysates. This enzymatic assay uses highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation.
             Designed for research on purine salvage pathways and genetic disorders, the kit provides a fast, reliable, and user‑friendly protocol in a 96‑well plate format.
         </p>
         <div class="col-lg-4 mx-auto mt-3 mb-4 text-center col-md-9">
             <img class="img-fluid border" src="/app/img/prpp-s-assay-kit.jpg"
-                alt="Contents of PRECICE® PRPP-S Assay Kit"
+                alt="Contents of PRECICE<sup>®</sup> PRPP-S Assay Kit"
                 title="Kit components" />
         </div>
     </section>
@@ -257,7 +257,7 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             <div class="col-lg-10">
                 <div class="text-center mb-5">
                     <h2 class="h1 mb-3">Frequently Asked Questions</h2>
-                    <p class="lead text-muted">Find answers to common questions about the PRECICE® PRPP-S Assay Kit</p>
+                    <p class="lead text-muted">Find answers to common questions about the PRECICE<sup>®</sup> PRPP-S Assay Kit</p>
                 </div>
 
                 <div class="accordion" id="faqAccordion">
