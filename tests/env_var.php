@@ -1,5 +1,5 @@
 <?php
-require_once "app/logic/env-loader.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/env-loader.php";
 
 function dump_section($title, $data) {
     echo "<h2>$title</h2><pre>";
