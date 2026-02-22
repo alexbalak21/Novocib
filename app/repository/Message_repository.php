@@ -7,7 +7,7 @@ class Message_repository
 
     public function __construct()
     {
-        require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect";
+        require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect.php";
         $this->conn = connect_db();
         if (!$this->conn) {
             error_log("DB connection failed.");

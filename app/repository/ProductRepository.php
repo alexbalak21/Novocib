@@ -8,7 +8,7 @@ class ProductRepository
 
     public function __construct()
     {
-        require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect";
+        require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect.php";
         try {
             $this->conn = connect_db();
         } catch (Error $e) {

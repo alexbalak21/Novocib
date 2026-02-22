@@ -1,6 +1,6 @@
 <?php
 
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/db_operations.php";
 
 function log404request()

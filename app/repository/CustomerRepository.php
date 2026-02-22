@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/models/Customer.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/security/Encryption.php";
 
 //DB CONNECTION
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect.php";
 
 class CustomerRepository
 {

@@ -1,5 +1,14 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/config/db_config";
+
+$isLocalhost = in_array($_SERVER['SERVER_NAME'], ['localhost', '127.0.0.1']) 
+    || in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']);
+
+if ($isLocalhost) {
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/config/db_config_local.php";
+} else {
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/config/db_config.php";
+}
+
 
 function connect_db(): PDO
 {

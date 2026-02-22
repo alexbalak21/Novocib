@@ -1,0 +1,12 @@
+CREATE TABLE customers (
+  id INT NOT NULL AUTO_INCREMENT,
+  first_name VARCHAR(255) NOT NULL,
+  last_name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  private_id VARCHAR(16) NOT NULL,
+  password VARCHAR(255) DEFAULT NULL,
+  uuid VARCHAR(255) DEFAULT NULL,
+  company_id VARCHAR(50) DEFAULT NULL,
+  data TEXT,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB;

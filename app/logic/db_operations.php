@@ -1,5 +1,5 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/db/connect.php";
 
 function check_id()
 {
