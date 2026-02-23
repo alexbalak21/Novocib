@@ -11,7 +11,6 @@ return [
     '/home' => 'app/views/home.php',
     '/index.php' => 'app/views/home.php',
     "/index.html" =>  'app/views/home.php',
-    "/test" => '/test.php',
 
     // Contact and Inquiry
     '/contact' => '/contact-us', // Redirect
