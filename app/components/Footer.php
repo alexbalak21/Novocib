@@ -33,16 +33,16 @@ class Footer
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-lg-6 col-sm-4 text-center">
-                            <ul>
+                        <div class="col-lg-6 col-sm-4">
+                            <ul class="d-flex flex-column h-100">
                                 <li>
                                     <i class="fa-brands fa-linkedin"></i>
                                     <a href="https://www.linkedin.com/company/novocib/">Linked-In</a>
                                 </li>
-                                <!-- <li class="mt-5">
-                                    <i class="fa-solid fa-hand-holding"></i>
-                                    <a href="/old">Old Website</a>
-                                </li> -->
+                              <li class="mt-auto">
+                                <i class="fa-solid fa-user-tie"></i>
+                                <a href="mailto:admin@novocib.com">Website Admin</a>
+                              </li>
                             </ul>
                         </div>
                     </div>
