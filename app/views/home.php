@@ -119,7 +119,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="row justify-content-center">
         <div class="col-lg-4 d-flex justify-content-center">
             <div class="box">
-                <a href="/nucleotide-analysis-service"><img src="/app/img/analisis-gloves.jpg" nucleotide="" analysis="" services="" page="Nucleotide Analysis Services page" title="Go to Nucleotide Analysis Services page"></a>
+                <a href="/nucleotide-analysis-service"><img src="/app/img/hplc-analysis-card.jpg" alt="we performing HPLC analysis" page="Nucleotide Analysis Services page" title="Go to Nucleotide Analysis Services page"></a>
                 <div class="text-center"><a href="/nucleotide-analysis-service">Dietary Nucleotide Analysis</a></div>
                 <div class="card-content">
                     <ul>
@@ -134,7 +134,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
         <div class="col-lg-4 d-flex justify-content-center">
             <div class="box">
-                <a href="/convenient-assay-kits"><img src="/app/img/HPRT-Assay-kit.jpg" freshness="" assay="" kits="" page="Freshness Assay Kits page" title="Go to Freshness Assay Kits page"></a>
+                <a href="/convenient-assay-kits"><img src="/app/img/assay-kit-photo.jpg" alt="Our HPRT assay kit photo" page="Freshness Assay Kits page" title="Go to Freshness Assay Kits page"></a>
                 <div class="text-center"><a href="/convenient-assay-kits">PRECICE<sup>®</sup> One-step Kits</a></div>
                 <div class="card-content">
                     <ul>
@@ -149,7 +149,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
         <div class="col-lg-4 d-flex justify-content-center">
             <div class="box">
-                <a href="/active-purified-enzymes"><img src="/app/img/structure.jpg" active="" purified="" enzymes="" page="Active purified enzymes page" title="Active purified enzymes"></a>
+                <a href="/active-purified-enzymes"><img src="/app/img/molecular-structure-card.jpg" alt="molecular structure of enzyme" page="Active purified enzymes page" title="Active purified enzymes"></a>
                 <div class="text-center"><a href="/active-purified-enzymes">Active purified enzymes</a></div>
                 <div class="card-content">
                     <ul>

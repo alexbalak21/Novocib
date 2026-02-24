@@ -63,7 +63,7 @@ $card1_content = <<<CARD1_CONTENT
     <li>Purine & pyrimidines analysis of food or feed ingredients</li>
 </ul>
 CARD1_CONTENT;
-$card1 = Card::get("app/img/analisis-gloves.jpg", "Dietary Nucleotide Analysis", $card1_content, "/nucleotide-analysis-service", "Nucleotide Analysis Services page");
+$card1 = Card::get("app/img/analysis-gloves.jpg", "Dietary Nucleotide Analysis", $card1_content, "/nucleotide-analysis-service", "Nucleotide Analysis Services page");
 
 $card2_content = <<<CARD1_CONTENT
 <ul>

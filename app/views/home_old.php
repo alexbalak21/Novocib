@@ -60,7 +60,7 @@ $card1_content = <<<CARD1_CONTENT
     <li>Purine analysis.</li>
 </ul>
 CARD1_CONTENT;
-$card1 = Card::get("/app/img/analisis-gloves.jpg", "Analytical Services", $card1_content, "/nucleotide-analysis-service", "photo of gloves holiding a vile");
+$card1 = Card::get("/app/img/analysis-gloves.jpg", "Analytical Services", $card1_content, "/nucleotide-analysis-service", "photo of gloves holiding a vile");
 
 $card2_content = <<<CARD1_CONTENT
 <ul>
