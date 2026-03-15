@@ -123,8 +123,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 } else {
     // Not a POST request
-    logError("Invalid request method: " . ($_SERVER['REQUEST_METHOD'] ?? 'UNKNOWN'));
     http_response_code(405);
-    echo "Method not allowed";
+    header("Location: /404");
     exit;
 }

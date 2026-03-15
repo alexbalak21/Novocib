@@ -62,18 +62,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $ref = !empty($_POST['ref']) ? htmlspecialchars(trim($_POST['ref']), ENT_QUOTES, 'UTF-8') : '';
         $price = !empty($_POST['price']) ? htmlspecialchars(trim($_POST['price']), ENT_QUOTES, 'UTF-8') : '';
 
-        // 🧠 Build inquiry description
+        // Build inquiry description
         $subject = "[Inquiry]";
         if ($product) $subject .= " $product";
         if ($volume) $subject .= " - $volume";
         if ($price) $subject .= " - $price €";
         if ($ref) $subject .= " (Ref: #$ref)";
 
-        // 💾 Save to DB
+        // Save to DB
         $MessageRepo = new Message_repository();
         $MessageRepo->save_message($name, $visitor_email, $subject, $message);
 
-        // 📨 Build email content
+        // Build email content
         $email_body = "You have received a new Inquiry:\n\n" .
             "From: $name\n" .
             "Email: $visitor_email\n" .
@@ -112,8 +112,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 } else {
-    logError("Invalid request method: " . ($_SERVER['REQUEST_METHOD'] ?? 'UNKNOWN'));
-    http_response_code(405);
-    echo "Method not allowed";
+    http_response_code(405); 
+    header("Location: /404");
     exit;
 }

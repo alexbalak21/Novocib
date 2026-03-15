@@ -10,6 +10,7 @@ $request = basename($_SERVER['REQUEST_URI']);
 $request = preg_replace('/\.(html|php)$/i', '', $request);
 $request = str_replace(['_', '-'], ' ', $request);
 $cleaned_request = strtolower($request);
+$message = isset($_GET['message']) ? htmlspecialchars($_GET['message'], ENT_QUOTES, 'UTF-8') : null;
 
 ?>
 
@@ -27,6 +28,18 @@ $cleaned_request = strtolower($request);
 </div>
 <div class="container mt-5 mb-5">
     <h2 class="underlinedTitle center"><span class="underlined novoblue center">404 Page not found</span></h2>
+    <?php if ($message): ?>
+    <div class="alert alert-warning border-warning-subtle bg-warning-subtle py-4 mt-3 border rounded alert-dismissible fade show" role="alert">
+        <h4 class="text-center">
+            <i class="fa-solid fa-circle-info"></i> Error
+        </h4>
+        <p class="text-center mt-4 mb-0">
+            <?= $message ?>
+        </p>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<?php endif; ?>
+
     <p class="text-center fs-2 mt-4">The page you are asking for was not found.</p>
 
     <h3 class="novo-blue text-center mt-5 mb-4">Search for it on Novocib.com</h3>
