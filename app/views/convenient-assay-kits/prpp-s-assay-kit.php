@@ -358,6 +358,13 @@ echo Banner::gen("/app/img/prps-kit.jpg")
             <li>
                 <a href="https://www.pulsus.com/scholarly-articles/prps1-is-a-regulative-for-neuroprotection-and-cells-regenerative-proliferation-4897.html">PRPS-1 is a regulative for neuroprotection and cells regenerative proliferation (2018), Danielyan KE, Vardanyan R, Paronyan ZK , Barkhudaryants IM , Chailyan SG, Bisharyan MS. J Biomol Biochem Vol.2 No.2 6-10</a>
             </li>
+             <li>
+                <a target="_blank" href="https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.2935">
+                    Functional characterization of a novel loss-of-function mutation of PRPS1 related to early-onset progressive nonsyndromic hearing loss in Koreans (2016)
+                    S.Y. Kim, A.R. Kim, N.K.D. Kim, C. Lee, J.H. Han, M.Y. Kim, E.-H. Jeon, W.-Y. Park, R. Mittal, D. Yan, X.Z. Liu, B.Y. Choi
+                    Journal of Gene Medicine
+                </a>
+            </li>
             <li>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/28432611/">Comparison of human erythrocyte purine nucleotide metabolism and blood purine and pyrimidine degradation product concentrations before and after acute exercise in trained and sedentary subjects (2018) W. Dudzinska, M Suska, A Lubkowska, K Jakubowska, M Olszewska, K Safranow, D Chlubek <br> J Physiol Sci 68(3):293-305.</a>
             </li>
