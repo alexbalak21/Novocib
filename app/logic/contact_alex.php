@@ -1,4 +1,18 @@
+
 <?php
+// Handle CORS preflight (OPTIONS) requests
+if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
+    header("Access-Control-Allow-Origin: https://www.alex-balak.online");
+    header("Access-Control-Allow-Methods: POST, OPTIONS");
+    header("Access-Control-Allow-Headers: Content-Type");
+    http_response_code(200);
+    exit;
+}
+
+// CORS headers for actual requests
+header("Access-Control-Allow-Origin: https://www.alex-balak.online");
+header("Access-Control-Allow-Methods: POST");
+header("Access-Control-Allow-Headers: Content-Type");
 // Allow only POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
@@ -27,20 +41,27 @@ if (!$email) {
 }
 
 // Email settings
-$to = "contact@alex-balak.online";   // <-- change this
+$to = "contact@alex-balak.online";
+$to = "admin@novocib.com";
 $subject = "New Contact Form Message from $name";
 
 $body = "Name: $name\n";
 $body .= "Email: $email\n\n";
 $body .= "Message:\n$message\n";
 
-$headers = "From: $email\r\n";
+
+// Use a domain-based From address
+$from = "noreply@alex-balak.online";
+$headers = "From: $from\r\n";
 $headers .= "Reply-To: $email\r\n";
+
 
 // Send email
 if (mail($to, $subject, $body, $headers)) {
     echo json_encode(["success" => true, "message" => "Message sent"]);
 } else {
+    // Log the error for debugging
+    error_log("Mail failed: to=$to, subject=$subject, headers=$headers");
     http_response_code(500);
     echo json_encode(["error" => "Failed to send email"]);
 }
