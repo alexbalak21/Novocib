@@ -23,6 +23,7 @@ return [
     '/message-error' => 'app/views/message-error.php',
     '/message-sent-successfully' => 'app/views/message_sent.php',
     '/send-fancy' => "app/logic/send_fancy.php",
+    '/contact-alex' => 'app/logic/contact_alex.php',
 
     // Active Purified Enzymes
     '/active-purified-enzymes' => 'app/views/active-purified-enzymes/index.php',
