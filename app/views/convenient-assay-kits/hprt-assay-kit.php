@@ -315,44 +315,87 @@ echo Banner::gen();
 
     <div class="bg-light">
         <div class="references mt-5 pb-3 container">
-            <h2 class="h4 pt-4 pb-3 text-center border-top border-bottom">Scientific Research & Publications</h2>
-            <p class="text-center mb-4">The PRECICE<sup>®</sup> HPRT Assay Kit has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
+            <h2 class="h4 pt-4 pb-3 text-center border-top border-bottom novo-blue"><i class="fa-brands fa-readme"></i> Scientific Research & Publications</h2>
+            <p class="text-center mb-4">The <b>PRECICE<sup>®</sup> HPRT Assay Kit</b> has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
             <ol>
                 <li>
-                    <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1873506123001307">CRISPR/Cas9-mediated generation of human embryonic stem cell sub-lines with HPRT1 gene knockout to model Lesch Nyhan disease</a>
+                    <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2025.03.29.646096.abstract">
+                        NUDT5 regulates purine metabolism and thiopurine sensitivity by interacting with PPAT (2025) <br>
+                        Zheng Wu, Phong T Nguyen, Varun Sondhi, Run-Wen Yao, Tao Dai, Jui-Chung Chiang, Zengfu Shang, Feng Cai, Ling Cai, Jing Zhang, et al. bioRxiv.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://link.springer.com/protocol/10.1007/978-1-4939-1068-7_11">The Applicable Use of the HPRT Gene Mutation Assay as a Practical Tool in Mutagenesis and DNA Repair Studies</a>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38799559/">
+                        Ablation of Atp5if1 impairs metabolic reprogramming and proliferation of T lymphocytes and compromises mouse survival <br>
+                        I. Romero-Carraminana, S. Dominguez-Zorita, P.B. Esparza-Molto, J. M. Cuezva (2024) iScience 27, 109863
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/38799559/">Ablation of Atp5if1 impairs metabolic reprogramming and proliferation of T lymphocytes and compromises mouse survival <br> I. Romero-Carraminana, S. Dominguez-Zorita, P.B. Esparza-Molto, J. M. Cuezva (2024) iScience 27, 109863</a>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/37214913/">
+                        Electron transport chain inhibition increases cellular dependence on purine transport and salvage <br>
+                        Z. Wu, D. Bezwada, F. Cai, J. Garcia-Bermudez, M. Ni, R.J. DeBerardinis, Cell Metab. 2024 Jun 7:S1550-4131(24)00190-6
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/37214913/">Electron transport chain inhibition increases cellular dependence on purine transport and salvage <br> Z. Wu, D. Bezwada, F. Cai, J. Garcia-Bermudez, M. Ni, R.J. DeBerardinis, Cell Metab. 2024 Jun 7:S1550-4131(24)00190-6</a>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/36910714/">
+                        Therapeutic gene correction for Lesch-Nyhan syndrome using CRISPR-mediated base and prime editing (2023) <br>
+                        G. Jang , H. Rim Shin, H.-S. Do , J. Kweon , S. Hwang , S. Kim, S. Hee Heo, Y. Kim, B. Lee Molecular Therapy - Nucleic Acids ; 31: 586-595.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/36910714/">Therapeutic gene correction for Lesch-Nyhan syndrome using CRISPR-mediated base and prime editing (2023) <br> G. Jang , H. Rim Shin, H.-S. Do , J. Kweon , S. Hwang , S. Kim, S. Hee Heo, Y. Kim, B. Lee Molecular Therapy - Nucleic Acids ; 31: 586-595.</a>
+                    <a target="_blank" href="https://www.nature.com/articles/s41419-023-05957-z">
+                        IF1 ablation prevents ATP synthase oligomerization, enhances mitochondrial ATP turnover and promotes an adenosine-mediated pro-inflammatory phenotype (2023) <br>
+                        Joe Carroll, Ian N. Watt, Charlotte J. Wright, Shujing Ding, Ian M. Fearnley, John E. Walker Cell Death Dis. 14(7):413.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="">Rescuing compounds for Lesch-Nyhan disease identified using stem cell-based phenotypic screening (2020) <br>V. Ruillier, J. Tournois, C. Boissart, M. Lasbareilles, G. Mahé, L. Chatrousse, M. Cailleret, M. Peschanski, A. Benchoua JCI Insight 5(4): e132094.</a>
+                    <a target="_blank" href="">
+                        Rescuing compounds for Lesch-Nyhan disease identified using stem cell-based phenotypic screening (2020) <br>
+                        V. Ruillier, J. Tournois, C. Boissart, M. Lasbareilles, G. Mahé, L. Chatrousse, M. Cailleret, M. Peschanski, A. Benchoua JCI Insight 5(4): e132094.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26283971/">Hypoxanthine-guanine phosphoribosyltransferase and inosine 5'-monophosphate dehydrogenase activities in three mammalian species: aquatic (Mirounga angustirostris), semi-aquatic (Lontra longicaudis annectens) and terrestrial (2015) <br> M. Barjau Pérez-Milicua, T. Zenteno-Savín, D.E. Crocker, J.P. Gallo-Reynoso Front Physiol.; 6: 212.</a>
+                    <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1873506123001307">
+                        CRISPR/Cas9-mediated generation of human embryonic stem cell sub-lines with HPRT1 gene knockout to model Lesch Nyhan disease
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/22496280/">Prolonged fasting increases purine recycling in post-weaned northern elephant seals <br> José Guadalupe Soñanez-Organis, José Pablo Vázquez-Medina, Tania Zenteno-Savín, Andres Aguilar, Daniel E. Crocker, Rudy M. Ortiz J Exp Biol (2012) 215 (9): 1448-1455.</a>
+                    <a target="_blank" href="https://link.springer.com/protocol/10.1007/978-1-4939-1068-7_11">
+                        The Applicable Use of the HPRT Gene Mutation Assay as a Practical Tool in Mutagenesis and DNA Repair Studies
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.nature.com/articles/s41419-023-05957-z">IF1 ablation prevents ATP synthase oligomerization, enhances mitochondrial ATP turnover and promotes an adenosine-mediated pro-inflammatory phenotype (2023) <br> Joe Carroll, Ian N. Watt, Charlotte J. Wright, Shujing Ding, Ian M. Fearnley, John E. Walker Cell Death Dis. 14(7):413.</a>
+                    <a target="_blank" href="https://journals.sagepub.com/doi/full/10.1089/nat.2017.0697">
+                        Development of a CRISPR/Cas9-based therapeutic strategy for Lesch–Nyhan syndrome (2017) <br>
+                        S. Fu, Y. Zhao, X. Wang, Y. Li, Y. Zhang, Y. Zhang, Y. Wang
+                        Nucleic Acid Therapeutics 27(6): 364–372.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1095643315002767">Purine metabolism in response to hypoxic conditions associated with breath-hold diving and exercise in erythrocytes and plasma from bottlenose dolphins (Tursiops truncatus) (2016) <br> Iris del Castillo Velasco-Martínez, Claudia J. Hernández-Camacho, Lía C. Méndez-Rodríguez, Tania Zenteno-Savín Comp Biochem Physiol A Mol Integr Physiol 191:196–201.</a>
+                    <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S1095643315002767">
+                        Purine metabolism in response to hypoxic conditions associated with breath-hold diving and exercise in erythrocytes and plasma from bottlenose dolphins (Tursiops truncatus) (2016) <br>
+                        Iris del Castillo Velasco-Martínez, Claudia J. Hernández-Camacho, Lía C. Méndez-Rodríguez, Tania Zenteno-Savín Comp Biochem Physiol A Mol Integr Physiol 191:196-201.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1880654624003949">Comparison of human erythrocyte purine nucleotide metabolism and blood purine and pyrimidine degradation product concentrations before and after acute exercise in trained and sedentary subjects (2018) <br> Wioleta Dudzinska, M. Suska, A. Lubkowska, K. Jakubowska, M. Olszewska, K. Safranow, D. Chlubek J Physiol Sci 68(3):293–305.</a>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/26283971/">
+                        Hypoxanthine-guanine phosphoribosyltransferase and inosine 5'-monophosphate dehydrogenase activities in three mammalian species: aquatic, semi-aquatic and terrestrial (2015) <br>
+                        M. Barjau Pérez-Milicua, T. Zenteno-Savín, D.E. Crocker, J.P. Gallo-Reynoso Front Physiol.; 6: 212.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2025.03.29.646096.abstract">NUDT5 regulates purine metabolism and thiopurine sensitivity by interacting with PPAT (2025) <br> Zheng Wu, Phong T Nguyen, Varun Sondhi, Run-Wen Yao, Tao Dai, Jui-Chung Chiang, Zengfu Shang, Feng Cai, Ling Cai, Jing Zhang, et al. bioRxiv.</a>
+                    <a target="_blank" href="https://link.springer.com/article/10.1186/s13073-015-0150-6">
+                        Whole-exome sequencing identifies novel mutations in HPRT1 associated with Lesch-Nyhan disease (2015) <br>
+                        S. Fu, Y. Zhao, X. Wang, Y. Li, Y. Zhang, Y. Zhang, Y. Wang
+                        Genome Medicine 7: 115.
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/22496280/">
+                        Prolonged fasting increases purine recycling in post-weaned northern elephant seals (2012) <br>
+                        José Guadalupe Soñanez-Organis, José Pablo Vázquez-Medina, Tania Zenteno-Savín, Andres Aguilar, Daniel E. Crocker, Rudy M. Ortiz
+                        J Exp Biol 215 (9): 1448-1455.
+                    </a>
                 </li>
             </ol>
         </div>
