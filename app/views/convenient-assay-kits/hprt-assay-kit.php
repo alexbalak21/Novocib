@@ -385,8 +385,8 @@ echo Banner::gen();
                 </li>
                 <li>
                     <a target="_blank" href="https://link.springer.com/article/10.1186/s13073-015-0150-6">
-                        Whole-exome sequencing identifies novel mutations in HPRT1 associated with Lesch-Nyhan disease (2015) <br>
-                        S. Fu, Y. Zhao, X. Wang, Y. Li, Y. Zhang, Y. Zhang, Y. Wang
+                        Molecular insight into thiopurine resistance: transcriptomic signature in lymphoblastoid cell lines (2015) <br>
+                       L. Chouchana, A.A. Fernández-Ramos, F. Dumont, C. Marchetti, I. Ceballos-Picot, P. Beaune, D. Gurwitz, M-A. Loriot
                         Genome Medicine 7: 115.
                     </a>
                 </li>
