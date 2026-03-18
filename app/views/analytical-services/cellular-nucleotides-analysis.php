@@ -445,6 +445,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <ol>
                     <li><a target="_blank" href="https://www.nature.com/articles/cdd201412" title="Stem cell characteristics in glioblastoma are maintained by the ecto-nucleotidase E-NPP1.">Stem cell characteristics in glioblastoma are maintained by the ecto-nucleotidase <br><i> E-NPP1. Cell Death Differ 21, 929-940 (2014).</i><br><em>Bageritz, J., Puccio, L., Piro, R. et al.</em></a></li>
                     <li><a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/41496329/" title="AMP deaminase-2- and adenosine deaminase-mediated disposal of β-cell intracellular adenosine protects against multiple low-dose streptozotocin-induced type 1 diabetes">AMP deaminase-2- and adenosine deaminase-mediated disposal of β-cell intracellular adenosine protects against multiple low-dose streptozotocin-induced type 1 diabetes.<br> <em>Singh K, Zhao T, Ngamjariyawat A, Adjieva K, Shekha M, Andersson R, Aslani AO, Blixt M, Luo Z, Sandler S, Welsh N. <br> <i>Biomed Pharmacother. 2026 Jan;194:118914. PMID: 41496329</i></em></a></li>
+                    <li>
+                        <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/35300092/" title="Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine">
+                            Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine.<br>
+                            <em>Kalman T.I.<br>
+                                <i>ACS Med Chem Lett. 2022 Mar;13(3):409–416. PMID: 35300092</i></em>
+                        </a>
+                    </li>
                 </ol>
             </div>
         </div>

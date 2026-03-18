@@ -116,10 +116,18 @@ echo Banner::gen();
             <h5 class="ms-5 pt-4 pb-3 novo-blue">Scientific Articles citing Dck Phosphorylation Assay Kit from <span class="text-secondary">NOVOCIB</span>:</h5>
             <ol>
                 <li>
-                    <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779049/">Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br> S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R Redfield, A. Heredia* Antivir Ther. 2019; 24(3): 17-186.</a>
+                    <a target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6779049/">
+                        Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br>
+                        S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R. Redfield, A. Heredia*
+                        Antivir Ther. 24(3): 177-186.
+                    </a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788#">Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br> P.C. Jordan, S.K. Stevens, Y.Tam, R.P. Pemberton, S.Chaudhuri, A.D. Stoycheva, N. Dyatkina, G.Wang, J.A. Symons, J. Deval, L. Beigelman ACS Chem. Biol. 2017, 12, 1, 83-91</a>
+                    <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788">
+                        Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br>
+                        P.C. Jordan, S.K. Stevens, Y. Tam, R.P. Pemberton, S. Chaudhuri, A.D. Stoycheva, N. Dyatkina, G. Wang, J.A. Symons, J. Deval*, L. Beigelman
+                        ACS Chem. Biol. 12(1): 83-91.
+                    </a>
                 </li>
                 <li>
                     <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30251630/">Combined Proteomic and In Silico Target Identification Reveal a Role for 5-Lipoxygenase in Developmental Signaling Pathways (2018) Brand et al., Cell Chemical Biology 25, 1095-1106 <br> S. Brand, S. Roy, P. Schröder, B. Rathmer, J. Roos, S. Kapoor , S. Patil, C. Pommerenke , T. Maier, P. Janning , S. Eberth, D. Steinhilber, D. Schade, G. Schneider, K. Kumar, S. Ziegler, H. Waldmann</a>

@@ -366,9 +366,9 @@ echo Banner::gen();
                 </li>
                 <li>
                     <a target="_blank" href="https://journals.sagepub.com/doi/full/10.1089/nat.2017.0697">
-                        Development of a CRISPR/Cas9-based therapeutic strategy for Lesch–Nyhan syndrome (2017) <br>
-                        S. Fu, Y. Zhao, X. Wang, Y. Li, Y. Zhang, Y. Zhang, Y. Wang
-                        Nucleic Acid Therapeutics 27(6): 364–372.
+                        Leveraging Rational Protein Engineering to Improve mRNA Therapeutics (2018) <br>
+                        J.D. Farelli, K.H. Asrani, Y. Li, J. Jin, J. Li, Y. Zhao, Y. Xu, Y. Zhang, Y. Wang, R.R. Subramanian
+                        Nucleic Acid Therapeutics 28(2): 364–372.
                     </a>
                 </li>
                 <li>
@@ -386,7 +386,7 @@ echo Banner::gen();
                 <li>
                     <a target="_blank" href="https://link.springer.com/article/10.1186/s13073-015-0150-6">
                         Molecular insight into thiopurine resistance: transcriptomic signature in lymphoblastoid cell lines (2015) <br>
-                       L. Chouchana, A.A. Fernández-Ramos, F. Dumont, C. Marchetti, I. Ceballos-Picot, P. Beaune, D. Gurwitz, M-A. Loriot
+                        L. Chouchana, A.A. Fernández-Ramos, F. Dumont, C. Marchetti, I. Ceballos-Picot, P. Beaune, D. Gurwitz, M-A. Loriot
                         Genome Medicine 7: 115.
                     </a>
                 </li>
