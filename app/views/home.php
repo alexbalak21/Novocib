@@ -78,7 +78,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div id="crouselItem" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/app/img/backgound-nameless.jpg" class="d-block w-100" alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
+                <img src="/app/img/backgound-nameless.webp" class="d-block w-100" alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
                 <div class="carousel-caption">
                     <div>
                         <h1 class="display-3 carousel-caption-title">Reliable solutions for nucleotides assessment</h1>
