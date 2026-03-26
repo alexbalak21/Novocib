@@ -6,7 +6,7 @@ class Nav
         ob_start(); ?>
         <header>
             <a class="logo" href="/"><img src="/app/img/logo.png" alt="novocib logo" /></a>
-            <label class="hamburger-menu"><input type="checkbox" id="nav-toggle" /></label>
+            <label class="hamburger-menu"  aria-label="Toggle navigation menu"><input type="checkbox" id="nav-toggle" /></label>
             <nav>
                 <ul>
                     <!-- FRESHNESS -->

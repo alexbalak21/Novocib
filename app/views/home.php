@@ -56,7 +56,7 @@ ob_start(); ?>
 <meta name="main services of novocib"
     content="services provided by novocib are: Active purified enzymes kits, One-step analysis Kits, wide range of Analytical Services">
 <meta name="keywords" content="Freshness Assay Kits, Active Purified Enzymes, Analytical Services">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:image" content="https://www.novocib.com/app/img/logo_underline.png">
 <meta property="og:image:alt" content="NOVOCIB logo">
 <?php $metas = ob_get_clean();
@@ -187,6 +187,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </ul>
                     </div>
                     <div class="text-center my-4" title="Go to Active purified enzymes page"><a
+                            aria-label="Go to Active purified enzymes page"
                             href="/active-purified-enzymes" class="btn btn-primary">Go to Page <i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
                 </div>
