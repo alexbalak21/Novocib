@@ -73,7 +73,7 @@ ob_start(); ?>
                         placeholder="your-need" />
                     <div class="valid-feedback">Good</div>
                     <div class="invalid-feedback">Enter your the product or service you need (min: 4)</div>
-                    <label for="your-need">Your need</label>
+                    <label for="your-need">Your need or Request</label>
                 </div>
             </div>
             <?php if (isset($_GET['volume'])) echo $volume_form; ?>

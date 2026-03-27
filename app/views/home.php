@@ -66,7 +66,7 @@ ob_start(); ?>
 <link href="/app/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link rel="stylesheet" href="/app/lib/owlcarousel/assets/owl.theme.default.min.css">
 <script src="/app/lib/owlcarousel/owl.carousel.min.js" defer></script>
-<script src="/app/lib/jquery/jquery-3.7.1.min.js"></script>
+<script src="/app/lib/jquery/jquery-3.7.1.slim.min.js"></script>
 <link rel="stylesheet" href="/app/css/owlcarousel.css">
 <script src="/app/js/owlcarousel.js" defer></script>
 <?php $additional_head = ob_get_clean();
@@ -201,7 +201,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <h2 class="underlinedTitle center"><span class="underlined novoblue center">About Us</span></h2>
             <div class="row">
                 <div class="col-lg-5 d-flex align-items-center">
-                    <img width="451" height="272" class="mb-5 img-fluid" src="/app/img/analysis4.jpg"  alt="Laboratory technician in a sterile hood pipetting liquid into microcentrifuge tubes next to racks and a 96-well plate">
+                    <img width="451" height="272" class="mb-5 img-fluid" src="/app/img/analysis4.jpg" alt="Laboratory technician in a sterile hood pipetting liquid into microcentrifuge tubes next to racks and a 96-well plate">
                 </div>
                 <div class="text-container col-lg-7 d-flex justify-content-center align-items-center">
                     <div>
@@ -271,7 +271,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="row justify-content-center">
 
             <div class="award col-lg-3 col-10">
-                <a target="_blank" href="https://www.enseignementsup-recherche.gouv.fr/fr/le-concours-i-lab-49808"><img
+                <a target="_blank" href="https://www.enseignementsup-recherche.gouv.fr/fr/le-concours-i-lab-49808">
+                    <img
+                        loading="lazy"
                         class="w-100 h-auto mt-2" src="/app/img/i-lab-1.jpg" alt="i-lab logo"
                         title="French national i-lab awards"></a>
                 <h4 class="text-center mt-3 novo-blue">I-LAB</h4>
@@ -293,7 +295,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
             <div class="award col-lg-3 col-10">
                 <a href="https://www.senat.fr/salle-de-presse/communiques-de-presse/presse/cp20150113a.html"
-                    target="_blank"><img class="w-100 h-auto mt-2" src="/app/img/tremplin.jpg"
+                    target="_blank"><img class="w-100 h-auto mt-2" src="/app/img/tremplin.jpg" loading="lazy"
                         alt="Business Springboard awards logo" title="16th Business Springboard awards"></a>
                 <h4 class="text-center mt-3 novo-blue">Tremplin des Entreprises</h4>
                 <h5 class="text-center mb-3">2005</h5>
@@ -312,7 +314,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
 
             <div class="award col-lg-3 col-10">
-                <a href="https://www.facebook.com/femmesenor/" target="_blank"><img class="w-100 h-auto mt-2"
+                <a href="https://www.facebook.com/femmesenor/" target="_blank"><img class="w-100 h-auto mt-2" loading="lazy"
                         src="/app/img/femme-en-or.jpg" alt="femmes en or brand" title="women of gold awards"></a>
                 <h4 class="text-center mt-3 novo-blue">Femmes en Or</h4>
                 <h5 class="text-center mb-3">2011</h5>

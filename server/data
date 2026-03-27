@@ -1,0 +1,9 @@
+<?php
+function get_data()
+{
+    return [
+        "ENC_METHOD" => "camellia-256-cbc",
+        "S_KEY" => "R5fckKj?wnk2U#1ObgFRFP3r6%SPuT5",
+        "S_IV" => "GxHK%m9I-PQEV_B5P3*P8Es%soB"
+    ];
+}

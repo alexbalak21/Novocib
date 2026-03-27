@@ -1,0 +1,9 @@
+<?php
+function get_sec()
+{
+    return [
+        "Senc" => "7?PZXntw%Lw8Ad8A^uv*^tqLdwqSW96&uHc0OBPLKz6pk0yM#0^A4MUsf?tQu?p+",
+        "s_enc_m" => "aes-256-ctr",
+        "iterations" => 10817
+    ];
+}

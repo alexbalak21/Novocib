@@ -5,32 +5,19 @@ require_once __DIR__ . "/../components/autoloader.php";
    DEFAULT VALUES
 ------------------------------ */
 
-if (!isset($title)) {
-    $title = "Novocib";
-}
-
-if (!isset($lang)) {
-    $lang = "en";
-}
+if (!isset($title)) $title = "Novocib";
+if (!isset($lang)) $lang = "en";
 
 if (!isset($metas) || trim($metas) === "") {
-    // Default SEO description
     $metas = '<meta name="description" content="Novocib provides nucleotide analysis, enzymatic assays, and purified enzymes for biotechnology and research.">';
 }
 
 /* ------------------------------
-   FONT AWESOME SOURCE
+   FONT AWESOME SOURCE (FA7)
 ------------------------------ */
 
-$host = $_SERVER['HTTP_HOST'];
-
-if (str_starts_with($host, "localhost")) {
-    // Local development → local FA
-    $fontAwesome_source = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css";
-} else {
-    // Production → CDN FA (faster)
-    $fontAwesome_source = "/FA6/css/all.min.css";
-}
+// $fontAwesome_source = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css";
+$fontAwesome_source = "/FA/css/all.min.css";
 
 /* ------------------------------
    SECURITY: Prevent direct access
@@ -56,7 +43,7 @@ if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
     <link rel="stylesheet" href="/app/css/bootstrap.min.css">
 
     <!-- FONT AWESOME -->
-    <link href="<?= $fontAwesome_source ?>" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?= $fontAwesome_source ?>">
 
     <!-- PRELOAD MAIN CSS -->
     <link rel="preload" href="/app/css/main.css" as="style">
@@ -65,18 +52,18 @@ if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
     <link rel="stylesheet" href="/app/css/main.css">
     <link rel="stylesheet" href="/app/css/nav.css">
 
-    <!-- JS (DEFERRED) -->
+    <!-- JS -->
     <script src="/app/js/bootstrap.bundle.min.js" defer></script>
     <script src="/app/js/app.js" defer></script>
 
-    <!-- GOOGLE ANALYTICS (PRODUCTION ONLY) -->
+      <!-- GOOGLE ANALYTICS (PRODUCTION ONLY) -->
     <?php
     if (!str_starts_with($_SERVER["HTTP_HOST"], "localhost")) {
         echo '<script src="/app/js/google_analytics.js" defer></script>';
     }
-
-    echo $additional_head ?? "";
     ?>
+
+    <?= $additional_head ?? "" ?>
 
     <link rel="icon" type="image/x-icon" href="/app/favicon.ico">
 </head>
@@ -84,26 +71,24 @@ if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
 <body>
     <?= Nav::bar() ?>
 
-
     <?php
     /* ------------------------------
-       CONTENT BUFFERING
-    ------------------------------ */
+   AUTO‑RENDER SYSTEM (WORKING)
+------------------------------ */
 
-    global $content;
-    $content = "";
-
-    function addContent($passedContent = "")
-    {
-        global $content;
-        $content .= $passedContent;
-    }
+    ob_start(); // capture all page output
 
     function render()
     {
-        global $content;
+        $content = ob_get_clean(); // everything printed so far
         echo $content;
         echo Footer::gen();
+
+        // close HTML properly
         echo "</body></html>";
     }
+
+    register_shutdown_function("render");
     ?>
+
+    <!-- FA7 FIX: CENTER ICONS -->

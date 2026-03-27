@@ -39,10 +39,10 @@ class Footer
                                     <i class="fa-brands fa-linkedin"></i>
                                     <a href="https://www.linkedin.com/company/novocib/">Linked-In</a>
                                 </li>
-                              <li class="mt-auto">
-                                <i class="fa-solid fa-user-tie"></i>
-                                <a href="mailto:admin@novocib.com">Website Admin</a>
-                              </li>
+                                <li class="mt-auto">
+                                    <i class="fa-solid fa-user-tie"></i>
+                                    <a href="mailto:admin@novocib.com">Website Admin</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -53,6 +53,30 @@ class Footer
             </div>
         </footer>
 
-<?php return ob_get_clean();
+        <style>
+            footer i.fa-solid,
+            footer i.fa-brands {
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                vertical-align: middle !important;
+                line-height: 1 !important;
+                --fa-line-height: 1 !important;
+            }
+
+            footer ul li i {
+                width: 40px !important;
+                height: 40px !important;
+                display: inline-flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                border-radius: 50% !important;
+                background-color: white !important;
+                margin-right: 50px !important;
+                color: #336293 !important;
+                padding: 0 !important;
+            }
+        </style>
+        <?php return ob_get_clean();
     }
 } ?>
