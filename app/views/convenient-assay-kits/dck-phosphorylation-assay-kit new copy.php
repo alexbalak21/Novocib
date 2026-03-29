@@ -1,10 +1,11 @@
 <?php
 global $title;
-$title = "Deoxycytidine Kinase Phosphorylation Assay Kit";
+$title = "PRECICE® dCK Phosphorylation Assay Kit | Human Deoxycytidine Kinase Activity Assay";
+$page_title = "Deoxycytidine Kinase Phosphorylation Assay Kit";
 
 ob_start(); ?>
-<meta name="keywords" content="buy recombinant 5'-nucleotidase enzyme, cytosolic 5'-nucleotidase E.C.3.1.3.5, High Km 5'-nucleotidase, hkm-NT, purine 5'-NT enzyme, ribavirin phosphorylation assay, GMP and IMP dephosphorylation, cloned human nucleotidase, antiviral nucleoside analog phosphorylation">
-<meta name="description" content="Explore NovoCIB's active human cytosolic 5'-nucleotidase II: a recombinant enzyme characterized for its ability to dephosphorylate GMP/IMP and phosphorylate natural nucleosides and antiviral analogs such as ribavirin.">
+<meta name="description" content="High-sensitivity microplate assay for evaluating phosphorylation of ribo- and deoxyribonucleoside analogues by human recombinant deoxycytidine kinase (dCK). Validated with gemcitabine, cladribine, aracytidine, and natural nucleosides. Ideal for drug discovery and nucleoside analogue screening.">
+<meta name="keywords" content="deoxycytidine kinase assay, dCK phosphorylation assay, nucleoside analogue phosphorylation, gemcitabine activation, cladribine phosphorylation, aracytidine phosphorylation, ribonucleoside assay, deoxyribonucleoside assay, NOVOCIB dCK, competitive inhibition assay, IMPDH coupled assay, HTS nucleoside screening">
 <?php $metas = ob_get_clean();
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
@@ -19,7 +20,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <span class="underlined novoblue right">PRECICE<sup>®</sup> dCK Phosphorylation Assay Kit</span>
             </h1>
             <p class="lead">
-                Microplate-based spectrophotometric assay for evaluating phosphorylation of ribo‑ and deoxyribonucleoside analogues by human recombinant deoxycytidine kinase.
+                Microplate-based spectrophotometric assay for evaluating phosphorylation of ribo- and deoxyribonucleoside analogues by human recombinant deoxycytidine kinase.
             </p>
         </div>
 
@@ -38,7 +39,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     The <strong>PRECICE<sup>®</sup>dCK Phosphorylation Assay Kit</strong>, developed by NOVOCIB's R&D team, provides a ready to use solution for evaluating the phosphorylation of novel ribonucleoside and deoxyribonucleoside analogues using the active human recombinant deoxycytidine kinase supplied in the kit. Each kit includes active human recombinant deoxycytidine kinase and calibrated solution of gemcitabine to ensure accurate and reproducible phosphorylation measurements without enzymology background.
                 </p>
                 <p>
-                    Human deoxycytidine kinase (dCK) has unusually broad specificity and is the activation enzyme for many anticancer and antiviral nucleoside analogues Human deoxycytidine kinase (dCK). It phosphorylates purine deoxynucleosides (dAR, dGR); pyrimidine deoxynucleosides (dCR); ribonucleoside (CR) and also nucleoside analogues cytarabine; gemcitabine; cladribine; fludarabine and L‑nucleosides like lamivudine (3TC). Structural studies have shown how dCK accommodates both D‑ and L‑nucleosides, explaining why it activates drugs of both chiralities.
+                    Human deoxycytidine kinase (dCK) has unusually broad specificity and is the activation enzyme for many anticancer and antiviral nucleoside analogues Human deoxycytidine kinase (dCK). It phosphorylates purine deoxynucleosides (dAR, dGR); pyrimidine deoxynucleosides (dCR); ribonucleoside (CR) and also nucleoside analogues cytarabine; gemcitabine; cladribine; fludarabine and L-nucleosides like lamivudine (3TC). Structural studies have shown how dCK accommodates both D- and L-nucleosides, explaining why it activates drugs of both chiralities.
                 </p>
                 <p>
                 <h4 class="novo-blue">Assay Principle</h4>
@@ -74,32 +75,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <!-- PRODUCT INFO -->
             <div class="d-flex justify-content-center mt-5">
                 <div class="col-lg-10 col-12 text-center">
-                    <div class="table-responsive">
-                        <table class="table product mb-2">
-                            <thead>
-                                <tr>
-                                    <th class="d-none d-md-table-cell">#REF</th>
-                                    <th class="text-center">SIZE</th>
-                                    <th class="text-center d-none d-md-table-cell">PRICE</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="d-none d-md-table-cell">#K0307-01</td>
-                                    <td class="text-center">dCK Phosphorylation Assay Kit<br>1 plate (96 assays)</td>
-                                    <td class="d-none d-md-table-cell text-center">530.00 €</td>
-                                    <td class="text-end pe-3">
-                                        <div class="d-block d-md-none text-end mb-1 fw-bold">
-                                            530.00 € </div>
-                                        <a class="btn btn-primary" href="/inquiry?ref=K0307-01&amp;price=530&amp;product=dCK Phosphorylation Assay Kit&amp;volume=1 plate (96 assays)">
-                                            Inquiry <i class="fa-solid fa-comment"></i>
-                                        </a>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                         <?= Product::gen("dCK Phosphorylation Assay Kit") ?>
 
                     <p class="strong">
                         Kit is provided in stable lyophilized form and
@@ -260,7 +236,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <!-- SIMPLE / HTS -->
         <section class="mt-5 col-lg-8 mx-auto">
             <h2 class="h3 novo-blue">Simple</h2>
-            <p class="ms-5"><i class="novo-blue fa-solid fa-arrow-right"></i> Homogeneous and continuous (add‑and‑measure)</p>
+            <p class="ms-5"><i class="novo-blue fa-solid fa-arrow-right"></i> Homogeneous and continuous (add-and-measure)</p>
 
             <h2 class="h3 novo-blue mt-4">High-Throughput Analysis</h2>
             <p class="ms-5"><i class="novo-blue fa-solid fa-arrow-right"></i> Test 12 analogues at 7 concentrations simultaneously</p>

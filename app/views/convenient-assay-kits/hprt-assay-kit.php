@@ -4,7 +4,7 @@ $title = "HPRT Assay Kit | Hypoxanthine-Guanine Phosphoribosyltransferase Assay"
 
 ob_start(); ?>
 <meta name="keywords" content="HPRT Assay Kit, HPRT enzyme assay, hypoxanthine-guanine phosphoribosyltransferase test, HPRT1 gene testing, Lesch-Nyhan syndrome diagnosis, HPRT enzyme activity, purine metabolism assay, HPRT deficiency test, non-radioactive HPRT assay, research HPRT kit">
-<meta name="description" content="Accurate and reliable PRECICE<sup>®</sup> HPRT Assay Kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics. Non-radioactive, microplate format with human recombinant HPRT enzyme. CE-IVD compliant.">
+<meta name="description" content="Accurate and reliable PRECICE® HPRT Assay Kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics. Non-radioactive, microplate format with human recombinant HPRT enzyme. CE-IVD compliant.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.novocib.com/convenient-assay-kits/hprt-assay-kit" />
