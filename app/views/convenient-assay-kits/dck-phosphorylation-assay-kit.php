@@ -51,7 +51,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <!-- RIGHT COLUMN: IMAGES -->
             <aside class="col-lg-6 text-center">
                 <figure class="col-xl-8 col-10 mx-auto mb-4">
-                    <img class="img-fluid" src="/app/img/dck_assay_kit.jpg"
+                    <img class="img-fluid" src="/app/img/dck_assay_kit.webp"
                         alt="Composition of the dCK Phosphorylation Assay Kit"
                         title="Contents of the dCK Phosphorylation Assay Kit">
                 </figure>
