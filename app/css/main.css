@@ -801,6 +801,10 @@ header .brand {
   font-weight: 550;
 }
 
+.strong, .fw-semibold {
+  font-weight: 500 !important;
+}
+
 .form-outline .form-control {
   min-height: auto;
   padding-top: 0.32rem;
