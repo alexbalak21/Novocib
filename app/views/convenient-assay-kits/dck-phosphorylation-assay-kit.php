@@ -9,7 +9,7 @@ ob_start(); ?>
 <?php $metas = ob_get_clean();
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
-<?= Banner::gen("/app/img/dck_banner.webp"); ?>
+<?= Banner::gen("/app/img/dck_banner.webp", $page_title); ?>
 <main>
     <section class="container mt-5">
         <!-- PAGE TITLE -->
