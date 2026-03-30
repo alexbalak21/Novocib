@@ -301,7 +301,7 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
         <div class="card border-0 shadow-sm mt-5">
             <div class="card-body">
                 <h4 class="card-title novo-blue mb-3">
-                    💡 Research & Clinical Applications
+                    <i class="fa-solid fa-lightbulb"></i> Research & Clinical Applications
                 </h4>
                 <ul class="list-unstyled mb-0">
                     <li><i class="fa-solid fa-dna novo-blue"></i> <strong>Enzyme deficiency diagnosis</strong> — e.g., Lesch-Nyhan syndrome</li>
