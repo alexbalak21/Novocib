@@ -1,10 +1,11 @@
 <?php
 global $title;
 $title = "HPRT Assay Kit | Hypoxanthine-Guanine Phosphoribosyltransferase Assay";
+$page_title = "HPRT Assay Kit";
 
 ob_start(); ?>
-<meta name="keywords" content="HPRT Assay Kit, HPRT enzyme assay, hypoxanthine-guanine phosphoribosyltransferase test, HPRT1 gene testing, Lesch-Nyhan syndrome diagnosis, HPRT enzyme activity, purine metabolism assay, HPRT deficiency test, non-radioactive HPRT assay, research HPRT kit">
-<meta name="description" content="Accurate and reliable PRECICE® HPRT Assay Kit for measuring hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics. Non-radioactive, microplate format with human recombinant HPRT enzyme. CE-IVD compliant.">
+<meta name="description" content="PRECICE® HPRT Assay Kit by Novocib — a ready-to-use, non-radioactive spectrophotometric microplate assay for accurate measurement of hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity. Fast, reliable, and ideal for research and clinical diagnostics.">
+<meta name="keywords" content="HPRT assay kit, hypoxanthine-guanine phosphoribosyltransferase, enzyme activity measurement, purine salvage pathway, non-radioactive assay, spectrophotometric microplate, clinical diagnostics, Novocib, PRECICE assay, Lesch-Nyhan syndrome, gout research, HPRT1 gene, enzyme kinetics, NADH detection">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://www.novocib.com/convenient-assay-kits/hprt-assay-kit" />
@@ -42,7 +43,7 @@ ob_start(); ?>
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
-echo Banner::gen();
+echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
 ?>
 
 <main class="mt-5" itemscope itemtype="https://schema.org/Product">
@@ -134,7 +135,7 @@ echo Banner::gen();
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">🎯 Accurate</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-bullseye"></i> Accurate</h4>
                         <p class="mt-3 mb-0">Low variability: <strong>1.5%</strong> (within-run), <strong>5%</strong> (between-day), and <strong>6.5%</strong> (total imprecision).</p>
                     </div>
                 </div>
@@ -143,7 +144,7 @@ echo Banner::gen();
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">⚡ Fast</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-bolt-lightning"></i> Fast</h4>
                         <p class="mt-3 mb-0">Analyze up to <strong>15 samples</strong> in triplicate in just <strong>2 hours</strong>.</p>
                     </div>
                 </div>
@@ -152,7 +153,7 @@ echo Banner::gen();
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">🧪 Convenient</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-vial"></i> Convenient</h4>
                         <p class="mt-3 mb-0">Skip sample prep: use <strong>untreated cell lysates</strong> without inactivating 5'-nucleotidase.</p>
                     </div>
                 </div>
@@ -161,7 +162,7 @@ echo Banner::gen();
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">✅ Validated</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-square-check"></i> Validated</h4>
                         <p class="mt-3 mb-0">Results consistent with <strong>radiochemical protocols</strong> across erythrocytes, PBMCs, and cultured cells.</p>
                     </div>
                 </div>
@@ -170,7 +171,7 @@ echo Banner::gen();
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">📦 Ready-to-Use</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-box"></i> Ready-to-Use</h4>
                         <p class="mt-3 mb-0">Supplied in a stable <strong>lyophilized form</strong> and shipped <strong>without dry ice</strong>—easy to store and prepare on demand.</p>
                     </div>
                 </div>
@@ -254,40 +255,40 @@ echo Banner::gen();
     </div>
 
     <div class="container mt-4 mb-5">
-        <h4 class="mt-5 novo-blue text-center">🔬 Advantages of IMP-Dehydrogenase in the HPRT Assay</h4>
+        <h4 class="mt-5 novo-blue text-center"><i class="fa-solid fa-microscope"></i> Advantages of IMP-Dehydrogenase in the HPRT Assay</h4>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
 
             <div class="col">
                 <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                    <h6 class="mb-2">🎯 Targeted Specificity</h6>
+                    <h6 class="mb-2"><i class="fa-solid fa-bullseye novo-blue"></i> Targeted Specificity</h6>
                     <p class="mb-0">IMPDH is highly selective for IMP, ensuring accurate downstream detection.</p>
                 </div>
             </div>
 
             <div class="col">
                 <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                    <h6 class="mb-2">💊 Drug-Compatible</h6>
+                    <h6 class="mb-2"><i class="fa-solid fa-pills novo-blue"></i> Drug-Compatible</h6>
                     <p class="mb-0">Allopurinol-insensitive—ideal for analyzing patient samples under treatment.</p>
                 </div>
             </div>
 
             <div class="col">
                 <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                    <h6 class="mb-2">🔁 Reaction Directionality</h6>
+                    <h6 class="mb-2"><i class="fa-solid fa-repeat novo-blue"></i> Reaction Directionality</h6>
                     <p class="mb-0">Ensures irreversible forward flow from IMP to XMP, avoiding reverse HPRT activity.</p>
                 </div>
             </div>
 
             <div class="col">
                 <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                    <h6 class="mb-2">🧪 Nucleotidase-Resistant</h6>
+                    <h6 class="mb-2"><i class="fa-solid fa-vial novo-blue"></i> Nucleotidase-Resistant</h6>
                     <p class="mb-0">Excess IMPDH outcompetes endogenous 5'-nucleotidase, preserving assay accuracy.</p>
                 </div>
             </div>
 
             <div class="col">
                 <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                    <h6 class="mb-2">📈 Real-Time Monitoring</h6>
+                    <h6 class="mb-2"><i class="fa-solid fa-chart-line novo-blue"></i> Real-Time Monitoring</h6>
                     <p class="mb-0">Direct NADH readout at 340 nm enables continuous kinetic measurements.</p>
                 </div>
             </div>
@@ -303,10 +304,10 @@ echo Banner::gen();
                     💡 Research & Clinical Applications
                 </h4>
                 <ul class="list-unstyled mb-0">
-                    <li>🧬 <strong>Enzyme deficiency diagnosis</strong> — e.g., Lesch-Nyhan syndrome</li>
-                    <li>🧬 <strong>HPRT mutation screening</strong> for functional studies and diagnostics</li>
-                    <li>🧬 <strong>Drug screening</strong> targeting HPRTs of protozoan parasites (e.g., <em>Plasmodium</em>, <em>Leishmania</em>)</li>
-                    <li>🧬 <strong>Toxicology assays</strong> using HPRT as a genotoxicity biomarker</li>
+                    <li><i class="fa-solid fa-dna novo-blue"></i> <strong>Enzyme deficiency diagnosis</strong> — e.g., Lesch-Nyhan syndrome</li>
+                    <li><i class="fa-solid fa-microscope novo-blue"></i> <strong>HPRT mutation screening</strong> for functional studies and diagnostics</li>
+                    <li><i class="fa-solid fa-pills novo-blue"></i> <strong>Drug screening</strong> targeting HPRTs of protozoan parasites (e.g., <em>Plasmodium</em>, <em>Leishmania</em>)</li>
+                    <li><i class="fa-solid fa-vial novo-blue"></i> <strong>Toxicology assays</strong> using HPRT as a genotoxicity biomarker</li>
                 </ul>
             </div>
         </div>
@@ -316,7 +317,7 @@ echo Banner::gen();
     <div class="bg-light">
         <div class="references mt-5 pb-3 container">
             <h2 class="h4 pt-4 pb-3 text-center border-top border-bottom novo-blue"><i class="fa-brands fa-readme"></i> Scientific Research & Publications</h2>
-            <p class="text-center mb-4">The <b>PRECICE<sup>®</sup> HPRT Assay Kit</b> has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
+            <p class="text-center mb-4">The <b class="novo-blue">PRECICE<sup>®</sup> HPRT Assay Kit</b> has been cited in numerous peer-reviewed publications, demonstrating its reliability and effectiveness in HPRT research:</p>
             <ol>
                 <li>
                     <a target="_blank" href="https://www.biorxiv.org/content/10.1101/2025.03.29.646096.abstract">
@@ -368,7 +369,7 @@ echo Banner::gen();
                     <a target="_blank" href="https://journals.sagepub.com/doi/full/10.1089/nat.2017.0697">
                         Leveraging Rational Protein Engineering to Improve mRNA Therapeutics (2018) <br>
                         J.D. Farelli, K.H. Asrani, Y. Li, J. Jin, J. Li, Y. Zhao, Y. Xu, Y. Zhang, Y. Wang, R.R. Subramanian
-                        Nucleic Acid Therapeutics 28(2): 364–372.
+                        Nucleic Acid Therapeutics 28(2): 364-372.
                     </a>
                 </li>
                 <li>
