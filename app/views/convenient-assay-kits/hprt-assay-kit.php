@@ -126,7 +126,7 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
             <div class="col d-flex">
                 <div class="card w-100 bg-light border-0 rounded shadow-sm">
                     <div class="card-body">
-                        <h4 class="novo-blue">🔎 Wide Detection Range</h4>
+                        <h4 class="novo-blue"><i class="fa-solid fa-magnifying-glass"></i> Wide Detection Range</h4>
                         <p class="mt-3 mb-0">Detect HPRT activity from <strong>6.75</strong> to <strong>340 nmol/hour/ml</strong>, capturing both complete and partial deficiencies.</p>
                     </div>
                 </div>
