@@ -85,7 +85,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </p>
 
                     <p class="mt-4 mb-5 text-end">
-                        <a target="_blank" href="/app/documents/NovoCIB K0307-01-User Manual v140213SR Phosphorylation.pdf">
+                        <a target="_blank" href="/app/documents/Novocib_dCK_Phosphorylation_Assay_Kit_K0307-01_User_Manual.pdf" title="user manual">
                             <i class="fa-solid fa-book-atlas"></i>
                             <strong>dCK Phosphorylation Assay Protocol</strong>
                             <i class="fa-regular fa-file-pdf"></i>
