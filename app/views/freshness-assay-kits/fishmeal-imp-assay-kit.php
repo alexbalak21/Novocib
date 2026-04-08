@@ -1,62 +1,80 @@
 <?php
 global $title;
-$title = "Fishmeal IMP Assay Kit";
+$title = "PRECICE® Fishmeal IMP Assay Kit | IMP Analysis for Fishmeal";
 
 // META TAGS 
 ob_start(); ?>
-<meta name="description" content="PRECICE<sup>®</sup> IMP Assay Kit for enzymatic determination of IMP nucleotide in fishmeal samples (Ref. 0700-006). Accurately measure IMP levels in fishmeal using our optimized enzymatic assay with high sensitivity and specificity. Ideal for fishmeal quality control and freshness assessment in aquaculture and feed production.">
-<meta name="keywords" content="PRECICE IMP Assay Kit, fishmeal IMP test, IMP dehydrogenase assay, inosine monophosphate test, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection, 340nm spectrophotometry, fishmeal quality control, IMPDH enzyme assay, NADH quantification, fishmeal nucleotide analysis, PRECICE 0700-006, enzymatic fishmeal testing, IMP standard curve, fishmeal sample preparation, microplate reader assay, IMP concentration measurement, fishmeal degradation products, enzymatic fish freshness test">
+<link rel="canonical" href="https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit">
+<meta name="description" content="PRECICE Fishmeal IMP Assay Kit for enzymatic determination of IMP in fishmeal samples (Ref. 0700-006). Measure IMP levels by long-UV spectrophotometry at 340 nm for fishmeal quality control and freshness assessment.">
+<meta name="keywords" content="PRECICE Fishmeal IMP Assay Kit, fishmeal IMP assay, IMP test for fishmeal, IMP dehydrogenase assay, inosine monophosphate analysis, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection, 340 nm spectrophotometry, fishmeal quality control, IMPDH enzyme assay, NADH quantification, fishmeal nucleotide analysis, REF 0700-006, enzymatic fishmeal testing, fishmeal sample preparation">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="product">
+<meta property="og:site_name" content="NOVOCIB">
+<meta property="og:title" content="PRECICE Fishmeal IMP Assay Kit | IMP Analysis for Fishmeal">
+<meta property="og:description" content="Enzymatic kit for measuring IMP in fishmeal samples using long-UV spectrophotometry at 340 nm. Designed for fishmeal quality control and freshness assessment.">
+<meta property="og:url" content="https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit">
+<meta property="og:image" content="https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png">
+<meta property="og:image:alt" content="PRECICE Fishmeal IMP Assay Kit principle diagram">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PRECICE Fishmeal IMP Assay Kit | IMP Analysis for Fishmeal">
+<meta name="twitter:description" content="Enzymatic kit for measuring IMP in fishmeal samples using long-UV spectrophotometry at 340 nm for fishmeal quality control.">
+<meta name="twitter:image" content="https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png">
 <script type="application/ld+json">
-    {
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": "PRECICE<sup>®</sup> IMP Assay Kit",
-        "description": "PRECICE<sup>®</sup> IMP Assay Kit for enzymatic determination of IMP nucleotide in fishmeal samples (Ref. 0700-006). Accurately measure IMP levels in fishmeal using our optimized enzymatic assay with high sensitivity and specificity. The kit includes all necessary reagents for 12 samples with IMP standards for calibration.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Novocib"
-        },
-        "category": "Aquaculture Testing Kits",
-        "url": "https://www.novocib.com/fishmeal-imp-assay-kit",
-        "sku": "0700-006",
-        "offers": {
-            "@type": "Offer",
-            "availability": "https://schema.org/InStock",
-            "priceCurrency": "EUR",
-            "price": "0.00",
-            "seller": {
-                "@type": "Organization",
-                "name": "Novocib",
-                "url": "https://www.novocib.com"
-            }
-        },
-        "applicationCategory": "Fishmeal Quality Control",
-        "keywords": "PRECICE IMP Assay Kit, fishmeal IMP test, IMP dehydrogenase assay, inosine monophosphate test, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection",
-        "slogan": "Enzymatic determination of IMP nucleotide in fishmeal samples",
-        "additionalProperty": {
+{
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "PRECICE Fishmeal IMP Assay Kit",
+    "description": "PRECICE Fishmeal IMP Assay Kit for enzymatic determination of IMP in fishmeal samples (Ref. 0700-006). Measure IMP levels by long-UV spectrophotometry at 340 nm for fishmeal quality control and freshness assessment.",
+    "brand": {
+        "@type": "Brand",
+        "name": "Novocib"
+    },
+    "category": "Aquaculture Testing Kits",
+    "url": "https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit",
+    "image": "https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png",
+    "sku": "0700-006",
+    "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "priceCurrency": "EUR",
+        "price": "0.00",
+        "seller": {
+            "@type": "Organization",
+            "name": "Novocib",
+            "url": "https://www.novocib.com"
+        }
+    },
+    "applicationCategory": "Fishmeal Quality Control",
+    "keywords": "PRECICE Fishmeal IMP Assay Kit, fishmeal IMP assay, IMP test for fishmeal, IMP dehydrogenase assay, inosine monophosphate analysis, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection",
+    "slogan": "Enzymatic determination of IMP nucleotide in fishmeal samples",
+    "additionalProperty": [
+        {
             "@type": "PropertyValue",
             "name": "Target Analyte",
             "value": "Inosine 5'-monophosphate (IMP) in fishmeal samples"
         },
-        "audience": {
-            "@type": "Audience",
-            "audienceType": "Aquaculture Feed Producers, Fishmeal Quality Control Labs, Research Scientists, Seafood Processing Industry, Feed Formulation Specialists"
+        {
+            "@type": "PropertyValue",
+            "name": "Measurement Wavelength",
+            "value": "340 nm"
         }
+    ],
+    "audience": {
+        "@type": "Audience",
+        "audienceType": "Aquaculture feed producers, fishmeal quality control laboratories, research scientists, seafood processing companies, feed formulation specialists"
     }
+}
 </script>
 <?php $metas = ob_get_clean();
 
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-trendline"></script>
-
-<?= Banner::gen("/app/img/fish-farm.jpg", "coastal aquaculture facility") ?>
+<?= Banner::gen("/app/img/fish-farm.jpg", "Fishmeal IMP Assay Kit") ?>
 <main class="container mt-5">
 
     <h1 class="underlinedTitle center">
-        <span class="underlined center novoblue">PRECICE<sup>®</sup>Fishmeal IMP Assay Kit</span>
+        <span class="underlined center novoblue">PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</span>
     </h1>
 
     <!-- Introduction -->
@@ -64,7 +82,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <h2 class="text-center d-none">Introduction</h2>
 
         <div class="col-lg-4">
-            <img class="img-fluid border" src="/app/img/fish-meal.jpg" alt="fishmeal image">
+            <img class="img-fluid border" src="/app/img/fish-meal.jpg" alt="Anchovy fishmeal sample used for IMP analysis">
         </div>
 
         <div class="col-lg-8">
@@ -83,17 +101,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <h2 class="h3 ms-5">Principle</h2>
 
         <p class="text-center mb-3">
-            <b class="novo-blue">PRECICER Fishmeal IMP Assay Kit</b> provides an enzymatic tool for measuring IMP content in samples by long‑UV spectrophotometry.
+            <b class="novo-blue">PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</b> provides an enzymatic tool for measuring IMP content in samples by long‑UV spectrophotometry.
         </p>
 
         <div class="text-center">
             <img src="/app/img/fishmeal-imp-assay-kit-principle.png"
-                alt="PRECICE<sup>®</sup> Fishmeal IMP Assay Kit Principle"
+                alt="PRECICE Fishmeal IMP Assay Kit principle diagram"
                 class="img-fluid border">
         </div>
 
         <p class="mt-3">
-            <b class="novo-blue">PRECICER Fishmeal IMP Assay Kit</b> is based on the use of recombinant IMP‑specific dehydrogenase that allows irreversible and quantitative conversion of IMP to NADH. The NADH formed can be quantified by measuring absorbance at 340 nm. For maximal accuracy, assays are run with and without IMPDH enzyme in parallel. The absorbance rate observed in the absence of IMPDH is used as blank and subtracted from the absorbance rate measured in its presence.
+            <b class="novo-blue">PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</b> is based on the use of recombinant IMP‑specific dehydrogenase that allows irreversible and quantitative conversion of IMP to NADH. The NADH formed can be quantified by measuring absorbance at 340 nm. For maximal accuracy, assays are run with and without IMPDH enzyme in parallel. The absorbance rate observed in the absence of IMPDH is used as blank and subtracted from the absorbance rate measured in its presence.
         </p>
     </section>
 
@@ -203,7 +221,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <div class="text-end mt-3 mb-4">
         <p>
             <i class="fa-solid fa-download"></i> Download
-            <a target="_blank" href="/app/documents/PRECICE<sup>®</sup> Fishmeal IMP Assay Kit - User Manual - 0700-006.pdf">
+            <a target="_blank" href="/app/documents/PRECICE%C2%AE%20Fishmeal%20IMP%20Assay%20Kit%20-%20User%20Manual%20-%200700-006.pdf">
                 PRECICE<sup>®</sup> Fishmeal IMP Assay Kit
             </a>
             User Manual <i class="fa-solid fa-book-atlas"></i>
@@ -226,7 +244,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </div>
 
     <p>
-        As a faster alternative, NOVOCIB has developed the PRECICER IMP Assay Kit, a cost‑efficient enzymatic approach. In this assay, IMP is enzymatically converted to xanthosine monophosphate (XMP) with concomitant reduction of NAD to NADH. The NADH formed is then quantified spectrophotometrically at 340 nm, with absorbance developing only in the presence of the specific enzyme.
+        As a faster alternative, NOVOCIB has developed the PRECICE<sup>®</sup> IMP Assay Kit, a cost‑efficient enzymatic approach. In this assay, IMP is enzymatically converted to xanthosine monophosphate (XMP) with concomitant reduction of NAD to NADH. The NADH formed is then quantified spectrophotometrically at 340 nm, with absorbance developing only in the presence of the specific enzyme.
     </p>
 
     <!-- Kit content -->
@@ -237,7 +255,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <div class="row">
             <div class="col-lg-8 mt-lg-5">
-                <span>A standard <b>PRECICER Fishmeal IMP Assay Kit</b> contains:</span>
+                <span>A standard <b>PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</b> contains:</span>
                 <ul>
                     <li>One sealed 96‑well microplate (round‑bottom, Corning Costar® 3797) prefilled with <b class="novo-blue">IMP‑dehydrogenase enzyme</b></li>
                     <li><b>IMP standards (3 lanes)</b></li>
@@ -248,7 +266,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
 
             <div class="mb-5 col-lg-4 mx-auto">
-                <img src="/app/img/imp-assay-kit.jpg" alt="photo of the kit" title="kit content" class="img-fluid my-4 border">
+                <img src="/app/img/imp-assay-kit.jpg" alt="PRECICE Fishmeal IMP Assay Kit contents" title="Kit content" class="img-fluid my-4 border">
             </div>
         </div>
     </div>
