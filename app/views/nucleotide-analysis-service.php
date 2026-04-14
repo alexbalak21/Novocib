@@ -83,7 +83,7 @@ ob_start(); ?>
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
-<?= Banner::gen("/app/img/hplc.jpg") ?>
+<?= Banner::gen("/app/img/hplc.jpg", "Nucleotide Analysis Service") ?>
 
 <main class="container mt-5">
     <!-- Title & Intro -->
@@ -97,6 +97,64 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             (HPLC-UV) for complete characterization of Total Potentially Available Nucleotides (nucleotides, nucleosides, bases,
             and nucleic acids) present in food, feed, and biological samples.
         </p>
+    </div>
+    <div class="container my-5">
+        <article class="my-5">
+            <div class="mb-0">
+                <table class="table w-100 product" style="margin-bottom: 0;">
+                    <thead>
+                        <tr>
+                            <th>#REF</th>
+                            <th class="w-75 text-center" style="width: 800px !important">
+                                PRODUCT NAME
+                            </th>
+                            <th class="text-center">PRICE</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#S1200-01-SOL</td>
+                            <td class="text-center">
+                                <p>
+                                    HPLC-UV analysis of full spectra of soluble nucleotides-bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP)
+                                </p>
+                            </td>
+                            <td class="price">€ 300.00</td>
+                            <td class="text-center">
+                                <a class="btn btn-primary" href="/inquiry?ref=S1200-01-SOL&amp;price=300&amp;product=Soluble%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#S1200-03-RNA</td>
+                            <td class="text-center">
+                                <p>
+                                    HPLC-UV analysis of full spectra of nucleotides—free bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP) and nucleic acid RNA
+                                </p>
+                            </td>
+                            <td class="price">€ 350.00</td>
+                            <td class="text-center">
+                                <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=350&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>#S1200-03-NA</td>
+                            <td class="text-center">
+                                <p>
+                                    HPLC-UV analysis of full spectra of nucleotides—free bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP) and nucleic acids RNA and DNA
+                                </p>
+                            </td>
+                            <td class="price">€ 400.00</td>
+                            <td class="text-center">
+                                <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=400&amp;product=Nucleic%20Acids%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-muted text-center mt-3"><em>Updated on April 14th, 2026.</em></p>
+            <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease (ref. 1-3)</p>
+        </article>
     </div>
 
     <!-- Section: Chemical Diversity -->
@@ -335,55 +393,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us <i class="fa-solid fa-envelope"></i></span></a>
     </div>
 </main>
-<div class="container my-5">
-    <article class="my-5">
-        <div class="d-flex justify-content-center mb-0">
-            <table class="table w-100 product">
-                <thead>
-                    <tr>
-                        <th>#REF</th>
-                        <th class="w-75 text-center" style="width: 800px !important">
-                            PRODUCT NAME
-                        </th>
-                        <th class="text-center">PRICE</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>#S1200-03-NA</td>
-                        <td class="text-center">
-                            <p>
-                                HPLC-UV analysis of <b>TPAN</b> in food and feed ingredients—free bases (adenine, guanine, hypoxanthine, cytidine, uracil), nucleosides (cytosine, uridine, guanosine, inosine and adenosine), nucleotide monophosphates (CMP, UMP, GMP, IMP, AMP) and nucleic acids (DNA** and RNA**), expressed as g/100g.
-                                *The analysis of full spectra nucleotides is realized by ion-paired HPLC-UV allowing simultaneous separation of apolar bases, nucleosides, polar NMP and dNMP in one run
-                                **Nucleic acids DNA and RNA are analyzed after enzymatic digestion of RNA and DNA to NMP and dNMP with nuclease.
-                            </p>
-                        </td>
-                        <td class="price">€ 350.00 / sample</td>
-                        <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-NA&amp;price=350&amp;product=Dietary%20Nucleotides%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>#S1200-03-RNA</td>
-                        <td class="text-center">
-                            <p>
-                                HPLC-UV analysis of <b>TPAN</b> in food and feed ingredients—free bases, nucleosides, nucleotide monophosphates and nucleic acid RNA (without DNA), expressed as g/100g
-                            </p>
-                        </td>
-                        <td class="price">€ 315.00 / sample</td>
-                        <td>
-                            <a class="btn btn-primary" href="/inquiry?ref=S1200-03-RNA&amp;price=315&amp;product=RNA%20Analysis">Inquiry <i class="fa-solid fa-comment"></i></a>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p class="text-muted text-center"><em>Updated on February 10th, 2026.</em></p>
-    </article>
 
-
-</div>
 <section class="bg-light py-2">
     <div class="references row justify-content-center">
         <h3 class="text-center py-3 w-100 h4">
@@ -395,11 +405,78 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
         <div class="col-8 d-flex align-items-center mx-1">
             <ol>
+                <!-- 2006 -->
+                <li class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/16620851/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Nucleotide and nucleoside content in human milk during early lactation (2006)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            Nucleotide, nucleoside, and related compound content of human milk during early lactation. (2006)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Lönnerdal B., Keen C.L., Hernell O.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Journal of Pediatric Gastroenterology and Nutrition. PMID: 16620851 : 132–136</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1998 -->
+                <li class="mb-3">
+                    <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
+                        target="_blank"
+                        rel="noopener"
+                        title="Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women (1998)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. (1998)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Tressler R., Ramstack M., White N., Molitor B., Masor M.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Journal of Pediatric Gastroenterology and Nutrition, 26(5).</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1995 – Analytical Biochemistry -->
+                <li class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/8594993/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Ion-pairing HPLC method for simultaneous determination of nucleotides and related compounds (1995)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            An ion-pairing HPLC method for the direct simultaneous determination of nucleotides, deoxynucleotides, nicotinic coenzymes, oxypurines, nucleosides, and bases in perchloric acid cell extracts. (1995)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Di Pierro F., Tavazzi B., Perno C.F., Bartolini M., Balestra E., Calió R., Giardina B., Lazzarino G.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Analytical Biochemistry. PMID: 8594993 : 231, 407–412</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1995 – AJCN -->
                 <li class="mb-3">
                     <a href="https://pubmed.ncbi.nlm.nih.gov/7762521/"
                         target="_blank"
                         rel="noopener"
-                        title="Total potentially available nucleosides of human milk by stage of lactation — PubMed external link"
+                        title="Total potentially available nucleosides of human milk by stage of lactation (1995)"
                         class="text-decoration-none">
 
                         <div class="fw-semibold">
@@ -407,28 +484,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </div>
 
                         <div class="fst-italic text-muted">
-                            J. L. Leach, J. H. Baxter, B. E. Molitor, M. B. Ramstack, M. L. Masor
+                            Leach J.L., Baxter J.H., Molitor B.E., Ramstack M.B., Masor M.L.
                         </div>
 
                         <div class="small text-body-secondary">
                             <i>American Journal of Clinical Nutrition, 61(6), 1224–1230.</i>
-                        </div>
-                    </a>
-                </li>
-                <li class="mb-3">
-                    <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
-                        target="_blank"
-                        rel="noopener"
-                        title="Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women — ResearchGate external link"
-                        class="text-decoration-none">
-                        <div class="fw-semibold">
-                            Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. (1998)
-                        </div>
-                        <div class="fst-italic text-muted">
-                            Tressler R., Ramstack M., White N., Molitor B., Masor M.
-                        </div>
-                        <div class="small text-body-secondary">
-                            <i>Journal of Pediatric Gastroenterology and Nutrition, 26(5).</i>
                         </div>
                     </a>
                 </li>
