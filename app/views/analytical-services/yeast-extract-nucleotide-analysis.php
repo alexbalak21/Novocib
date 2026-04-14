@@ -129,7 +129,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                     </p>
                                 </div>
                                 <div class="col-md-4 text-md-end mt-2 mt-md-0">
-                                    <a href="/nucleotide-analysis-service" class="btn btn-sm btn-outline-primary">
+                                    <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-sm btn-outline-primary">
                                         <i class="fas fa-book me-1"></i> View Full Service Details
                                     </a>
                                 </div>
@@ -466,7 +466,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                         </ul>
                                     </div>
                                     <div class="text-center col-lg-6 mx-auto">
-                                        <a href="/nucleotide-analysis-service" class="btn btn-outline-primary btn-sm mb-5">
+                                        <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary btn-sm mb-5">
                                             <i class="fas fa-chart-line me-1"></i> Explore Analysis Services
                                         </a>
                                         <br>

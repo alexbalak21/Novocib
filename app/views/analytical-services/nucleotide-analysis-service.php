@@ -1,79 +1,102 @@
 <?php
 global $title;
-$title = "Nucleotide Analysis Service";
+$title = "TPAN Nucleotide Analysis Service (HPLC-UV)";
 
 ob_start(); ?>
 <meta name="keywords" content="NOVOCIB, HPLC analysis, nucleotides, nucleosides, nucleic acids, RNA, DNA, 5'AMP, 5'GMP, 5'IMP, 5'CMP, 5'UMP, enzymatic hydrolysis, acid hydrolysis, ion-paired chromatography, dietary nucleotides, food chemistry, feed ingredients">
 <meta name="description" content="NOVOCIB provides accurate HPLC-UV analysis of dietary nucleotides, nucleosides, and nucleic acids in food and feed. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), RNA and DNA analysis, and comparison of acid hydrolysis versus enzymatic hydrolysis methods for precise and eco-friendly results.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<link rel="canonical" href="https://www.novocib.com/nucleotide-analysis-service">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NOVOCIB">
+<meta property="og:url" content="https://www.novocib.com/nucleotide-analysis-service">
+<meta property="og:title" content="Nucleotide Analysis Service (TPAN) by Enzymatic HPLC | NOVOCIB">
+<meta property="og:description" content="TPAN analysis of nucleotides, nucleosides, bases, RNA and DNA by enzymatic hydrolysis coupled to ion-paired HPLC-UV. Compare acid and enzymatic methods and request an analysis.">
+<meta property="og:image" content="https://www.novocib.com/app/img/hplc-photo.jpg">
+<meta property="og:image:alt" content="NOVOCIB HPLC system for nucleotide analysis services">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nucleotide Analysis Service (TPAN) by Enzymatic HPLC | NOVOCIB">
+<meta name="twitter:description" content="Accurate TPAN analysis of food, feed and biological samples with enzymatic hydrolysis and ion-paired HPLC-UV.">
+<meta name="twitter:image" content="https://www.novocib.com/app/img/hplc-photo.jpg">
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "Product",
-        "brand": {
-            "@type": "Brand",
-            "name": "NOVOCIB"
+        "@type": "Service",
+        "name": "Nucleotide Analysis Service",
+        "serviceType": "Total Potentially Available Nucleotides (TPAN) analysis",
+        "description": "NOVOCIB provides TPAN analysis by enzymatic hydrolysis coupled to ion-paired HPLC-UV for quantification of nucleotides, nucleosides, bases, RNA and DNA in food, feed and biological samples.",
+        "url": "https://www.novocib.com/nucleotide-analysis-service",
+        "image": "https://www.novocib.com/app/img/hplc.jpg",
+        "provider": {
+            "@type": "Organization",
+            "name": "NOVOCIB",
+            "url": "https://www.novocib.com"
         },
-        "name": "HPLC-UV Analysis of Dietary Nucleotides",
-        "description": "NOVOCIB provides accurate HPLC-UV analysis of dietary nucleotides, nucleosides, and nucleic acids in food and feed ingredients. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), RNA and DNA analysis, and comparison of acid hydrolysis versus enzymatic hydrolysis methods.",
-        "url": "https://www.novocib.com/dietary-nucleotides-analysis",
-        "image": "https://www.novocib.com/app/img/hplc-photo.jpg",
-        "category": "Analytical Services",
-        "sku": "S1200-03-NA",
-        "offers": [{
-                "@type": "Offer",
-                "sku": "S1200-03-NA",
-                "name": "Full spectra nucleotides analysis (DNA + RNA)",
-                "url": "https://www.novocib.com/inquiry?ref=S1200-03-NA",
-                "price": "330.00",
-                "priceCurrency": "EUR",
-                "availability": "https://schema.org/InStock"
-            },
+        "areaServed": "Worldwide",
+        "offers": [
             {
                 "@type": "Offer",
-                "sku": "S1200-03-RNA",
-                "name": "Full spectra nucleotides analysis (RNA only)",
-                "url": "https://www.novocib.com/inquiry?ref=S1200-03-RNA",
+                "sku": "S1200-01-SOL",
+                "name": "Full spectra soluble nucleotides analysis",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-01-SOL",
                 "price": "300.00",
                 "priceCurrency": "EUR",
                 "availability": "https://schema.org/InStock"
             },
             {
                 "@type": "Offer",
-                "sku": "S1200-03-PURINES",
-                "name": "Purines content analysis",
-                "url": "https://www.novocib.com/inquiry?ref=S1200-03-PURINES",
-                "price": "on request",
+                "sku": "S1200-03-RNA",
+                "name": "Full spectra nucleotides analysis (RNA)",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-03-RNA",
+                "price": "350.00",
                 "priceCurrency": "EUR",
-                "availability": "https://schema.org/OnDemand"
+                "availability": "https://schema.org/InStock"
+            },
+            {
+                "@type": "Offer",
+                "sku": "S1200-03-NA",
+                "name": "Full spectra nucleotides analysis (RNA + DNA)",
+                "url": "https://www.novocib.com/inquiry?ref=S1200-03-NA",
+                "price": "400.00",
+                "priceCurrency": "EUR",
+                "availability": "https://schema.org/InStock"
             }
-        ],
-        "mainEntity": {
-            "@type": "FAQPage",
-            "mainEntity": [{
-                    "@type": "Question",
-                    "name": "What is the advantage of enzymatic hydrolysis compared to acid hydrolysis?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Enzymatic hydrolysis preserves the distinction between free nucleotides and polymeric nucleic acids, providing accurate and functionally relevant results. Acid hydrolysis is faster but collapses all compounds into bases, losing origin information."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Which nucleotides are quantified in NOVOCIB’s analysis?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "NOVOCIB quantifies free bases (adenine, guanine, cytosine, uracil, thymine), nucleosides, nucleotide monophosphates (AMP, GMP, IMP, CMP, UMP), and nucleic acids (RNA and DNA)."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What is the environmental impact of the methods?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Acid hydrolysis generates hazardous corrosive waste requiring special disposal. Enzymatic hydrolysis uses biodegradable enzymes, resulting in a greener waste stream."
-                    }
+        ]
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the advantage of enzymatic hydrolysis compared to acid hydrolysis?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Enzymatic hydrolysis preserves the distinction between free nucleotides and polymeric nucleic acids, providing accurate and functionally relevant results. Acid hydrolysis is faster but collapses all compounds into bases, losing origin information."
                 }
-            ]
+            },
+            {
+                "@type": "Question",
+                "name": "Which compounds are quantified in NOVOCIB analysis?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "NOVOCIB quantifies free bases, nucleosides, nucleotide monophosphates such as AMP, GMP, IMP, CMP and UMP, and nucleic acids including RNA and DNA."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the enzymatic method more sustainable than acid hydrolysis?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Acid hydrolysis generates hazardous corrosive waste requiring neutralization and disposal. Enzymatic hydrolysis uses biodegradable enzymes and generally produces a lower-hazard waste stream."
+                }
+            }
+        ]
         }
     }
 </script>
@@ -153,7 +176,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </table>
             </div>
             <p class="text-muted text-center mt-3"><em>Updated on April 14th, 2026.</em></p>
-            <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease (ref. 1-3)</p>
+            <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease <a href="#references">(ref. 1-3)</a></p>
         </article>
     </div>
 
@@ -170,7 +193,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <li>Nucleotide derivatives (such as nucleosides or nucleoside monophosphates) that can be converted into nucleotides.</li>
             </ul>
             <p>
-                The definition TPAN was suggested first for milk nucleotides (Leach at el, 1995*) who has developed a new method that measured the total potentially available nucleosides (TPAN) including free nucleosides, free nucleotides, nucleotide-containing adducts (such as NAD and UDP glucose), and nucleotide polymers, primarily RNA. With this method, Leach et al. determined that milk samples from American and European women contained averages of 72 and 68 mg/L of TPAN, respectively. * According to study (Tressler et al, 1998) free nucleotides in human milk represent less than half of the TPAN with RNA representing 43% and free nucleosides - 39,9% **.
+                The TPAN concept was first introduced for milk nucleotides (Leach et al., 1995*), where a dedicated method measured total potentially available nucleosides including free nucleosides, free nucleotides, nucleotide-containing adducts (such as NAD and UDP-glucose), and nucleotide polymers, primarily RNA. With this method, Leach et al. reported averages of 72 and 68 mg/L TPAN in milk samples from American and European women, respectively. According to Tressler et al. (1998), free nucleotides in human milk represent less than half of TPAN, with RNA around 43% and free nucleosides around 39.9%**.
             </p>
             <p><a class="text-secondary" href="#ref1">(1) J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor Total potentially available nucleosides of human milk by stage of lactation. Am J Clin Nutr 1995 . Jun;61(6):1224-30</a></p>
             <p><a class="text-secondary" href="#ref2">(2) Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998). Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)</a></p>
@@ -365,11 +388,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 Agilent 1120 series HPLC liquid chromatograph fitted with binary pump,
                 vacuum degasser, well-plate autosampler, thermostatic column compartment
                 and multiple wavelength and diode array detector. Run and data
-                acquisision are controlled by Agilent Chem Station software.
+                acquisition are controlled by Agilent Chem Station software.
                 Calibrations are performed with standards prepared in mobile phase and
                 with standards mixed with cell extracts, which are run immediately
                 before and after every series of samples. Peak assignment of different
-                bases, ribonucleosides and ribonucleoside monophosphatesis is done by
+                bases, ribonucleosides and ribonucleoside monophosphates is done by
                 comparing both retention times and characteristics of UV absorption
                 spectra (254/280 ratio) with those of standards. The area of individual
                 peaks was measured using ChemStation software (Agilent).
@@ -387,15 +410,58 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </section>
 
+    <section class="container my-5" aria-label="Frequently asked questions about nucleotide analysis">
+        <h2 class="text-center mb-4 novo-blue">Frequently Asked Questions</h2>
+        <div class="accordion" id="nucleotideFaq">
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeadingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="false" aria-controls="faqOne">
+                        What is the advantage of enzymatic hydrolysis compared to acid hydrolysis?
+                    </button>
+                </h3>
+                <div id="faqOne" class="accordion-collapse collapse" aria-labelledby="faqHeadingOne" data-bs-parent="#nucleotideFaq">
+                    <div class="accordion-body">
+                        Enzymatic hydrolysis preserves the distinction between free nucleotides and polymeric nucleic acids, which improves compositional interpretation. Acid hydrolysis is fast, but it collapses multiple compound classes into free bases.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeadingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
+                        Which compounds are quantified in NOVOCIB analysis?
+                    </button>
+                </h3>
+                <div id="faqTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#nucleotideFaq">
+                    <div class="accordion-body">
+                        The service quantifies free bases, nucleosides, nucleotide monophosphates (AMP, GMP, IMP, CMP, UMP), and nucleic acids (RNA and DNA), depending on the selected package.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="faqHeadingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                        Is the enzymatic method more sustainable than acid hydrolysis?
+                    </button>
+                </h3>
+                <div id="faqThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#nucleotideFaq">
+                    <div class="accordion-body">
+                        In most workflows, yes. Enzymatic hydrolysis generally reduces hazardous corrosive waste relative to strong-acid hydrolysis and simplifies waste management.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Call to Action -->
     <div class="text-center mt-5">
-        <h3 class="mt-1 me-3 d-inline">To know more</h3>
+        <h3 class="me-3 pt-3 d-inline">To know more</h3>
         <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us <i class="fa-solid fa-envelope"></i></span></a>
+        <p class="mt-5 mb-5 lead text-muted">See all services on our <a href="/analytical-services">Analytical Services</a> page or submit a request directly via <a href="/inquiry?ref=S1200-03-NA&amp;price=400&amp;product=Nucleic%20Acids%20Analysis">Inquiry</a>.</p>
     </div>
 </main>
 
 <section class="bg-light py-2">
-    <div class="references row justify-content-center">
+    <div class="references row justify-content-center" id="references">
         <h3 class="text-center py-3 w-100 h4">
             Scientific references
             <i class="fa-solid fa-microscope novo-blue"></i>
@@ -406,7 +472,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="col-8 d-flex align-items-center mx-1">
             <ol>
                 <!-- 2006 -->
-                <li class="mb-3">
+                <li id="ref1" class="mb-3">
                     <a href="https://pubmed.ncbi.nlm.nih.gov/16620851/"
                         target="_blank"
                         rel="noopener"
@@ -428,7 +494,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </li>
 
                 <!-- 1998 -->
-                <li class="mb-3">
+                <li id="ref2" class="mb-3">
                     <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
                         target="_blank"
                         rel="noopener"

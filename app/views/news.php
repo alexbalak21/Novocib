@@ -112,7 +112,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </a>
             </div>
             <div class="col-lg-4 col-8 text-center kit mx-3">
-                <a href="/nucleotide-analysis-service">
+                <a href="/analytical-services/nucleotide-analysis-service">
                     <h4>Analytical Services</h4>
                 </a>
             </div>

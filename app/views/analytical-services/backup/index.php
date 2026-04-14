@@ -21,7 +21,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <h2 class="mb-4 text-center">Our Services</h2>
     <div class="kit row align-items-center">
         <div class="col-3 me-3 text-center">
-            <h5><a href="/nucleotide-analysis-service">Nucleotide Analysis</a></h5>
+            <h5><a href="/analytical-services/nucleotide-analysis-service">Nucleotide Analysis</a></h5>
         </div>
         <div class="col-8">
             <p>

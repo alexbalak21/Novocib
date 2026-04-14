@@ -70,13 +70,13 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <i class="fas fa-flask fa-2x text-primary"></i>
                         </div>
                         <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Nucleotide Analysis</a>
+                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Nucleotide Analysis</a>
                         </h2>
                     </div>
                     <p class="card-text" itemprop="description">
                         Our advanced ion-paired high-performance liquid chromatography (HPLC) with diode array detection provides comprehensive analysis of nucleotide profiles in cell extracts, food products, and ingredients. Ideal for quality control and research applications.
                     </p>
-                    <a href="/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
             </div>
         </div>

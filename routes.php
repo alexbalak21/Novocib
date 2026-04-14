@@ -67,7 +67,7 @@ return [
     // Analytical Services
     '/services' => 'app/views/analytical-services/index.php',
     '/analytical-services' => 'app/views/analytical-services/index.php',
-    '/nucleotide-analysis-service' => 'app/views/nucleotide-analysis-service.php',
+    '/analytical-services/nucleotide-analysis-service' => 'app/views/analytical-services/nucleotide-analysis-service.php',
     '/analytical-services/cellular-nucleotides-analysis' => 'app/views/analytical-services/cellular-nucleotides-analysis.php',
     '/analytical-services/yeast-extract-nucleotide-analysis' => 'app/views/analytical-services/yeast-extract-nucleotide-analysis.php',
     '/yeast-extract-nucleotide-analysis' => 'app/views/analytical-services/yeast-extract-nucleotide-analysis.php',

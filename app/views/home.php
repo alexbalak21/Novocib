@@ -125,11 +125,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="row justify-content-center">
             <div class="col-lg-4 d-flex justify-content-center">
                 <div class="box">
-                    <a href="/nucleotide-analysis-service"><img src="/app/img/hplc-analysis-card.jpg"
+                    <a href="/analytical-services/nucleotide-analysis-service"><img src="/app/img/hplc-analysis-card.jpg"
                             alt="Gloved technician handling a labeled sample vial above a rack of identical vials in a sterile laboratory environment" page="Nucleotide Analysis Services page"
                             aria-label="Go to Nucleotide Analysis Services page"
                             title="Go to Nucleotide Analysis Services page"></a>
-                    <div class="text-center"><a href="/nucleotide-analysis-service">Dietary Nucleotide Analysis</a>
+                    <div class="text-center"><a href="/analytical-services/nucleotide-analysis-service">Dietary Nucleotide Analysis</a>
                     </div>
                     <div class="card-content">
                         <ul>
@@ -141,7 +141,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </ul>
                     </div>
                     <div class="text-center my-4" title="Nucleotide Analysis Services"><a
-                            href="/nucleotide-analysis-service" aria-label="Go to Nucleotide Analysis Services page"
+                            href="/analytical-services/nucleotide-analysis-service" aria-label="Go to Nucleotide Analysis Services page"
                             class="btn btn-primary">Go to Page <i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
                 </div>
