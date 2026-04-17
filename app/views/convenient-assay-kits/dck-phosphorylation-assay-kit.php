@@ -71,7 +71,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <!-- PRODUCT INFO -->
             <div class="d-flex justify-content-center mt-5">
                 <div class="col-lg-10 col-12 text-center">
-                         <?= Product::gen("dCK Phosphorylation Assay Kit") ?>
+                    <?= Product::gen("dCK Phosphorylation Assay Kit") ?>
 
                     <p class="strong">
                         Kit is provided in stable lyophilized form and
@@ -91,12 +91,75 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <i class="fa-regular fa-file-pdf"></i>
                         </a>
                     </p>
-
                 </div>
             </div>
 
+            <!-- SHORT PROCEDURE -->
+            <section class="mt-2 col-lg-10 mx-auto">
+                <div class="p-4 p-lg-5 border rounded shadow-sm bg-white">
+
+                    <h2 class="h4 novo-blue mb-4">
+                        <i class="fa-solid fa-flask me-2"></i>
+                        Short Procedure : PRECICE<sup>®</sup> dCK Phosphorylation Assay
+                    </h2>
+
+                    <ol class="styled-procedure list-unstyled">
+                        <li class="mb-3 d-flex">
+                            <i class="fa-solid fa-vial-circle-check text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Prepare complete reaction mix:</strong>
+                                Dilute Reaction Buffer; reconstitute cofactors, IMPDH, dCK, and deoxyinosine in buffer.
+                                Prepare ATP separately.
+                            </span>
+                        </li>
+
+                        <li class="mb-3 d-flex">
+                            <i class="fa-solid fa-droplet text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Prepare analogues:</strong>
+                                Reconstitute gemcitabine and all nucleoside analogues; dilute; dispense 10 µL per well.
+                            </span>
+                        </li>
+
+                        <li class="mb-3 d-flex">
+                            <i class="fa-solid fa-table-cells-large text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Assemble plate:</strong>
+                                Add 200 µL complete reaction mix.
+                            </span>
+                        </li>
+
+                        <li class="mb-3 d-flex">
+                            <i class="fa-solid fa-temperature-three-quarters text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Pre‑incubate:</strong>
+                                Shake 1 min and incubate 15 min at 37 °C.
+                            </span>
+                        </li>
+
+                        <li class="mb-3 d-flex">
+                            <i class="fa-solid fa-play text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Start reaction:</strong>
+                                Add 10 µL ATP per well.
+                            </span>
+                        </li>
+
+                        <li class="mb-1 d-flex">
+                            <i class="fa-solid fa-wave-square text-primary me-3 mt-1"></i>
+                            <span>
+                                <strong>Measure kinetics:</strong>
+                                Read A340 every minute for 30 min at 37 °C.
+                            </span>
+                        </li>
+                    </ol>
+
+                </div>
+            </section>
+
+
             <!-- VALIDATION SECTION -->
-            <section class="col-12 mt-4">
+            <section class="col-12 mt-5">
                 <h2 class="h4 novo-blue">Enzyme and Assay Validation</h2>
                 <p>NOVOCIB's human dCK enzyme is an active, purified 33 kDa protein obtained by RT-PCR amplification of mRNA extracted from human hepatoma cells, expressed in E. coli, and characterized for its substrate properties (Km and Vmax). Its kinetic parameters were compared with published data for several nucleoside analogues (Table below).</p>
                 <b>Characterization of the substrate properties (Km and Vmax) of nucleoside analogues for NOVOCIB human deoxycytidine kinase, compared with published kinetic parameters for well-characterized nucleoside analogues such as aracytidine, gemcitabine, cladribine, and lamivudine.</b>
@@ -250,37 +313,37 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </div>
 
     <!-- REFERENCES -->
-     <section class="bg-light mt-5 pt-1 pb-1">
+    <section class="bg-light mt-5 pt-1 pb-1">
         <div class="container">
             <div class="references">
                 <h2 class="h5 text-center pt-4 pb-4 novo-blue"><i class="fa-solid fa-book"></i> Scientific Articles citing Dck Phosphorylation Assay Kit from <span class="text-secondary">NOVOCIB</span>:</h5>
-                <ol>
-                    <li>
-                        <a target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6779049/">
-                            Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br>
-                            S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R. Redfield, A. Heredia*
-                            Antivir Ther. 24(3): 177-186.
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788">
-                            Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br>
-                            P.C. Jordan, S.K. Stevens, Y. Tam, R.P. Pemberton, S. Chaudhuri, A.D. Stoycheva, N. Dyatkina, G. Wang, J.A. Symons, J. Deval*, L. Beigelman
-                            ACS Chem. Biol. 12(1): 83-91.
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30251630/">Combined Proteomic and In Silico Target Identification Reveal a Role for 5-Lipoxygenase in Developmental Signaling Pathways (2018) Brand et al., Cell Chemical Biology 25, 1095-1106 <br> S. Brand, S. Roy, P. Schröder, B. Rathmer, J. Roos, S. Kapoor , S. Patil, C. Pommerenke , T. Maier, P. Janning , S. Eberth, D. Steinhilber, D. Schade, G. Schneider, K. Kumar, S. Ziegler, H. Waldmann</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0753332217326318">N (4)-[B-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan)methyl]-2'-deoxycytidine as a potential boron delivery agent with respect to glioblastoma (2017) <br> Ł. Uram , J. Nizioł, P. Maj, J. Sobich , W. Rode, T. Ruman Biomedicine & Pharmacotherapy V. 95, Pages 749-755</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8919275/">Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine (2022) <br> Thomas I. Kalman ACS Med Chem Lett. 13(3): 409-416</a>
-                    </li>
-                </ol>
+                    <ol>
+                        <li>
+                            <a target="_blank" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6779049/">
+                                Disparate Effects of Cytotoxic Chemotherapy on the Antiviral Activity of Antiretroviral Therapy: Implications for Treatments of HIV-Infected Cancer Patients (2019) <br>
+                                S. Medina-Moreno, J.C. Zapata, M.L. Cottrell, N.M. Le, S. Tao, J. Bryant, E. Sausville, R.F. Schinazi, A.D.M. Kashuba, R.R. Redfield, A. Heredia*
+                                Antivir Ther. 24(3): 177-186.
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://pubs.acs.org/doi/10.1021/acschembio.6b00788">
+                                Activation Pathway of a Nucleoside Analog Inhibiting Respiratory Syncytial Virus Polymerase (2017) <br>
+                                P.C. Jordan, S.K. Stevens, Y. Tam, R.P. Pemberton, S. Chaudhuri, A.D. Stoycheva, N. Dyatkina, G. Wang, J.A. Symons, J. Deval*, L. Beigelman
+                                ACS Chem. Biol. 12(1): 83-91.
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/30251630/">Combined Proteomic and In Silico Target Identification Reveal a Role for 5-Lipoxygenase in Developmental Signaling Pathways (2018) Brand et al., Cell Chemical Biology 25, 1095-1106 <br> S. Brand, S. Roy, P. Schröder, B. Rathmer, J. Roos, S. Kapoor , S. Patil, C. Pommerenke , T. Maier, P. Janning , S. Eberth, D. Steinhilber, D. Schade, G. Schneider, K. Kumar, S. Ziegler, H. Waldmann</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0753332217326318">N (4)-[B-(4,4,5,5-tetramethyl-1,3,2-dioxaborolan)methyl]-2'-deoxycytidine as a potential boron delivery agent with respect to glioblastoma (2017) <br> Ł. Uram , J. Nizioł, P. Maj, J. Sobich , W. Rode, T. Ruman Biomedicine & Pharmacotherapy V. 95, Pages 749-755</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8919275/">Rational Design of an Orally Active Anticancer Fluoropyrimidine, Pencitabine, a Hybrid of Capecitabine and Gemcitabine (2022) <br> Thomas I. Kalman ACS Med Chem Lett. 13(3): 409-416</a>
+                        </li>
+                    </ol>
             </div>
         </div>
-    </div>
+        </div>
 
 </main>
