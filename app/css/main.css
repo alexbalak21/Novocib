@@ -802,7 +802,8 @@ header .brand {
   font-weight: 550;
 }
 
-.strong, .fw-semibold {
+.strong,
+.fw-semibold {
   font-weight: 500 !important;
 }
 

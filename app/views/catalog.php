@@ -6,6 +6,18 @@ ob_start(); ?>
 <?php $metas = ob_get_clean();
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
+<style>
+  .btn-novo {
+  background-color: var(--novo-blue) !important;
+  color: white !important;
+}
+
+.btn-novo:hover {
+  background-color: var(--novo-blue-dark) !important;
+  color: white !important;
+}
+</style>
+
 <div class="banner" style="background-image: url('/app/img/brand-table-banner.jpg'); height: 500px;">
   <div class="overlay">
     <div class="caption w-100">
@@ -282,15 +294,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <a href="/contact#main" class="btn btn-light btn-lg  px-4">Contact Novocib <i class="fa-regular fa-envelope"></i></a>
   </div>
 </section>
-
-<style>
-  .btn-novo {
-    background-color: var(--novo-blue);
-    color: white;
-  }
-
-  .btn-novo:hover {
-    background-color: var(--novo-blue-dark);
-    color: white;
-  }
-</style>
