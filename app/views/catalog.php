@@ -13,7 +13,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 }
 
 .btn-novo:hover {
-  background-color: var(--novo-blue-dark) !important;
+  background-color: #2e5fa0 !important;
   color: white !important;
 }
 </style>
