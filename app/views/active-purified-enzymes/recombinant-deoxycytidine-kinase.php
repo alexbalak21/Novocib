@@ -11,7 +11,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 
 <?= Banner::gen() ?>
-<div class="container mt-5">
+<div class="container mt-5" id="main">
     <div class="row d-flex align-items-center">
         <h2 class="underlinedTitle center">
             <span class="underlined novoblue center">Human Deoxycytidine Kinase (dCK, EC 2.7.1.74)</span>

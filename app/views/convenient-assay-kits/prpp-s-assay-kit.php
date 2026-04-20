@@ -106,7 +106,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 echo Banner::gen("/app/img/prps-kit.jpg")
 ?>
 
-<main class="container mt-5">
+<main class="container mt-5" id="main">
     <h2 class="underlinedTitle right mb-4">
         <span class="underlined novoblue right">PRECICE<sup>®</sup> PRPP-S Assay Kit</span>
     </h2>
@@ -137,32 +137,8 @@ echo Banner::gen("/app/img/prps-kit.jpg")
         </div>
     </div>
 
-    <section class="mt-4">
-        <h4 class="novo-blue">Kit Description</h4>
-        <p>
-            The PRECICE<sup>®</sup> PRPP-S Assay Kit is the first non‑radioactive solution for precise measurement of PRPP‑S activity in cellular lysates. This enzymatic assay uses highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation.
-            Designed for research on purine salvage pathways and genetic disorders, the kit provides a fast, reliable, and user‑friendly protocol in a 96‑well plate format.
-        </p>
-        <div class="col-lg-4 mx-auto mt-3 mb-4 text-center col-md-9">
-            <img class="img-fluid border" src="/app/img/prpp-s-assay-kit.jpg"
-                alt="Contents of PRECICE<sup>®</sup> PRPP-S Assay Kit"
-                title="Kit components" />
-        </div>
-    </section>
-
-    <section class="mt-4">
-        <h4 class="novo-blue">Assay Principle</h4>
-        <p>The assay continuously monitors PRPP synthesis through coupled enzymatic reactions:</p>
-        <ol>
-            <li>PRPP‑S catalyzes PRPP formation from ATP and ribose-5-phosphate.</li>
-            <li>HGPRT converts PRPP and hypoxanthine (Hx) into IMP.</li>
-            <li>IMPDH oxidizes IMP to XMP in the presence of NAD, producing NADH₂, measured spectrophotometrically at 340 nm.</li>
-        </ol>
-    </section>
-
-    <section class="mt-4 text-center">
-        <!-- Product database integration -->
-        <?= Product::gen("PRECICE® PRPP-S Assay Kit", "convenient-assay-kits/prpp-s-assay-kit") ?>
+        <section class="mt-5 text-center">
+        <?= Product::gen("PRECICE® PRPP-S Assay Kit", "convenient-assay-kits/prpp-s-assay-kit", 1) ?>
 
         <p class="mt-3">
             <strong>Kit is provided in stable lyophilized form and
@@ -177,8 +153,31 @@ echo Banner::gen("/app/img/prps-kit.jpg")
         </p>
     </section>
 
+    <section class="mt-4">
+        <h4 class="novo-blue">Kit Description</h4>
+        <p>
+            The PRECICE<sup>®</sup> PRPP-S Assay Kit is the first non‑radioactive solution for precise measurement of PRPP‑S activity in cellular lysates. This enzymatic assay uses highly active HGPRT and IMPDH enzymes to continuously monitor PRPP synthesis via NADH formation.
+            Designed for research on purine salvage pathways and genetic disorders, the kit provides a fast, reliable, and user‑friendly protocol in a 96‑well plate format.
+        </p>
+        <div class="col-lg-4 mx-auto mt-3 mb-4 text-center col-md-9">
+            <img class="img-fluid border" src="/app/img/prpp-s-assay-kit.jpg"
+                alt="Contents of PRECICE<sup>®</sup> PRPP-S Assay Kit"
+                title="Kit components" />
+        </div>
+    </section>
+
+    <section class="mt-4 mb-5">
+        <h4 class="novo-blue">Assay Principle</h4>
+        <p>The assay continuously monitors PRPP synthesis through coupled enzymatic reactions:</p>
+        <ol>
+            <li>PRPP‑S catalyzes PRPP formation from ATP and ribose-5-phosphate.</li>
+            <li>HGPRT converts PRPP and hypoxanthine (Hx) into IMP.</li>
+            <li>IMPDH oxidizes IMP to XMP in the presence of NAD, producing NADH₂, measured spectrophotometrically at 340 nm.</li>
+        </ol>
+    </section>
+
     <section class="row bg-light mb-4 py-3 align-items-center">
-        <div class="col-lg-3 text-center">
+        <div class="col-lg-3 text-center">  
             <h4 class="novo-blue">Validated</h4>
         </div>
         <div class="col-lg-9">

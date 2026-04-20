@@ -1,21 +1,46 @@
 <?php
 global $title;
-$title = "Cellular Nucleotides Analysis";
+$title = "Cellular Nucleotide Analysis - HPLC Profiling of Nucleotides | NOVOCIB";
 
 ob_start(); ?>
-<meta name="keywords" content="cellular nucleotide analysis, nucleotide profiling, HPLC quantification, IMPDH assay, RNR inhibition, antifolate validation, nucleoside analog metabolism, drug mode-of-action, purine pyrimidine profiling, NOVOCIB services">
-<meta name="description" content="NOVOCIB's Cellular Nucleotide Analysis service offers validated profiling of 31+ nucleotides using ion-pairing HPLC. Ideal for drug mode-of-action studies and custom biological sample analysis.">
+<meta name="keywords" content="cellular nucleotide analysis, nucleotide profiling service, HPLC nucleotide quantification, ion-pairing HPLC, IMPDH inhibition assay, RNR inhibition assay, antifolate mode-of-action, nucleoside analog metabolism, purine and pyrimidine profiling, drug mode-of-action studies, cell-based nucleotide analysis, NOVOCIB analytical services">
+<meta name="description" content="NOVOCIB's Cellular Nucleotide Analysis service provides validated HPLC profiling of 31+ cellular nucleotides, including mono-, di-, and triphosphates. Ideal for drug mode-of-action studies, IMPDH and RNR inhibition validation, antifolate testing, and custom biological sample analysis.">
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Cellular Nucleotide Analysis",
+        "provider": {
+            "@type": "Organization",
+            "name": "NOVOCIB"
+        },
+        "description": "Validated HPLC-based profiling of 31+ cellular nucleotides for drug mode-of-action studies, IMPDH and RNR inhibition assays, and antifolate validation.",
+        "areaServed": "Worldwide",
+        "serviceType": "Analytical Service",
+        "url": "https://www.novocib.com/analytical-services/cellular-nucleotides-analysis"
+    }
+</script>
 
 <?php $metas = ob_get_clean();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
-<?= Banner::gen("/app/img/cells-blue.jpg") ?>
+<?= Banner::gen("/app/img/cells-blue.jpg", "Cellular Nucleotide Analysis - Validated HPLC Profiling Service") ?>
 
 <main class="mt-5">
     <section class="container">
-        <div class="alert alert-info mb-4">
-            <p class="lead">NOVOCIB's Cellular Nucleotide Analysis service offers precise, validated profiling of over 31 cellular nucleotides to support drug development, mode-of-action studies, and metabolic research. Whether you're targeting IMPDH, RNR, or antifolate pathways, our HPLC-based platform delivers actionable insights from cultured cells, blood, or custom samples.</p>
+        <div class="my-5">
+            <div class="card shadow-sm border-0 bg-light">
+                <div class="card-body p-4">
+                    <p class="lead mb-0">
+                        NOVOCIB's Cellular Nucleotide Analysis service offers precise, validated profiling
+                        of over 31 cellular nucleotides to support drug development, mode-of-action studies,
+                        and metabolic research. Whether you're targeting IMPDH, RNR, or antifolate pathways,
+                        our HPLC-based platform delivers actionable insights from cultured cells, blood, or
+                        custom samples.
+                    </p>
+                </div>
+            </div>
         </div>
 
         <div class="row mb-4">
@@ -42,7 +67,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
         </div>
 
-        <h2 class="underlinedTitle center mt-5 mb-4">
+        <h2 class="underlinedTitle center mt-5 mb-4" id="main">
             <span class="underlined novoblue center">Validated Assays for Nucleotide Synthesis Inhibition</span>
         </h2>
         <p><strong>Cellular Nucleotide Profiling Service</strong> is an analytical service for measuring nucleotide levels in antimetabolite-treated cells. More than 31 cellular (deoxy-)ribonucleotides (mono-, di-, and triphosphate) are extracted by SPE procedure, separated by ion-paired HPLC system in one run and quantified.</p>

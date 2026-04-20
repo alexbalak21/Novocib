@@ -84,7 +84,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </section>
     </article>
 
-    <section class="bg-light py-5 my-4">
+    <section class="bg-light py-5 my-4" id="assay-kits">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-11">

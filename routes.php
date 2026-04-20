@@ -80,7 +80,7 @@ return [
     '/news' => 'app/views/news.php',
     '/search' => 'app/views/search.php',
     '/hplc-analysis-of-bases-nucleosides' => 'app/views/hplc-analysis-of-bases-nucleosides.php',
-
+    '/catalog' => 'app/views/catalog.php',
 
     // Secure/Internal Routes
     '/internal/share' => 'app/internal/share/index.php',

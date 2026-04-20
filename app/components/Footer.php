@@ -39,6 +39,10 @@ class Footer
                                     <i class="fa-brands fa-linkedin"></i>
                                     <a href="https://www.linkedin.com/company/novocib/">Linked-In</a>
                                 </li>
+                                <li>
+                                    <i class="fa-solid fa-box-open"></i>
+                                    <a href="/catalog">Products & Services</a>
+                                </li>
                                 <li class="mt-auto">
                                     <i class="fa-solid fa-user-tie"></i>
                                     <a href="mailto:admin@novocib.com">Website Admin</a>

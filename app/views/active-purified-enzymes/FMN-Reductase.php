@@ -1,6 +1,7 @@
 <?php
 global $title;
 $title = "Purified Active FMN Reductase";
+$title = "Recombinant FMN Reductase (Fre) from E. coli - High-Purity Enzyme for NADH Quantification and Bioluminescence Assays | NOVOCIB";
 
 ob_start(); ?>
 <meta name="keywords" content="Recombinant FMN reductase, High-purity FMN reductase, NAD(P)H oxidoreductase enzyme, Bacterial luciferase coupling, NADH quantification assays, Flavin reductase for bioluminescence, Precise NAD(P)H-dependent enzyme detection, E. coli FMN reductase, Biochemical assay enzymes, Ultrapure FMN reductase protein">
@@ -9,12 +10,11 @@ ob_start(); ?>
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
-echo Banner::gen()
+echo Banner::gen("", "Purified Active FMN Reductase")
 ?>
 
 
-<div class="container mt-5">
-    <title>Ultrasensitive Recombinant FMN Reductase: Ideal for NADH Quantification</title>
+<div class="container mt-5" id="main">
     <h2 class="underlinedTitle center">
         <span class="underlined novoblue">Bacterial Recombinant FMN Reductase (FRE) (E.C.1.5.1.29)</span>
     </h2>

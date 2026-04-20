@@ -68,7 +68,8 @@ class Nav
                             <li><a href="/dietary-nucleotides">Dietary Nucleotides</a></li>
                         </ul>
                     </li>
-                    <li><a href="/contact-us">Contact Us</a></li>
+                    <li><a href="/catalog">Our Catalog <i class="fa-solid fa-box-open"></i></a></li>
+                    <li><a href="/contact-us">Contact Us <i class="fa-regular fa-envelope"></i></a></li>
                 </ul>
             </nav>
         </header>

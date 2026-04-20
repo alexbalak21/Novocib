@@ -45,7 +45,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <?= Banner::gen() ?>
 <main class="mt-5" itemscope itemtype="https://schema.org/Product">
-    <div class="container">
+    <div class="container" id="main">
         <h1 class="h2 underlinedTitle text-center mb-4" itemprop="name">
             <span class="underlined novoblue">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</span>
         </h1>

@@ -20,50 +20,49 @@ ob_start(); ?>
 <meta name="twitter:description" content="Enzymatic kit for measuring IMP in fishmeal samples using long-UV spectrophotometry at 340 nm for fishmeal quality control.">
 <meta name="twitter:image" content="https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png">
 <script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "PRECICE Fishmeal IMP Assay Kit",
-    "description": "PRECICE Fishmeal IMP Assay Kit for enzymatic determination of IMP in fishmeal samples (Ref. 0700-006). Measure IMP levels by long-UV spectrophotometry at 340 nm for fishmeal quality control and freshness assessment.",
-    "brand": {
-        "@type": "Brand",
-        "name": "Novocib"
-    },
-    "category": "Aquaculture Testing Kits",
-    "url": "https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit",
-    "image": "https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png",
-    "sku": "0700-006",
-    "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "priceCurrency": "EUR",
-        "price": "0.00",
-        "seller": {
-            "@type": "Organization",
-            "name": "Novocib",
-            "url": "https://www.novocib.com"
-        }
-    },
-    "applicationCategory": "Fishmeal Quality Control",
-    "keywords": "PRECICE Fishmeal IMP Assay Kit, fishmeal IMP assay, IMP test for fishmeal, IMP dehydrogenase assay, inosine monophosphate analysis, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection",
-    "slogan": "Enzymatic determination of IMP nucleotide in fishmeal samples",
-    "additionalProperty": [
-        {
-            "@type": "PropertyValue",
-            "name": "Target Analyte",
-            "value": "Inosine 5'-monophosphate (IMP) in fishmeal samples"
+    {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        "name": "PRECICE Fishmeal IMP Assay Kit",
+        "description": "PRECICE Fishmeal IMP Assay Kit for enzymatic determination of IMP in fishmeal samples (Ref. 0700-006). Measure IMP levels by long-UV spectrophotometry at 340 nm for fishmeal quality control and freshness assessment.",
+        "brand": {
+            "@type": "Brand",
+            "name": "Novocib"
         },
-        {
-            "@type": "PropertyValue",
-            "name": "Measurement Wavelength",
-            "value": "340 nm"
+        "category": "Aquaculture Testing Kits",
+        "url": "https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit",
+        "image": "https://www.novocib.com/app/img/fishmeal-imp-assay-kit-principle.png",
+        "sku": "0700-006",
+        "offers": {
+            "@type": "Offer",
+            "availability": "https://schema.org/InStock",
+            "priceCurrency": "EUR",
+            "price": "0.00",
+            "seller": {
+                "@type": "Organization",
+                "name": "Novocib",
+                "url": "https://www.novocib.com"
+            }
+        },
+        "applicationCategory": "Fishmeal Quality Control",
+        "keywords": "PRECICE Fishmeal IMP Assay Kit, fishmeal IMP assay, IMP test for fishmeal, IMP dehydrogenase assay, inosine monophosphate analysis, fishmeal freshness, aquaculture feed analysis, enzymatic IMP detection",
+        "slogan": "Enzymatic determination of IMP nucleotide in fishmeal samples",
+        "additionalProperty": [{
+                "@type": "PropertyValue",
+                "name": "Target Analyte",
+                "value": "Inosine 5'-monophosphate (IMP) in fishmeal samples"
+            },
+            {
+                "@type": "PropertyValue",
+                "name": "Measurement Wavelength",
+                "value": "340 nm"
+            }
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "Aquaculture feed producers, fishmeal quality control laboratories, research scientists, seafood processing companies, feed formulation specialists"
         }
-    ],
-    "audience": {
-        "@type": "Audience",
-        "audienceType": "Aquaculture feed producers, fishmeal quality control laboratories, research scientists, seafood processing companies, feed formulation specialists"
     }
-}
 </script>
 <?php $metas = ob_get_clean();
 
@@ -71,8 +70,7 @@ ob_start(); ?>
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 <?= Banner::gen("/app/img/fish-farm.jpg", "Fishmeal IMP Assay Kit") ?>
-<main class="container mt-5">
-
+<main class="container mt-5" id="main">
     <h1 class="underlinedTitle center">
         <span class="underlined center novoblue">PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</span>
     </h1>
@@ -95,10 +93,32 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </p>
         </div>
     </section>
-    
+
+    <!-- Product -->
+    <section>
+        <h3 class="novo-blue text-center mt-5">Buy the Kit <i class="fa-solid fa-cart-shopping"></i></h3>
+        <?= Products::gen_from_ids(32, 33) ?>
+        <div class="text-end mt-3 mb-4">
+            <p>
+                <i class="fa-solid fa-download"></i> Download
+                <a target="_blank" href="/app/documents/PRECICE%C2%AE%20Fishmeal%20IMP%20Assay%20Kit%20-%20User%20Manual%20-%200700-006.pdf">
+                    PRECICE<sup>®</sup> Fishmeal IMP Assay Kit
+                </a>
+                User Manual <i class="fa-solid fa-book-atlas"></i>
+            </p>
+        </div>
+        <p class="text-center">
+            <strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span></strong>
+        </p>
+
+        <p class="mt-4 text-center">
+            <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>
+        </p>
+    </section>
+
     <!-- Principle -->
     <section class="my-5">
-        <h2 class="h3 ms-5">Principle</h2>
+        <h2 class="text-center mt-5 novo-blue">Principle</h2>
 
         <p class="text-center mb-3">
             <b class="novo-blue">PRECICE<sup>®</sup> Fishmeal IMP Assay Kit</b> provides an enzymatic tool for measuring IMP content in samples by long‑UV spectrophotometry.
@@ -212,29 +232,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </figure>
         </div>
     </section>
-
-    <!-- Product -->
-    <h3 class="novo-blue text-center mt-5">Buy the Kit <i class="fa-solid fa-cart-shopping"></i></h3>
-
-    <?= Products::gen_from_ids(32, 33) ?>
-
-    <div class="text-end mt-3 mb-4">
-        <p>
-            <i class="fa-solid fa-download"></i> Download
-            <a target="_blank" href="/app/documents/PRECICE%C2%AE%20Fishmeal%20IMP%20Assay%20Kit%20-%20User%20Manual%20-%200700-006.pdf">
-                PRECICE<sup>®</sup> Fishmeal IMP Assay Kit
-            </a>
-            User Manual <i class="fa-solid fa-book-atlas"></i>
-        </p>
-    </div>
-
-    <p class="text-center">
-        <strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span></strong>
-    </p>
-
-    <p class="mt-4 text-center">
-        <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>
-    </p>
 
     <div class="text-center mt-5 mb-5">
         <p class="lead">To know more about NOVOCIB's analytical service:</p>

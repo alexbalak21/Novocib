@@ -1,16 +1,29 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/db_operations.php";
+
 class Product
 {
-    static function gen(string $product_title, $url = "", $id = 0)
+    static function gen(string $product_title = "", $url = "", $id = 0)
     {
-        if ($product_title !== null && $product_title !== "") {
+        // 1. Fetch by ID first
+        if ($id !== 0) {
+            $product = get_product_by_id((int) $id);
+        }
+
+        // 2. If no product yet, try by title
+        if (empty($product) && $product_title !== "") {
             $product = get_product_by_title($product_title);
-        } elseif ($url !== "") {
+        }
+
+        // 3. If still no product, try by URL
+        if (empty($product) && $url !== "") {
             $product = get_product_by_url($url);
         }
-        if ($product === null && $id !== 0) $product = get_product_by_id((int) $id);
+
+        if (empty($product)) return ""; // avoid errors
+
         ob_start(); ?>
+        
         <div class="table-responsive">
             <table class="table product mb-2">
                 <thead>
@@ -30,7 +43,8 @@ class Product
                             <div class="d-block d-md-none text-end mb-1 fw-bold">
                                 <?= $product['price'] . ".00 €" ?>
                             </div>
-                            <a class="btn btn-primary" href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
+                            <a class="btn btn-primary"
+                               href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
                                 Inquiry <i class="fa-solid fa-comment"></i>
                             </a>
                         </td>
@@ -38,16 +52,21 @@ class Product
                 </tbody>
             </table>
         </div>
+
         <p class="text-muted text-center">
             <em>Updated on <?= date('F jS, Y', strtotime($product['updated_on'])) ?>.</em><br />
         </p>
-<?php return ob_get_clean();
+
+        <?php return ob_get_clean();
     }
 
-    function gen_from_id($id){
+    static function gen_from_id($id)
+    {
         $product = get_product_by_id((int) $id);
         if ($product == null) return null;
+
         ob_start(); ?>
+        
         <div class="table-responsive">
             <table class="table product mb-2">
                 <thead>
@@ -67,7 +86,8 @@ class Product
                             <div class="d-block d-md-none text-end mb-1 fw-bold">
                                 <?= $product['price'] . ".00 €" ?>
                             </div>
-                            <a class="btn btn-primary" href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
+                            <a class="btn btn-primary"
+                               href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
                                 Inquiry <i class="fa-solid fa-comment"></i>
                             </a>
                         </td>
@@ -75,9 +95,11 @@ class Product
                 </tbody>
             </table>
         </div>
+
         <p class="text-muted text-center">
             <em>Updated on <?= date('F jS, Y', strtotime($product['updated_on'])) ?>.</em><br />
         </p>
-<?php return ob_get_clean();
+
+        <?php return ob_get_clean();
     }
 }

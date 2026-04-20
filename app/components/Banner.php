@@ -10,6 +10,10 @@ class Banner
      */
     static function gen($img_url = "/app/img/helix.jpg", $page_title = null)
     {
+
+        if ($img_url === "" || $img_url === null) {
+            $img_url = "/app/img/helix.jpg"; // default image
+        }
         // Parse current URL path
         $url = parse_url($_SERVER['REQUEST_URI'])['path'];
         $paths = explode("/", trim($url, "/"));

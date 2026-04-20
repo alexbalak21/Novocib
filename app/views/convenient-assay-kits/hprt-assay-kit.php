@@ -48,7 +48,7 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
 
 <main class="mt-5" itemscope itemtype="https://schema.org/Product">
     <div class="container">
-        <h1 class="h2 underlinedTitle text-center mb-4" itemprop="name">
+        <h1 class="h2 underlinedTitle text-center mb-4" itemprop="name" id="main">
             <span class="underlined novoblue">PRECICE<sup>®</sup> HPRT Assay Kit</span>
         </h1>
         <p class="lead text-center mb-4">Spectrophotometric microplate assay for precise measurement of hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics</p>
@@ -85,10 +85,9 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
             </div>
         </div>
 
-        <div class="d-flex justify-content-center mt-5">
+        <div class="d-flex justify-content-center mt-4">
             <div class="col-lg-10 col-12">
-                <!-- FETCHING PRODUCT FROM THE DATABASE -->
-                <?= Product::gen("PRECICE® HPRT Assay Kit") ?>
+                <?= Product::gen("PRECICE® HPRT Assay Kit", "", 2) ?>
 
                 <p class="text-center">
                     <strong>

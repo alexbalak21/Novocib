@@ -92,7 +92,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 
 <?= Banner::gen() ?>
-<div class="container mt-5">
+<div class="container mt-5" id="main">
   <div class="row">
     <h2 class="underlinedTitle center">
       <span class="underlined novoblue center">Human Adenosine Kinase (ADK, EC 2.7.1.20)</span>

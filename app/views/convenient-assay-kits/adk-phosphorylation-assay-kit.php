@@ -5,6 +5,7 @@ $title = "Adenosine Kinase Phosphorylation Assay Kit";
 ob_start(); ?>
 <meta name="keywords" content="Adenosine Kinase Assay Kit, Nucleoside Analog Screening, ADK Competitive Inhibition, Phosphorylation of Nucleosides, Adenosine Kinase Drug Discovery, High-Throughput Screening (HTS) Tools, Antiviral Nucleoside Activation, Cancer Drug Development Assay, IMPDH Monitoring System, NADH2 Assay Detection">
 <meta name="description" content="Unlock rapid drug discovery with PRECICE<sup>®</sup> ADK Phosphorylation Assay Kit. Conduct continuous, homogenous assays for screening ADK inhibitors and evaluating nucleoside analogs phosphorylation in antiviral and anticancer research. Designed for high-throughput efficiency.">
+
 <?php $metas = ob_get_clean();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";

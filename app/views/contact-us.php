@@ -30,7 +30,7 @@ ob_start(); ?>
 $product = isset($_GET['product']) ? $_GET['product'] : "";
 
 ob_start(); ?>
-<div class="container mt-5 text-center">
+<div class="container mt-5 text-center" id="main">
     <?= $content_title ?>
     <p>You can contact us by e-mail or on this form and we will come back to you shortly.</p>
     <a class="fs-4" id="mailto" href="mailto:contact@novocib.com"><i class="fa-solid fa-envelope"></i> contact@novocib.com</a>

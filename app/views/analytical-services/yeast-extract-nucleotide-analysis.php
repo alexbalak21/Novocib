@@ -43,7 +43,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 
     <section class="container">
-        <div class="row mb-5 align-items-center">
+        <div class="row mb-5 align-items-center" id="main">
             <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
                 <div class="border rounded p-2 shadow-sm text-center">
                     <img class="img-fluid" src="/app/img/yeast-rna.jpg" alt="Yeast RNA to nucleotides conversion process" title="From Yeast RNA to Flavorful Nucleotides">
@@ -112,7 +112,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                             </td>
                                             <td class="text-end pe-4">
                                                 <a href="/inquiry?ref=S1200-03&amp;price=420&amp;product=Yeast Extract Nucleotides HPLC-UV analysis" class="btn btn-sm btn-primary">
-                                                    <i class="fas fa-envelope me-1"></i> Request Analysis
+                                                    Request Analysis <br><i class="fas fa-envelope me-1"></i>
                                                 </a>
                                             </td>
                                         </tr>

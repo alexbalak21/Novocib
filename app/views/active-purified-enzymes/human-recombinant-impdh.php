@@ -88,7 +88,7 @@ echo Banner::gen();
 <section class="container mt-5">
     <h1 class="underlinedTitle right"><span class="underlined novoblue right">Human IMPDH, Type II (IMPDH2)</span></h1>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6" id="main">
             <p>
                 <b>Synonyms:</b>
                 inosine 5'-monophosphate dehydrogenase, type 2, IMP dehydrogenase, type II, IMPDH2.
@@ -154,7 +154,7 @@ echo Banner::gen();
             <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
                 <meta itemprop="name" content="NOVOCIB">
             </div>
-            <div>
+            <div id="screening">
                 <?= Products::gen_from_ids(38, 39, 40) ?>
                 <div class="text-center" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
                     <meta itemprop="priceCurrency" content="EUR">

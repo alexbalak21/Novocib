@@ -12,7 +12,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <?= Banner::gen() ?>
 
-<div class="container mt-4">
+<div class="container mt-4" id="main">
     <h2 class="underlinedTitle center"><span class="underlined novoblue center">Human cytosolic 5'-nucleotidase II (cN-II) (E.C.3.1.3.5)</span></h2>
     <div class="col-lg-10 col-12 mx-auto">
         <?= Products::gen("Human cytosolic 5'-nucleotidase II") ?>

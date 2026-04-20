@@ -1,16 +1,35 @@
 <?php
-global $title;
-$title = "ITP-ase Assay Kit";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/base.php";
-
-$novoblue = "#4167b1";
-
-addContent(Banner::gen());
-$content_title = UnderlinedTitle::get("One-step ITP pyrophosphatase assay", "novoblue", "right");
-
+$title = "ITP-ase Assay Kit - Non-Radioactive ITP Pyrophosphatase Activity Measurement | NOVOCIB";
 ob_start(); ?>
-<main class="container mt-5">
-    <?= $content_title ?>
+<meta name="description" content="NOVOCIB's PRECICE® ITP-ase Assay Kit provides a non‑radioactive, continuous 96‑well protocol for measuring ITP pyrophosphatase activity in cell lysates. Ideal for studying ITPA variants, thiopurine toxicity, and nucleotide metabolism.">
+<meta name="keywords" content="ITP-ase assay kit, ITP pyrophosphatase activity, inosine triphosphatase assay, ITPA variants, non radioactive nucleotide assay, continuous ITPase measurement, thiopurine toxicity biomarker, azathioprine metabolism, 6-mercaptopurine adverse reactions, nucleotide metabolism assay, PRECICE ITPase, NOVOCIB assay kits">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PRECICE® ITP-ase Assay Kit",
+  "brand": "NOVOCIB",
+  "description": "Non-radioactive, continuous 96-well assay for measuring ITP pyrophosphatase (ITPase) activity in cell lysates.",
+  "sku": "K0709-06-2",
+  "url": "https://www.novocib.com/convenient-assay-kits/itp-ase-assay-kit",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "EUR",
+    "price": "440",
+    "availability": "https://schema.org/InStock"
+  }
+}
+</script>
+<?php $metas = ob_get_clean();
+
+
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
+?>
+
+<?=  Banner::gen(null, "One Step ITP-ase Pyrophosphatase Assay") ?>
+
+<main class="container mt-5" id="main">
+    <h2 class="underlinedTitle right"><span class="underlined novoblue right">One-step ITP pyrophosphatase assay</span></h2>
     <div class="row">
         <div class="col-lg-6">
             <p><strong>PRECICE<sup>®</sup> ITPase Assay kit</strong> provides the first <strong>non radioactive and continuous</strong> protocol for measurement of <strong>ITP pyrophosphatase activity</strong> (also known as inosine triphosphatase and inosine triphosphate pyrophosphohydrolase) in cellular lysates in a convenient 96-well plate format.</p>
@@ -99,7 +118,3 @@ ob_start(); ?>
         </div>
     </div>
 </main>
-<?php $page_content = ob_get_clean();
-
-addContent($page_content);
-render();

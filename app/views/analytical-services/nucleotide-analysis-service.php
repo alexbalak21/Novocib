@@ -110,7 +110,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <main class="container mt-5">
     <!-- Title & Intro -->
-    <div class="text-center mb-5">
+    <div class="text-center mb-5" id="main">
         <h1 class="underlinedTitle">
             <span class="underlined novoblue">Total Potentially Available Nucleotides (TPAN) Analysis by Coupled Enzymatic-HPLC approach</span>
         </h1>
