@@ -1,6 +1,10 @@
 <?php
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/repository/Message_repository.php";
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/spam_detector.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/app/logic/rate_limit.php";
+
+// Limit: 1 message every 10 seconds per IP
+rate_limit_once_every('contact_form', 10);
 
 // Enable error reporting
 error_reporting(E_ALL);
@@ -48,6 +52,14 @@ if (!function_exists('mail')) {
 
 // Only accept POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+    // Honeypot check
+    if (!empty($_POST['website'])) {
+        logError("Honeypot triggered by IP: " . $_SERVER['REMOTE_ADDR']);
+        http_response_code(202);
+        header("Location: /message-sent-successfully");
+        exit;
+    }
 
     // Required fields
     $required = ['name', 'mail', 'need', 'message'];
@@ -132,7 +144,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: /message-error");
         exit;
     }
-
 } else {
     http_response_code(405);
     header("Location: /404");
