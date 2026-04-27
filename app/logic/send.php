@@ -42,18 +42,10 @@ function logError($message)
     error_log($logMessage);
 }
 
-// Check if mail() exists
-if (!function_exists('mail')) {
-    logError("mail() function is not available on this server");
-    http_response_code(500);
-    echo "<h2 style='text-align: center; padding-top:40px;'>Email functionality is not available on this server. Please contact the administrator.</h2>";
-    exit;
-}
-
 // Only accept POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-    // Honeypot check
+    // Honeypot check — DO NOT SAVE ANYTHING
     if (!empty($_POST['website'])) {
         logError("Honeypot triggered by IP: " . $_SERVER['REMOTE_ADDR']);
         http_response_code(202);
@@ -99,11 +91,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $name = "[SPAM SUSPECTED] - $name";
     }
 
-    //  Save message (spam or not)
+    // Save message (spam or not)
     $MessageRepo = new Message_repository();
     $MessageRepo->save_message($name, $visitor_email, $need, $message);
 
-    //  If spam → stop here (no email)
+    // If spam → stop here (no email)
     if ($isSpam) {
         logError("Spam detected (gibberish message): $message");
         http_response_code(202);
@@ -128,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $headers = implode("\r\n", $headers);
 
-    // 5️⃣ Send email
+    // Send email
     $sent = @mail($recipient, $email_subject, $email_body, $headers);
 
     if ($sent) {
@@ -144,6 +136,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header("Location: /message-error");
         exit;
     }
+
 } else {
     http_response_code(405);
     header("Location: /404");
