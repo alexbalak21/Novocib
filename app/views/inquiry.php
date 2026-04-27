@@ -111,8 +111,9 @@ ob_start(); ?>
         </div>
         <?= $ref ? "<input type='hidden' name='ref' value='$ref'>" : "" ?>
         <?= $price ? "<input type='hidden' name='price' value='$price'>" : "" ?>
-
-
+        <div style="position:absolute; left:-9999px;">
+            <input type="text" name="website" tabindex="-1" autocomplete="off">
+        </div>
         <div class="my-5"><button type="submit" class="btn btn-primary">Send message <i class="fa-regular fa-paper-plane"></i></button></div>
     </form>
 </div>
