@@ -9,6 +9,10 @@
   --novo-light: #5f8dd3;
 }
 
+.bg-novo {
+  background-color: var(--novo-blue) !important;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,13 +29,6 @@ body {
   box-sizing: border-box;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
-
-/* body {
-    min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-} */
-
 .carousel-item {
   height: 600px;
   width: 100%;

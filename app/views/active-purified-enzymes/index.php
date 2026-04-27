@@ -61,7 +61,7 @@ ob_start(); ?>
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 
-<?= Banner::gen("/app/img/enzymes.jpg", "High-purity active purified enzymes for nucleotide metabolism research and drug discovery") ?>
+<?= Banner::gen("/app/img/enzymes.jpg", "Active Purified Enzymes for Nucleotide Metabolism Research") ?>
 
 <div class="container mt-5 mb-5">
     <h1 class="underlinedTitle right"><span class="underlined novoblue right">Nucleoside Kinase Enzymes for Research & Drug Discovery</span></h1>
@@ -237,7 +237,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
     <!-- FREQUENTLY ASKED QUESTIONS -->
     <div class="card mb-5 mt-5">
-        <div class="card-header bg-primary text-white">
+        <div class="card-header bg-novo text-white">
             <h3 class="h5 mb-0">Frequently Asked Questions</h3>
         </div>
         <div class="card-body">
