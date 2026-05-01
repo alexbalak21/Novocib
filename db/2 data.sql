@@ -88,3 +88,4 @@ INSERT INTO `pages` (`url`) VALUES
 ('/dietary-nucleotides'),
 ('/contact-us');
 COMMIT;
+
