@@ -2,7 +2,7 @@
 $title = "Novocib Product Catalog - Enzymes, Assay Kits & Analytical Services";
 ob_start(); ?>
 <meta name="keywords" content="enzyme assay kits, nucleotide metabolism, purified enzymes, PRPP-S assay, HPRT assay, IMPDH2, dCK, ADK, nucleotide analysis, Novocib">
-<meta name="description" content="Explore Novocib’s complete catalog of high-purity enzymes, enzymatic assay kits, nucleotide analysis services, and recombinant proteins for biochemical and pharmaceutical research.">
+<meta name="description" content="Explore Novocib's complete catalog of high-purity enzymes, enzymatic assay kits, nucleotide analysis services, and recombinant proteins for biochemical and pharmaceutical research.">
 <?php $metas = ob_get_clean();
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
