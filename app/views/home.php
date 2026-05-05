@@ -74,24 +74,75 @@ ob_start(); ?>
 require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 <main id="main-content">
+    <!-- CAROUSEL -->
+    <div id="homepageCarousel" class="carousel slide" data-bs-ride="carousel">
 
-    <div id="crouselItem" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+
         <div class="carousel-inner">
+
+            <!-- SLIDE 1 -->
             <div class="carousel-item active" data-bs-interval="10000">
-                <img src="/app/img/backgound-nameless.webp" class="d-block w-100" alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
+                <img src="/app/img/background-nameless.webp" class="d-block w-100"
+                    alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
+
                 <div class="carousel-caption">
                     <div>
                         <h1 class="display-3 carousel-caption-title">Reliable solutions for nucleotides assessment</h1>
-                        <p class="lead px-1">Since 2005 NOVOCIB is developing novel analytical and enzymatic tools
-                            helping
-                            scientists worldwide <br> to quantify nucleotides in their biological samples.</p>
-                        <div class="text-center"><a href="/nucleotides" class="btn btn-primary" aria-label="Go to Dietary Nucleotides page">Go to Dietary
-                                Nucleotides <i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                        <p class="lead px-1 col-8 col-lg-12 mx-auto">
+                            Since 2005 NOVOCIB is developing novel analytical and enzymatic tools helping
+                            scientists worldwide <br> to quantify nucleotides in their biological samples.
+                        </p>
+                        <div class="text-center">
+                            <a href="/nucleotides" class="btn btn-primary" aria-label="Go to Dietary Nucleotides page">
+                                Dietary Nucleotides <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <!-- SLIDE 2 (your updated version) -->
+            <div class="carousel-item" data-bs-interval="10000">
+                <img src="/app/img/assay-kits.jpg" class="d-block w-100"
+                    alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
+
+                <div class="carousel-caption">
+                    <div>
+                        <h1 class="display-5 carousel-caption-title px-1">Convenient enzymatic assays for accurate nucleotide measurement</h1>
+
+                        <p class="lead px-1 col-10 col-md-8 mx-auto">
+                            NOVOCIB's ready-to-use enzymatic kits provide fast, reliable, and non-radioactive methods
+                            to quantify nucleotides and related metabolites in a wide range of biological samples.
+                        </p>
+
+                        <div class="text-center">
+                            <a href="/convenient-assay-kits" class="btn btn-primary" aria-label="Go to Convenient Assay Kits page">
+                                Convenient Assay Kits <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
     </div>
+
+
 
     <div class="container mt-4">
         <div class="d-flex justify-content-center">
