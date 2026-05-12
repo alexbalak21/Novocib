@@ -194,8 +194,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </div>
                     <div class="text-center my-4" title="Nucleotide Analysis Services"><a
                             href="/analytical-services/nucleotide-analysis-service" aria-label="Go to Nucleotide Analysis Services page"
-                            class="btn btn-primary">Go to Page <i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+                            class="btn btn-primary">Go to Page <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>

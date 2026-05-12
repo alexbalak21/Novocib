@@ -25,7 +25,7 @@ class Services
                         <p class="service-description">
                             PRECICE® One-step kits for rapid and reliable nucleotide analysis. Designed for easy use in research, quality control, and food safety applications.
                         </p>
-                        <a class="btn btn-primary mt-3" href="/convenient-assay-kits">Learn More</a>
+                        <a class="btn btn-primary mt-3" aria-label="Learn more about Assay Kits" href="/convenient-assay-kits">Learn More</a>
                     </div>
                 </div>
 
@@ -39,7 +39,7 @@ class Services
                         <p class="service-description">
                             Professional HPLC-UV analysis for comprehensive nucleotide profiling. Expert determination of nucleotides in cells, food, and feed samples.
                         </p>
-                        <a class="btn btn-primary" style="margin-top: 36px;" href="/analytical-services">Learn More</a>
+                        <a class="btn btn-primary" style="margin-top: 36px;" aria-label="Learn more about Analytical Services" href="/analytical-services">Learn More</a>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ class Services
                         <p class="service-description">
                             High-quality recombinant enzymes for biochemical research. Specialized enzyme solutions for nucleotide metabolism studies and screening applications.
                         </p>
-                        <a class="btn btn-primary mt-3" href="/active-purified-enzymes">Learn More</a>
+                        <a class="btn btn-primary mt-3" aria-label="Learn more about Active Purified Enzymes" href="/active-purified-enzymes">Learn More</a>
                     </div>
                 </div>
             </div>
