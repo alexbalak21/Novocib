@@ -142,8 +142,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
     </div>
 
+    <?= Services::gen() ?>
 
-
+        <!-- SEARCH BAR -->
     <div class="container mt-4">
         <div class="d-flex justify-content-center">
             <div class="searchbar">
