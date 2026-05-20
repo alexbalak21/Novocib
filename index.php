@@ -1,5 +1,6 @@
 <?php
 
+// index.php - Main entry point for Novo Biotech website
 declare(strict_types=1);
 
 // Set PHP error log to /logs/php_error.log
