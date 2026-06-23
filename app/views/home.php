@@ -269,7 +269,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 nucleotides and nucleic acids, DNA and RNA);
                             </li>
                             <li>
-                                Enzymatic Assay kits for nucleotides;
+                                Enzymatic Assay kits for nucleotides and nucleosides metabolism;
                             </li>
                             <li>
                                 Purified active enzymes of nucleotide metabolism;

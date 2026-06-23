@@ -15,21 +15,8 @@ class Services
             </div>
 
             <div class="row g-4 justify-content-center">
-                <!-- Service Card 1: Assay Kits -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-card text-center">
-                        <div class="service-icon">
-                            <i class="fa-solid fa-flask-vial"></i>
-                        </div>
-                        <h3 class="service-title">Assay Kits</h3>
-                        <p class="service-description">
-                            PRECICE® One-step kits for rapid and reliable nucleotide analysis. Designed for easy use in research, quality control, and food safety applications.
-                        </p>
-                        <a class="btn btn-primary mt-3" aria-label="Learn more about Assay Kits" href="/convenient-assay-kits">Learn More</a>
-                    </div>
-                </div>
 
-                <!-- Service Card 2: Analytical Services -->
+                <!-- Service Card 1: Analytical Services -->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card text-center">
                         <div class="service-icon">
@@ -43,20 +30,34 @@ class Services
                     </div>
                 </div>
 
+                <!-- Service Card 2: Assay Kits -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card text-center">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-flask-vial"></i>
+                        </div>
+                        <h3 class="service-title">Assay Kits</h3>
+                        <p class="service-description">
+                            PRECICE® One-step kits for rapid and reliable nucleotide analysis. Designed for easy use in research, quality control, and food safety applications.
+                        </p>
+                        <a class="btn btn-primary mt-3" aria-label="Learn more about Assay Kits" href="/convenient-assay-kits">Learn More</a>
+                    </div>
+                </div>
+
                 <!-- Service Card 3: Active Enzymes -->
                 <div class="col-lg-4 col-md-6">
                     <div class="service-card text-center">
                         <div class="service-icon">
-                            <i class="fa-solid fa-dna" "></i>
+                            <i class="fa-solid fa-dna"></i>
                         </div>
-                        <h3 class="service-title">Active Purified Enzymes</h3>
-                        <p class="service-description">
-                            High-quality recombinant enzymes for biochemical research. Specialized enzyme solutions for nucleotide metabolism studies and screening applications.
-                        </p>
-                        <a class="btn btn-primary mt-3" aria-label="Learn more about Active Purified Enzymes" href="/active-purified-enzymes">Learn More</a>
+                        <h3 class=" service-title">Active Purified Enzymes</h3>
+                                <p class="service-description">
+                                    High-quality recombinant enzymes for biochemical research. Specialized enzyme solutions for nucleotide metabolism studies and screening applications.
+                                </p>
+                                <a class="btn btn-primary mt-3" aria-label="Learn more about Active Purified Enzymes" href="/active-purified-enzymes">Learn More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
 
         <style>
@@ -69,7 +70,7 @@ class Services
                 transition: transform 0.3s ease, box-shadow 0.3s ease;
             }
 
-            .service-card i{
+            .service-card i {
                 color: var(--novo-blue);
                 font-size: 3rem;
                 margin-bottom: 1rem;
