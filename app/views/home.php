@@ -269,7 +269,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                 nucleotides and nucleic acids, DNA and RNA);
                             </li>
                             <li>
-                                Enzymatic Assay kits for nucleotides and nucleosides metabolism;
+                                Enzymatic Assay kits for nucleotides and nucleosides metabolism;    
                             </li>
                             <li>
                                 Purified active enzymes of nucleotide metabolism;
@@ -292,14 +292,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="overlay">
             <div class="container py-5">
                 <div class="text-center d-flex justify-content-center align-items-center">
-                    <h2 class="underlinedTitle right"><span class="underlined white right">CIR (Research Tax
-                            Credit)</span>
-                    </h2>
+                    <h2 class="underlinedTitle right"><span class="underlined white right">CIR (Research Tax Credit)</span></h2>
                     <img class="ms-5 mb-3" src="/app/img/marianne.png" height="60" alt="french marianne">
                 </div>
 
                 <p>
-                    NOVOCIB is certified by the French Ministry of Higher Education and Research as a "Research Tax
+                    NOVOCIB is certified for CIR since 2009 with approval renewed through 2030 by the French Ministry of Higher Education and Research as a "Research Tax
                     Credit"
                     (Crédit
                     Impôt Recherche - CIR) company. This agreement allows NOVOCIB's clients who are subject to corporate
