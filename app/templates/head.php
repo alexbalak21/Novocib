@@ -38,7 +38,7 @@ ob_start(); ?>
     <script src="/app/js/bootstrap.bundle.min.js" defer></script>
     <link rel="icon" type="image/x-icon" href="/app/favicon.ico">
     <!-- CUSTOM -->
-    <link rel="stylesheet" href="/app/css/main.css">
+    <link rel="stylesheet" href="/app/css/main.min.css">
     <link rel="stylesheet" href="/app/css/nav.css">
     <script src="/app/js/app.js" defer></script>
     <!-- IF PROD SETS UP GOOGLE ANALYTICS -->

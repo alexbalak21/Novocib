@@ -75,7 +75,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 <main id="main-content">
     <!-- CAROUSEL -->
-    <div id="homepageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="homepageCarousel" class="carousel slide" data-bs-ride="carousel" >
 
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -139,7 +139,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
-
     </div>
 
     <?= Services::gen() ?>

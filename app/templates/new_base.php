@@ -46,7 +46,7 @@ if (basename(__FILE__) == basename($_SERVER['SCRIPT_FILENAME'])) {
     <link rel="stylesheet" href="<?= $fontAwesome_source ?>">
 
     <!-- PRELOAD MAIN CSS -->
-    <link rel="preload" href="/app/css/main.css" as="style">
+    <link rel="preload" href="/app/css/main.min.css" as="style">
 
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="/app/css/main.css">
