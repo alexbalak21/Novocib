@@ -57,7 +57,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <span class="badge bg-info text-dark">96-well plate format</span>
         </div>
 
-        <div class="row align-items-center">
+        <div class="row">
             <div class="col-lg-6">
                 <section aria-labelledby="ampd-intro">
                     <p class="lead">The <strong>PRECICE<sup>®</sup> AMP Deaminase Assay Kit</strong> offers researchers a <strong>non-radioactive, one-step protocol</strong> for accurate measurement of AMP deaminase (AMPD) activity in cellular lysates. This innovative kit utilizes a <strong>continuous spectrophotometric method</strong> in a convenient 96-well plate format, eliminating the need for hazardous radioactive materials while providing real-time kinetic data.</p>
@@ -76,15 +76,18 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     <img class="img-fluid border rounded shadow-sm" src="/app/img/AMPD-assay-reaction.jpg" alt="AMP Deaminase Assay Reaction Scheme" title="AMP Deaminase Assay Reaction Principle">
                     <figcaption class="mt-2">
                         <h4 class="h5 novo-blue">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</h4>
-                        <p class="text-muted mb-0">#K0709-05-2 | 96 tests/kit</p>
+                        <p class="text-muted mb-0">#K0709-05-2 | 96 tests/kit</p>   
                     </figcaption>
+                </figure>
+                <figure class="col-7 mx-auto mt-4">
+                    <img class="img-fluid" src="/app/img/AMPD_Assak_Kit.jpg" alt="AMPD Assak Kit Composition photo" title="AMPD Assak Kit Composition">
                 </figure>
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="">
                     <div class="card shadow-sm border-0">
                         <div class="card-body p-4">
-                            <div class="row align-items-center">
+                            <div class="row">
                                 <div class="col-md-8">
                                     <h3 class="h5 mb-3">PRECICE<sup>®</sup> AMP Deaminase Assay Kit</h3>
                                     <ul class="list-unstyled mb-4">
@@ -101,7 +104,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                                         <a href="/inquiry" class="btn btn-outline-primary btn-sm w-100 mb-2">
                                             <i class="fas fa-envelope me-2"></i>Request Quote
                                         </a>
-                                        <a href="/app/documents/NovoCIB K0709-05-01 User Manual 300823.pdf" class="btn btn-outline-secondary btn-sm w-100" target="_blank">
+                                        <a href="/app/documents/NOVOCIB - K0709-05-02 - AMP Deaminase Assay Kit User Manual - (2x5mL) 090726" class="btn btn-outline-secondary btn-sm w-100" target="_blank">
                                             <i class="far fa-file-pdf me-2"></i>Download Protocol
                                         </a>
                                     </div>
