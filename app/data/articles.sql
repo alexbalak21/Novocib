@@ -1,0 +1,9 @@
+CREATE TABLE articles (
+  id INT NOT NULL AUTO_INCREMENT,
+  page_url TEXT,
+  title VARCHAR(255) DEFAULT NULL,
+  content TEXT,
+  keywords JSON DEFAULT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id)
+) ENGINE=InnoDB;
