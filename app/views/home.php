@@ -93,12 +93,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     <div>
                         <h1 class="display-3 carousel-caption-title">Reliable solutions for nucleotides assessment</h1>
                         <p class="lead px-1 col-8 col-lg-12 mx-auto">
-                            Since 2005 NOVOCIB is developing novel analytical and enzymatic tools helping
-                            scientists worldwide <br> to quantify nucleotides in their biological samples.
+                           Since 2005 NOVOCIB provides worldwide enzymatic kits and analytical services for<br> nucleotide quantification and nucleotides metabolism research
                         </p>
                         <div class="text-center">
-                            <a href="/nucleotides" class="btn btn-primary" aria-label="Go to Dietary Nucleotides page">
-                                Dietary Nucleotides <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            <a href="#awards" class="btn btn-primary" aria-label="Go to Dietary Nucleotides page">
+                               Our Awards <i class="fa-solid fa-award"></i>
                             </a>
                         </div>
                     </div>
@@ -107,16 +106,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
             <!-- SLIDE 2 (your updated version) -->
             <div class="carousel-item" data-bs-interval="10000">
-                <img src="/app/img/assay-kits.jpg" class="d-block w-100"
+                <img src="/app/img/hplc-analysis-banner.jpg" class="d-block w-100"
                     alt="Glass round-bottom flask containing a blue chemical solution resting on a periodic table, symbolizing analytical chemistry and laboratory experimentation">
 
                 <div class="carousel-caption">
                     <div>
-                        <h1 class="display-5 carousel-caption-title px-1">Convenient enzymatic assays for accurate nucleotide measurement</h1>
+                        <h1 class="display-5 carousel-caption-title px-1">Nucleotides and nucleic acids analysis</h1>
 
                         <p class="lead px-1 col-10 col-md-8 mx-auto">
-                            NOVOCIB's ready-to-use enzymatic kits provide fast, reliable, and non-radioactive methods
-                            to quantify nucleotides and related metabolites in a wide range of biological samples.
+                            In food and feed ingredients.
                         </p>
 
                         <div class="text-center">
@@ -310,7 +308,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
     <!-- AWARDS  -->
     <article class="awards container mt-4 mb-4 text-center">
-        <h2 class="underlinedTitle center"><span class="underlined novoblue center">Awards</span></h2>
+        <h2 class="underlinedTitle center" id="awards"><span class="underlined novoblue center">National Awards</span></h2>
 
         <p class="mb-5">NOVOCIB SAS is french biotechnology company founded in 2005, a double Laureate of Concours
             National

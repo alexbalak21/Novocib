@@ -48,15 +48,14 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     }
 </script>
 
-<?= Banner::gen("/app/img/analytical-services.jpg", "Nucleotide Analysis Services - Advanced HPLC Testing") ?>
-
-<section class="container my-5">
-    <div class="row">
-        <div class="col-lg-8 mx-auto text-center mb-5">
+<?= Banner::gen("/app/img/analytical-services.jpg", "Nucleotides and Nucleic Acid HPLC Analysis") ?>
+<div class="container">
+     <div class="row">
+        <div class="col-lg-8 mx-auto text-center mb-5 mt-5">
             <h2 class="underlinedTitle center">
-                <span class="underlined novoblue center">Advanced Nucleotide Analysis Services</span>
+                <span class="underlined novoblue center">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
             </h2>
-            <p class="lead">Precise, reliable HPLC analysis for pharmaceutical, food, and research applications. Our award-winning laboratory provides comprehensive nucleotide profiling with fast turnaround times and expert interpretation.</p>
+            <p class="lead">Reliable nucleotides and nucleic acid quantification in biologic, food and feed samples. <br> Our award-winning laboratory provides comprehensive nucleotide profiling with fast turnaround times and expert interpretation.</p>
         </div>
     </div>
 
@@ -70,11 +69,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <i class="fas fa-flask fa-2x text-primary"></i>
                         </div>
                         <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Nucleotide Analysis</a>
+                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Full Spectra Nucleotides Analysis</a>
                         </h2>
                     </div>
                     <p class="card-text" itemprop="description">
-                        Our advanced ion-paired high-performance liquid chromatography (HPLC) with diode array detection provides comprehensive analysis of nucleotide profiles in cell extracts, food products, and ingredients. Ideal for quality control and research applications.
+                        Our ion-paired HPLC-UV method provides full-spectrum separation and quantification of bases, nucleosides, nucleotides, and nucleic acids in cell extracts, food products, and feed ingredients - perfectly suited for quality control and research.
                     </p>
                     <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
@@ -90,11 +89,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <i class="fas fa-wine-bottle fa-2x text-primary"></i>
                         </div>
                         <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="text-decoration-none" itemprop="url">Yeast Extract Analysis</a>
+                            <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="text-decoration-none" itemprop="url">Yeast Nucleotides and SCP Nucleic Acid Quantification</a>
                         </h2>
                     </div>
                     <p class="card-text" itemprop="description">
-                        Specialized analysis of yeast extracts for flavor nucleotides. Our service includes characterization of free 5' nucleotides and comprehensive profiling of nucleotides in yeast extracts, essential for food and flavoring industries.
+                        Our analytical method is based on nuclease treatment followed by HPLC quantification of deoxy- and ribonucleotides released from DNA and RNA. This analysis provides comprehensive data on total bases, nucleosides, nucleotides, and nucleic acids present in the sample.
                     </p>
                     <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Yeast Extract Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
@@ -147,7 +146,9 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="col-12 text-center mb-4">
             <h2 class="h3">Why Choose Our Analytical Services?</h2>
         </div>
-        <div class="col-md-4 mb-4">
+
+        <!-- Award -->
+        <div class="col-md-3 mb-4">
             <div class="text-center p-3 h-100">
                 <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
                     <i class="fas fa-award fa-2x text-primary"></i>
@@ -156,28 +157,45 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <p>Honored at the national level for pioneering analytical services and excellence in nucleotide research.</p>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
+
+        <!-- Technology -->
+        <div class="col-md-3 mb-4">
             <div class="text-center p-3 h-100">
                 <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
                     <i class="fas fa-chart-line fa-2x text-primary"></i>
                 </div>
                 <h3 class="h5">Advanced Technology</h3>
-                <p>State-of-the-art HPLC equipment with diode array detection for precise and comprehensive nucleotide analysis.</p>
+                <p>The most advanced approach for nucleotide analysis combining full-spectra ion pair reversed phase HPLC and specific enzymes transforming the chromatographic readout from “chemical separation” to “functional interpretation”.</p>
             </div>
         </div>
-        <div class="col-md-4 mb-4">
+
+        <!-- Expert Team -->
+        <div class="col-md-3 mb-4">
             <div class="text-center p-3 h-100">
                 <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
-                    <i class="fas fa-user-tie fa-2x text-primary"></i>
+                    <i class="fa-solid fa-microscope fa-2x text-primary"></i>
                 </div>
-                <h3 class="h5">Expert Team</h3>
-                <p>Our experienced scientists provide detailed reports and expert consultation to help you interpret your results.</p>
+                <h3 class="h5">Quality Control</h3>
+                <p>Our analyses are performed following high quality laboratory standards, including controlled sample and standards handling, validated SOP and transparent reporting - complete chromatographic data (spectra, peak areas, g/100 g) and a Certificate of Analysis.</p>
+            </div>
+        </div>
+
+        <!-- NEW: 20 Years Expertise -->
+        <div class="col-md-3 mb-4">
+            <div class="text-center p-3 h-100">
+                <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                    <i class="fas fa-flask fa-2x text-primary"></i>
+                </div>
+                <h3 class="h5">20 Years of Expertise</h3>
+                <p>
+                    Expertise across diverse matrices from cultured cells and animal tissues
+                    to yeasts, mushrooms, foods, aquaculture feed, infant formula, by-products,
+                    and molasses.
+                </p>
             </div>
         </div>
     </div>
-</section>
-
-<!-- FAQ Section -->
+</div>
 <section class="py-5 bg-light">
     <div class="container">
         <div class="row justify-content-center">
@@ -188,50 +206,65 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </div>
 
                 <div class="accordion" id="faqAccordion">
+
+                    <!-- FAQ 1 -->
                     <div class="accordion-item border-0 shadow-sm mb-3">
                         <h3 class="accordion-header" id="headingOne">
-                            <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            <button class="accordion-button collapsed bg-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="false" aria-controls="collapseOne">
                                 What is the typical turnaround time for analysis?
                             </button>
                         </h3>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                        <div id="collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 Standard turnaround time is 5-7 business days from sample receipt. Expedited services are available upon request for an additional fee. Contact our team for specific project timelines.
                             </div>
                         </div>
                     </div>
 
+                    <!-- FAQ 2 -->
                     <div class="accordion-item border-0 shadow-sm mb-3">
                         <h3 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button class="accordion-button collapsed bg-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
                                 What information is included in the analysis report?
                             </button>
                         </h3>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                        <div id="collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 Our comprehensive reports include detailed chromatograms, quantitative results, method parameters, and expert interpretation. We also provide raw data in standard formats for your further analysis.
                             </div>
                         </div>
                     </div>
 
-                    <div class="accordion-item border-0 shadow-sm">
+                    <!-- FAQ 3 -->
+                    <div class="accordion-item border-0 shadow-sm mb-3">
                         <h3 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button class="accordion-button collapsed bg-white" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
                                 What are the sample requirements?
                             </button>
                         </h3>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                        <div id="collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
                             <div class="accordion-body">
                                 The analysis requires 5-10g of yeast extract powder or 10-20mL of liquid sample. Samples should be shipped under refrigerated conditions to preserve integrity.
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <div class="text-center mt-5">
                     <p class="mb-3">Have more questions? Our team is here to help.</p>
                     <a href="/contact" class="btn btn-primary btn-lg">Contact Us</a>
                 </div>
+
             </div>
         </div>
     </div>
