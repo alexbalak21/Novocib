@@ -236,6 +236,7 @@
 
         <div class="mt-5">
             <div class="mt-5 mb-5">
+                <h2 class="novo-blue my-5 text-center">Method Validation</h2>
                 <h3 class="novo-blue">Specificity</h3>
                 <p>No interference with other nucleotides 5NMP (AMP, GMP, CMP or UMP), nucleosides (adenosine, guanosine, cytidine or uridine) or heterocyclic bases (adenine, guanine, cytosine or uracyl).</p>
             </div>
