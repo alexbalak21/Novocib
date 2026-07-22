@@ -194,10 +194,151 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </tbody>
                 </table>
             </div>
-            <p class="text-muted text-center mt-3"><em>Updated on April 14th, 2026.</em></p>
+            <p class="text-muted text-center mt-3"><em>Updated on July 20, 2026.</em></p>
             <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease <a href="#references">(ref. 1-3)</a></p>
         </article>
     </div>
+
+    <!-- Section: Method Validation -->
+    <section class="my-5" id="method-validation">
+        <h2 class="novo-blue mb-4 text-center">NOVOCIB's Method Validation</h2>
+
+        <h3 class="novo-blue mb-3">Introduction</h3>
+        <p>
+            Nucleotides are considered semi-essential nutrients, as endogenous synthesis does not always meet
+            physiological demand, particularly during periods of rapid growth, immune activation, or intestinal
+            repair. In infants, dietary nucleotide supplementation has been shown to enhance humoral antibody
+            responses to vaccination, as demonstrated by Pickering et al. (1998). In aquaculture, nucleotide-fortified
+            feeds are widely recognized to improve intestinal health, growth performance, immune competence, gut
+            integrity, and stress resistance in fish and shrimp.
+        </p>
+        <p>
+            On the other hand, nucleotides and nucleic acids are also a major source of purines, and excessive
+            human consumption may lead to overproduction of uric acid. This is particularly relevant for single-cell
+            proteins (SCP), a new sustainable alternative to animal or plant proteins. SCPs are produced from
+            fast-growing microbial biomass and purified by microfiltration, a process that concentrates not only
+            proteins but also polymeric DNA and RNA, resulting in high nucleotide content. FAO/WHO
+            recommended that SCP intended for human consumption should be processed to reduce nucleic acids to
+            ~2% of dry matter, because high RNA intake increases purine load and uric-acid production.
+        </p>
+        <p class="fw-semibold">
+            To ensure compliance with nutritional and regulatory requirements, a new analytical method was
+            developed and validated to accurately quantify nucleotides and nucleic acids in complex matrices. The
+            method is applicable to nucleotide ingredients, yeast and SCP protein as well as final feed products,
+            enabling robust quality control and monitoring of purine load in formulations containing microbial
+            proteins.
+        </p>
+
+        <h3 class="novo-blue mt-5 mb-4">Analytical Method Overview</h3>
+        <p>
+            NOVOCIB's analytical method integrates two complementary modern technologies to achieve accurate
+            quantification of free nucleotides, nucleosides, bases, and polymeric nucleic acids (RNA and DNA)
+            in complex biological ingredients and feed matrices.
+        </p>
+
+        <!-- CSS Flowchart + numbered points -->
+        <div class="row align-items-center my-4 g-4">
+            <!-- Flowchart -->
+            <div class="col-lg-6">
+                <style>
+                    .flow-box {
+                        background-color: #2e75b6;
+                        color: #fff;
+                        border-radius: 6px;
+                        padding: 14px 18px;
+                        text-align: center;
+                        font-size: 0.92rem;
+                        font-weight: 500;
+                        line-height: 1.35;
+                        position: relative;
+                    }
+
+                    .flow-arrow-down {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 28px;
+                        color: #2e75b6;
+                        font-size: 2rem;
+                    }
+
+                    .flow-branch-row {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        gap: 16px;
+                        position: relative;
+                    }
+
+                    .flow-branch-row::before {
+                        content: '';
+                        position: absolute;
+                        top: 0;
+                        left: 25%;
+                        right: 25%;
+                        height: 2px;
+                        background: #2e75b6;
+                    }
+
+                    .flow-branch-col {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .flow-branch-col .flow-arrow-down {
+                        margin-top: 0;
+                    }
+                </style>
+
+                <div class="px-2">
+                    <!-- Top: Biological Sample -->
+                    <div class="flow-box mx-auto" style="max-width: 220px;">
+                        Biological Sample
+                    </div>
+
+                    <!-- Branch connector line + two down arrows -->
+                    <div class="flow-branch-row mt-0 pt-0" style="margin-top: 0;">
+                        <div class="flow-branch-col">
+                            <div class="flow-arrow-down">&#8595;</div>
+                            <div class="flow-box w-100">
+                                IP-RP UV-HPLC analysis for bases, nucleoside and NMP
+                            </div>
+                        </div>
+                        <div class="flow-branch-col">
+                            <div class="flow-arrow-down">&#8595;</div>
+                            <div class="flow-box w-100">
+                                Nuclease P1 digestion of RNA and DNA to NMP and dNMP
+                            </div>
+                            <div class="flow-arrow-down">&#8595;</div>
+                            <div class="flow-box w-100">
+                                IP-RP HPLC analysis for bases, nucleosides NMP, RNA-derived NMP and DNA-derived dNMP
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Numbered points -->
+            <div class="col-lg-6">
+                <ol class="ps-3">
+                    <li class="mb-3">
+                        <strong>Ion-Pair Reverse-Phase UV-HPLC (IP-RP HPLC–DAD)</strong> enables simultaneous
+                        separation and quantification of bases, nucleosides, and nucleotides in a single analytical run.
+                    </li>
+                    <li class="mb-3">
+                        <strong>Specific Nuclease Hydrolysis (Nuclease P1)</strong> performs complete and highly
+                        specific digestion of RNA and DNA into ribo- and deoxy-monophosphate nucleotides (NMPs
+                        and dNMPs), followed by comparative HPLC analysis.
+                    </li>
+                    <li class="mb-3">
+                        <strong>Comparative Spectral Analysis</strong> — evaluation of IP-RP UV-HPLC spectra before
+                        and after nuclease digestion allows precise calculation of total nucleic acids, free bases, free
+                        nucleosides, and free nucleotides.
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
 
     <!-- Section: Chemical Diversity -->
     <section class="row mb-5">
@@ -340,6 +481,403 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     </section>
 
 
+
+    <!-- Section: Analytical Standards -->
+    <section class="my-5" id="analytical-standards">
+        <h2 class="novo-blue mb-3">Analytical Standards</h2>
+        <p>
+            Since commercially available nucleobases, nucleosides, and nucleotide mono-, di-, and triphosphates
+            may contain unspecified amounts of residual salts and water, NOVOCIB verifies the true molar
+            concentration of each standard using published molar absorption coefficients (see tables below).
+            This verification step ensures a reproducible concentration of analytes from different sources for
+            the HPLC calibration. The integrity of every standard is controlled by HPLC analysis.
+        </p>
+
+        <!-- Table 1: NMP -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 1. Nucleotide monophosphates (NMP) molar absorption coefficients, measurement wavelength and pH</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Compound</th>
+                        <th class="text-center">Wavelength &Lambda; max, nm</th>
+                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
+                        <th class="text-center">pH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cytidine 5'-monophosphate (CMP)</td>
+                        <td class="text-center">272</td>
+                        <td class="text-center">9 000</td>
+                        <td class="text-center">7</td>
+                    </tr>
+                    <tr>
+                        <td>Uridine 5'-monophosphate (UMP)</td>
+                        <td class="text-center">262</td>
+                        <td class="text-center">10 000</td>
+                        <td class="text-center">7</td>
+                    </tr>
+                    <tr>
+                        <td>Guanosine 5'-monophosphate (GMP)</td>
+                        <td class="text-center">250</td>
+                        <td class="text-center">14 200</td>
+                        <td class="text-center">7</td>
+                    </tr>
+                    <tr>
+                        <td>Inosine 5'-monophosphate (IMP)</td>
+                        <td class="text-center">248</td>
+                        <td class="text-center">12 300</td>
+                        <td class="text-center">Not communicated</td>
+                    </tr>
+                    <tr>
+                        <td>Adenosine 5'-monophosphate (AMP)</td>
+                        <td class="text-center">259</td>
+                        <td class="text-center">15 400</td>
+                        <td class="text-center">7</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 2: Nucleobases -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 2. Nucleobases molar absorption coefficients, measurement wavelength and pH</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Compound</th>
+                        <th class="text-center">Wavelength &Lambda; max, nm</th>
+                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
+                        <th class="text-center">pH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cytosine (C)</td>
+                        <td class="text-center">267</td>
+                        <td class="text-center">6 100</td>
+                        <td class="text-center">8.8</td>
+                    </tr>
+                    <tr>
+                        <td>Uracil (U)</td>
+                        <td class="text-center">259</td>
+                        <td class="text-center">8 200</td>
+                        <td class="text-center">7</td>
+                    </tr>
+                    <tr>
+                        <td>Guanine (G)</td>
+                        <td class="text-center">275</td>
+                        <td class="text-center">8 100</td>
+                        <td class="text-center">6.2</td>
+                    </tr>
+                    <tr>
+                        <td>Hypoxanthine (Hx)</td>
+                        <td class="text-center">248</td>
+                        <td class="text-center">10 700</td>
+                        <td class="text-center">Not communicated</td>
+                    </tr>
+                    <tr>
+                        <td>Adenine (A)</td>
+                        <td class="text-center">260</td>
+                        <td class="text-center">13 400</td>
+                        <td class="text-center">Not communicated</td>
+                    </tr>
+                    <tr>
+                        <td>Xanthine (X)</td>
+                        <td class="text-center">271</td>
+                        <td class="text-center">9 200</td>
+                        <td class="text-center">7.5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 3: Nucleosides -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 3. Nucleosides molar absorption coefficients, measurement wavelength and pH</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Compound</th>
+                        <th class="text-center">Wavelength &Lambda; max, nm</th>
+                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
+                        <th class="text-center">pH</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cytidine (CR)</td>
+                        <td class="text-center">271</td>
+                        <td class="text-center">9 100</td>
+                        <td class="text-center">8.2</td>
+                    </tr>
+                    <tr>
+                        <td>Uridine (UR)</td>
+                        <td class="text-center">261</td>
+                        <td class="text-center">10 100</td>
+                        <td class="text-center">7.3</td>
+                    </tr>
+                    <tr>
+                        <td>Guanosine (GR)</td>
+                        <td class="text-center">252</td>
+                        <td class="text-center">13 700</td>
+                        <td class="text-center">5.5–7</td>
+                    </tr>
+                    <tr>
+                        <td>Inosine (IR)</td>
+                        <td class="text-center">249</td>
+                        <td class="text-center">12 200</td>
+                        <td class="text-center">6–7.5</td>
+                    </tr>
+                    <tr>
+                        <td>Adenosine (AR)</td>
+                        <td class="text-center">260</td>
+                        <td class="text-center">15 100</td>
+                        <td class="text-center">Not communicated</td>
+                    </tr>
+                    <tr>
+                        <td>Xanthosine (XR)</td>
+                        <td class="text-center">249</td>
+                        <td class="text-center">11 400</td>
+                        <td class="text-center">8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Protocol: How to check concentration -->
+        <h3 class="h5 novo-blue mt-5 mb-3">How to check the concentration of purified nucleotide by absorbance</h3>
+        <ol>
+            <li>Prepare a 100 mM stock solution in autoclaved deionized water<sup>*</sup> using the molecular weight provided by the supplier.</li>
+            <li>Choose the appropriate wavelength on the UV-spectrophotometer.</li>
+            <li>Make a blank using a quartz 1-cm cuvette (plastic cuvettes must not be used for short-UV wavelengths) filled with a buffer of the desired pH.</li>
+            <li>Prepare a 0.05 mM (50 µM) solution of the nucleotide in the same buffer<sup>**</sup>.</li>
+            <li>Measure the absorbance of the 50 µM solution.</li>
+            <li>Compare the obtained absorbance value with the molar extinction coefficient (&epsilon;) to calculate the actual analyte concentration.</li>
+        </ol>
+        <p class="text-muted small">
+            <sup>*</sup> Some nucleosides and bases are insoluble in water but can be dissolved in 0.1–0.5 M KOH.<br>
+            <sup>**</sup> Intermediate dilutions may be required to prepare a 50 µM solution from a 100 mM stock.
+        </p>
+
+        <div class="border rounded p-4 bg-light mt-3">
+            <p class="fw-semibold mb-2">Example — IMP concentration check:</p>
+            <ol class="mb-3">
+                <li>Prepare 100 mM inosine-5'-monophosphate (IMP) by dissolving 392 mg of powder in 1 mL of water (Ref. I4625).</li>
+                <li>Select 248 nm as the detection wavelength on the spectrophotometer.</li>
+                <li>Prepare a 1 mM IMP solution (1:100 dilution of the 100 mM stock) and a 50 µM IMP solution (1:20 dilution of the 1 mM solution).</li>
+                <li>Measure the absorbance of 50 µM IMP solution at 248 nm using a quartz 1-cm cuvette (plastic cuvettes must not be used for short-UV wavelengths).</li>
+                <li>If, for example, the absorbance at 248 nm is 0.375 AU (instead of 0.615), this corresponds to an actual concentration of 30.5 µM instead of 50 µM IMP.</li>
+            </ol>
+            <p class="fst-italic novo-blue mb-0 fw-semibold">
+                If you have questions about preparing nucleotide standards at exact concentrations, please
+                <a href="/contact-us">contact us</a> or use our <a href="/nucleotide-standards">lyophilized standards</a>.
+            </p>
+        </div>
+    </section>
+
+    <!-- Section: Selectivity, Specificity, Linearity & Repeatability -->
+    <section class="my-5" id="method-performance">
+        <h2 class="novo-blue mb-4">Method Performance</h2>
+
+        <h3 class="h5 novo-blue mb-2">Selectivity</h3>
+        <p>
+            Selectivity of this method is ensured by the excellent separation of nucleotides, achieved through
+            the high purity of the TBA ion-pairing reagent, its optimized concentration in buffers A and B,
+            and the superior performance of the Zorbax Eclipse Plus C18 column (Agilent).
+        </p>
+
+        <h3 class="h5 novo-blue mt-4 mb-2">Specificity</h3>
+        <p>
+            Specificity of this method relies on accurate nucleotide identification by comparing retention times
+            and UV absorption spectra (254/280 ratio), which are characteristic for each nucleotide. Spectra at
+            254 nm and 280 nm are recorded using a diode-array detector (Agilent). Run control and data
+            acquisition are performed using Agilent ChemStation software.
+        </p>
+        <div class="row g-4 my-3">
+            <div class="col-md-6">
+                <figure class="border p-2 text-center">
+                    <a href="/app/img/hplc-chromatogram-nucleobases-nucleosides-nmp-standards.jpg" target="_blank" rel="noopener">
+                        <img src="/app/img/hplc-chromatogram-nucleobases-nucleosides-nmp-standards.jpg"
+                            alt="Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP at 250 nm"
+                            class="img-fluid" style="cursor: zoom-in;">
+                    </a>
+                    <figcaption class="text-muted mt-2">
+                        <small><b>Fig. 1:</b> Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP (250 nm). <i class="fa-solid fa-arrow-up-right-from-square"></i></small>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="border p-2 text-center">
+                    <a href="/app/img/hplc-spectra-nucleobases-nucleosides-nmp-254-280nm.jpg" target="_blank" rel="noopener">
+                        <img src="/app/img/hplc-spectra-nucleobases-nucleosides-nmp-254-280nm.jpg"
+                            alt="Superposition of UV spectra at 254 nm and 280 nm for 15 mixed standards of nucleobases, nucleosides and NMP with 254/280 area ratio"
+                            class="img-fluid" style="cursor: zoom-in;">
+                    </a>
+                    <figcaption class="text-muted mt-2">
+                        <small><b>Fig. 2:</b> Superposition of spectra at 254 nm (blue) and 280 nm (red) with 254/280 area ratio indicated for each nucleotide. <i class="fa-solid fa-arrow-up-right-from-square"></i></small>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <h3 class="h5 novo-blue mt-4 mb-2">Linearity and Repeatability</h3>
+        <p>
+            Linearity and repeatability were evaluated using three independent calibration curves prepared from
+            mixtures of standards: STDB1 (CMP, UMP, GMP, IMP, AMP), STDB2 (cytosine, uridine, guanosine,
+            inosine, adenosine), and STDB3 (adenine, guanine, hypoxanthine, cytidine, uracil). Each mixture
+            was analyzed at the indicated concentrations, with six repeated measurements per level. Tables 4–6
+            summarize the coefficients of determination for all calibration curves and the relative standard
+            deviations of peak areas obtained at the lowest tested concentration (25 µM) for nucleotides,
+            nucleosides, and bases. All compounds exhibited good linearity, with the highest correlations
+            observed for 5'-NMP, which represents the primary focus of this study.
+        </p>
+
+        <!-- Table 4: NMP linearity -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 4. Coefficients of determination obtained with calibrated standards solutions of nucleotides monophosphates</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Standard mix</th>
+                        <th>Composition</th>
+                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
+                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD1 (NMP)</td>
+                        <td>CMP</td>
+                        <td class="text-center">0.998</td>
+                        <td class="text-center">1.90%</td>
+                    </tr>
+                    <tr>
+                        <td>UMP</td>
+                        <td class="text-center">0.999</td>
+                        <td class="text-center">2.30%</td>
+                    </tr>
+                    <tr>
+                        <td>GMP</td>
+                        <td class="text-center">0.996</td>
+                        <td class="text-center">2.50%</td>
+                    </tr>
+                    <tr>
+                        <td>IMP</td>
+                        <td class="text-center">0.996</td>
+                        <td class="text-center">2.80%</td>
+                    </tr>
+                    <tr>
+                        <td>AMP</td>
+                        <td class="text-center">0.998</td>
+                        <td class="text-center">2.70%</td>
+                    </tr>
+                    <tr>
+                        <td>XMP</td>
+                        <td class="text-center">0.997</td>
+                        <td class="text-center">2.40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 5: Nucleosides linearity -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 5. Coefficients of determination obtained with calibrated standards solutions of nucleosides</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Standard mix</th>
+                        <th>Composition</th>
+                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
+                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD2 (Nucleosides)</td>
+                        <td>Cytosine</td>
+                        <td class="text-center">0.984</td>
+                        <td class="text-center">2.90%</td>
+                    </tr>
+                    <tr>
+                        <td>Uridine</td>
+                        <td class="text-center">0.992</td>
+                        <td class="text-center">3.60%</td>
+                    </tr>
+                    <tr>
+                        <td>Guanosine</td>
+                        <td class="text-center">0.987</td>
+                        <td class="text-center">4.50%</td>
+                    </tr>
+                    <tr>
+                        <td>Inosine</td>
+                        <td class="text-center">0.977</td>
+                        <td class="text-center">3.80%</td>
+                    </tr>
+                    <tr>
+                        <td>Adenosine</td>
+                        <td class="text-center">0.975</td>
+                        <td class="text-center">2.70%</td>
+                    </tr>
+                    <tr>
+                        <td>Xanthosine</td>
+                        <td class="text-center">0.977</td>
+                        <td class="text-center">2.40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Table 6: Bases linearity -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 6. Coefficients of determination obtained with calibrated standards solutions of bases</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Standard mix</th>
+                        <th>Composition</th>
+                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
+                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD3 (Bases)</td>
+                        <td>Adenine</td>
+                        <td class="text-center">0.953</td>
+                        <td class="text-center">5.90%</td>
+                    </tr>
+                    <tr>
+                        <td>Guanine</td>
+                        <td class="text-center">0.968</td>
+                        <td class="text-center">7.60%</td>
+                    </tr>
+                    <tr>
+                        <td>Hypoxanthine</td>
+                        <td class="text-center">0.941</td>
+                        <td class="text-center">6.50%</td>
+                    </tr>
+                    <tr>
+                        <td>Cytidine</td>
+                        <td class="text-center">0.950</td>
+                        <td class="text-center">6.80%</td>
+                    </tr>
+                    <tr>
+                        <td>Uracil</td>
+                        <td class="text-center">0.956</td>
+                        <td class="text-center">5.70%</td>
+                    </tr>
+                    <tr>
+                        <td>Xanthine</td>
+                        <td class="text-center">0.969</td>
+                        <td class="text-center">6.40%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <section class="container my-5">
         <h2 class="text-center mb-4 novo-blue">Method Comparison for Nucleotide Analysis</h2>
