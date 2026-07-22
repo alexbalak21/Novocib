@@ -105,7 +105,6 @@ ob_start(); ?>
             }
         ]
     }
-    }
 </script>
 
 
@@ -128,7 +127,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             and nucleic acids) present in food, feed, and biological samples.
         </p>
     </div>
-    <div class="container my-5">
+    <article class="my-5">
+
         <!-- Desktop table: full viewport width, outside container -->
         <div class="d-none d-md-block container-fluid px-4 mb-0">
             <table class="table product w-100" style="margin-bottom: 0;">
@@ -223,8 +223,15 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                     </div>
                 </div>
             </div>
+
         </div>
-    </div>
+
+        <div class="container">
+            <p class="text-muted text-center mt-3"><em>Updated on July 20, 2026.</em></p>
+            <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease <a href="#references">(ref. 1-3)</a></p>
+        </div>
+
+    </article>
 
     <!-- Section: Method Validation -->
     <section class="my-5" id="method-validation">
