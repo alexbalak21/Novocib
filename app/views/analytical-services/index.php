@@ -50,14 +50,206 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
 <?= Banner::gen("/app/img/analytical-services.jpg", "Nucleotides and Nucleic Acid HPLC Analysis") ?>
 <div class="container">
-     <div class="row">
-        <div class="col-lg-8 mx-auto text-center mb-5 mt-5">
-            <h2 class="underlinedTitle center">
-                <span class="underlined novoblue center">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
-            </h2>
-            <p class="lead">Reliable nucleotides and nucleic acid quantification in biologic, food and feed samples. <br> Our award-winning laboratory provides comprehensive nucleotide profiling with fast turnaround times and expert interpretation.</p>
+    <h2 class="underlinedTitle center">
+        <span class="underlined novoblue center my-5">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
+    </h2>
+
+    <!-- Section: Chemical Diversity -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue">Chemical Diversity of Nucleotides</h2>
+            <p>
+                Nucleotides form a chemically diverse family of inter convertible molecules that includes nucleobases, nucleosides, and mono , di , and triphosphate nucleotides. These compounds differ dramatically in charge, polarity, and hydrophobicity, which makes their simultaneous separation analytically challenging.
+            </p>
+            <ul>
+                <li>Nucleobases are weak bases with limited hydrophobicity.</li>
+                <li>Nucleosides are neutral but highly polar.</li>
+                <li>Nucleotides carry one to three negative charges due to their phosphate groups, making them strongly hydrophilic and poorly retained on classical reversed phase columns.</li>
+            </ul>
+            <p>
+                Because of these physicochemical differences, standard reversed phase chromatography cannot retain or resolve all these molecules in a single run.
+            </p>
+            <p><a class="text-secondary" href="#ref1">(1) J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor Total potentially available nucleosides of human milk by stage of lactation. Am J Clin Nutr 1995 . Jun;61(6):1224-30</a></p>
+            <p><a class="text-secondary" href="#ref2">(2) Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998). Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)</a></p>
+
+        </article>
+        <article class="col-lg-6">
+            <figure class="border">
+                <img class="img-fluid"
+                    src="/app/img/purine-pyrimidine-bases-nucleosides-nucleotides.jpg"
+                    alt="Structures of purine and pyrimidine bases, nucleosides, and nucleotides" />
+                <figcaption class="text-muted text-center">
+                    <small><b>Fig. 1:</b> Purine and pyrimidine bases, nucleosides, and nucleotides.</small>
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <!-- Section: Traditional Acid Hydrolysis -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue h3">Traditional Acid Hydrolysis Method</h2>
+            <p>
+                The conventional approach uses perchloric acid hydrolysis followed by reverse-phase HPLC:
+            </p>
+            <ol>
+                <li>Strong acid hydrolyzes nucleic acids, nucleotides, and nucleosides into free bases.</li>
+                <li>Bases are separated by reverse-phase HPLC.</li>
+            </ol>
+            <p><strong>Advantages:</strong> Simple, fast, widely used.</p>
+            <p><strong>Limitations:</strong></p>
+            <ul>
+                <li>Non-specific: cannot distinguish free NMP from nucleosides or nucleic acids.</li>
+                <li>Functional mismatch: RNA-rich samples appear identical to free NMP-rich samples.</li>
+                <li>Harsh conditions: acids degrade/modify analytes, introducing artifacts.</li>
+                <li>Environmental impact: corrosive waste requiring special disposal.</li>
+            </ul>
+            <!-- Figure & Trigger modal -->
+            <figure class="mt-4 border">
+                <img src="/app/img/nucleotide-analysis-traditional-acid-hydrolysis-method.jpg"
+                    alt="Nucleotide analysis Traditional Acid Hydrolysis Method"
+                    class="img-fluid"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#acidHydrolysisModal" />
+                <figcaption class="text-muted text-center">
+                    <small class="text-muted">Schematic of traditional acid hydrolysis method for nucleotide analysis. <i class="fa-solid fa-arrow-pointer"></i></small>
+                </figcaption>
+            </figure>
+            <?= Modal::gen("acidHydrolysisModal", "/app/img/nucleotide-analysis-traditional-acid-hydrolysis-method.jpg", "Nucleotide analysis Traditional Acid Hydrolysis Method", "Schematic of traditional acid hydrolysis method for nucleotide analysis.") ?>
+        </article>
+        <article class="col-lg-6">
+            <figure class="border">
+                <img class="img-fluid"
+                    src="/app/img/hplc-chromatogram-heterocyclic-bases.jpg"
+                    alt="Chromatogram of heterocyclic bases separated by reverse-phase HPLC"
+                    title="Chromatogram of bases"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#heterocyclicBasesModal" />
+                <figcaption class="text-muted text-center">
+                    <small><b>Fig. 2:</b> Chromatogram of heterocyclic bases separated after acid hydrolysis.</small>
+                </figcaption>
+            </figure>
+            <?= Modal::gen("heterocyclicBasesModal", "/app/img/hplc-chromatogram-heterocyclic-bases.jpg", "Chromatogram of heterocyclic bases separated by reverse-phase HPLC", "Chromatogram of heterocyclic bases separated after acid hydrolysis.") ?>
+        </article>
+    </section>
+
+    <!-- Section: NOVOCIB Enzymatic/HPLC Approach -->
+    <section class="row mb-5">
+        <article class="col-lg-6">
+            <h2 class="novo-blue h3">NOVOCIB’s Enzymatic Hydrolysis + Ion-Paired HPLC</h2>
+            <p>
+                NOVOCIB’s method couples enzymatic hydrolysis with ion-paired reverse-phase HPLC and diode array detection:
+            </p>
+            <ol>
+                <li>Ion-paired chromatography separates bases, nucleosides, and nucleotides (mono-, di-, triphosphates) in one run.</li>
+                <li>Nucleic acids (RNA/DNA) are enzymatically hydrolyzed to NMP/dNMP and quantified before and after nuclease treatment.</li>
+            </ol>
+            <p><strong>Advantages:</strong></p>
+            <ul>
+                <li>Specific and accurate: distinguishes nucleotides, nucleosides, bases, and nucleic acids.</li>
+                <li>No chemical modification of analytes.</li>
+                <li>Relevant: reflects true composition (taste-active NMP vs inert RNA).</li>
+                <li>Greener: reduced environmental impact compared to acid hydrolysis.</li>
+            </ul>
+            <p>
+                <strong>Why enzymatic-HPLC?</strong> Acid hydrolysis is fast but blind, collapsing all compounds into bases.
+                Enzymatic-HPLC is slower but precise, preserving distinctions critical for food chemistry, nutrition, and pharmacology.
+            </p>
+        </article>
+        <article class="col-lg-6">
+            <figure class="border">
+                <img src="/app/img/rna-dna-hplc-chromatogram-nuclease.jpg"
+                    alt="Nucleotide spectra before and after nuclease treatment"
+                    class="img-fluid"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#nucleotideBeforeAfterModal" />
+                <figcaption class="text-muted text-center">
+                    <small><b>Fig. 3:</b> Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment. <i class="fa-solid fa-arrow-pointer"></i></small>
+                </figcaption>
+            </figure>
+            <?= Modal::gen("nucleotideBeforeAfterModal", "/app/img/rna-dna-hplc-chromatogram-nuclease.jpg", "Nucleotide spectra before and after nuclease treatment", "Nucleotide spectra of yeast extract before (blue) and after (red) nuclease treatment.") ?>
+        </article>
+
+        <div class="col-lg-8 mx-auto mt-3 d-flex justify-content-center">
+            <figure class="border">
+                <figcaption class="text-muted text-center">
+                    <small>Schematic of enzymatic hydrolysis method for nucleotide analysis. <i class="fa-solid fa-arrow-pointer"></i></small>
+                </figcaption>
+                <img src="/app/img/Nucleotide-Analysis-by-Enzymatic-Hydrolysis-coupled-to-Ion-Paired-HPLC.jpg"
+                    alt="Nucleotide analysis by Enzymatic Hydrolysis coupled to Ion-Paired HPLC"
+                    class="w-100"
+                    style="cursor: pointer;"
+                    data-bs-toggle="modal"
+                    data-bs-target="#enzymaticHydrolysisModal" />
+            </figure>
+            <?= Modal::gen("enzymaticHydrolysisModal", "/app/img/Nucleotide-Analysis-by-Enzymatic-Hydrolysis-coupled-to-Ion-Paired-HPLC.jpg", "Nucleotide analysis by Enzymatic Hydrolysis coupled to Ion-Paired HPLC", "Schematic of enzymatic hydrolysis method for nucleotide analysis.") ?>
         </div>
-    </div>
+        <div class="col-lg-8 mx-auto mt-3 border p-3 mb-5">
+            <p class="lead text-secondary">In addition to protocol developed by Leach et al. (1995) that does not distinguish between ribonucleotides
+                (RNA-derived) and deoxyribonucleotides (DNA-derived), NOVOCIB's approach allows separate quantification of
+                ribo-NMP (RNA) and dNMP (DNA).</p>
+        </div>
+    </section>
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4 novo-blue">Method Comparison for Nucleotide Analysis</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th scope="col">Attribute</th>
+                        <th scope="col">Traditional Acid Hydrolysis + HPLC</th>
+                        <th scope="col">NOVOCIB’s Enzymatic Hydrolysis + Ion-Paired HPLC</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Specificity</th>
+                        <td>Low — collapses all sources into bases</td>
+                        <td>High — distinguishes free NMP/nucleosides from RNA/DNA</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Quantitative Accuracy</th>
+                        <td>Prone to overestimation — assumes bases equal NMP</td>
+                        <td>Accurate — g/kg attribution to actual sources</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Analyte Integrity</th>
+                        <td>Harsh — potential degradation and artifacts</td>
+                        <td>Gentle — preserves native monomers</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Functional Relevance</th>
+                        <td>Poor — taste/bioactivity not reflected</td>
+                        <td>Strong — aligns with sensory and biological properties</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Operational Complexity</th>
+                        <td>Simple workflow</td>
+                        <td>Two-step but standardized</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Environmental Impact</th>
+                        <td>Hazardous strong acid; corrosive waste requiring neutralization and disposal</td>
+                        <td>Enzymes aqueous and biodegradable; lower hazard and greener waste stream</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Application</th>
+                        <td>Purified ingredients enriched in nucleotides</td>
+                        <td>Complex mixtures or final products with low nucleotide and RNA content</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Example</th>
+                        <td>Yeast extracts</td>
+                        <td>Aquafeed supplemented with nucleotides and/or RNA</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <div class="row g-4">
         <!-- Service 1 -->
