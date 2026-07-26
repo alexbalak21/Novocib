@@ -53,11 +53,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <h2 class="underlinedTitle center">
         <span class="underlined novoblue center my-5">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
     </h2>
-
     <!-- Section: Chemical Diversity -->
     <section class="row mb-5">
+        <h2 class="mt-4 mb-4 text-center novo-blue" title="overview" id="principles">Principles</h2>
         <article class="col-lg-6">
-            <h2 class="novo-blue">Chemical Diversity of Nucleotides</h2>
+            <h3 class="novo-blue">Chemical Diversity of Nucleotides</h3>
             <p>
                 Nucleotides form a chemically diverse family of inter convertible molecules that includes nucleobases, nucleosides, and mono , di , and triphosphate nucleotides. These compounds differ dramatically in charge, polarity, and hydrophobicity, which makes their simultaneous separation analytically challenging.
             </p>

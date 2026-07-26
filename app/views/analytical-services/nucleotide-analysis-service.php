@@ -126,6 +126,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             (HPLC-UV) for complete characterization of Total Potentially Available Nucleotides (nucleotides, nucleosides, bases,
             and nucleic acids) present in food, feed, and biological samples.
         </p>
+        <p class="lead mt-1">Find more about Analytical Principles of our Method <a href="/analytical-services#principles" title="Analytical Services" class="novo-blue">here</a>.</p>
     </div>
     <article class="my-5">
 
