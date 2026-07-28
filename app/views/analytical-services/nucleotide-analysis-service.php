@@ -229,9 +229,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <div class="container">
             <p class="text-muted text-center mt-3"><em>Updated on July 20, 2026.</em></p>
-            <p class="lead text-center mt-4 mb-5"><b>Analytical method</b>: Ion-paired reverse-phase UV-HPLC (Agilent 1200) before and after enzymatic hydrolysis of nucleic acids (RNA and DNA) with P1 nuclease <a href="#references">(ref. 1-3)</a></p>
         </div>
-
     </article>
 
     <!-- Section: Method Validation -->

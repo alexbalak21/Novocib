@@ -53,9 +53,91 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     <h2 class="underlinedTitle center">
         <span class="underlined novoblue center my-5">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
     </h2>
+
+    <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
+                            <i class="fas fa-flask fa-2x text-primary"></i>
+                        </div>
+                        <h2 class="h4 mb-0" itemprop="name">
+                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Full Spectra Nucleotides Analysis</a>
+                        </h2>
+                    </div>
+                    <p class="card-text" itemprop="description">
+                        Our ion-paired HPLC-UV method provides full-spectrum separation and quantification of bases, nucleosides, nucleotides, and nucleic acids in cell extracts, food products, and feed ingredients - perfectly suited for quality control and research.
+                    </p>
+                    <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
+                            <i class="fas fa-wine-bottle fa-2x text-primary"></i>
+                        </div>
+                        <h2 class="h4 mb-0" itemprop="name">
+                            <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="text-decoration-none" itemprop="url">Yeast Nucleotides and SCP Nucleic Acid Quantification</a>
+                        </h2>
+                    </div>
+                    <p class="card-text" itemprop="description">
+                        Our analytical method is based on nuclease treatment followed by HPLC quantification of deoxy- and ribonucleotides released from DNA and RNA. This analysis provides comprehensive data on total bases, nucleosides, nucleotides, and nucleic acids present in the sample.
+                    </p>
+                    <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Yeast Extract Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
+                            <i class="fas fa-dna fa-2x text-primary"></i>
+                        </div>
+                        <h2 class="h4 mb-0" itemprop="name">
+                            <a href="/cellular-nucleotides-analysis" class="text-decoration-none" itemprop="url">Cellular Nucleotides</a>
+                        </h2>
+                    </div>
+                    <p class="card-text" itemprop="description">
+                        Comprehensive profiling of over 31 cellular (deoxy-)ribonucleotides (mono-, di-, and triphosphate) in antimetabolite-treated cells. Our SPE extraction and ion-paired HPLC analysis provides detailed insights for pharmaceutical research and development.
+                    </p>
+                    <a href="/cellular-nucleotides-analysis" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Cellular Nucleotides Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
+                            <i class="fas fa-utensils fa-2x text-primary"></i>
+                        </div>
+                        <h2 class="h4 mb-0" itemprop="name">
+                            <a href="/dietary-nucleotides" class="text-decoration-none" itemprop="url">Dietary Nucleotides</a>
+                        </h2>
+                    </div>
+                    <p class="card-text" itemprop="description">
+                        Essential for growth and development, nucleotides play crucial roles in energy metabolism and cellular function. Our analysis services help ensure optimal nucleotide content in dietary supplements and functional foods.
+                    </p>
+                    <a href="/dietary-nucleotides" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Dietary Nucleotides service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Section: Chemical Diversity -->
     <section class="row mb-5">
-        <h2 class="mt-4 mb-4 text-center novo-blue" title="overview" id="principles">Principles</h2>
+        <h2 class="mt-5 mb-4 text-center novo-blue" title="overview" id="principles">Principles</h2>
         <article class="col-lg-6">
             <h3 class="novo-blue">Chemical Diversity of Nucleotides</h3>
             <p>
@@ -69,8 +151,6 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             <p>
                 Because of these physicochemical differences, standard reversed phase chromatography cannot retain or resolve all these molecules in a single run.
             </p>
-            <p><a class="text-secondary" href="#ref1">(1) J L Leach, J H Baxter, B E Molitor, M B Ramstack, M L Masor Total potentially available nucleosides of human milk by stage of lactation. Am J Clin Nutr 1995 . Jun;61(6):1224-30</a></p>
-            <p><a class="text-secondary" href="#ref2">(2) Tressler, R., Ramstack, M., White, N., Molitor, B., & Masor, M. (1998). Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. Journal of Pediatric Gastroenterology and Nutrition, 26(5)</a></p>
 
         </article>
         <article class="col-lg-6">
@@ -251,92 +331,10 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </section>
 
-    <div class="row g-4">
-        <!-- Service 1 -->
-        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
-                            <i class="fas fa-flask fa-2x text-primary"></i>
-                        </div>
-                        <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Full Spectra Nucleotides Analysis</a>
-                        </h2>
-                    </div>
-                    <p class="card-text" itemprop="description">
-                        Our ion-paired HPLC-UV method provides full-spectrum separation and quantification of bases, nucleosides, nucleotides, and nucleic acids in cell extracts, food products, and feed ingredients - perfectly suited for quality control and research.
-                    </p>
-                    <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 2 -->
-        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
-                            <i class="fas fa-wine-bottle fa-2x text-primary"></i>
-                        </div>
-                        <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="text-decoration-none" itemprop="url">Yeast Nucleotides and SCP Nucleic Acid Quantification</a>
-                        </h2>
-                    </div>
-                    <p class="card-text" itemprop="description">
-                        Our analytical method is based on nuclease treatment followed by HPLC quantification of deoxy- and ribonucleotides released from DNA and RNA. This analysis provides comprehensive data on total bases, nucleosides, nucleotides, and nucleic acids present in the sample.
-                    </p>
-                    <a href="/analytical-services/yeast-extract-nucleotide-analysis" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Yeast Extract Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 3 -->
-        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
-                            <i class="fas fa-dna fa-2x text-primary"></i>
-                        </div>
-                        <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/cellular-nucleotides-analysis" class="text-decoration-none" itemprop="url">Cellular Nucleotides</a>
-                        </h2>
-                    </div>
-                    <p class="card-text" itemprop="description">
-                        Comprehensive profiling of over 31 cellular (deoxy-)ribonucleotides (mono-, di-, and triphosphate) in antimetabolite-treated cells. Our SPE extraction and ion-paired HPLC analysis provides detailed insights for pharmaceutical research and development.
-                    </p>
-                    <a href="/cellular-nucleotides-analysis" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Cellular Nucleotides Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Service 4 -->
-        <div class="col-lg-6" itemscope itemtype="https://schema.org/Service">
-            <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body p-4">
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="bg-primary bg-opacity-10 p-3 rounded-3 me-3">
-                            <i class="fas fa-utensils fa-2x text-primary"></i>
-                        </div>
-                        <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/dietary-nucleotides" class="text-decoration-none" itemprop="url">Dietary Nucleotides</a>
-                        </h2>
-                    </div>
-                    <p class="card-text" itemprop="description">
-                        Essential for growth and development, nucleotides play crucial roles in energy metabolism and cellular function. Our analysis services help ensure optimal nucleotide content in dietary supplements and functional foods.
-                    </p>
-                    <a href="/dietary-nucleotides" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Dietary Nucleotides service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Why Choose Us Section -->
     <div class="row mt-5 pt-4 border-top">
         <div class="col-12 text-center mb-4">
-            <h2 class="h3">Why Choose Our Analytical Services?</h2>
+            <h2 class="h3 mt-5">Why Choose Our Analytical Services?</h2>
         </div>
 
         <!-- Award -->
@@ -345,8 +343,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
                     <i class="fas fa-award fa-2x text-primary"></i>
                 </div>
-                <h3 class="h5">National Award-Winning Lab</h3>
-                <p>Honored at the national level for pioneering analytical services and excellence in nucleotide research.</p>
+                <h3 class="h5">European Award-Winning Lab</h3>
+                <p>Honored at the european level for pioneering analytical services and excellence in nucleotide research.</p>
             </div>
         </div>
 
@@ -388,6 +386,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </div>
 </div>
+
 <section class="py-5 bg-light">
     <div class="container">
         <div class="row justify-content-center">
