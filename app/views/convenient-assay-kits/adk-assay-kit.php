@@ -30,7 +30,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class="d-flex justify-content-center mt-4">
             <div class="col-lg-10 col-12">
 
-                <?= Products::gen("Adk Assay Kit") ?>
+                <?= Product::gen_from_id(9) ?>
 
                 <p class="text-center">
                     <b>

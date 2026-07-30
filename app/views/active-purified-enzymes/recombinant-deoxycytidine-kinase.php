@@ -31,7 +31,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <div class=" d-flex justify-content-center mt-4">
             <div class="col-lg-10 col-12">
                 <?= Products::gen("Human Deoxycytidine Kinase") ?>
-                <p class="text-center"><strong>Kit is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span> </strong></p>
+                <p class="text-center"><strong>Enzyme is provided in stable lyophilized form and <span class="text-danger">shipped without dry ice</span> </strong></p>
                 <p class="my-4 text-center">
                     <strong>You can ask us for a quotation <a href="mailto:contact@novocib.com">Here <i class="fa-solid fa-envelopes-bulk"></i></a> or write at <a href="mailto:contact@novocib.com">contact@novocib.com</a></strong>
                 </p>

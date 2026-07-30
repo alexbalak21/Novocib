@@ -23,7 +23,7 @@ class Product
         if (empty($product)) return ""; // avoid errors
 
         ob_start(); ?>
-        
+
         <div class="table-responsive">
             <table class="table product mb-2">
                 <thead>
@@ -44,7 +44,7 @@ class Product
                                 <?= $product['price'] . ".00 €" ?>
                             </div>
                             <a class="btn btn-primary"
-                               href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
+                                href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
                                 Inquiry <i class="fa-solid fa-comment"></i>
                             </a>
                         </td>
@@ -57,7 +57,7 @@ class Product
             <em>Updated on <?= date('F jS, Y', strtotime($product['updated_on'])) ?>.</em><br />
         </p>
 
-        <?php return ob_get_clean();
+    <?php return ob_get_clean();
     }
 
     static function gen_from_id($id)
@@ -66,7 +66,7 @@ class Product
         if ($product == null) return null;
 
         ob_start(); ?>
-        
+
         <div class="table-responsive">
             <table class="table product mb-2">
                 <thead>
@@ -87,7 +87,7 @@ class Product
                                 <?= $product['price'] . ".00 €" ?>
                             </div>
                             <a class="btn btn-primary"
-                               href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
+                                href="/inquiry?ref=<?= $product['reference'] ?>&amp;price=<?= $product['price'] ?>&amp;product=<?= $product['title'] ?>&volume=<?= $product['size'] ?>">
                                 Inquiry <i class="fa-solid fa-comment"></i>
                             </a>
                         </td>
@@ -100,6 +100,6 @@ class Product
             <em>Updated on <?= date('F jS, Y', strtotime($product['updated_on'])) ?>.</em><br />
         </p>
 
-        <?php return ob_get_clean();
+<?php return ob_get_clean();
     }
 }

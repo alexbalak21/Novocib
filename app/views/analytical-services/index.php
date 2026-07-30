@@ -460,3 +460,106 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
     </div>
 </section>
+
+<section class="bg-light py-2">
+    <div class="references row justify-content-center" id="references">
+        <h3 class="text-center py-3 w-100 h4">
+            Scientific references
+            <i class="fa-solid fa-microscope novo-blue"></i>
+        </h3>
+        <div class="col-2">
+            <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
+        </div>
+        <div class="col-8 d-flex align-items-center mx-1">
+            <ol>
+                <!-- 2006 -->
+                <li id="ref1" class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/16620851/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Nucleotide and nucleoside content in human milk during early lactation (2006)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            Nucleotide, nucleoside, and related compound content of human milk during early lactation. (2006)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Lönnerdal B., Keen C.L., Hernell O.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Journal of Pediatric Gastroenterology and Nutrition. PMID: 16620851 : 132–136</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1998 -->
+                <li id="ref2" class="mb-3">
+                    <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
+                        target="_blank"
+                        rel="noopener"
+                        title="Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women (1998)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. (1998)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Tressler R., Ramstack M., White N., Molitor B., Masor M.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Journal of Pediatric Gastroenterology and Nutrition, 26(5).</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1995 – Analytical Biochemistry -->
+                <li class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/8594993/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Ion-pairing HPLC method for simultaneous determination of nucleotides and related compounds (1995)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            An ion-pairing HPLC method for the direct simultaneous determination of nucleotides, deoxynucleotides, nicotinic coenzymes, oxypurines, nucleosides, and bases in perchloric acid cell extracts. (1995)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Di Pierro F., Tavazzi B., Perno C.F., Bartolini M., Balestra E., Calió R., Giardina B., Lazzarino G.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>Analytical Biochemistry. PMID: 8594993 : 231, 407–412</i>
+                        </div>
+                    </a>
+                </li>
+
+                <!-- 1995 – AJCN -->
+                <li class="mb-3">
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/7762521/"
+                        target="_blank"
+                        rel="noopener"
+                        title="Total potentially available nucleosides of human milk by stage of lactation (1995)"
+                        class="text-decoration-none">
+
+                        <div class="fw-semibold">
+                            Total potentially available nucleosides of human milk by stage of lactation. (1995)
+                        </div>
+
+                        <div class="fst-italic text-muted">
+                            Leach J.L., Baxter J.H., Molitor B.E., Ramstack M.B., Masor M.L.
+                        </div>
+
+                        <div class="small text-body-secondary">
+                            <i>American Journal of Clinical Nutrition, 61(6), 1224–1230.</i>
+                        </div>
+                    </a>
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>

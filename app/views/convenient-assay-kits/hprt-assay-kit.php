@@ -53,8 +53,8 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
         </h1>
         <p class="lead text-center mb-4">Spectrophotometric microplate assay for precise measurement of hypoxanthine-guanine phosphoribosyltransferase (HPRT) activity in research and clinical diagnostics</p>
         <div class="text-center mb-4">
-            <span class="badge bg-primary me-2">Includes active human HPRT enzyme</span>
             <span class="badge bg-success me-2">Non-radioactive method</span>
+            <span class="badge bg-primary me-2" style="font-size: 16px;">Includes active human HPRT enzyme</span>
             <span class="badge bg-info text-dark">96-well microplate format</span>
         </div>
 
@@ -79,6 +79,7 @@ echo Banner::gen("/app/img/hprt_banner.webp", $page_title);
                     <a href="/app/img/HPRT-Assay-Kit-Principle.png"><img class="img-fluid p-1 border rounded" src="/app/img/HPRT-Assay-Kit-Principle.png" alt="HPRT enzyme Molecular Structure" title="HPRT enzyme Molecular Structure"></a>
                     <figcaption class="text-center">
                         <h4 class="novo-blue">PRECICE<sup>®</sup> HPRT Assay Kit</h4>
+                        <h5 class="text-muted">with human active HPRT enzyme</h5>
                         <h5>#K0709-01-2</h5>
                     </figcaption>
                 </figure>

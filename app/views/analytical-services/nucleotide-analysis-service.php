@@ -371,6 +371,187 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 </ol>
             </div>
         </div>
+
+        <h3 class="novo-blue mt-5 mb-3">Quality Control Sample</h3>
+        <p>
+            To avoid any loss of bases, nucleosides, or nucleotides during the pretreatment step, sample
+            preparation is limited to solubilization in sterile deionized water followed by deproteinization
+            and injection into the ion-paired reverse-phase (IP-RP) HPLC system, allowing direct separation
+            and quantification of the whole spectrum of bases, nucleosides and nucleotides present in the
+            sample (Fig. 9).
+        </p>
+        <p>
+            A powder of concentrated nucleotides, a commercial product derived from <em>Saccharomyces
+            cerevisiae</em> (26.2 g/100 g according to the supplier and 31.1 g/100 g according to NOVOCIB), is
+            used as a Quality Control Sample run immediately after standards STD1 (NMP), STD2 (Nucleosides)
+            and STD3 (Bases), both before and after the analyzed samples.
+        </p>
+        <p>
+            Table 7 presents the nucleotide quantification results obtained using NOVOCIB's IP-RP method
+            compared with the manufacturer's data. For purine NMPs — AMP, GMP and IMP — the values are
+            similar. In contrast, NOVOCIB's values for the pyrimidine nucleotides UMP and CMP are higher,
+            most likely because pyrimidine nucleotides are not degraded under NOVOCIB's conditions, unlike
+            during acidic hydrolysis.
+        </p>
+
+        <!-- Table 7: QC Sample nucleotide content -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 7. Nucleotide content in 100 g of a concentrated nucleotides (commercial product, powder) purified from <em>Saccharomyces cerevisiae</em></h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Compound</th>
+                        <th class="text-center">NOVOCIB IP-RP Results<br><small class="fw-normal">g/100 g</small></th>
+                        <th class="text-center">Acid Hydrolysis Results<br><small class="fw-normal">g/100 g</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cytosine</td>
+                        <td class="text-center">0.00</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Uracil</td>
+                        <td class="text-center">0.17</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Guanine</td>
+                        <td class="text-center">0.00</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Hypoxanthine</td>
+                        <td class="text-center">0.00</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Adenine</td>
+                        <td class="text-center">0.18</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Cytidine</td>
+                        <td class="text-center">0.34</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Uridine</td>
+                        <td class="text-center">0.85</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Guanosine</td>
+                        <td class="text-center">1.91</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Inosine</td>
+                        <td class="text-center">0.00</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>Adenosine</td>
+                        <td class="text-center">1.62</td>
+                        <td class="text-center">not provided</td>
+                    </tr>
+                    <tr>
+                        <td>CMP <small class="text-muted">(without salt, without water)</small></td>
+                        <td class="text-center">6.10</td>
+                        <td class="text-center">5.00</td>
+                    </tr>
+                    <tr>
+                        <td>UMP <small class="text-muted">(without salt, without water)</small></td>
+                        <td class="text-center">7.83</td>
+                        <td class="text-center">5.00</td>
+                    </tr>
+                    <tr>
+                        <td>GMP <small class="text-muted">(without salt, without water)</small></td>
+                        <td class="text-center">8.86</td>
+                        <td class="text-center">8.00</td>
+                    </tr>
+                    <tr>
+                        <td>IMP <small class="text-muted">(without salt, without water)</small></td>
+                        <td class="text-center">0.00</td>
+                        <td class="text-center">0.20</td>
+                    </tr>
+                    <tr>
+                        <td>AMP <small class="text-muted">(without salt, without water)</small></td>
+                        <td class="text-center">8.27</td>
+                        <td class="text-center">8.00</td>
+                    </tr>
+                    <tr class="table-light fw-semibold">
+                        <td>Total 5'-NMP</td>
+                        <td class="text-center">31.07</td>
+                        <td class="text-center">26.2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p>
+            Table 8 shows the relative standard deviations of peak area for the Quality Control Sample
+            analyzed six times, together with the acceptance criteria.
+        </p>
+
+        <!-- Table 8: QC Sample RSD -->
+        <h3 class="h6 fw-semibold mt-4 mb-2">Table 8. RSD (%) values for Quality Control Sample and acceptance criteria</h3>
+        <div class="table-responsive mb-4">
+            <table class="table table-bordered table-striped align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Compound</th>
+                        <th class="text-center">% RSD<br><small class="fw-normal">(six replicates)</small></th>
+                        <th class="text-center">Acceptance criteria</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CMP</td>
+                        <td class="text-center">1.3%</td>
+                        <td class="text-center">&lt;5%</td>
+                    </tr>
+                    <tr>
+                        <td>UMP</td>
+                        <td class="text-center">2.3%</td>
+                        <td class="text-center">&lt;5%</td>
+                    </tr>
+                    <tr>
+                        <td>GMP</td>
+                        <td class="text-center">2.5%</td>
+                        <td class="text-center">&lt;5%</td>
+                    </tr>
+                    <tr>
+                        <td>IMP</td>
+                        <td class="text-center">2.2%</td>
+                        <td class="text-center">&lt;5%</td>
+                    </tr>
+                    <tr>
+                        <td>AMP</td>
+                        <td class="text-center">2.2%</td>
+                        <td class="text-center">&lt;5%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row g-4 my-3">
+            <div class="col-lg-8 mx-auto">
+                <figure class="border p-2 text-center">
+                    <img src="/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg"
+                        alt="Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig9ChromatogramModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 9:</b> Chromatogram superposition of a <em>Saccharomyces cerevisiae</em>-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line). <i class="fa-solid fa-arrow-pointer"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig9ChromatogramModal", "/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line).") ?>
+            </div>
+        </div>
     </section>
 
     <!-- Section: Analytical Standards -->
@@ -853,106 +1034,3 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <p class="mt-5 mb-5 lead text-muted">See all services on our <a href="/analytical-services">Analytical Services</a> page or submit a request directly via <a href="/inquiry?ref=S1200-03-NA&amp;price=400&amp;product=Nucleic%20Acids%20Analysis">Inquiry</a>.</p>
     </div>
 </main>
-
-<section class="bg-light py-2">
-    <div class="references row justify-content-center" id="references">
-        <h3 class="text-center py-3 w-100 h4">
-            Scientific references
-            <i class="fa-solid fa-microscope novo-blue"></i>
-        </h3>
-        <div class="col-2">
-            <img src="/app/img/icons/book.svg" class="w-100" alt="book logo">
-        </div>
-        <div class="col-8 d-flex align-items-center mx-1">
-            <ol>
-                <!-- 2006 -->
-                <li id="ref1" class="mb-3">
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/16620851/"
-                        target="_blank"
-                        rel="noopener"
-                        title="Nucleotide and nucleoside content in human milk during early lactation (2006)"
-                        class="text-decoration-none">
-
-                        <div class="fw-semibold">
-                            Nucleotide, nucleoside, and related compound content of human milk during early lactation. (2006)
-                        </div>
-
-                        <div class="fst-italic text-muted">
-                            Lönnerdal B., Keen C.L., Hernell O.
-                        </div>
-
-                        <div class="small text-body-secondary">
-                            <i>Journal of Pediatric Gastroenterology and Nutrition. PMID: 16620851 : 132–136</i>
-                        </div>
-                    </a>
-                </li>
-
-                <!-- 1998 -->
-                <li id="ref2" class="mb-3">
-                    <a href="https://www.researchgate.net/publication/237909550_TOTAL_POTENTIALLY_AVAILABLE_RIBONUCLEOSIDES_TPAN_IN_HUMAN_MILK_FROM_ASIAN_WOMEN"
-                        target="_blank"
-                        rel="noopener"
-                        title="Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women (1998)"
-                        class="text-decoration-none">
-
-                        <div class="fw-semibold">
-                            Total potentially available (ribo)nucleosides (TPAN) in human milk from Asian women. (1998)
-                        </div>
-
-                        <div class="fst-italic text-muted">
-                            Tressler R., Ramstack M., White N., Molitor B., Masor M.
-                        </div>
-
-                        <div class="small text-body-secondary">
-                            <i>Journal of Pediatric Gastroenterology and Nutrition, 26(5).</i>
-                        </div>
-                    </a>
-                </li>
-
-                <!-- 1995 – Analytical Biochemistry -->
-                <li class="mb-3">
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/8594993/"
-                        target="_blank"
-                        rel="noopener"
-                        title="Ion-pairing HPLC method for simultaneous determination of nucleotides and related compounds (1995)"
-                        class="text-decoration-none">
-
-                        <div class="fw-semibold">
-                            An ion-pairing HPLC method for the direct simultaneous determination of nucleotides, deoxynucleotides, nicotinic coenzymes, oxypurines, nucleosides, and bases in perchloric acid cell extracts. (1995)
-                        </div>
-
-                        <div class="fst-italic text-muted">
-                            Di Pierro F., Tavazzi B., Perno C.F., Bartolini M., Balestra E., Calió R., Giardina B., Lazzarino G.
-                        </div>
-
-                        <div class="small text-body-secondary">
-                            <i>Analytical Biochemistry. PMID: 8594993 : 231, 407–412</i>
-                        </div>
-                    </a>
-                </li>
-
-                <!-- 1995 – AJCN -->
-                <li class="mb-3">
-                    <a href="https://pubmed.ncbi.nlm.nih.gov/7762521/"
-                        target="_blank"
-                        rel="noopener"
-                        title="Total potentially available nucleosides of human milk by stage of lactation (1995)"
-                        class="text-decoration-none">
-
-                        <div class="fw-semibold">
-                            Total potentially available nucleosides of human milk by stage of lactation. (1995)
-                        </div>
-
-                        <div class="fst-italic text-muted">
-                            Leach J.L., Baxter J.H., Molitor B.E., Ramstack M.B., Masor M.L.
-                        </div>
-
-                        <div class="small text-body-secondary">
-                            <i>American Journal of Clinical Nutrition, 61(6), 1224–1230.</i>
-                        </div>
-                    </a>
-                </li>
-            </ol>
-        </div>
-    </div>
-</section>
