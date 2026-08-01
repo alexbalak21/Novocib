@@ -1,10 +1,10 @@
 <?php
 global $title;
-$title = "TPAN Nucleotide Analysis Service (HPLC-UV)";
+$title = "Nucleotide & Nucleic Acids Analysis Service (HPLC-UV)";
 
 ob_start(); ?>
-<meta name="keywords" content="NOVOCIB, HPLC analysis, nucleotides, nucleosides, nucleic acids, RNA, DNA, 5'AMP, 5'GMP, 5'IMP, 5'CMP, 5'UMP, enzymatic hydrolysis, acid hydrolysis, ion-paired chromatography, dietary nucleotides, food chemistry, feed ingredients">
-<meta name="description" content="NOVOCIB provides accurate HPLC-UV analysis of dietary nucleotides, nucleosides, and nucleic acids in food and feed. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), RNA and DNA analysis, and comparison of acid hydrolysis versus enzymatic hydrolysis methods for precise and eco-friendly results.">
+<meta name="keywords" content="NOVOCIB, HPLC analysis, nucleotides, nucleosides, nucleic acids, nucleic acid content, RNA, DNA, microbial biomass, single-cell protein, SCP, biomass nucleic acid reduction, 5'AMP, 5'GMP, 5'IMP, 5'CMP, 5'UMP, enzymatic hydrolysis, acid hydrolysis, ion-paired chromatography, dietary nucleotides, food chemistry, feed ingredients">
+<meta name="description" content="NOVOCIB provides accurate HPLC-UV analysis of nucleotides, nucleosides, and nucleic acids (RNA/DNA) in microbial biomass, single-cell protein (SCP), food, and feed. Services include quantification of 5'-nucleotides (AMP, GMP, IMP, CMP, UMP), total nucleic acid content, and comparison of acid vs. enzymatic hydrolysis methods for precise, eco-friendly results.">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <link rel="canonical" href="https://www.novocib.com/nucleotide-analysis-service">
@@ -12,22 +12,22 @@ ob_start(); ?>
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="NOVOCIB">
 <meta property="og:url" content="https://www.novocib.com/nucleotide-analysis-service">
-<meta property="og:title" content="Nucleotide Analysis Service (TPAN) by Enzymatic HPLC | NOVOCIB">
-<meta property="og:description" content="TPAN analysis of nucleotides, nucleosides, bases, RNA and DNA by enzymatic hydrolysis coupled to ion-paired HPLC-UV. Compare acid and enzymatic methods and request an analysis.">
+<meta property="og:title" content="Nucleotide &amp; Nucleic Acids Analysis Service by Enzymatic HPLC | NOVOCIB">
+<meta property="og:description" content="TPAN analysis of nucleotides, nucleosides, bases, RNA and DNA in microbial biomass, SCP, food, and feed by enzymatic hydrolysis coupled to ion-paired HPLC-UV. Compare acid and enzymatic methods and request an analysis.">
 <meta property="og:image" content="https://www.novocib.com/app/img/hplc-photo.jpg">
-<meta property="og:image:alt" content="NOVOCIB HPLC system for nucleotide analysis services">
+<meta property="og:image:alt" content="NOVOCIB HPLC system for nucleotide and nucleic acids analysis services">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nucleotide Analysis Service (TPAN) by Enzymatic HPLC | NOVOCIB">
-<meta name="twitter:description" content="Accurate TPAN analysis of food, feed and biological samples with enzymatic hydrolysis and ion-paired HPLC-UV.">
+<meta name="twitter:title" content="Nucleotide &amp; Nucleic Acids Analysis Service by Enzymatic HPLC | NOVOCIB">
+<meta name="twitter:description" content="Accurate analysis of nucleotides and nucleic acids in microbial biomass, SCP, food, feed and biological samples with enzymatic hydrolysis and ion-paired HPLC-UV.">
 <meta name="twitter:image" content="https://www.novocib.com/app/img/hplc-photo.jpg">
 <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "Service",
-        "name": "Nucleotide Analysis Service",
-        "serviceType": "Total Potentially Available Nucleotides (TPAN) analysis",
-        "description": "NOVOCIB provides TPAN analysis by enzymatic hydrolysis coupled to ion-paired HPLC-UV for quantification of nucleotides, nucleosides, bases, RNA and DNA in food, feed and biological samples.",
+        "name": "Nucleotide & Nucleic Acids Analysis Service",
+        "serviceType": "Total Potentially Available Nucleotides (TPAN) and nucleic acids analysis",
+        "description": "NOVOCIB provides TPAN and nucleic acids analysis by enzymatic hydrolysis coupled to ion-paired HPLC-UV for quantification of nucleotides, nucleosides, bases, RNA and DNA in microbial biomass, single-cell protein (SCP), food, feed and biological samples.",
         "url": "https://www.novocib.com/nucleotide-analysis-service",
         "image": "https://www.novocib.com/app/img/hplc.jpg",
         "provider": {
@@ -92,7 +92,15 @@ ob_start(); ?>
                 "name": "Which compounds are quantified in NOVOCIB analysis?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "NOVOCIB quantifies free bases, nucleosides, nucleotide monophosphates such as AMP, GMP, IMP, CMP and UMP, and nucleic acids including RNA and DNA."
+                    "text": "NOVOCIB quantifies free bases, nucleosides, nucleotide monophosphates such as AMP, GMP, IMP, CMP and UMP, and nucleic acids including RNA and DNA, in samples ranging from microbial biomass and single-cell protein to food, feed and cell extracts."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why is nucleic acid analysis important for biomass and single-cell protein (SCP)?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Fast-growing microbial biomass used for single-cell protein contains high levels of RNA and DNA. FAO/WHO recommends reducing nucleic acid content to about 2% of dry matter in SCP intended for human consumption, since high intake increases purine load and uric acid production. NOVOCIB's HPLC-UV method accurately quantifies total nucleic acid content to support regulatory compliance and process optimization."
                 }
             },
             {
@@ -114,17 +122,17 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 ?>
 <?= Banner::gen("/app/img/hplc.jpg", "Nucleotide and Nucleic Acid Analytical Service") ?>
 
-<main class="container mt-5">
+<div class="container mt-5">
     <!-- Title & Intro -->
     <div class="text-center mb-5" id="main">
         <h1 class="underlinedTitle">
-            <span class="underlined novoblue">Total Potentially Available Nucleotides and Nucleic Acids Analysis by Enzymatic-HPLC approach</span>
+            <span class="underlined novoblue">Nucleotide &amp; Nucleic Acids Analysis</span>
         </h1>
         <p class="col-lg-10 mx-auto lead">
             <span class="novo-blue">NOVOCIB</span> provides advanced analytical services
-            using enzymatic approach coupled to ion-paired high-performance liquid chromatography
+            using an enzymatic approach coupled to ion-paired high-performance liquid chromatography
             (HPLC-UV) for complete characterization of Total Potentially Available Nucleotides (nucleotides, nucleosides, bases,
-            and nucleic acids) present in food, feed, and biological samples.
+            and nucleic acids) present in microbial biomass, single-cell protein (SCP), food, feed, and biological samples.
         </p>
         <p class="lead mt-1">Find more about Analytical Principles of our Method <a href="/analytical-services#principles" title="Analytical Services" class="novo-blue">here</a>.</p>
     </div>
@@ -1033,4 +1041,4 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         <a class="btn btn-primary" href="/contact-us"><span class="lead">Contact Us <i class="fa-solid fa-envelope"></i></span></a>
         <p class="mt-5 mb-5 lead text-muted">See all services on our <a href="/analytical-services">Analytical Services</a> page or submit a request directly via <a href="/inquiry?ref=S1200-03-NA&amp;price=400&amp;product=Nucleic%20Acids%20Analysis">Inquiry</a>.</p>
     </div>
-</main>
+</div>

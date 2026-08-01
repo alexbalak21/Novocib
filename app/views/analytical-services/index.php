@@ -1,24 +1,24 @@
 <?php
 global $title;
-$title = "Analytical Services for Nucleotide Analysis";
+$title = "Analytical Services for Nucleotide & Nucleic Acid Analysis";
 
 ob_start(); ?>
-<meta name="keywords" content="nucleotide analysis, HPLC services, yeast extract analysis, cellular nucleotides, dietary nucleotides, nucleotide profiling, IMPDH inhibitors, food ingredient analysis, pharmaceutical testing, NOVOCIB">
-<meta name="description" content="NOVOCIB's analytical services provide comprehensive nucleotide analysis using advanced HPLC technology. Specializing in yeast extract, cellular nucleotides, and dietary nucleotide testing for pharmaceutical and food industries.">
+<meta name="keywords" content="nucleotide analysis, nucleic acid analysis, HPLC services, biomass analysis, microbial biomass nucleic acids, single-cell protein SCP, yeast extract analysis, cellular nucleotides, dietary nucleotides, nucleotide profiling, IMPDH inhibitors, food ingredient analysis, pharmaceutical testing, NOVOCIB">
+<meta name="description" content="NOVOCIB's analytical services provide comprehensive nucleotide and nucleic acid analysis using advanced HPLC technology. Specializing in microbial biomass, single-cell protein (SCP), yeast extract, cellular nucleotides, and dietary nucleotide testing for pharmaceutical, feed, and food industries.">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <link rel="canonical" href="https://www.novocib.com/analytical-services" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.novocib.com/analytical-services/">
-<meta property="og:title" content="Analytical Services for Nucleotide Analysis | NOVOCIB">
-<meta property="og:description" content="Comprehensive nucleotide analysis services using HPLC technology for pharmaceutical and food industries. Accurate, reliable results from industry experts.">
+<meta property="og:title" content="Analytical Services for Nucleotide &amp; Nucleic Acid Analysis | NOVOCIB">
+<meta property="og:description" content="Comprehensive nucleotide and nucleic acid analysis services using HPLC technology for biomass, food, feed, and pharmaceutical industries. Accurate, reliable results from industry experts.">
 <meta property="og:image" content="https://www.novocib.com/app/img/analytical-services-og.jpg">
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Analytical Services for Nucleotide Analysis | NOVOCIB">
-<meta name="twitter:description" content="Advanced HPLC analysis of nucleotides for research and industry. Specialized in yeast extract and cellular nucleotide profiling.">
+<meta name="twitter:title" content="Analytical Services for Nucleotide &amp; Nucleic Acid Analysis | NOVOCIB">
+<meta name="twitter:description" content="Advanced HPLC analysis of nucleotides and nucleic acids in microbial biomass, yeast extract, and cells for research and industry.">
 <meta name="twitter:image" content="https://www.novocib.com/app/img/analytical-services-twitter.jpg">
 
 <?php $metas = ob_get_clean();
@@ -31,8 +31,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Analytical Services for Nucleotide Analysis",
-        "description": "Comprehensive nucleotide analysis services using HPLC technology for pharmaceutical and food industries.",
+        "name": "Analytical Services for Nucleotide & Nucleic Acid Analysis",
+        "description": "Comprehensive nucleotide and nucleic acid analysis services using HPLC technology for microbial biomass, single-cell protein, pharmaceutical, feed, and food industries.",
         "publisher": {
             "@type": "Organization",
             "name": "NOVOCIB",
@@ -51,7 +51,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 <?= Banner::gen("/app/img/analytical-services.jpg", "Nucleotides and Nucleic Acid HPLC Analysis") ?>
 <div class="container">
     <h2 class="underlinedTitle center">
-        <span class="underlined novoblue center my-5">Full-Spectrum Analysis of Nucleotides and Nucleic Acids</span>
+        <span class="underlined novoblue center my-5">Full-Spectrum Analysis of Nucleotides and Nucleic Acids in Biomass, Food &amp; Feed</span>
     </h2>
 
     <div class="row g-4">
@@ -64,11 +64,11 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                             <i class="fas fa-flask fa-2x text-primary"></i>
                         </div>
                         <h2 class="h4 mb-0" itemprop="name">
-                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Full Spectra Nucleotides Analysis</a>
+                            <a href="/analytical-services/nucleotide-analysis-service" class="text-decoration-none" itemprop="url">Nucleotide &amp; Nucleic Acids Analysis</a>
                         </h2>
                     </div>
                     <p class="card-text" itemprop="description">
-                        Our ion-paired HPLC-UV method provides full-spectrum separation and quantification of bases, nucleosides, nucleotides, and nucleic acids in cell extracts, food products, and feed ingredients - perfectly suited for quality control and research.
+                        Our ion-paired HPLC-UV method provides full-spectrum separation and quantification of bases, nucleosides, nucleotides, and nucleic acids (RNA/DNA) in microbial biomass, single-cell protein (SCP), cell extracts, food products, and feed ingredients - perfectly suited for quality control and research.
                     </p>
                     <a href="/analytical-services/nucleotide-analysis-service" class="btn btn-outline-primary mt-2" aria-label="Learn more about our Nucleotide Analysis service">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                 </div>
