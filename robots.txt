@@ -1,6 +1,28 @@
-# start of file
+User-agent: *
+Allow: /
 
-user-agent: *
-Disallow: /search/
+# Internal / admin / secure areas — no reason for these to be crawled or indexed
+Disallow: /secure/
+Disallow: /secure-info
+Disallow: /internal/
+Disallow: /app/internal/
+Disallow: /app/controllers/
+Disallow: /app/logic/
+Disallow: /app/security/
+Disallow: /app/repository/
+Disallow: /app/models/
+Disallow: /app/tests/
+Disallow: /app/db/
+Disallow: /config/
+
+# Transactional / no-index-value pages
+Disallow: /card-form
+Disallow: /card_saved
+Disallow: /message-error
+Disallow: /message-sent-successfully
+Disallow: /search
+
+# Query-string inquiry links (avoid indexing dozens of duplicate ?ref= variants)
+Disallow: /inquiry?
 
 Sitemap: https://www.novocib.com/sitemap.xml

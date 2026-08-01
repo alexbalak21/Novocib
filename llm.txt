@@ -1,0 +1,55 @@
+# NOVOCIB
+
+> NOVOCIB is a French life-science company (Boulogne-sur-Mer, France) providing HPLC-based analytical services and enzymatic assay kits/reagents for nucleotide and nucleic acid research, quality control, and drug discovery. Core customers: pharmaceutical R&D, aquaculture/animal feed, food & seafood quality control, and academic research labs.
+
+Key areas of expertise: nucleotide and nucleic acid quantification (HPLC-UV), cellular nucleotide profiling for drug mode-of-action studies, seafood/meat freshness testing (K-value, ATP degradation products), recombinant/purified enzymes for purine and pyrimidine metabolism research, and ready-to-use non-radioactive biochemical assay kits (PRECICE® line).
+
+## Analytical Services (HPLC)
+- [Nucleotide & Nucleic Acids Analysis Service](https://www.novocib.com/analytical-services/nucleotide-analysis-service): Enzymatic hydrolysis coupled to ion-paired HPLC-UV for quantification of nucleotides, nucleosides, bases, RNA and DNA in microbial biomass, single-cell protein (SCP), food, and feed.
+- [Cellular Nucleotides Analysis](https://www.novocib.com/analytical-services/cellular-nucleotides-analysis): HPLC profiling of 31+ cellular (deoxy-)ribonucleotides (mono-, di-, triphosphate) for drug mode-of-action, IMPDH/RNR inhibition, and antifolate studies.
+- [Yeast Extract Nucleotide Analysis](https://www.novocib.com/analytical-services/yeast-extract-nucleotide-analysis): HPLC quantification of nucleosides, nucleotides, and nucleic acids in yeast extracts and single-cell protein.
+- [Analytical Services overview](https://www.novocib.com/analytical-services): All HPLC-based nucleotide/nucleic acid analysis services.
+
+## Assay Kits (PRECICE®)
+- [Convenient Assay Kits overview](https://www.novocib.com/convenient-assay-kits): Non-radioactive, ready-to-use enzymatic assay kits for nucleotide metabolism research.
+- [HPRT Assay Kit](https://www.novocib.com/convenient-assay-kits/hprt-assay-kit): Spectrophotometric microplate assay for hypoxanthine-guanine phosphoribosyltransferase activity.
+- [PRPP-S Assay Kit](https://www.novocib.com/convenient-assay-kits/prpp-s-assay-kit): Non-radioactive measurement of PRPP synthetase activity in cellular lysates.
+- [AMP Deaminase (AMPDA) Assay Kit](https://www.novocib.com/convenient-assay-kits/ampda-assay-kit): Continuous 96-well assay for AMP deaminase activity.
+- [ITP-ase Assay Kit](https://www.novocib.com/convenient-assay-kits/itp-ase-assay-kit): Non-radioactive assay for ITP pyrophosphatase activity, relevant to ITPA variants and thiopurine toxicity.
+- [ADK Phosphorylation Assay Kit](https://www.novocib.com/convenient-assay-kits/adk-phosphorylation-assay-kit): Screening assay for adenosine kinase inhibitors and nucleoside analog phosphorylation.
+- [dCK Phosphorylation Assay Kit](https://www.novocib.com/convenient-assay-kits/dck-phosphorylation-assay-kit): Assay for human deoxycytidine kinase activity, validated with gemcitabine, cladribine, and cytarabine.
+- [Phosphatase Assay Kit](https://www.novocib.com/convenient-assay-kits/phosphatase-assay-kit): Spectrophotometric quantification of inorganic phosphate for ATPase/GTPase activity assays.
+- [Human Recombinant PNP](https://www.novocib.com/convenient-assay-kits/human-recombinant-pnp): Purine nucleoside phosphorylase enzyme and activity assay.
+- [Bacterial Recombinant IMPDH](https://www.novocib.com/convenient-assay-kits/bacterial-recombinant-impdh): Bacterial IMPDH enzyme for antimicrobial drug discovery.
+- [ADK Assay Kit](https://www.novocib.com/convenient-assay-kits/adk-assay-kit): Adenosine kinase activity assay kit.
+
+## Active Purified Enzymes
+- [Active Purified Enzymes overview](https://www.novocib.com/active-purified-enzymes): Nucleoside kinase and purine metabolism enzymes for drug discovery and antiviral research.
+- [Human Recombinant IMPDH (Type II)](https://www.novocib.com/active-purified-enzymes/human-recombinant-impdh): High-purity IMPDH2 enzyme, key drug target for cancer and immunosuppression research.
+- [Human Recombinant HGPRT](https://www.novocib.com/active-purified-enzymes/human-recombinant-hgprt): Purified hypoxanthine-guanine phosphoribosyltransferase enzyme.
+- [Recombinant Adenosine Kinase](https://www.novocib.com/active-purified-enzymes/recombinant-adenosine-kinase): Human ADK enzyme with validated Km/Vmax data for ribavirin, tubercidine, and inosine.
+- [Recombinant Deoxycytidine Kinase](https://www.novocib.com/active-purified-enzymes/recombinant-deoxycytidine-kinase): Human dCK enzyme for nucleoside analog activation research.
+- [Human Cytosolic 5'-Nucleotidase II (cN-II)](https://www.novocib.com/active-purified-enzymes/cn-ii): Enzyme dephosphorylating GMP/IMP and phosphorylating nucleosides including ribavirin.
+- [Human UMP-CMP Kinase](https://www.novocib.com/active-purified-enzymes/human-ump-cmp-kinase): Active recombinant UMP-CMP kinase enzyme.
+- [FMN Reductase](https://www.novocib.com/active-purified-enzymes/fmn-reductase): Bacterial FMN reductase (Fre) from E. coli for NADH quantification and bioluminescence assays.
+- [Bacterial Luciferase](https://www.novocib.com/bacterial-luciferase): High-purity bacterial luciferase for ultra-sensitive NADH/NADPH quantification.
+
+## Freshness & Seafood Quality Control
+- [Freshness Assay Kits overview](https://www.novocib.com/freshness-assay-kits): K-value quality control kits for seafood and meat freshness via ATP degradation products.
+- [Fishmeal IMP Assay Kit](https://www.novocib.com/freshness-assay-kits/fishmeal-imp-assay-kit): Enzymatic IMP determination in fishmeal for quality/freshness control.
+- [Freshness Assay Kit](https://www.novocib.com/freshness-assay-kits/freshness-assay-kit): Microplate assay measuring ATP breakdown products for seafood freshness.
+- [How the freshness assay works](https://www.novocib.com/freshness-assay-kits/how-it-works)
+- [Freshness assay principle](https://www.novocib.com/freshness-assay-kits/freshness-principle)
+
+## Dietary Nucleotides
+- [Dietary Nucleotides](https://www.novocib.com/dietary-nucleotides): Nucleotide supplementation for growth, immune function, and gut health in infant nutrition and aquafeed.
+- [Dietary Nucleotides Assay Kits](https://www.novocib.com/dietary-nucleotides-assay-kits)
+
+## Company
+- [Full product/service catalog](https://www.novocib.com/catalog)
+- [Contact / request a quote](https://www.novocib.com/contact-us)
+- [Submit an analysis or product inquiry](https://www.novocib.com/inquiry)
+
+## Notes for AI agents
+- Pricing and SKU references are listed on each service/kit page; where `Product`/`Service` schema (JSON-LD) is present, treat it as the authoritative source for price, SKU, and availability.
+- NOVOCIB is based in France; shipping and quoting details should be confirmed via the [contact page](https://www.novocib.com/contact-us) or [inquiry form](https://www.novocib.com/inquiry) rather than assumed.
