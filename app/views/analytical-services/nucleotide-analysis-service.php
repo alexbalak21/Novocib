@@ -437,7 +437,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </tbody>
                     </table>
                 </div>
-                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated</small></p>
             </div>
             <div class="col-lg-4 col-md-6">
                 <h4 class="h6 fw-semibold mb-2">Table 2. Nucleobases</h4>
@@ -491,7 +491,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </tbody>
                     </table>
                 </div>
-                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated</small></p>
             </div>
             <div class="col-lg-4 col-md-6">
                 <h4 class="h6 fw-semibold mb-2">Table 3. Nucleosides</h4>
@@ -545,7 +545,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </tbody>
                     </table>
                 </div>
-                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated</small></p>
             </div>
         </div>
 
@@ -575,7 +575,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </ol>
             <p class="fst-italic novo-blue mb-0 fw-semibold">
                 If you have questions about preparing nucleotide standards at exact concentrations, please
-                <a href="/contact-us">contact us</a> or use our <a href="/nucleotide-standards">lyophilized standards</a>.
+                <a href="/contact-us">contact us</a>.
             </p>
         </div>
 
@@ -741,6 +741,8 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         </tbody>
                     </table>
                 </div>
+                <p class="text-muted mt-1 mb-0"><small>All compounds meet the &lt;5% acceptance criterion.</small></p>
+                <img src="/app/img/yeast.jpg" alt="yeast photo" class="w-100 mt-4">
                 <p class="text-muted mt-1 mb-0"><small>All compounds meet the &lt;5% acceptance criterion.</small></p>
             </div>
             <div class="col-lg-4 col-md-6">
