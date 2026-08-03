@@ -554,7 +554,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         data-bs-toggle="modal"
                         data-bs-target="#fig9ChromatogramModal" />
                     <figcaption class="text-muted mt-2 text-center">
-                        <small><b>Fig. 9:</b> Chromatogram superposition of a <em>Saccharomyces cerevisiae</em>-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line). <i class="fa-solid fa-arrow-pointer"></i></small>
+                        <small><b>Fig. 9:</b> Chromatogram superposition of a <em>Saccharomyces cerevisiae</em>-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line). <i class="fa-solid fa-magnifying-glass-plus"></i></small>
                     </figcaption>
                 </figure>
                 <?= Modal::gen("fig9ChromatogramModal", "/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line).") ?>
@@ -785,7 +785,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         data-bs-toggle="modal"
                         data-bs-target="#fig1ChromatogramModal" />
                     <figcaption class="text-muted mt-2 text-center">
-                        <small><b>Fig. 1:</b> Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP (250 nm). <i class="fa-solid fa-arrow-pointer"></i></small>
+                        <small><b>Fig. 1:</b> Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP (250 nm). <i class="fa-solid fa-magnifying-glass-plus"></i></small>
                     </figcaption>
                 </figure>
                 <?= Modal::gen("fig1ChromatogramModal", "/app/img/hplc-chromatogram-nucleobases-nucleosides-nmp-standards.jpg", "Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP at 250 nm", "Chromatogram of 15 mixed standard solutions of nucleobases, nucleosides and NMP (250 nm).") ?>
@@ -799,7 +799,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                         data-bs-toggle="modal"
                         data-bs-target="#fig2SpectraModal" />
                     <figcaption class="text-muted mt-2 text-center">
-                        <small><b>Fig. 2:</b> Superposition of spectra at 254 nm (blue) and 280 nm (red) with 254/280 area ratio indicated for each nucleotide. <i class="fa-solid fa-arrow-pointer"></i></small>
+                        <small><b>Fig. 2:</b> Superposition of spectra at 254 nm (blue) and 280 nm (red) with 254/280 area ratio indicated for each nucleotide. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
                     </figcaption>
                 </figure>
                 <?= Modal::gen("fig2SpectraModal", "/app/img/hplc-spectra-nucleobases-nucleosides-nmp-254-280nm.jpg", "Superposition of UV spectra at 254 nm and 280 nm for 15 mixed standards of nucleobases, nucleosides and NMP with 254/280 area ratio", "Superposition of spectra at 254 nm (blue) and 280 nm (red) with 254/280 area ratio indicated for each nucleotide.") ?>
@@ -819,146 +819,239 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
         <!-- Table 4: NMP linearity -->
         <h3 class="h6 fw-semibold mt-4 mb-2">Table 4. Coefficients of determination obtained with calibrated standards solutions of nucleotides monophosphates</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Standard mix</th>
-                        <th>Composition</th>
-                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
-                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD1 (NMP)</td>
-                        <td>CMP</td>
-                        <td class="text-center">0.998</td>
-                        <td class="text-center">1.90%</td>
-                    </tr>
-                    <tr>
-                        <td>UMP</td>
-                        <td class="text-center">0.999</td>
-                        <td class="text-center">2.30%</td>
-                    </tr>
-                    <tr>
-                        <td>GMP</td>
-                        <td class="text-center">0.996</td>
-                        <td class="text-center">2.50%</td>
-                    </tr>
-                    <tr>
-                        <td>IMP</td>
-                        <td class="text-center">0.996</td>
-                        <td class="text-center">2.80%</td>
-                    </tr>
-                    <tr>
-                        <td>AMP</td>
-                        <td class="text-center">0.998</td>
-                        <td class="text-center">2.70%</td>
-                    </tr>
-                    <tr>
-                        <td>XMP</td>
-                        <td class="text-center">0.997</td>
-                        <td class="text-center">2.40%</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="row g-4 align-items-start mb-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Composition</th>
+                                <th class="text-center">Linearity (r²)</th>
+                                <th class="text-center">% RSD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CMP</td>
+                                <td class="text-center">0.9998</td>
+                                <td class="text-center">10.5%</td>
+                            </tr>
+                            <tr>
+                                <td>UMP</td>
+                                <td class="text-center">0.9994</td>
+                                <td class="text-center">0.9%</td>
+                            </tr>
+                            <tr>
+                                <td>GMP</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">3.1%</td>
+                            </tr>
+                            <tr>
+                                <td>IMP</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">6.8%</td>
+                            </tr>
+                            <tr>
+                                <td>AMP</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">1.2%</td>
+                            </tr>
+                            <tr>
+                                <td>XMP</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">2.5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-muted mt-1 mb-0"><small>STD1 (NMP), 25&ndash;500 µM, peak area at 254 nm.</small></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nmp-chromatogram-254nm.jpg"
+                        alt="Superposition of HPLC chromatograms of six nucleotide monophosphate standards"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig3ChromatogramModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 3:</b> Superposition of HPLC chromatograms of six nucleotide standards&mdash;AMP, GMP, IMP, CMP, UMP, and XMP&mdash;run at concentrations 25 to 500 µM, all detected at UV 254 nm. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig3ChromatogramModal", "/app/img/nmp-chromatogram-254nm.jpg", "Superposition of HPLC chromatograms of six nucleotide monophosphate standards", "Superposition of HPLC chromatograms of six nucleotide standards—AMP, GMP, IMP, CMP, UMP, and XMP—run at concentrations 25 to 500 µM, all detected at UV 254 nm.") ?>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nmp-calibration-curves.jpg"
+                        alt="Calibration curves for six nucleotide monophosphates showing linear peak-area responses"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig4CalibrationModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 4:</b> Calibration curves (254 nm) for six NMP showing linear peak-area responses for CMP, UMP, GMP, IMP, AMP, and XMP. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig4CalibrationModal", "/app/img/nmp-calibration-curves.jpg", "Calibration curves for six nucleotide monophosphates showing linear peak-area responses", "Calibration curves (254 nm) for six NMP showing linear peak-area responses for CMP, UMP, GMP, IMP, AMP, and XMP.") ?>
+            </div>
         </div>
 
         <!-- Table 5: Nucleosides linearity -->
         <h3 class="h6 fw-semibold mt-4 mb-2">Table 5. Coefficients of determination obtained with calibrated standards solutions of nucleosides</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Standard mix</th>
-                        <th>Composition</th>
-                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
-                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD2 (Nucleosides)</td>
-                        <td>Cytosine</td>
-                        <td class="text-center">0.984</td>
-                        <td class="text-center">2.90%</td>
-                    </tr>
-                    <tr>
-                        <td>Uridine</td>
-                        <td class="text-center">0.992</td>
-                        <td class="text-center">3.60%</td>
-                    </tr>
-                    <tr>
-                        <td>Guanosine</td>
-                        <td class="text-center">0.987</td>
-                        <td class="text-center">4.50%</td>
-                    </tr>
-                    <tr>
-                        <td>Inosine</td>
-                        <td class="text-center">0.977</td>
-                        <td class="text-center">3.80%</td>
-                    </tr>
-                    <tr>
-                        <td>Adenosine</td>
-                        <td class="text-center">0.975</td>
-                        <td class="text-center">2.70%</td>
-                    </tr>
-                    <tr>
-                        <td>Xanthosine</td>
-                        <td class="text-center">0.977</td>
-                        <td class="text-center">2.40%</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="row g-4 align-items-start mb-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Composition</th>
+                                <th class="text-center">Linearity (r²)</th>
+                                <th class="text-center">% RSD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cytidine</td>
+                                <td class="text-center">0.9995</td>
+                                <td class="text-center">0.9%</td>
+                            </tr>
+                            <tr>
+                                <td>Uridine</td>
+                                <td class="text-center">0.9997</td>
+                                <td class="text-center">2.8%</td>
+                            </tr>
+                            <tr>
+                                <td>Guanosine</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">11.7%</td>
+                            </tr>
+                            <tr>
+                                <td>Inosine</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">13.6%</td>
+                            </tr>
+                            <tr>
+                                <td>Adenosine</td>
+                                <td class="text-center">0.9997</td>
+                                <td class="text-center">2.8%</td>
+                            </tr>
+                            <tr>
+                                <td>Xanthosine</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">2.8%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-muted mt-1 mb-0"><small>STD2 (Nucleosides), 25&ndash;500 µM, peak area at 254 nm.</small></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nucleoside-chromatogram-254nm.jpg"
+                        alt="Superposition of HPLC chromatograms of six nucleoside standards"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig5ChromatogramModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 5:</b> Superposition of HPLC chromatograms of six nucleoside standards&mdash;adenosine, guanosine, uridine, cytidine, inosine and xanthosine&mdash;run at concentrations 25 to 500 µM, all detected at UV 254 nm. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig5ChromatogramModal", "/app/img/nucleoside-chromatogram-254nm.jpg", "Superposition of HPLC chromatograms of six nucleoside standards", "Superposition of HPLC chromatograms of six nucleoside standards—adenosine, guanosine, uridine, cytidine, inosine and xanthosine—run at concentrations 25 to 500 µM, all detected at UV 254 nm.") ?>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nucleoside-calibration-curves.jpg"
+                        alt="Calibration curves for six nucleosides showing linear peak-area responses"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig6CalibrationModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 6:</b> Calibration curves (254 nm) for six nucleosides showing linear peak-area responses for adenosine, guanosine, uridine, cytidine, inosine and xanthosine. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig6CalibrationModal", "/app/img/nucleoside-calibration-curves.jpg", "Calibration curves for six nucleosides showing linear peak-area responses", "Calibration curves (254 nm) for six nucleosides showing linear peak-area responses for adenosine, guanosine, uridine, cytidine, inosine and xanthosine.") ?>
+            </div>
         </div>
 
         <!-- Table 6: Bases linearity -->
         <h3 class="h6 fw-semibold mt-4 mb-2">Table 6. Coefficients of determination obtained with calibrated standards solutions of bases</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Standard mix</th>
-                        <th>Composition</th>
-                        <th class="text-center">Linearity (r²)<br><small class="fw-normal">(25, 50, 75, 100, 200, 500 µM)</small></th>
-                        <th class="text-center">% RSD<br><small class="fw-normal">(Peak area 254 nm at lowest concentration)</small></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="6" class="fw-semibold novo-blue align-middle">STD3 (Bases)</td>
-                        <td>Adenine</td>
-                        <td class="text-center">0.953</td>
-                        <td class="text-center">5.90%</td>
-                    </tr>
-                    <tr>
-                        <td>Guanine</td>
-                        <td class="text-center">0.968</td>
-                        <td class="text-center">7.60%</td>
-                    </tr>
-                    <tr>
-                        <td>Hypoxanthine</td>
-                        <td class="text-center">0.941</td>
-                        <td class="text-center">6.50%</td>
-                    </tr>
-                    <tr>
-                        <td>Cytidine</td>
-                        <td class="text-center">0.950</td>
-                        <td class="text-center">6.80%</td>
-                    </tr>
-                    <tr>
-                        <td>Uracil</td>
-                        <td class="text-center">0.956</td>
-                        <td class="text-center">5.70%</td>
-                    </tr>
-                    <tr>
-                        <td>Xanthine</td>
-                        <td class="text-center">0.969</td>
-                        <td class="text-center">6.40%</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="row g-4 align-items-start mb-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Composition</th>
+                                <th class="text-center">Linearity (r²)</th>
+                                <th class="text-center">% RSD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Adenine</td>
+                                <td class="text-center">0.9998</td>
+                                <td class="text-center">2.8%</td>
+                            </tr>
+                            <tr>
+                                <td>Guanine</td>
+                                <td class="text-center">0.9999</td>
+                                <td class="text-center">0.4%</td>
+                            </tr>
+                            <tr>
+                                <td>Hypoxanthine</td>
+                                <td class="text-center">0.9995</td>
+                                <td class="text-center">3.5%</td>
+                            </tr>
+                            <tr>
+                                <td>Cytosine</td>
+                                <td class="text-center">0.9994</td>
+                                <td class="text-center">5.9%</td>
+                            </tr>
+                            <tr>
+                                <td>Uracil</td>
+                                <td class="text-center">0.9991</td>
+                                <td class="text-center">10.0%</td>
+                            </tr>
+                            <tr>
+                                <td>Xanthine</td>
+                                <td class="text-center">0.9994</td>
+                                <td class="text-center">1.2%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="text-muted mt-1 mb-0"><small>STD3 (Bases), 25&ndash;500 µM, peak area at 254 nm.</small></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nucleobase-chromatogram-254nm.jpg"
+                        alt="Superposition of HPLC chromatograms of six nucleobase standards"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig7ChromatogramModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 7:</b> Superposition of HPLC chromatograms of six nucleobase standards&mdash;adenine, guanine, uracil, cytosine, hypoxanthine and xanthine&mdash;run at concentrations 25 to 500 µM, all detected at UV 254 nm. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig7ChromatogramModal", "/app/img/nucleobase-chromatogram-254nm.jpg", "Superposition of HPLC chromatograms of six nucleobase standards", "Superposition of HPLC chromatograms of six nucleobase standards—adenine, guanine, uracil, cytosine, hypoxanthine and xanthine—run at concentrations 25 to 500 µM, all detected at UV 254 nm.") ?>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/nucleobase-calibration-curves.jpg"
+                        alt="Calibration curves for six nucleobases showing linear peak-area responses"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig8CalibrationModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 8:</b> Calibration curves (254 nm) for six nucleobases showing linear peak-area responses for adenine, guanine, uracil, cytosine, hypoxanthine and xanthine. <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig8CalibrationModal", "/app/img/nucleobase-calibration-curves.jpg", "Calibration curves for six nucleobases showing linear peak-area responses", "Calibration curves (254 nm) for six nucleobases showing linear peak-area responses for adenine, guanine, uracil, cytosine, hypoxanthine and xanthine.") ?>
+            </div>
         </div>
     </section>
 
