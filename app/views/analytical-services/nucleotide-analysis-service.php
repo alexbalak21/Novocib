@@ -1,6 +1,6 @@
 <?php
 global $title;
-$title = "Nucleotide & Nucleic Acids Analysis Service (HPLC-UV)";
+$title = "Nucleotide Analysis Service";
 
 ob_start(); ?>
 <meta name="keywords" content="NOVOCIB, HPLC analysis, nucleotides, nucleosides, nucleic acids, nucleic acid content, RNA, DNA, microbial biomass, single-cell protein, SCP, biomass nucleic acid reduction, 5'AMP, 5'GMP, 5'IMP, 5'CMP, 5'UMP, enzymatic hydrolysis, acid hydrolysis, ion-paired chromatography, dietary nucleotides, food chemistry, feed ingredients">
@@ -380,191 +380,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             </div>
         </div>
 
-        <h3 class="novo-blue mt-5 mb-3">Quality Control Sample</h3>
-        <p>
-            To avoid any loss of bases, nucleosides, or nucleotides during the pretreatment step, sample
-            preparation is limited to solubilization in sterile deionized water followed by deproteinization
-            and injection into the ion-paired reverse-phase (IP-RP) HPLC system, allowing direct separation
-            and quantification of the whole spectrum of bases, nucleosides and nucleotides present in the
-            sample (Fig. 9).
-        </p>
-        <p>
-            A powder of concentrated nucleotides, a commercial product derived from <em>Saccharomyces
-            cerevisiae</em> (26.2 g/100 g according to the supplier and 31.1 g/100 g according to NOVOCIB), is
-            used as a Quality Control Sample run immediately after standards STD1 (NMP), STD2 (Nucleosides)
-            and STD3 (Bases), both before and after the analyzed samples.
-        </p>
-        <p>
-            Table 7 presents the nucleotide quantification results obtained using NOVOCIB's IP-RP method
-            compared with the manufacturer's data. For purine NMPs — AMP, GMP and IMP — the values are
-            similar. In contrast, NOVOCIB's values for the pyrimidine nucleotides UMP and CMP are higher,
-            most likely because pyrimidine nucleotides are not degraded under NOVOCIB's conditions, unlike
-            during acidic hydrolysis.
-        </p>
-
-        <!-- Table 7: QC Sample nucleotide content -->
-        <h3 class="h6 fw-semibold mt-4 mb-2">Table 7. Nucleotide content in 100 g of a concentrated nucleotides (commercial product, powder) purified from <em>Saccharomyces cerevisiae</em></h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Compound</th>
-                        <th class="text-center">NOVOCIB IP-RP Results<br><small class="fw-normal">g/100 g</small></th>
-                        <th class="text-center">Acid Hydrolysis Results<br><small class="fw-normal">g/100 g</small></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cytosine</td>
-                        <td class="text-center">0.00</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Uracil</td>
-                        <td class="text-center">0.17</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Guanine</td>
-                        <td class="text-center">0.00</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Hypoxanthine</td>
-                        <td class="text-center">0.00</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Adenine</td>
-                        <td class="text-center">0.18</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Cytidine</td>
-                        <td class="text-center">0.34</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Uridine</td>
-                        <td class="text-center">0.85</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Guanosine</td>
-                        <td class="text-center">1.91</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Inosine</td>
-                        <td class="text-center">0.00</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>Adenosine</td>
-                        <td class="text-center">1.62</td>
-                        <td class="text-center">not provided</td>
-                    </tr>
-                    <tr>
-                        <td>CMP <small class="text-muted">(without salt, without water)</small></td>
-                        <td class="text-center">6.10</td>
-                        <td class="text-center">5.00</td>
-                    </tr>
-                    <tr>
-                        <td>UMP <small class="text-muted">(without salt, without water)</small></td>
-                        <td class="text-center">7.83</td>
-                        <td class="text-center">5.00</td>
-                    </tr>
-                    <tr>
-                        <td>GMP <small class="text-muted">(without salt, without water)</small></td>
-                        <td class="text-center">8.86</td>
-                        <td class="text-center">8.00</td>
-                    </tr>
-                    <tr>
-                        <td>IMP <small class="text-muted">(without salt, without water)</small></td>
-                        <td class="text-center">0.00</td>
-                        <td class="text-center">0.20</td>
-                    </tr>
-                    <tr>
-                        <td>AMP <small class="text-muted">(without salt, without water)</small></td>
-                        <td class="text-center">8.27</td>
-                        <td class="text-center">8.00</td>
-                    </tr>
-                    <tr class="table-light fw-semibold">
-                        <td>Total 5'-NMP</td>
-                        <td class="text-center">31.07</td>
-                        <td class="text-center">26.2</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <p>
-            Table 8 shows the relative standard deviations of peak area for the Quality Control Sample
-            analyzed six times, together with the acceptance criteria.
-        </p>
-
-        <!-- Table 8: QC Sample RSD -->
-        <h3 class="h6 fw-semibold mt-4 mb-2">Table 8. RSD (%) values for Quality Control Sample and acceptance criteria</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Compound</th>
-                        <th class="text-center">% RSD<br><small class="fw-normal">(six replicates)</small></th>
-                        <th class="text-center">Acceptance criteria</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>CMP</td>
-                        <td class="text-center">1.3%</td>
-                        <td class="text-center">&lt;5%</td>
-                    </tr>
-                    <tr>
-                        <td>UMP</td>
-                        <td class="text-center">2.3%</td>
-                        <td class="text-center">&lt;5%</td>
-                    </tr>
-                    <tr>
-                        <td>GMP</td>
-                        <td class="text-center">2.5%</td>
-                        <td class="text-center">&lt;5%</td>
-                    </tr>
-                    <tr>
-                        <td>IMP</td>
-                        <td class="text-center">2.2%</td>
-                        <td class="text-center">&lt;5%</td>
-                    </tr>
-                    <tr>
-                        <td>AMP</td>
-                        <td class="text-center">2.2%</td>
-                        <td class="text-center">&lt;5%</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <div class="row g-4 my-3">
-            <div class="col-lg-8 mx-auto">
-                <figure class="border p-2 text-center">
-                    <img src="/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg"
-                        alt="Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm"
-                        class="img-fluid"
-                        style="cursor: pointer;"
-                        data-bs-toggle="modal"
-                        data-bs-target="#fig9ChromatogramModal" />
-                    <figcaption class="text-muted mt-2 text-center">
-                        <small><b>Fig. 9:</b> Chromatogram superposition of a <em>Saccharomyces cerevisiae</em>-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line). <i class="fa-solid fa-magnifying-glass-plus"></i></small>
-                    </figcaption>
-                </figure>
-                <?= Modal::gen("fig9ChromatogramModal", "/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line).") ?>
-            </div>
-        </div>
-    </section>
-
-    <!-- Section: Analytical Standards -->
-    <section class="my-5" id="analytical-standards">
-        <h2 class="novo-blue mb-3">Analytical Standards</h2>
+        <h3 class="novo-blue mt-5 mb-3" id="analytical-standards">Analytical Standards</h3>
         <p>
             Since commercially available nucleobases, nucleosides, and nucleotide mono-, di-, and triphosphates
             may contain unspecified amounts of residual salts and water, NOVOCIB verifies the true molar
@@ -573,161 +389,168 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
             the HPLC calibration. The integrity of every standard is controlled by HPLC analysis.
         </p>
 
-        <!-- Table 1: NMP -->
-        <h3 class="h6 fw-semibold mt-4 mb-2">Table 1. Nucleotide monophosphates (NMP) molar absorption coefficients, measurement wavelength and pH</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Compound</th>
-                        <th class="text-center">Wavelength &Lambda; max, nm</th>
-                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
-                        <th class="text-center">pH</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cytidine 5'-monophosphate (CMP)</td>
-                        <td class="text-center">272</td>
-                        <td class="text-center">9 000</td>
-                        <td class="text-center">7</td>
-                    </tr>
-                    <tr>
-                        <td>Uridine 5'-monophosphate (UMP)</td>
-                        <td class="text-center">262</td>
-                        <td class="text-center">10 000</td>
-                        <td class="text-center">7</td>
-                    </tr>
-                    <tr>
-                        <td>Guanosine 5'-monophosphate (GMP)</td>
-                        <td class="text-center">250</td>
-                        <td class="text-center">14 200</td>
-                        <td class="text-center">7</td>
-                    </tr>
-                    <tr>
-                        <td>Inosine 5'-monophosphate (IMP)</td>
-                        <td class="text-center">248</td>
-                        <td class="text-center">12 300</td>
-                        <td class="text-center">Not communicated</td>
-                    </tr>
-                    <tr>
-                        <td>Adenosine 5'-monophosphate (AMP)</td>
-                        <td class="text-center">259</td>
-                        <td class="text-center">15 400</td>
-                        <td class="text-center">7</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Table 2: Nucleobases -->
-        <h3 class="h6 fw-semibold mt-4 mb-2">Table 2. Nucleobases molar absorption coefficients, measurement wavelength and pH</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Compound</th>
-                        <th class="text-center">Wavelength &Lambda; max, nm</th>
-                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
-                        <th class="text-center">pH</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cytosine (C)</td>
-                        <td class="text-center">267</td>
-                        <td class="text-center">6 100</td>
-                        <td class="text-center">8.8</td>
-                    </tr>
-                    <tr>
-                        <td>Uracil (U)</td>
-                        <td class="text-center">259</td>
-                        <td class="text-center">8 200</td>
-                        <td class="text-center">7</td>
-                    </tr>
-                    <tr>
-                        <td>Guanine (G)</td>
-                        <td class="text-center">275</td>
-                        <td class="text-center">8 100</td>
-                        <td class="text-center">6.2</td>
-                    </tr>
-                    <tr>
-                        <td>Hypoxanthine (Hx)</td>
-                        <td class="text-center">248</td>
-                        <td class="text-center">10 700</td>
-                        <td class="text-center">Not communicated</td>
-                    </tr>
-                    <tr>
-                        <td>Adenine (A)</td>
-                        <td class="text-center">260</td>
-                        <td class="text-center">13 400</td>
-                        <td class="text-center">Not communicated</td>
-                    </tr>
-                    <tr>
-                        <td>Xanthine (X)</td>
-                        <td class="text-center">271</td>
-                        <td class="text-center">9 200</td>
-                        <td class="text-center">7.5</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Table 3: Nucleosides -->
-        <h3 class="h6 fw-semibold mt-4 mb-2">Table 3. Nucleosides molar absorption coefficients, measurement wavelength and pH</h3>
-        <div class="table-responsive mb-4">
-            <table class="table table-bordered table-striped align-middle">
-                <thead class="table-light">
-                    <tr>
-                        <th>Compound</th>
-                        <th class="text-center">Wavelength &Lambda; max, nm</th>
-                        <th class="text-center">Molar extinction coefficient &epsilon; max (M<sup>-1</sup> cm<sup>-1</sup>)</th>
-                        <th class="text-center">pH</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Cytidine (CR)</td>
-                        <td class="text-center">271</td>
-                        <td class="text-center">9 100</td>
-                        <td class="text-center">8.2</td>
-                    </tr>
-                    <tr>
-                        <td>Uridine (UR)</td>
-                        <td class="text-center">261</td>
-                        <td class="text-center">10 100</td>
-                        <td class="text-center">7.3</td>
-                    </tr>
-                    <tr>
-                        <td>Guanosine (GR)</td>
-                        <td class="text-center">252</td>
-                        <td class="text-center">13 700</td>
-                        <td class="text-center">5.5–7</td>
-                    </tr>
-                    <tr>
-                        <td>Inosine (IR)</td>
-                        <td class="text-center">249</td>
-                        <td class="text-center">12 200</td>
-                        <td class="text-center">6–7.5</td>
-                    </tr>
-                    <tr>
-                        <td>Adenosine (AR)</td>
-                        <td class="text-center">260</td>
-                        <td class="text-center">15 100</td>
-                        <td class="text-center">Not communicated</td>
-                    </tr>
-                    <tr>
-                        <td>Xanthosine (XR)</td>
-                        <td class="text-center">249</td>
-                        <td class="text-center">11 400</td>
-                        <td class="text-center">8</td>
-                    </tr>
-                </tbody>
-            </table>
+        <!-- Tables 1-3: Molar absorption coefficients, side by side -->
+        <div class="row g-4 mb-4">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="h6 fw-semibold mb-2">Table 1. Nucleotide monophosphates (NMP)</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Compound</th>
+                                <th class="text-center">&Lambda; max<br><small class="fw-normal">nm</small></th>
+                                <th class="text-center">&epsilon; max<br><small class="fw-normal">M<sup>-1</sup>cm<sup>-1</sup></small></th>
+                                <th class="text-center">pH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CMP</td>
+                                <td class="text-center">272</td>
+                                <td class="text-center">9 000</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                            <tr>
+                                <td>UMP</td>
+                                <td class="text-center">262</td>
+                                <td class="text-center">10 000</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                            <tr>
+                                <td>GMP</td>
+                                <td class="text-center">250</td>
+                                <td class="text-center">14 200</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                            <tr>
+                                <td>IMP</td>
+                                <td class="text-center">248</td>
+                                <td class="text-center">12 300</td>
+                                <td class="text-center">N/C</td>
+                            </tr>
+                            <tr>
+                                <td>AMP</td>
+                                <td class="text-center">259</td>
+                                <td class="text-center">15 400</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="h6 fw-semibold mb-2">Table 2. Nucleobases</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Compound</th>
+                                <th class="text-center">&Lambda; max<br><small class="fw-normal">nm</small></th>
+                                <th class="text-center">&epsilon; max<br><small class="fw-normal">M<sup>-1</sup>cm<sup>-1</sup></small></th>
+                                <th class="text-center">pH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cytosine</td>
+                                <td class="text-center">267</td>
+                                <td class="text-center">6 100</td>
+                                <td class="text-center">8.8</td>
+                            </tr>
+                            <tr>
+                                <td>Uracil</td>
+                                <td class="text-center">259</td>
+                                <td class="text-center">8 200</td>
+                                <td class="text-center">7</td>
+                            </tr>
+                            <tr>
+                                <td>Guanine</td>
+                                <td class="text-center">275</td>
+                                <td class="text-center">8 100</td>
+                                <td class="text-center">6.2</td>
+                            </tr>
+                            <tr>
+                                <td>Hypoxanthine</td>
+                                <td class="text-center">248</td>
+                                <td class="text-center">10 700</td>
+                                <td class="text-center">N/C</td>
+                            </tr>
+                            <tr>
+                                <td>Adenine</td>
+                                <td class="text-center">260</td>
+                                <td class="text-center">13 400</td>
+                                <td class="text-center">N/C</td>
+                            </tr>
+                            <tr>
+                                <td>Xanthine</td>
+                                <td class="text-center">271</td>
+                                <td class="text-center">9 200</td>
+                                <td class="text-center">7.5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="h6 fw-semibold mb-2">Table 3. Nucleosides</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Compound</th>
+                                <th class="text-center">&Lambda; max<br><small class="fw-normal">nm</small></th>
+                                <th class="text-center">&epsilon; max<br><small class="fw-normal">M<sup>-1</sup>cm<sup>-1</sup></small></th>
+                                <th class="text-center">pH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cytidine (CR)</td>
+                                <td class="text-center">271</td>
+                                <td class="text-center">9 100</td>
+                                <td class="text-center">8.2</td>
+                            </tr>
+                            <tr>
+                                <td>Uridine (UR)</td>
+                                <td class="text-center">261</td>
+                                <td class="text-center">10 100</td>
+                                <td class="text-center">7.3</td>
+                            </tr>
+                            <tr>
+                                <td>Guanosine (GR)</td>
+                                <td class="text-center">252</td>
+                                <td class="text-center">13 700</td>
+                                <td class="text-center">5.5&ndash;7</td>
+                            </tr>
+                            <tr>
+                                <td>Inosine (IR)</td>
+                                <td class="text-center">249</td>
+                                <td class="text-center">12 200</td>
+                                <td class="text-center">6&ndash;7.5</td>
+                            </tr>
+                            <tr>
+                                <td>Adenosine (AR)</td>
+                                <td class="text-center">260</td>
+                                <td class="text-center">15 100</td>
+                                <td class="text-center">N/C</td>
+                            </tr>
+                            <tr>
+                                <td>Xanthosine (XR)</td>
+                                <td class="text-center">249</td>
+                                <td class="text-center">11 400</td>
+                                <td class="text-center">8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-muted mt-1 mb-0"><small>N/C: not communicated by supplier.</small></p>
+            </div>
         </div>
 
         <!-- Protocol: How to check concentration -->
-        <h3 class="h5 novo-blue mt-5 mb-3">How to check the concentration of purified nucleotide by absorbance</h3>
+        <h4 class="h5 novo-blue mt-5 mb-3">How to check the concentration of purified nucleotide by absorbance</h4>
         <ol>
             <li>Prepare a 100 mM stock solution in autoclaved deionized water<sup>*</sup> using the molecular weight provided by the supplier.</li>
             <li>Choose the appropriate wavelength on the UV-spectrophotometer.</li>
@@ -754,6 +577,186 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
                 If you have questions about preparing nucleotide standards at exact concentrations, please
                 <a href="/contact-us">contact us</a> or use our <a href="/nucleotide-standards">lyophilized standards</a>.
             </p>
+        </div>
+
+        <h3 class="novo-blue mt-5 mb-3" id="quality-control-sample">Quality Control Sample</h3>
+        <p>
+            To avoid any loss of bases, nucleosides, or nucleotides during the pretreatment step, sample
+            preparation is limited to solubilization in sterile deionized water followed by deproteinization
+            and injection into the ion-paired reverse-phase (IP-RP) HPLC system, allowing direct separation
+            and quantification of the whole spectrum of bases, nucleosides and nucleotides present in the
+            sample (Fig. 9).
+        </p>
+        <p>
+            A powder of concentrated nucleotides, a commercial product derived from <em>Saccharomyces
+            cerevisiae</em> (26.2 g/100 g according to the supplier and 31.1 g/100 g according to NOVOCIB), is
+            used as a Quality Control Sample run immediately after standards STD1 (NMP), STD2 (Nucleosides)
+            and STD3 (Bases), both before and after the analyzed samples.
+        </p>
+        <p>
+            Table 7 presents the nucleotide quantification results obtained using NOVOCIB's IP-RP method
+            compared with the manufacturer's data. For purine NMPs — AMP, GMP and IMP — the values are
+            similar. In contrast, NOVOCIB's values for the pyrimidine nucleotides UMP and CMP are higher,
+            most likely because pyrimidine nucleotides are not degraded under NOVOCIB's conditions, unlike
+            during acidic hydrolysis. Table 8 shows the relative standard deviations of peak area for the
+            Quality Control Sample analyzed six times, together with the acceptance criteria (Fig. 9).
+        </p>
+
+        <!-- QC Tables + Picture, side by side -->
+        <div class="row g-4 align-items-start mb-4">
+            <div class="col-lg-4 col-md-6">
+                <h4 class="h6 fw-semibold mb-2">Table 7. Nucleotide content per 100 g <small class="fw-normal">(<em>S. cerevisiae</em> concentrate)</small></h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Compound</th>
+                                <th class="text-center">NOVOCIB<br><small class="fw-normal">g/100g</small></th>
+                                <th class="text-center">Acid Hydrol.<br><small class="fw-normal">g/100g</small></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cytosine</td>
+                                <td class="text-center">0.00</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Uracil</td>
+                                <td class="text-center">0.17</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Guanine</td>
+                                <td class="text-center">0.00</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Hypoxanthine</td>
+                                <td class="text-center">0.00</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Adenine</td>
+                                <td class="text-center">0.18</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Cytidine</td>
+                                <td class="text-center">0.34</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Uridine</td>
+                                <td class="text-center">0.85</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Guanosine</td>
+                                <td class="text-center">1.91</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Inosine</td>
+                                <td class="text-center">0.00</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>Adenosine</td>
+                                <td class="text-center">1.62</td>
+                                <td class="text-center">&mdash;</td>
+                            </tr>
+                            <tr>
+                                <td>CMP</td>
+                                <td class="text-center">6.10</td>
+                                <td class="text-center">5.00</td>
+                            </tr>
+                            <tr>
+                                <td>UMP</td>
+                                <td class="text-center">7.83</td>
+                                <td class="text-center">5.00</td>
+                            </tr>
+                            <tr>
+                                <td>GMP</td>
+                                <td class="text-center">8.86</td>
+                                <td class="text-center">8.00</td>
+                            </tr>
+                            <tr>
+                                <td>IMP</td>
+                                <td class="text-center">0.00</td>
+                                <td class="text-center">0.20</td>
+                            </tr>
+                            <tr>
+                                <td>AMP</td>
+                                <td class="text-center">8.27</td>
+                                <td class="text-center">8.00</td>
+                            </tr>
+                            <tr class="table-light fw-semibold">
+                                <td>Total 5'-NMP</td>
+                                <td class="text-center">31.07</td>
+                                <td class="text-center">26.2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-muted mt-1 mb-0"><small>CMP&ndash;AMP rows given without salt/water.</small></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h4 class="h6 fw-semibold mb-2">Table 8. QC repeatability (% RSD)</h4>
+                <div class="table-responsive">
+                    <table class="table table-bordered table-striped table-sm align-middle mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Compound</th>
+                                <th class="text-center">% RSD<br><small class="fw-normal">n=6</small></th>
+                                <th class="text-center">Criteria</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CMP</td>
+                                <td class="text-center">1.3%</td>
+                                <td class="text-center">&lt;5%</td>
+                            </tr>
+                            <tr>
+                                <td>UMP</td>
+                                <td class="text-center">2.3%</td>
+                                <td class="text-center">&lt;5%</td>
+                            </tr>
+                            <tr>
+                                <td>GMP</td>
+                                <td class="text-center">2.5%</td>
+                                <td class="text-center">&lt;5%</td>
+                            </tr>
+                            <tr>
+                                <td>IMP</td>
+                                <td class="text-center">2.2%</td>
+                                <td class="text-center">&lt;5%</td>
+                            </tr>
+                            <tr>
+                                <td>AMP</td>
+                                <td class="text-center">2.2%</td>
+                                <td class="text-center">&lt;5%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-muted mt-1 mb-0"><small>All compounds meet the &lt;5% acceptance criterion.</small></p>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <figure class="border p-2 text-center mb-0">
+                    <img src="/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg"
+                        alt="Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm"
+                        class="img-fluid"
+                        style="cursor: pointer;"
+                        data-bs-toggle="modal"
+                        data-bs-target="#fig9ChromatogramModal" />
+                    <figcaption class="text-muted mt-2 text-center">
+                        <small><b>Fig. 9:</b> Chromatogram superposition of a <em>Saccharomyces cerevisiae</em>-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line). <i class="fa-solid fa-magnifying-glass-plus"></i></small>
+                    </figcaption>
+                </figure>
+                <?= Modal::gen("fig9ChromatogramModal", "/app/img/hplc-chromatogram-qc-sample-saccharomyces-254-280nm.jpg", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm and 280 nm", "Chromatogram superposition of a Saccharomyces cerevisiae-derived nucleotide-concentrated commercial product at 254 nm (blue line) and 280 nm (red line).") ?>
+            </div>
         </div>
     </section>
 
