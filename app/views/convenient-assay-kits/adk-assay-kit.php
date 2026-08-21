@@ -166,12 +166,12 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
         </div>
 
         <div class="mt-0 mb-4">
-            <h2 class="mt-5 pt-4 novo-blue text-center h4">🔬 Key Features of the ADK Assay Kit</h2>
+            <h2 class="mt-5 pt-4 novo-blue text-center h4"><i class="fa-solid fa-microscope"></i> Key Features of the ADK Assay Kit</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
 
                 <div class="col">
                     <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                        <h3 class="mb-2 h6">☑️ Convenient</h3>
+                        <h3 class="mb-2 h6"><i class="fa-solid fa-square-check"></i> Convenient</h3>
                         <ul class="mb-0 ps-3">
                             <li>Non-radioactive, add-and-measure format</li>
                             <li>Homogeneous assay, no wash or separation steps</li>
@@ -182,7 +182,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
                 <div class="col">
                     <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                        <h3 class="mb-2 h6">📊 Quantitative</h3>
+                        <h3 class="mb-2 h6"><i class="fa-solid fa-square-poll-vertical"></i> Quantitative</h3>
                         <ul class="mb-0 ps-3">
                             <li>IMP converted to NADH₂ in a stoichiometric, quantitative manner</li>
                             <li>Enables accurate kinetic analysis (Km, Vmax, IC50)</li>
@@ -192,7 +192,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
                 <div class="col">
                     <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                        <h3 class="mb-2 h6">⚙️ High-Throughput Format</h3>
+                        <h3 class="mb-2 h6"><i class="fa-solid fa-gear"></i> High-Throughput Format</h3>
                         <ul class="mb-0 ps-3">
                             <li>Standard 96-well microplate format</li>
                             <li>Compatible with plate readers fitted with a 340 nm filter</li>
@@ -203,7 +203,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/app/templates/new_base.php";
 
                 <div class="col">
                     <div class="border rounded p-3 h-100 bg-light shadow-sm text-start">
-                        <h3 class="mb-2 h6">🔒 Validated & Reliable</h3>
+                        <h3 class="mb-2 h6"><i class="fa-solid fa-lock"></i> Validated & Reliable</h3>
                         <ul class="mb-0 ps-3">
                             <li>Validated with reference ADK inhibitor A-134974</li>
                             <li>Confirmed activity on ribavirin, a known ADK substrate</li>
