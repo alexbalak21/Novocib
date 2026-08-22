@@ -196,9 +196,12 @@ app/
     │   └── get_reports.php
 ```
 
+
 ## Models
 
+
 ### 1. Project Model (`app/models/Project.php`)
+
 
 ```php
 <?php
